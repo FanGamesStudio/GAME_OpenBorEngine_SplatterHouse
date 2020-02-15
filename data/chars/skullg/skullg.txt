@@ -1,0 +1,73 @@
+name	Skull_Ghost
+type	enemy
+subtype	chase
+speed	6
+health	1
+shadow	1
+nodieblink    2
+falldie       1
+cantgrab      1
+aggression 3
+diesound data/sounds/ghost.wav
+
+
+
+anim idle
+	loop	1
+	delay	10
+	offset	25 94
+	bbox	12 28 24 26
+	attack	12 28 24 26 10 1
+        hitflash    elec1
+	hitfx   data/sounds/elec1.wav
+	frame	data/chars/skullg/1.GIF
+	frame	data/chars/skullg/2.GIF
+	frame	data/chars/skullg/3.GIF
+	frame	data/chars/skullg/4.GIF
+
+
+
+anim walk
+	loop	1
+	delay	8
+	offset	25 94
+	bbox	12 28 24 26
+	attack	12 28 24 26 10 1
+        hitflash    elec1
+	hitfx   data/sounds/elec1.wav
+	frame	data/chars/skullg/1.GIF
+	frame	data/chars/skullg/2.GIF
+	frame	data/chars/skullg/3.GIF
+	frame	data/chars/skullg/4.GIF
+
+
+
+anim pain
+	loop	1
+	delay	5
+	offset	25 94
+	 frame	   data/chars/misc/empty/empty.gif
+
+
+
+
+
+anim fall
+	loop	0
+	delay	10
+	offset	25 94
+	 frame	   data/chars/misc/empty/empty.gif
+
+
+
+
+anim Death
+	loop 0
+	delay	6
+	offset	26 82
+	frame	data/chars/skullg/pain01.GIF
+	frame	data/chars/skullg/pain02.GIF
+	frame	data/chars/skullg/pain03.GIF
+	 frame	   data/chars/misc/empty/empty.gif
+
+

@@ -1,0 +1,150 @@
+name	Slime_Monster
+health	100
+speed	6
+type	enemy
+shadow	2
+nodieblink    2
+falldie       2
+diesound data/sounds/zdie3.wav
+icon	data/chars/slime/icon.gif
+icondie    data/chars/slime/icond.gif
+
+
+anim idle
+	delay	10
+	loop	1
+	offset	32 74
+	bbox	14 17 39 58
+	frame	data/chars/slime/stand01.gif
+	frame	data/chars/slime/stand02.gif
+	frame	data/chars/slime/stand03.gif
+	frame	data/chars/slime/stand04.gif
+
+
+
+
+anim walk
+	loop	1
+	delay	10
+	offset	32 74
+	bbox	16 17 39 58
+	frame	data/chars/slime/walk01.gif
+	frame	data/chars/slime/walk02.gif
+	frame	data/chars/slime/walk03.gif
+
+
+		
+
+anim attack1
+	loop	0
+	delay	5
+	bbox	14 17 39 58
+	offset	32 74
+	frame	data/chars/slime/hit01.gif
+	frame	data/chars/slime/hit02.gif
+	sound	data/sounds/splat.wav
+	frame	data/chars/slime/hit03.gif
+	bbox	0
+	attack	65 8 35 18 10 1
+	frame	data/chars/slime/hit04.gif
+	attack	81 13 35 18 10 1
+	frame	data/chars/slime/hit05.gif
+	attack	92 26 35 18 10 1
+	frame	data/chars/slime/hit06.gif
+	attack	100 41 35 18 10 1
+	frame	data/chars/slime/hit07.gif
+	attack	107 56 35 18 10 1
+	frame	data/chars/slime/hit08.gif
+	attack	110 54 38 21 10 1
+	frame	data/chars/slime/hit09.gif
+	attack	0
+	frame	data/chars/slime/hit10.gif
+	frame	data/chars/slime/hit11.gif
+	frame	data/chars/slime/hit12.gif
+
+
+
+anim grabbed
+	delay	10
+	loop	1
+	offset	32 74
+	bbox	14 17 39 58
+	frame	data/chars/slime/stand01.gif
+	frame	data/chars/slime/stand02.gif
+	frame	data/chars/slime/stand03.gif
+	frame	data/chars/slime/stand04.gif
+
+
+	
+anim pain
+	loop	0
+	offset	32 74
+	delay	5
+	frame	data/chars/slime/fall03.gif
+	frame	data/chars/slime/fall03.gif
+	bbox	16 17 39 58
+	delay	10
+	frame	data/chars/slime/rise03.gif
+	frame	data/chars/slime/walk01.gif
+
+
+
+
+	
+anim fall
+	loop	0
+	offset	32 74
+	delay	10
+	bbox	51 17 24 64
+	attack	51 17 24 64 5 1
+	frame	data/chars/slime/walk03.gif
+	delay	30
+	bbox	0
+	attack	0
+	frame	data/chars/slime/fall01.gif
+	delay	10
+	frame	data/chars/slime/fall02.gif
+	delay	8
+	frame	data/chars/slime/fall03.gif
+	frame	data/chars/slime/fall04.gif
+	frame	data/chars/slime/fall05.gif
+	frame	data/chars/slime/fall06.gif
+	frame	data/chars/slime/rise01.gif
+
+
+
+	
+	
+anim rise
+	loop	0
+	offset	32 74
+	delay	8
+	frame	data/chars/slime/rise02.gif
+	frame	data/chars/slime/rise03.gif
+	frame	data/chars/slime/rise04.gif
+	frame	data/chars/slime/walk01.gif
+
+
+
+
+anim Death
+	loop 0
+	offset	32 74
+	delay	8
+	frame	data/chars/slime/rise02.gif
+	frame	data/chars/slime/rise03.gif
+	frame	data/chars/slime/rise04.gif
+	frame	data/chars/slime/walk01.gif
+	sound	data/sounds/zdie2.wav
+	frame	data/chars/slime/hit01.gif
+	frame	data/chars/slime/hit02.gif
+	frame	data/chars/slime/hit01.gif
+	frame	data/chars/slime/hit02.gif
+	sound	data/sounds/splat.wav
+	frame	data/chars/slime/fall03.gif
+	frame	data/chars/slime/fall04.gif
+	frame	data/chars/slime/fall05.gif
+	frame	data/chars/slime/fall06.gif
+	frame	data/chars/slime/rise02.gif
+	frame	data/chars/slime/rise01.gif
+

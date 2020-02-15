@@ -1,0 +1,262 @@
+name	Fly
+health	200
+speed	10
+type	enemy
+subtype       chase
+shadow	4
+aggression 10
+icon	data/chars/boss04/icon.gif
+remap data/chars/boss04/walk02.gif data/chars/boss04/ALT1.gif
+icondie    data/chars/boss04/icond.gif
+diesound data/sounds/zdie3.wav
+nodieblink    2
+falldie       2
+noquake       0
+
+
+anim idle
+	loop	1
+	offset	104 129
+	bbox	83 66 44 60
+	delay	20
+	frame	data/chars/boss04/walk02.gif
+	delay	4
+	frame	data/chars/boss04/stand01.gif
+	delay	9
+	frame	data/chars/boss04/stand02.gif
+
+
+
+anim walk
+	loop	1
+	offset	104 129
+	bbox	82 74 46 52
+	delay	7
+	frame	data/chars/boss04/walk01.gif
+	bbox	83 66 44 60
+	delay	4
+	frame	data/chars/boss04/walk02.gif
+	bbox	76 64 50 55
+	delay	15
+	frame	data/chars/boss04/jump.gif
+	bbox	82 74 46 52
+	delay	5
+	frame	data/chars/boss04/walk01.gif
+	bbox	83 66 44 60
+	delay	8
+	frame	data/chars/boss04/walk02.gif
+
+
+
+
+anim pain
+	loop	0
+	offset	104 129
+	bbox	82 74 46 52
+	delay	9
+	frame	data/chars/boss04/pain01.gif
+	delay	8
+	frame	data/chars/boss04/walk01.gif
+
+
+
+anim fall
+	loop	0
+	delay	10
+	offset	104 129
+	attack	82 74 46 52 10 1
+	frame	data/chars/boss04/pain01.gif
+	sound	data/sounds/splat.wav
+	delay	45
+	attack	58 63 73 44 10 1
+	frame	data/chars/boss04/fall01.gif
+	delay	7
+	attack	0 0 0 0 0 0
+	frame	data/chars/boss04/fall02.gif
+	frame	data/chars/boss04/fall03.gif
+	frame	data/chars/boss04/fall04.gif
+	frame	data/chars/boss04/fall05.gif
+	frame	data/chars/boss04/fall06.gif
+
+
+anim rise
+	loop	0
+	offset	104 129
+	delay	6
+	sound	data/sounds/splat1.wav
+	frame	data/chars/boss04/rise01.gif
+	frame	data/chars/boss04/rise02.gif
+	frame	data/chars/boss04/rise03.gif
+	frame	data/chars/boss04/rise04.gif
+	frame	data/chars/boss04/rise05.gif
+	sound	data/sounds/splat2.wav
+	frame	data/chars/boss04/rise06.gif
+	frame	data/chars/boss04/rise07.gif
+	frame	data/chars/boss04/rise08.gif
+	frame	data/chars/boss04/rise09.gif
+	frame	data/chars/boss04/rise10.gif
+	frame	data/chars/boss04/rise11.gif
+
+
+
+
+
+
+anim attack1
+	loop	0
+	delay	8
+	offset	104 129
+	bbox	59 61 45 63
+        move    8
+	frame	data/chars/boss04/pain01.gif
+	delay	7
+	attack	94 71 47 26 15 1
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss04/hit01.gif
+        move    6
+	frame	data/chars/boss04/hit01.gif
+	delay	10
+	attack	0 0 0 0 0 0
+        move    4
+	frame	data/chars/boss04/walk01.gif
+
+
+
+anim attack2
+	loop	0
+	delay	4
+	offset	104 129
+	bbox	59 61 45 63
+        move    8
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss04/rise11.gif
+	frame	data/chars/boss04/rise11.gif
+        move    10
+	frame	data/chars/boss04/jump.gif
+	frame	data/chars/boss04/jump.gif
+        move    12
+	attack	69 80 76 29 15 1
+	delay	5
+	sound	data/sounds/whip.wav
+	frame	data/chars/boss04/slide.gif
+	frame	data/chars/boss04/slide.gif
+	frame	data/chars/boss04/slide.gif
+        move    10
+	attack	0
+	sound	data/sounds/splat1.wav
+	frame	data/chars/boss04/pain01.gif
+        move    8
+	frame	data/chars/boss04/pain01.gif
+        move    6
+	frame	data/chars/boss04/pain01.gif
+
+
+
+anim jumpattack
+	loop	1
+	offset	104 129
+	bbox	82 74 46 52
+	delay	7
+	frame	data/chars/boss04/walk01.gif
+	bbox	83 66 44 60
+	delay	4
+	frame	data/chars/boss04/walk02.gif
+	bbox	76 64 50 55
+	delay	15
+	frame	data/chars/boss04/jump.gif
+	delay	1000
+	bbox	65 67 49 42
+	attack	98 80 50 24 20 1
+	frame	data/chars/boss04/slide.gif
+	delay	10
+	bbox	59 61 45 63
+	attack	0 0 0 0 0 0
+	frame	data/chars/boss04/walk01.gif
+
+
+
+anim Death
+	loop 0
+	offset	97 129
+	delay	8
+	move	-7
+	frame	data/chars/boss04/rise01.gif
+	sound	data/sounds/splat2.wav
+	move	0
+	frame	data/chars/boss04/rise02.gif
+	frame	data/chars/boss04/rise03.gif
+	frame	data/chars/boss04/rise04.gif
+	frame	data/chars/boss04/rise05.gif
+	frame	data/chars/boss04/rise06.gif
+	sound	data/sounds/splat1.wav
+	frame	data/chars/boss04/rise07.gif
+	frame	data/chars/boss04/rise08.gif
+	frame	data/chars/boss04/rise09.gif
+	frame	data/chars/boss04/rise10.gif
+	sound	data/sounds/zdie3.wav
+	frame	data/chars/boss04/rise11.gif
+	delay	10
+	frame	data/chars/boss04/pain01.gif
+	delay	13
+	sound	data/sounds/splat.wav
+	frame	data/chars/boss04/fall01.gif
+	frame	data/chars/boss04/fall02.gif
+	frame	data/chars/boss04/fall03.gif
+	frame	data/chars/boss04/rise02.gif
+	frame	data/chars/boss04/rise03.gif
+	frame	data/chars/boss04/rise04.gif
+	frame	data/chars/boss04/rise03.gif
+	frame	data/chars/boss04/rise02.gif
+	frame	data/chars/boss04/rise01.gif
+
+
+
+
+anim riseattack
+	loop	0
+	delay	8
+	offset	104 129
+	bbox	59 61 45 63
+	frame	data/chars/boss04/pain01.gif
+	delay	7
+	attack	94 71 47 26 15 1
+	sound	data/sounds/whip.wav
+	frame	data/chars/boss04/hit01.gif
+	frame	data/chars/boss04/hit01.gif
+	delay	10
+	attack	0 0 0 0 0 0
+	frame	data/chars/boss04/walk01.gif
+
+
+
+
+anim upper
+	loop	0
+	delay	8
+	offset	104 129
+	frame	data/chars/boss04/pain01.gif
+	attack	94 71 47 26 15 1
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss04/hit01.gif
+	attack	76 67 48 39 15 1
+	frame	data/chars/boss04/upat3.gif
+	attack	65 16 76 60 15 1
+	frame	data/chars/boss04/upat1.gif
+	attack	65 16 76 60 15 1
+	frame	data/chars/boss04/upat2.gif
+	attack	0
+	frame	data/chars/boss04/walk02.gif
+	attack	94 71 47 26 15 1
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss04/hit01.gif
+	attack	65 16 76 60 15 1
+	frame	data/chars/boss04/upat1.gif
+	attack	76 67 48 39 15 1
+	frame	data/chars/boss04/upat3.gif
+	attack	65 16 76 60 15 1
+	frame	data/chars/boss04/upat2.gif
+	attack	0
+	frame	data/chars/boss04/walk02.gif
+
+
+

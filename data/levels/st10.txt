@@ -1,0 +1,512 @@
+music		Data/music/st1.bor
+bossmusic	data/music/st1boss.bor
+background	data/bgs/st10/back.gif
+panel		data/bgs/st10/st10.gif
+noslow		0
+order           a
+settime         0
+notime          1
+direction       right
+bgspeed         2 0
+
+
+
+
+
+wait
+at      120
+
+
+group   4 4
+at      120
+
+
+spawn	Large-headed_Demon
+coords	350 180
+at	120
+
+
+spawn	Large-headed_Demon
+coords	380 210
+at	120
+
+
+spawn	Large-headed_Demon
+coords	-50 180
+at	120
+
+
+spawn	Large-headed_Demon
+coords	-80 210
+at	120
+
+
+
+wait
+at      400
+
+
+group   4 4
+at      400
+
+
+spawn	walker
+coords	350 180
+at	400
+
+
+spawn	walker
+coords	380 210
+at	400
+
+
+spawn	Large-headed_Demon
+coords	-50 180
+at	400
+
+
+spawn	Large-headed_Demon
+coords	-80 210
+at	400
+
+
+
+
+wait
+at      700
+
+
+group   4 4
+at      700
+
+
+
+spawn	Master_of_the_Deads
+coords	350 170
+at	700
+
+
+spawn	Master_of_the_Deads
+coords	350 190
+at	700
+
+
+spawn	Master_of_the_Deads
+coords	350 210
+at	700
+
+
+spawn	Master_of_the_Deads
+coords	350 230
+at	700
+
+
+spawn	Master_of_the_Deads
+2pspawn   1
+coords	-30 240
+at	700
+
+spawn	Master_of_the_Deads
+2pspawn   1
+coords	-30 170
+at	700
+
+
+
+
+
+
+wait
+at      850
+
+
+group   4 4
+at      850
+
+
+spawn	Hound_Zombi
+coords	350 170
+at	850
+
+
+spawn	Hound_Zombi
+coords	350 190
+at	850
+
+
+spawn	New_Born_Dead
+coords	350 210
+at	850
+
+
+spawn	New_Born_Dead
+coords	350 230
+at	850
+
+
+spawn	New_Born_Dead
+2pspawn   1
+coords	-30 240
+at	850
+
+spawn	New_Born_Dead
+2pspawn   1
+coords	-30 170
+at	850
+
+
+#-------3
+
+
+
+wait
+at      1100
+
+
+group   4 4
+at      1100
+
+
+spawn	Hound_Zombi
+coords	350 170
+at	1100
+
+
+spawn	Hound_Zombi
+coords	370 190
+at	1100
+
+
+
+
+spawn	Walker
+coords	350 170
+at	1100
+
+
+spawn	Walker
+coords	390 210
+at	1100
+
+
+
+
+
+#-------4
+
+
+
+spawn   Chair
+item    Red_Orb
+coords  -50 170
+at      1190
+
+
+spawn   Chair
+2pitem    Red_Orb
+coords  -70 220
+at      1190
+
+
+spawn   Chair
+item    Magik_Book_Green
+coords  -90 170
+at      1190
+
+
+
+
+
+
+wait
+at      1300
+
+
+group   4 4
+at      1300
+
+
+spawn	New_Born_Dead
+coords	-60 190 
+at	1300
+
+
+spawn	New_Born_Dead
+coords	-50 210
+at	1300
+
+
+
+spawn	New_Born_Dead
+coords	-20 230
+at	1300
+
+
+spawn	New_Born_Dead
+coords	-30 190
+at	1300
+
+
+spawn	Hound_Zombi
+2pspawn   1
+coords	400 190
+at	1300
+
+
+
+spawn	Hound_Zombi
+2pspawn   1
+coords	370 210
+at	1300
+
+
+
+
+wait
+at      1450
+
+
+spawn	Hound_Zombi
+coords	350 190
+at	1450
+
+
+spawn	Hound_Zombi
+coords	350 210
+at	1450
+
+
+
+spawn	Hound_Zombi
+coords	350 230
+at	1450
+
+
+spawn	Hound_Zombi
+coords	-30 190
+at	1450
+
+
+
+spawn	Hound_Zombi
+2pspawn   1
+coords	390 210
+at	1450
+
+
+
+spawn	Hound_Zombi
+2pspawn   1
+coords	410 210
+at	1450
+
+
+
+#-------5
+
+
+wait
+at      1600
+
+
+group   4 4
+at      1600
+
+spawn   Large-headed_Demon
+coords  -20 190
+at      1600
+
+
+spawn   Large-headed_Demon
+coords  -40 210
+at      1600
+
+
+spawn   Large-headed_Demon
+coords  -60 230
+at      1600
+
+
+spawn   Large-headed_Demon
+coords  380 190
+at      1600
+
+
+spawn   Hound_Zombi
+2pspawn   1
+coords  360 210
+at      1600
+
+
+spawn   Hound_Zombi
+2pspawn   1
+coords  340 230
+at      1600
+
+
+wait
+at      1800
+
+
+group   4 4
+at      1800
+
+
+spawn   Hanging_Corpse
+coords  -20 190
+at      1800
+
+
+spawn   Hanging_Corpse
+coords  -40 210
+at      1800
+
+
+spawn   Hanging_Corpse
+coords  -60 230
+at      1800
+
+
+spawn   Hanging_Corpse
+coords  380 190
+at      1800
+
+
+spawn   Hanging_Corpse
+coords  360 210
+at      1800
+
+
+spawn   Hanging_Corpse
+coords  340 230
+at      1800
+
+
+
+
+spawn   skeleton
+item    Red_Orb
+coords  -50 190
+at      1900
+
+
+spawn   skeleton
+2pitem    Red_Orb
+coords  -70 220
+at      1900
+
+
+spawn   skeleton
+item    Magik_Book_Red
+coords  -90 190
+at      1900
+
+
+
+
+
+
+wait
+at      2000
+
+
+group   4 4
+at      2000
+
+
+spawn	Walker
+coords	350 170
+at	2000
+
+
+spawn	Walker
+coords	370 190
+at	2000
+
+
+spawn	Walker
+coords	390 210
+at	2000
+
+
+spawn	Walker
+coords	410 210
+at	2000
+
+
+spawn	Walker
+2pspawn   1
+coords	350 170
+at	2000
+
+
+spawn	Walker
+2pspawn   1
+coords	390 210
+at	2000
+
+
+group   4 4
+at      2200
+
+
+spawn	Mutant_Jennifer
+boss    1
+coords	-50 190
+at	2200
+
+
+spawn	Hanging_Corpse
+coords	350 210
+at	2200
+
+
+
+spawn	Hanging_Corpse
+coords	430 190
+at	2200
+
+
+spawn	Hanging_Corpse
+coords	350 210
+at	2200
+
+
+spawn	Hanging_Corpse
+coords	350 210
+at	2200
+
+
+
+spawn	Hanging_Corpse
+coords	430 190
+at	2200
+
+
+spawn	Hanging_Corpse
+coords	350 210
+at	2200
+
+
+spawn	Hanging_Corpse
+coords	350 210
+at	2200
+
+
+
+
+spawn	Hound_Zombi
+2pspawn   1
+coords	-30 240
+at	2200
+
+spawn	Hound_Zombi
+2pspawn   1
+coords	-60 170
+at	2200
+
+
+
+
+
+

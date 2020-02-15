@@ -1,0 +1,1047 @@
+name	DarkRick
+health	100
+speed	8
+type	player
+shadow	4
+makeinv 4
+grabdistance 30
+icon	data/chars/DarkRick/icon.gif
+diesound data/sounds/rdie1.wav
+running	17	3	3	1	1
+
+
+com  f d a  freespecial2
+com  d u a  freespecial3
+com  f d f a  freespecial4
+com  f d u s  freespecial5
+com  b f a    freespecial6
+com  b f s    freespecial7
+
+
+anim waiting
+	loop	0
+	offset  74 90
+	delay	1
+	frame	data/chars/DarkRick/sel01.gif
+
+
+anim select
+	loop	0
+	offset  74 90
+	delay	7
+	sound	data/sounds/uuh1.wav
+	frame	data/chars/DarkRick/sel01.gif
+	frame	data/chars/DarkRick/sel02.gif
+	frame	data/chars/DarkRick/sel03.gif
+	sound	data/sounds/whip.wav
+	frame	data/chars/DarkRick/sel04.gif
+	frame	data/chars/DarkRick/sel05.gif
+	frame	data/chars/DarkRick/sel06.gif
+
+
+
+
+anim idle
+	loop	1
+	delay	50
+	offset	85 85
+	bbox	72 27 33 57
+	frame	data/chars/DarkRick/stand01.gif
+        delay	9
+	frame	data/chars/DarkRick/stand02.gif
+        delay	9
+	frame	data/chars/DarkRick/stand03.gif
+        delay	9
+        frame	data/chars/DarkRick/stand02.gif
+        delay	7
+	frame	data/chars/DarkRick/stand04.gif
+
+
+anim walk
+	loop	1
+	delay	9
+	offset	85 85
+	bbox	72 27 37 57
+	frame	data/chars/DarkRick/walk01.gif
+	frame	data/chars/DarkRick/walk02.gif
+	frame	data/chars/DarkRick/walk03.gif
+	frame	data/chars/DarkRick/walk04.gif
+	frame	data/chars/DarkRick/stand01.gif
+	frame	data/chars/DarkRick/walk05.gif
+	frame	data/chars/DarkRick/walk06.gif
+	frame	data/chars/DarkRick/stand01.gif
+
+
+anim run
+        loop    1
+        delay   6
+        offset  85 85
+        bbox    72 23 39 63
+	sound	data/sounds/step1.wav
+        frame   data/chars/DarkRick/run01.gif
+        frame   data/chars/DarkRick/run02.gif
+        frame   data/chars/DarkRick/walk03.gif
+        frame   data/chars/DarkRick/stand01.gif
+	sound	data/sounds/step2.wav
+        frame   data/chars/DarkRick/run03.gif
+        frame   data/chars/DarkRick/run04.gif
+        frame   data/chars/DarkRick/walk06.gif
+        frame   data/chars/DarkRick/stand01.gif
+
+
+
+anim get
+	loop	0
+	delay	5
+	offset	85 85
+	frame	data/chars/DarkRick/fall01.gif
+        delay   25
+	frame	data/chars/DarkRick/crouch01.gif
+        delay	5
+	frame	data/chars/DarkRick/fall01.gif
+
+
+anim jump
+	loop	0
+	delay	8
+	offset	85 85
+	bbox	68 32 41 58
+	frame	data/chars/DarkRick/fall01.gif
+        delay	17
+	frame	data/chars/DarkRick/jump01.gif
+        delay	17
+	frame	data/chars/DarkRick/jump02.gif
+        delay	19
+	frame	data/chars/DarkRick/jump01.gif
+        delay	6
+	frame	data/chars/DarkRick/crouch01.gif
+        delay	4
+	frame	data/chars/DarkRick/fall01.gif
+
+
+
+anim jumpattack
+	loop	0
+	delay	7
+	offset	85 85
+	bbox	67 58 42 41
+	frame	data/chars/DarkRick/crouch01.gif
+	frame	data/chars/DarkRick/lkick01.gif
+        delay   1000
+        attack	86 62 47 14 9 1
+	frame	data/chars/DarkRick/jkick01.gif
+	delay	6
+        attack	0 0 0 0 0 0
+	frame	data/chars/DarkRick/lkick01.gif
+        delay	6
+        frame	data/chars/DarkRick/crouch01.gif
+
+
+
+anim runjumpattack
+	loop    1
+	delay   4
+	offset  85 85
+        frame	data/chars/DarkRick/lkick01.gif
+        frame	data/chars/DarkRick/lkick02.gif
+        delay   1000
+        attack	68 49 60 25 10 1
+        frame	data/chars/DarkRick/lkick03.gif
+
+
+
+anim jumpattack2
+	loop	0
+	delay	7
+	offset	85 85
+	bbox	70 27 40 57
+	frame	data/chars/DarkRick/run01.gif
+        attack	75 59 26 35 8 0
+        delay	1000
+	frame	data/chars/DarkRick/jkick02.gif
+        delay	6
+	bbox	67 58 42 41
+        attack	0 0 0 0 0 0
+        frame	data/chars/DarkRick/crouch01.gif
+
+
+anim jumpattack3
+	loop	0
+	offset	85 85
+	delay	8
+        move    4
+	sound	data/sounds/rjump1.wav
+	frame	data/chars/DarkRick/crouch01.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/DarkRick/f1spec01.gif
+	attack	57 31 72 42 10 1
+	frame	data/chars/DarkRick/fall05.gif
+	attack	65 18 49 63 10 1
+	frame	data/chars/DarkRick/grabat1.gif
+	attack	57 46 63 45 10 1
+	frame	data/chars/DarkRick/grabat2.gif
+	frame	data/chars/DarkRick/crouch01.gif
+	delay	1000
+	frame	data/chars/DarkRick/fall01.gif
+
+
+
+anim attack1
+	loop	0
+	delay	4
+	offset	85 85
+	bbox	71 28 32 54
+	frame	data/chars/DarkRick/hit01.gif
+        delay	8
+        bbox	77 30 33 54
+        attack	106 34 37 15 7
+	frame	data/chars/DarkRick/hit02.gif
+        delay	4
+	bbox	71 28 32 54
+        attack	0 0 0 0 0
+	frame	data/chars/DarkRick/hit01.gif
+
+
+
+anim attack2
+	loop	0
+	delay	8
+	offset	85 85
+	bbox	71 28 33 56
+	frame	data/chars/DarkRick/hit03.gif
+	frame	data/chars/DarkRick/hit04.gif
+        delay	12
+	attack	93 42 42 14 8
+	frame	data/chars/DarkRick/hit05.gif
+        delay	6
+        attack	0 0 0 0 0
+	frame	data/chars/DarkRick/hit01.gif
+	
+
+
+anim attack3
+	loop	0
+	delay	6
+	offset	85 85
+	bbox	68 32 41 58
+	frame	data/chars/DarkRick/fall01.gif
+        delay	6
+        bbox	67 58 42 41
+	frame	data/chars/DarkRick/crouch01.gif
+	delay	4
+        bbox	67 58 42 41
+	frame	data/chars/DarkRick/lkick01.gif
+	delay	7
+        attack	89 58 44 17 8 0
+	frame	data/chars/DarkRick/lkick02.gif
+	delay	4
+        attack	0	
+	frame	data/chars/DarkRick/crouch01.gif
+        delay	3
+	bbox	80 33 36 53
+	frame	data/chars/DarkRick/hit06.gif
+        delay	3
+	bbox	77 30 36 53
+	frame	data/chars/DarkRick/hit07.gif
+        delay	24
+	bbox	69 25 32 59
+	attack	88 16 52 56 12 1
+	frame	data/chars/DarkRick/hit08.gif
+        delay	10
+	bbox	71 28 32 54
+        attack	0
+	frame	data/chars/DarkRick/hit01.gif
+	
+
+
+anim grab
+	loop	0
+	delay	1000
+	offset	85 85
+	bbox	71 29 36 58
+	frame	data/chars/DarkRick/grab.gif
+
+
+anim throw
+	loop	0
+	delay	6
+	offset	85 85
+	sound	data/sounds/rthrow1.wav
+	frame	data/chars/DarkRick/throw01.gif
+	frame	data/chars/DarkRick/throw02.gif
+        delay	18
+	frame	data/chars/DarkRick/throw03.gif
+        delay	7
+	frame	data/chars/DarkRick/hit03.gif
+	frame	data/chars/DarkRick/stand02.gif
+
+
+
+anim pain
+	loop	0
+	offset	85 85
+	bbox	72 24 31 60
+	delay	2
+	frame	data/chars/DarkRick/pain01.gif
+	delay	10
+	frame	data/chars/DarkRick/pain02.gif
+	delay	6
+	frame	data/chars/DarkRick/pain01.gif
+        delay	4
+	frame	data/chars/DarkRick/stand03.gif
+        delay	4
+	frame	data/chars/DarkRick/stand02.gif
+
+
+anim fall
+	loop	0
+	offset	85 85
+	delay	10
+	attack	72 24 31 60 5 1
+	frame	data/chars/DarkRick/pain01.gif
+	attack	57 33 59 38 5 1
+	frame	data/chars/DarkRick/fall05.gif
+	attack	62 41 66 38 5 1
+	frame	data/chars/DarkRick/fall03.gif
+	attack	65 35 54 55 5 1
+	frame	data/chars/DarkRick/fall02.gif
+	attack	0
+	frame	data/chars/DarkRick/fall04.gif
+
+
+
+anim rise
+	loop	0
+	offset	85 85
+	delay	6
+	frame	data/chars/DarkRick/lkick01.gif
+	frame	data/chars/DarkRick/crouch01.gif
+	frame	data/chars/DarkRick/fall01.gif
+	
+
+
+# Escape move
+anim special
+	loop	0
+	delay	8
+	offset	85 85
+	sound	data/sounds/uuh1.wav
+	frame	data/chars/DarkRick/super01.gif
+	delay	14
+	frame	data/chars/DarkRick/super02.gif
+	delay	7
+	sound	data/sounds/whip.wav
+        blast	90 33 77 31 20 1
+	frame	data/chars/DarkRick/super03.gif
+	frame	data/chars/DarkRick/super04.gif
+	frame	data/chars/DarkRick/super05.gif
+	frame	data/chars/DarkRick/super06.gif
+	sound	data/sounds/whip.wav
+	delay	14
+	frame	data/chars/DarkRick/super07.gif
+	delay	7
+        blast	4 32 74 31 20 1
+	frame	data/chars/DarkRick/super08.gif
+        frame	data/chars/DarkRick/super09.gif
+        frame	data/chars/DarkRick/super10.gif
+        frame	data/chars/DarkRick/super01.gif
+	delay	14
+	frame	data/chars/DarkRick/super02.gif
+	delay	7
+	sound	data/sounds/whip.wav
+        blast	90 33 77 31 20 1
+	frame	data/chars/DarkRick/super03.gif
+	frame	data/chars/DarkRick/super04.gif
+	frame	data/chars/DarkRick/super05.gif
+	frame	data/chars/DarkRick/super06.gif
+	delay	14
+	sound	data/sounds/whip.wav
+	frame	data/chars/DarkRick/super07.gif
+	delay	7
+        blast	4 32 74 31 20 1
+	frame	data/chars/DarkRick/super08.gif
+        frame	data/chars/DarkRick/super09.gif
+        frame	data/chars/DarkRick/super10.gif
+
+
+
+
+anim freespecial2
+	loop	0
+ 	delay	10
+ 	offset	85 85
+ 	bbox	68 49 42 36
+	frame	data/chars/DarkRick/crouch01.gif
+        move    5
+        delay	2
+        attack	98 64 40 27 10 1
+	sound	data/sounds/slide1.wav
+ 	frame	data/chars/DarkRick/slide01.gif
+ 	frame	data/chars/DarkRick/slide01.gif
+        frame	data/chars/DarkRick/slide01.gif
+        frame	data/chars/DarkRick/slide01.gif
+        frame	data/chars/DarkRick/slide01.gif
+ 	frame	data/chars/DarkRick/slide01.gif
+ 	frame	data/chars/DarkRick/slide01.gif
+        frame	data/chars/DarkRick/slide01.gif
+        frame	data/chars/DarkRick/slide01.gif
+ 	frame	data/chars/DarkRick/slide01.gif
+ 	frame	data/chars/DarkRick/slide01.gif
+        frame	data/chars/DarkRick/slide01.gif
+        attack	0
+        frame	data/chars/DarkRick/slide01.gif
+	blast   95 26 20 63 13 1
+        frame	data/chars/DarkRick/slide01.gif
+        frame	data/chars/DarkRick/slide01.gif
+	move    4
+ 	bbox	68 49 42 36
+ 	frame	data/chars/DarkRick/slide01.gif
+        frame	data/chars/DarkRick/slide01.gif
+        delay	4
+        move    3
+        bbox	68 49 42 36
+        blast   0 0 0 0 0 0
+	frame	data/chars/DarkRick/crouch01.gif
+        frame	data/chars/DarkRick/fall01.gif
+
+
+anim freespecial3
+	loop	0
+	delay	6
+	offset	85 85
+        hitflash    flashb	
+	frame	data/chars/DarkRick/crouch01.gif
+        delay	2
+        move    6
+	sound	data/sounds/rjump1.wav
+	frame	data/chars/DarkRick/hit06.gif
+	frame	data/chars/DarkRick/hit06.gif
+        delay	2
+        move    8
+	blast	102 43 33 28 15 1
+	frame	data/chars/DarkRick/hit07.gif
+	frame	data/chars/DarkRick/hit07.gif
+        delay	16
+        move    5
+	blast	83 12 25 39 15 1
+	frame	data/chars/DarkRick/hit08.gif
+        delay	10
+        blast   0 0 0 0 0 0
+        move    0
+	frame	data/chars/DarkRick/hit01.gif
+	delay	6	
+	frame	data/chars/DarkRick/crouch01.gif
+        delay	2
+        move    6
+	sound	data/sounds/rjump1.wav
+	frame	data/chars/DarkRick/hit06.gif
+	frame	data/chars/DarkRick/hit06.gif
+        delay	2
+        move    8
+	blast	102 43 33 28 15 1
+	frame	data/chars/DarkRick/hit07.gif
+	frame	data/chars/DarkRick/hit07.gif
+        delay	24
+        move    5
+	blast	83 12 25 39 15 1
+	frame	data/chars/DarkRick/hit08.gif
+        delay	10
+        blast   0 0 0 0 0 0
+        move    0
+	frame	data/chars/DarkRick/hit01.gif
+
+
+
+anim freespecial4
+	loop	0
+	delay	6
+	offset	85 85
+	sound	data/sounds/rjump1.wav	
+	frame	data/chars/DarkRick/stand02.gif
+        move    8
+        delay	2
+	frame	data/chars/DarkRick/run03.gif
+        move    5
+        attack	71 28 68 36 15 1
+	frame	data/chars/DarkRick/free01.gif
+	frame	data/chars/DarkRick/free01.gif
+	frame	data/chars/DarkRick/free01.gif
+	frame	data/chars/DarkRick/free01.gif
+	frame	data/chars/DarkRick/free01.gif
+	frame	data/chars/DarkRick/free02.gif
+	frame	data/chars/DarkRick/free02.gif
+	frame	data/chars/DarkRick/free02.gif
+	frame	data/chars/DarkRick/free02.gif
+	frame	data/chars/DarkRick/free02.gif
+	frame	data/chars/DarkRick/free03.gif
+	frame	data/chars/DarkRick/free03.gif
+	frame	data/chars/DarkRick/free03.gif
+	frame	data/chars/DarkRick/free03.gif
+	frame	data/chars/DarkRick/free03.gif
+        attack	0
+	frame	data/chars/DarkRick/free04.gif
+	frame	data/chars/DarkRick/free04.gif
+	frame	data/chars/DarkRick/free04.gif
+	frame	data/chars/DarkRick/free04.gif
+	frame	data/chars/DarkRick/free05.gif
+	frame	data/chars/DarkRick/free05.gif
+	frame	data/chars/DarkRick/free05.gif
+	frame	data/chars/DarkRick/free05.gif
+        move    4
+	frame	data/chars/DarkRick/crouch01.gif
+	frame	data/chars/DarkRick/crouch01.gif
+        delay	8
+	frame	data/chars/DarkRick/fall01.gif
+
+
+
+
+        
+
+	
+
+
+anim runattack
+        loop	0
+ 	delay	10
+ 	offset	85 85
+	frame	data/chars/DarkRick/fall01.gif
+        move    4
+        delay	2
+	sound	data/sounds/rattack1.wav
+ 	frame	data/chars/DarkRick/f1spec01.gif
+        blast	90 44 38 30 15 1
+ 	frame	data/chars/DarkRick/f1spec02.gif
+        frame	data/chars/DarkRick/f1spec02.gif
+        frame	data/chars/DarkRick/f1spec02.gif
+        frame	data/chars/DarkRick/f1spec02.gif
+        frame	data/chars/DarkRick/f1spec02.gif
+        frame	data/chars/DarkRick/f1spec02.gif
+ 	frame	data/chars/DarkRick/f1spec02.gif
+        frame	data/chars/DarkRick/f1spec02.gif
+        frame	data/chars/DarkRick/f1spec02.gif
+        frame	data/chars/DarkRick/f1spec02.gif
+        frame	data/chars/DarkRick/f1spec02.gif
+        frame	data/chars/DarkRick/f1spec02.gif
+        move    3
+        blast   95 26 20 63
+ 	frame	data/chars/DarkRick/run03.gif
+        frame	data/chars/DarkRick/run03.gif
+        move    2
+        blast   0 0 0 0 0 0
+	frame	data/chars/DarkRick/walk05.gif
+        frame	data/chars/DarkRick/walk05.gif
+        move    1
+	frame	data/chars/DarkRick/walk05.gif
+
+
+
+anim grabattack
+	loop	0
+	offset	85 85
+	bbox	71 27 34 58
+	delay	6
+	frame	data/chars/DarkRick/head01.gif
+	delay	25
+	attack	91 29 38 41 11
+	frame	data/chars/DarkRick/head02.gif
+	attack	0
+	delay	4
+	frame	data/chars/DarkRick/grab.gif
+
+
+anim grabattack2
+	loop	0
+	offset	85 85
+	delay	5	
+	frame	data/chars/DarkRick/crouch01.gif
+        delay	4
+	bbox	80 33 36 53
+	frame	data/chars/DarkRick/hit06.gif
+        delay	4
+	bbox	77 30 36 53
+	attack	102 43 33 28 13 1
+	frame	data/chars/DarkRick/hit07.gif
+        delay	24
+	bbox	69 25 32 59
+	attack	83 12 25 39 13 1
+	frame	data/chars/DarkRick/hit08.gif
+        delay	10
+	bbox	71 28 32 54
+	frame	data/chars/DarkRick/hit01.gif
+
+
+
+anim grabup
+	loop	0
+	offset	85 85
+	delay	8
+	sound	data/sounds/rattack1.wav
+	frame	data/chars/DarkRick/crouch01.gif
+	frame	data/chars/DarkRick/f1spec01.gif
+	attack	57 31 72 42 18 1
+	frame	data/chars/DarkRick/fall05.gif
+	attack	65 18 49 63 18 1
+	frame	data/chars/DarkRick/grabat1.gif
+	attack	57 46 63 45 18 1
+	frame	data/chars/DarkRick/grabat2.gif
+	frame	data/chars/DarkRick/crouch01.gif
+	frame	data/chars/DarkRick/fall01.gif
+
+
+
+anim grabdown
+	loop	0
+	offset	85 85
+	delay	4
+	sound	data/sounds/rattack1.wav
+	frame	data/chars/DarkRick/hit01.gif
+	delay	6
+	frame	data/chars/DarkRick/hit08.gif
+	delay	4
+	frame	data/chars/DarkRick/throw02.gif
+	attack	87 40 51 32 16 1
+	frame	data/chars/DarkRick/throw01.gif
+	delay	12
+	frame	data/chars/DarkRick/hit06.gif
+	attack	0
+	frame	data/chars/DarkRick/hit01.gif
+
+
+
+
+
+anim attackbackward
+	loop	0
+	delay	8
+	offset	85 85
+	sound	data/sounds/rjump1.wav
+	frame	data/chars/DarkRick/run01.gif
+	delay	20
+	attack	41 47 48 32 15 1
+	frame	data/chars/DarkRick/backat1.gif
+	delay	8
+	frame	data/chars/DarkRick/fall01.gif
+
+
+
+
+anim land
+	loop	0
+	delay	25
+	offset	85 85
+	bbox	67 58 42 41
+	frame	data/chars/DarkRick/fall01.gif
+
+
+
+
+anim freespecial5
+	loop	0
+	offset	85 85
+	delay	8
+	move    4
+	sound	data/sounds/rattack1.wav
+	frame	data/chars/DarkRick/crouch01.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/DarkRick/f1spec01.gif
+	attack	57 31 72 42 7 0
+	frame	data/chars/DarkRick/fall05.gif
+	attack	65 18 49 63 7 0
+	frame	data/chars/DarkRick/grabat1.gif
+	attack	57 46 63 45 7 0
+	frame	data/chars/DarkRick/grabat2.gif
+	frame	data/chars/DarkRick/crouch01.gif
+	frame	data/chars/DarkRick/fall01.gif
+	sound	data/sounds/rattack1.wav
+	frame	data/chars/DarkRick/crouch01.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/DarkRick/f1spec01.gif
+	attack	57 31 72 42 7 0
+	frame	data/chars/DarkRick/fall05.gif
+	attack	65 18 49 63 7 0
+	frame	data/chars/DarkRick/grabat1.gif
+	attack	57 46 63 45 7 0
+	frame	data/chars/DarkRick/grabat2.gif
+	frame	data/chars/DarkRick/crouch01.gif
+	frame	data/chars/DarkRick/fall01.gif
+	delay	8
+	frame	data/chars/DarkRick/hit03.gif
+	sound	data/sounds/punch.wav
+	frame	data/chars/DarkRick/hit04.gif
+        delay	12
+	attack	93 42 42 14 7 0
+	frame	data/chars/DarkRick/hit05.gif
+        delay	6
+        attack	0 0 0 0 0
+	frame	data/chars/DarkRick/hit01.gif
+        delay	8
+        attack	106 34 37 15 7 0
+	sound	data/sounds/punch.wav
+	frame	data/chars/DarkRick/hit02.gif
+        delay	4
+        attack	0 0 0 0 0
+	frame	data/chars/DarkRick/hit01.gif
+	delay	8
+	frame	data/chars/DarkRick/hit03.gif
+	sound	data/sounds/punch.wav
+	frame	data/chars/DarkRick/hit04.gif
+        delay	12
+	attack	93 42 42 14 7 0
+	frame	data/chars/DarkRick/hit05.gif
+        delay	6
+        attack	0 0 0 0 0
+	delay	4
+	frame	data/chars/DarkRick/hit01.gif
+        delay	8
+        attack	106 34 37 15 7 0
+	sound	data/sounds/punch.wav
+	frame	data/chars/DarkRick/hit02.gif
+        delay	4
+        attack	0 0 0 0 0
+	frame	data/chars/DarkRick/hit01.gif
+        delay	8
+	sound	data/sounds/rattack1.wav
+	frame	data/chars/DarkRick/crouch01.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/DarkRick/f1spec01.gif
+	attack	57 31 72 42 7 0
+	frame	data/chars/DarkRick/fall05.gif
+	attack	65 18 49 63 7 0
+	frame	data/chars/DarkRick/grabat1.gif
+	attack	57 46 63 45 7 0
+	frame	data/chars/DarkRick/grabat2.gif
+	frame	data/chars/DarkRick/crouch01.gif
+	frame	data/chars/DarkRick/fall01.gif
+	delay	6
+	frame	data/chars/DarkRick/crouch01.gif
+        delay	2
+        move    6
+	sound	data/sounds/rjump1.wav
+	frame	data/chars/DarkRick/hit06.gif
+	frame	data/chars/DarkRick/hit06.gif
+        delay	2
+        move    8
+	blast	102 43 33 28 13 1
+	sound	data/sounds/flasha.wav
+	frame	data/chars/DarkRick/hit07.gif
+	frame	data/chars/DarkRick/hit07.gif
+        delay	24
+        move    5
+	blast	83 12 25 39 13 1
+	frame	data/chars/DarkRick/hit08.gif
+        delay	10
+        blast   0 0 0 0 0 0
+        move    0
+	frame	data/chars/DarkRick/hit01.gif
+	sound	data/sounds/rjump1.wav
+        delay	8
+	frame	data/chars/DarkRick/run01.gif
+	delay	20
+	attack	41 47 48 32 13 1
+	frame	data/chars/DarkRick/backat1.gif
+	delay	8
+	frame	data/chars/DarkRick/fall01.gif
+
+
+
+
+anim freespecial6
+	loop	0
+	offset	85 85
+	delay	3
+	move    5
+	fastattack 1
+        followanim 1
+	followcond 1
+	sound	data/sounds/rattack1.wav
+	frame	data/chars/DarkRick/run03.gif
+	frame	data/chars/DarkRick/run03.gif
+	frame	data/chars/DarkRick/run03.gif
+	frame	data/chars/DarkRick/run03.gif
+	frame	data/chars/DarkRick/fall01.gif
+	frame	data/chars/DarkRick/fall01.gif
+	frame	data/chars/DarkRick/fall01.gif
+        attack	86 62 47 14 8
+	delay	4
+	frame	data/chars/DarkRick/throw01.gif
+	frame	data/chars/DarkRick/throw01.gif
+	frame	data/chars/DarkRick/throw01.gif
+        attack	0
+	delay	4
+	frame	data/chars/DarkRick/fall01.gif
+	frame	data/chars/DarkRick/stand02.gif
+
+	anim follow1
+	loop	0
+	delay	8
+	move    1
+	offset	85 85
+	sound	data/sounds/punch.wav
+	frame	data/chars/DarkRick/hit01.gif
+        attack	106 34 37 15 5
+	frame	data/chars/DarkRick/hit02.gif
+        attack	0 0 0 0 0
+	sound	data/sounds/punch.wav
+	frame	data/chars/DarkRick/hit01.gif
+        attack	106 34 37 15 5
+	frame	data/chars/DarkRick/hit02.gif
+        attack	0 0 0 0 0
+	sound	data/sounds/punch.wav
+	frame	data/chars/DarkRick/hit01.gif
+        attack	106 34 37 15 5
+	frame	data/chars/DarkRick/hit02.gif
+        attack	0 0 0 0 0
+	frame	data/chars/DarkRick/hit01.gif
+	move    0
+	delay	12
+	frame	data/chars/DarkRick/f1spec01.gif
+        attack	90 44 38 30 5
+	frame	data/chars/DarkRick/f1spec02.gif
+        attack	0
+	frame	data/chars/DarkRick/fall01.gif
+	delay	7
+	sound	data/sounds/rattack1.wav
+	frame	data/chars/DarkRick/crouch01.gif
+	move    2
+	frame	data/chars/DarkRick/f1spec01.gif
+	attack	57 31 72 42 5
+	frame	data/chars/DarkRick/fall05.gif
+	attack	65 18 49 63 5
+	frame	data/chars/DarkRick/grabat1.gif
+	attack	57 46 63 45 5
+	frame	data/chars/DarkRick/grabat2.gif
+	move    0
+	frame	data/chars/DarkRick/crouch01.gif
+	delay	8
+	sound	data/sounds/punch.wav
+	frame	data/chars/DarkRick/hit01.gif
+        attack	106 34 37 15 5
+	frame	data/chars/DarkRick/hit02.gif
+        attack	0 0 0 0 0
+	sound	data/sounds/punch.wav
+	frame	data/chars/DarkRick/hit01.gif
+        attack	106 34 37 15 5
+	frame	data/chars/DarkRick/hit02.gif
+        attack	0 0 0 0 0
+	frame	data/chars/DarkRick/hit01.gif
+
+        hitflash    flashb
+        delay	2
+        move    4
+	sound	data/sounds/rjump1.wav
+	frame	data/chars/DarkRick/hit06.gif
+	frame	data/chars/DarkRick/hit06.gif
+        delay	2
+        move    6
+	blast	102 43 33 28 15 1
+	frame	data/chars/DarkRick/hit07.gif
+	frame	data/chars/DarkRick/hit07.gif
+        delay	16
+        move    4
+	blast	83 12 25 39 15 1
+	frame	data/chars/DarkRick/hit08.gif
+        delay	10
+        blast   0 0 0 0 0 0
+        move    0
+	frame	data/chars/DarkRick/hit01.gif
+
+
+
+anim freespecial7
+	loop	0
+	offset	85 85
+	delay	3
+	move    5
+	fastattack 1
+        followanim 2
+	followcond 1
+	sound	data/sounds/flasha.wav
+	frame	data/chars/DarkRick/super01.gif
+	frame	data/chars/DarkRick/super01.gif
+	frame	data/chars/DarkRick/super01.gif
+	sound	data/sounds/whip.wav
+	frame	data/chars/DarkRick/super02.gif
+	frame	data/chars/DarkRick/super02.gif
+	frame	data/chars/DarkRick/super02.gif
+	frame	data/chars/DarkRick/super02.gif
+        attack	90 33 77 31 8
+	delay	4
+	frame	data/chars/DarkRick/super03.gif
+	frame	data/chars/DarkRick/super03.gif
+	frame	data/chars/DarkRick/super03.gif
+        attack	0
+	delay	4
+	frame	data/chars/DarkRick/super04.gif
+	frame	data/chars/DarkRick/super05.gif
+
+	anim follow2
+	loop	0
+	offset	85 85
+	delay	6
+	move    1
+	sound	data/sounds/flasha.wav
+	frame	data/chars/DarkRick/super01.gif
+	sound	data/sounds/whip.wav
+	frame	data/chars/DarkRick/super02.gif
+        attack	90 33 77 31 5
+	frame	data/chars/DarkRick/super03.gif
+        attack	0
+	frame	data/chars/DarkRick/super04.gif
+	frame	data/chars/DarkRick/super05.gif
+
+	sound	data/sounds/flasha.wav
+	frame	data/chars/DarkRick/super01.gif
+	sound	data/sounds/whip.wav
+	frame	data/chars/DarkRick/super02.gif
+        attack	90 33 77 31 5
+	frame	data/chars/DarkRick/super03.gif
+        attack	0
+	frame	data/chars/DarkRick/super04.gif
+	frame	data/chars/DarkRick/super05.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/DarkRick/super01.gif
+	sound	data/sounds/whip.wav
+	frame	data/chars/DarkRick/super02.gif
+        attack	90 33 77 31 5
+	frame	data/chars/DarkRick/super03.gif
+        attack	0
+	frame	data/chars/DarkRick/super04.gif
+	frame	data/chars/DarkRick/super05.gif
+
+
+	move    0
+	delay	8
+	frame	data/chars/DarkRick/hit03.gif
+	sound	data/sounds/punch.wav
+	frame	data/chars/DarkRick/hit04.gif
+        delay	12
+	attack	93 42 42 14 5 0
+	frame	data/chars/DarkRick/hit05.gif
+        delay	6
+        attack	0 0 0 0 0
+	frame	data/chars/DarkRick/hit01.gif
+        delay	8
+        attack	106 34 37 15 5 0
+	sound	data/sounds/punch.wav
+	frame	data/chars/DarkRick/hit02.gif
+        delay	4
+        attack	0 0 0 0 0
+	frame	data/chars/DarkRick/hit01.gif
+	delay	8
+	frame	data/chars/DarkRick/hit03.gif
+	sound	data/sounds/punch.wav
+	frame	data/chars/DarkRick/hit04.gif
+        delay	12
+	attack	93 42 42 14 5 0
+	frame	data/chars/DarkRick/hit05.gif
+        delay	6
+        attack	0 0 0 0 0
+	delay	4
+	frame	data/chars/DarkRick/hit01.gif
+        delay	8
+        attack	106 34 37 15 5 0
+	sound	data/sounds/punch.wav
+	frame	data/chars/DarkRick/hit02.gif
+        delay	4
+        attack	0 0 0 0 0
+	frame	data/chars/DarkRick/hit01.gif
+
+	sound	data/sounds/flasha.wav
+	frame	data/chars/DarkRick/super01.gif
+	sound	data/sounds/whip.wav
+	frame	data/chars/DarkRick/super02.gif
+        attack	90 33 77 31 5
+	frame	data/chars/DarkRick/super03.gif
+        attack	0
+	frame	data/chars/DarkRick/super04.gif
+	frame	data/chars/DarkRick/super05.gif
+
+	sound	data/sounds/flasha.wav
+	frame	data/chars/DarkRick/super01.gif
+	sound	data/sounds/whip.wav
+	frame	data/chars/DarkRick/super02.gif
+        attack	90 33 77 31 5
+	frame	data/chars/DarkRick/super03.gif
+        attack	0
+	frame	data/chars/DarkRick/super04.gif
+	frame	data/chars/DarkRick/super05.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/DarkRick/super01.gif
+	sound	data/sounds/whip.wav
+	frame	data/chars/DarkRick/super02.gif
+        attack	90 33 77 31 5
+	frame	data/chars/DarkRick/super03.gif
+        attack	0
+	frame	data/chars/DarkRick/super04.gif
+	frame	data/chars/DarkRick/super05.gif
+
+	delay	8
+	frame	data/chars/DarkRick/hit03.gif
+	sound	data/sounds/punch.wav
+	frame	data/chars/DarkRick/hit04.gif
+        delay	12
+	attack	93 42 42 14 5 0
+	frame	data/chars/DarkRick/hit05.gif
+        delay	6
+        attack	0 0 0 0 0
+	frame	data/chars/DarkRick/hit01.gif
+        delay	8
+        attack	106 34 37 15 5 0
+	sound	data/sounds/punch.wav
+	frame	data/chars/DarkRick/hit02.gif
+        delay	4
+        attack	0 0 0 0 0
+	frame	data/chars/DarkRick/hit01.gif
+	delay	8
+	frame	data/chars/DarkRick/hit03.gif
+	sound	data/sounds/punch.wav
+	frame	data/chars/DarkRick/hit04.gif
+        delay	12
+	attack	93 42 42 14 5 0
+	frame	data/chars/DarkRick/hit05.gif
+        delay	6
+        attack	0 0 0 0 0
+	delay	4
+	frame	data/chars/DarkRick/hit01.gif
+        delay	8
+        attack	106 34 37 15 5 0
+	sound	data/sounds/punch.wav
+	frame	data/chars/DarkRick/hit02.gif
+        delay	4
+        attack	0 0 0 0 0
+	frame	data/chars/DarkRick/hit01.gif
+
+	frame	data/chars/DarkRick/fall01.gif
+	move    10
+	delay	3
+	sound	data/sounds/flasha.wav
+        blast	71 28 68 36 15 1
+	frame	data/chars/DarkRick/free01.gif
+	frame	data/chars/DarkRick/free01.gif
+	frame	data/chars/DarkRick/free01.gif
+	frame	data/chars/DarkRick/free01.gif
+	frame	data/chars/DarkRick/free01.gif
+	delay	4
+	move    6
+        blast	0
+	frame	data/chars/DarkRick/free02.gif
+	frame	data/chars/DarkRick/free02.gif
+	move    4
+	frame	data/chars/DarkRick/free03.gif
+	frame	data/chars/DarkRick/free03.gif
+	move    2
+	frame	data/chars/DarkRick/free04.gif
+	frame	data/chars/DarkRick/free04.gif
+	move    0
+	frame	data/chars/DarkRick/free05.gif
+	frame	data/chars/DarkRick/free05.gif
+
+	delay	8
+	frame	data/chars/DarkRick/fall01.gif
+
+
+
+
+
+

@@ -1,0 +1,246 @@
+name	Embrio_Creature
+health	300
+speed	10
+type	enemy
+subtype       chase
+shadow	5
+icon	data/chars/boss08/icon.gif
+icondie    data/chars/boss08/icond.gif
+diesound data/sounds/b6die.wav
+remap data/chars/boss08/walk01.gif data/chars/boss08/ALT1.gif
+nodieblink    2
+falldie       2
+aggression 10
+
+
+anim idle
+	loop	1
+	offset	87 108
+	bbox	48 39 72 67
+	delay	6
+	frame	data/chars/boss08/walk01.gif
+
+
+
+
+
+anim walk
+	loop	1
+	offset	87 108
+	bbox	48 39 72 67
+	delay	8
+	frame	data/chars/boss08/walk01.gif
+	bbox	54 38 65 73
+	frame	data/chars/boss08/walk02.gif
+	bbox	53 38 65 73
+	frame	data/chars/boss08/walk03.gif
+	bbox	54 38 65 73
+	frame	data/chars/boss08/walk02.gif
+
+
+
+
+anim pain
+	loop	0
+	offset	87 108
+	bbox	42 23 49 82
+	delay	8
+	frame	data/chars/boss08/pain02.gif
+	bbox	54 31 47 76
+	frame	data/chars/boss08/pain01.gif
+
+
+
+
+anim fall
+	loop	0
+	delay	10
+	offset	87 108
+	attack	42 23 49 82 5 1
+	frame	data/chars/boss08/pain02.gif
+	delay	5
+	attack	26 18 64 72 5 1
+	frame	data/chars/boss08/fall01.gif
+	attack	0
+	delay	5
+	frame	data/chars/boss08/fall01.gif
+	delay	10
+	frame	data/chars/boss08/fall02.gif
+
+
+
+
+anim rise
+	loop	0
+	offset	87 108
+	delay	8
+	frame	data/chars/boss08/rise01.gif
+	frame	data/chars/boss08/pain01.gif
+
+
+
+
+
+
+anim attack1
+	loop	0
+	delay	5
+	offset	87 108
+	bbox	54 31 47 74
+        hitflash    elec1
+	frame	data/chars/boss08/pain01.gif
+	attack	30 19 90 95 10 1
+	sound	data/sounds/elec1.wav
+	frame	data/chars/boss08/hit01.gif
+	frame	data/chars/boss08/hit02.gif
+	frame	data/chars/boss08/hit01.gif
+	frame	data/chars/boss08/hit02.gif
+	frame	data/chars/boss08/hit01.gif
+	frame	data/chars/boss08/hit02.gif
+	sound	data/sounds/elec1.wav
+	frame	data/chars/boss08/hit01.gif
+	frame	data/chars/boss08/hit02.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/boss08/hit01.gif
+	frame	data/chars/boss08/pain01.gif
+	bbox	48 39 72 67
+	frame	data/chars/boss08/hit03.gif
+	frame	data/chars/boss08/hit04.gif
+	frame	data/chars/boss08/hit03.gif
+	frame	data/chars/boss08/hit04.gif
+
+
+
+
+
+
+anim attack2
+	loop	0
+	delay	6
+	sound	data/sounds/fatat1.wav
+	offset	87 108
+	move    6
+	bbox	48 39 72 67
+	attack	101 39 19 47 15 1
+	frame	data/chars/boss08/hit05.gif
+	frame	data/chars/boss08/hit06.gif
+	move    8
+	frame	data/chars/boss08/hit05.gif
+	frame	data/chars/boss08/hit06.gif
+	move    12
+	attack	88 33 41 61 15 1
+	frame	data/chars/boss08/hit07.gif
+	frame	data/chars/boss08/hit08.gif
+	frame	data/chars/boss08/hit07.gif
+	frame	data/chars/boss08/hit08.gif
+	frame	data/chars/boss08/hit07.gif
+	frame	data/chars/boss08/hit08.gif
+	frame	data/chars/boss08/hit07.gif
+	frame	data/chars/boss08/hit08.gif
+	move    10
+	attack	101 39 19 47 15 1
+	frame	data/chars/boss08/hit05.gif
+	frame	data/chars/boss08/hit06.gif
+	move    8
+	frame	data/chars/boss08/hit05.gif
+	frame	data/chars/boss08/hit06.gif
+
+
+
+
+anim riseattack
+	loop	0
+	delay	8
+	sound	data/sounds/fatat1.wav
+	offset	87 108
+	attack	101 39 19 47 15 1
+	frame	data/chars/boss08/hit05.gif
+	attack	101 39 19 47 15 1
+	frame	data/chars/boss08/hit07.gif
+	delay	4
+	move    1
+	frame	data/chars/boss08/hit07.gif
+	move    -1
+	frame	data/chars/boss08/hit07.gif
+	move    1
+	frame	data/chars/boss08/hit07.gif
+	move    -1
+	frame	data/chars/boss08/hit07.gif
+	move    1
+	frame	data/chars/boss08/hit07.gif
+	move    -1
+	frame	data/chars/boss08/hit07.gif
+	move    1
+	frame	data/chars/boss08/hit07.gif
+	move    -1
+	frame	data/chars/boss08/hit07.gif
+	move    0
+	delay	10
+	attack	0
+	frame	data/chars/boss08/hit05.gif
+
+
+
+anim upper
+	loop	0
+	delay	8
+	sound	data/sounds/fatat1.wav
+	offset	87 108
+	attack	101 39 19 47 15 1
+	frame	data/chars/boss08/hit05.gif
+	attack	101 39 19 47 15 1
+	frame	data/chars/boss08/hit07.gif
+	delay	4
+	move    1
+	frame	data/chars/boss08/hit07.gif
+	move    -1
+	frame	data/chars/boss08/hit07.gif
+	move    1
+	frame	data/chars/boss08/hit07.gif
+	move    -1
+	frame	data/chars/boss08/hit07.gif
+	move    1
+	frame	data/chars/boss08/hit07.gif
+	move    -1
+	frame	data/chars/boss08/hit07.gif
+	move    1
+	frame	data/chars/boss08/hit07.gif
+	move    -1
+	frame	data/chars/boss08/hit07.gif
+	move    0
+	delay	10
+	attack	0
+	frame	data/chars/boss08/hit05.gif
+
+
+
+
+anim Death
+	loop 0
+	delay	8
+	offset	87 108
+	sound	data/sounds/burn2.wav
+	frame	data/chars/boss08/death01.gif
+	frame	data/chars/boss08/death02.gif
+	frame	data/chars/boss08/death01.gif
+	frame	data/chars/boss08/death02.gif
+	frame	data/chars/boss08/death03.gif
+	frame	data/chars/boss08/death02.gif
+	frame	data/chars/boss08/death03.gif
+	sound	data/sounds/burn2.wav
+	frame	data/chars/boss08/death04.gif
+	frame	data/chars/boss08/death03.gif
+	frame	data/chars/boss08/death04.gif
+	frame	data/chars/boss08/death05.gif
+	frame	data/chars/boss08/death04.gif
+	frame	data/chars/boss08/death05.gif
+	frame	data/chars/boss08/death06.gif
+	sound	data/sounds/burn2.wav
+	frame	data/chars/boss08/death05.gif
+	frame	data/chars/boss08/death06.gif
+	frame	data/chars/boss08/death07.gif
+	frame	data/chars/boss08/death06.gif
+	frame	data/chars/boss08/death07.gif
+
+
+

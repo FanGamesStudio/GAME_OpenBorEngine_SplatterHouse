@@ -1,0 +1,143 @@
+name	New_Born_Dead
+health	100
+speed	7
+type	enemy
+shadow	3
+diesound data/sounds/zdie7.wav
+icon	data/chars/baby/icon.gif
+icondie    data/chars/baby/icond.gif
+nodieblink    3
+falldie       2
+noquake       0
+
+
+
+anim idle
+	delay	15
+	loop	1
+	offset	41 65
+	bbox	6 10 58 55
+	frame	data/chars/baby/walk01.gif
+
+
+
+
+anim walk
+	loop	1
+	delay	12
+	offset	41 65
+	bbox	6 10 58 55
+	frame	data/chars/baby/walk02.gif
+	frame	data/chars/baby/walk03.gif
+	delay	8
+	frame	data/chars/baby/walk01.gif
+
+		
+
+anim attack1
+	loop	0
+	delay	5
+	bbox	4 29 59 37
+	offset	41 65
+	sound	data/sounds/splat2.wav
+	frame	data/chars/baby/hit01.gif
+	bbox	3 2 60 64
+	sound	data/sounds/splat1.wav
+	frame	data/chars/baby/hit02.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/baby/hit03.gif
+	bbox	0 0 0 0
+	attack	60 19 20 20 10 0
+	frame	data/chars/baby/hit04.gif
+	attack	78 38 20 20 10 0
+	frame	data/chars/baby/hit05.gif
+	attack	79 40 49 27 10 0
+	sound	data/sounds/splat.wav
+	frame	data/chars/baby/hit06.gif
+	attack	77 35 59 32 10 0
+	frame	data/chars/baby/hit07.gif
+	attack	0 0 0 0 0 0
+	bbox	4 29 59 37
+	frame	data/chars/baby/hit08.gif
+
+
+
+
+anim grabbed
+	loop	0
+	delay	10
+	bbox	5 8 60 58
+	offset	41 65
+	sound	data/sounds/splat2.wav
+	frame	data/chars/baby/hit01.gif
+	delay	40
+	frame	data/chars/baby/hit02.gif
+
+
+	
+anim pain
+	loop	0
+	offset	41 65
+	bbox	5 8 60 58
+	delay	20
+	sound	data/sounds/splat.wav
+	frame	data/chars/baby/pain01.gif
+	bbox	3 35 57 31
+	frame	data/chars/baby/walk03.gif
+
+
+
+
+
+anim fall
+	loop	0
+	offset	41 65
+	bbox	4 34 54 32
+	attack	4 34 54 32 10 1
+	delay	10
+	frame	data/chars/baby/pain01.gif
+	bbox	0
+	attack	0
+	delay	15
+	frame	data/chars/baby/pain01.gif
+	delay	40
+	frame	data/chars/baby/walk02.gif
+	delay	15
+	sound	data/sounds/splat.wav
+	frame	data/chars/baby/death04.gif
+	frame	data/chars/baby/death05.gif
+
+
+
+anim rise
+	loop	0
+	offset	41 65
+	delay	10
+	sound	data/sounds/splat1.wav
+	frame	data/chars/baby/death04.gif
+	frame	data/chars/baby/death05.gif
+	sound	data/sounds/splat2.wav
+	frame	data/chars/baby/hit01.gif
+
+
+
+
+anim Death
+	loop 0
+	offset	41 65
+	delay	10
+	sound	data/sounds/splat1.wav
+	frame	data/chars/baby/hit01.gif
+	frame	data/chars/baby/hit02.gif
+	frame	data/chars/baby/death01.gif
+	sound	data/sounds/splat.wav
+	frame	data/chars/baby/death02.gif
+	frame	data/chars/baby/death03.gif
+	frame	data/chars/baby/death04.gif
+	frame	data/chars/baby/death05.gif
+	frame	data/chars/baby/death06.gif
+	frame	data/chars/baby/death07.gif
+
+
+
+	

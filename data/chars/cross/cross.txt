@@ -1,0 +1,314 @@
+name	Unholy_Cross
+health	400
+speed	8
+type	enemy
+subtype       chase
+shadow	2
+nodieblink    2
+falldie       2
+noquake       0
+aggression 10
+icon	data/chars/cross/icon.gif
+icondie    data/chars/cross/icond.gif
+diesound data/sounds/crossd.wav
+
+
+
+
+
+anim idle
+	loop	1
+	offset	89 129
+	bbox	73 47 32 68
+	delay	13
+	frame	data/chars/cross/stand01.gif
+	frame	data/chars/cross/stand02.gif
+	frame	data/chars/cross/stand03.gif
+	frame	data/chars/cross/stand04.gif
+	frame	data/chars/cross/stand05.gif
+	frame	data/chars/cross/stand06.gif
+	frame	data/chars/cross/stand05.gif
+	frame	data/chars/cross/stand04.gif
+	frame	data/chars/cross/stand03.gif
+	frame	data/chars/cross/stand02.gif
+
+
+
+
+
+
+anim walk
+	loop	1
+	offset	89 129
+	bbox	73 47 32 68
+	delay	5
+	frame	data/chars/cross/stand01.gif
+	frame	data/chars/cross/stand02.gif
+	frame	data/chars/cross/stand03.gif
+	frame	data/chars/cross/stand04.gif
+	frame	data/chars/cross/stand05.gif
+	frame	data/chars/cross/stand06.gif
+	frame	data/chars/cross/stand05.gif
+	frame	data/chars/cross/stand04.gif
+	frame	data/chars/cross/stand03.gif
+	frame	data/chars/cross/stand02.gif
+
+
+
+anim pain
+	loop	0
+	offset	89 129
+	bbox	73 47 32 68
+	delay	5
+	frame	data/chars/cross/stand01.gif
+	frame	data/chars/cross/stand03.gif
+	frame	data/chars/cross/stand05.gif
+	frame	data/chars/cross/stand04.gif
+	frame	data/chars/cross/stand02.gif
+
+
+anim grabbed
+	loop	0
+	offset	89 129
+	bbox	73 47 32 68
+	delay	50
+	frame	data/chars/cross/stand03.gif
+
+
+
+anim fall
+	loop	0
+	delay	4
+	offset	89 129
+	bbox	73 47 32 68
+	attack	73 47 32 68 5 1
+	sound	data/sounds/flasha.wav
+	frame	data/chars/cross/rot01.gif
+	frame	data/chars/cross/rot02.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/cross/rot03.gif
+	frame	data/chars/cross/rot04.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/cross/rot05.gif
+	bbox	0
+	attack	0
+	frame	data/chars/cross/rot06.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/cross/rot07.gif
+	frame	data/chars/cross/rot08.gif
+	frame	data/chars/cross/rot09.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/cross/rot10.gif
+
+	frame	data/chars/cross/stand01.gif
+
+	frame	data/chars/cross/rot01.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/cross/rot12.gif
+	frame	data/chars/cross/rot13.gif
+	frame	data/chars/cross/rot12.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/cross/rot13.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/cross/rise06.gif
+	frame	data/chars/cross/rise05.gif
+	frame	data/chars/cross/rise04.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/cross/rise03.gif
+	frame	data/chars/cross/rise02.gif
+	frame	data/chars/cross/rise01.gif
+
+
+
+
+
+
+
+anim rise
+	loop	0
+	offset	89 129
+	delay	4
+	sound	data/sounds/flasha.wav
+	frame	data/chars/cross/rise02.gif
+	frame	data/chars/cross/rise03.gif
+	frame	data/chars/cross/rise04.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/cross/rise05.gif
+	frame	data/chars/cross/rise06.gif
+	frame	data/chars/cross/rot13.gif
+	frame	data/chars/cross/rot12.gif
+
+
+
+
+
+anim attack1
+	loop	0
+	delay	3
+	offset	89 129
+	bbox	62 39 50 96
+	frame	data/chars/cross/hit01.gif
+	bbox	0
+	sound	data/sounds/flasha.wav
+	blast	118 33 55 81 15 1
+	frame	data/chars/cross/hit02.gif
+	blast	132 36 51 75 15 1
+	frame	data/chars/cross/hit03.gif
+	blast	143 36 55 74 15 1
+	frame	data/chars/cross/hit04.gif
+	delay	15
+	blast	163 39 38 70 15 1
+	frame	data/chars/cross/hit05.gif
+	delay	5
+	blast	0
+	frame	data/chars/cross/hit04.gif
+	frame	data/chars/cross/hit03.gif
+	frame	data/chars/cross/hit02.gif
+	frame	data/chars/cross/hit01.gif
+
+
+
+
+
+anim riseattack
+	loop	0
+	delay	4
+	offset	89 129
+	blast	38 28 106 95 15 1
+	sound	data/sounds/whip.wav
+	frame	data/chars/cross/rot01.gif
+	blast	0
+	frame	data/chars/cross/rot02.gif
+	blast	38 28 106 95 15 1
+	frame	data/chars/cross/rot03.gif
+	blast	0
+	frame	data/chars/cross/rot04.gif
+	blast	38 28 106 95 15 1
+	sound	data/sounds/whip.wav
+	frame	data/chars/cross/rot05.gif
+	blast	0
+	frame	data/chars/cross/rot06.gif
+	blast	38 28 106 95 15 1
+	frame	data/chars/cross/rot07.gif
+	blast	0
+	frame	data/chars/cross/rot08.gif
+	blast	38 28 106 95 15 1
+	frame	data/chars/cross/rot09.gif
+	blast	0
+	sound	data/sounds/whip.wav
+	frame	data/chars/cross/rot10.gif
+	blast	38 28 106 95 15 1
+	frame	data/chars/cross/stand01.gif
+	blast	0
+	frame	data/chars/cross/rot01.gif
+	blast	38 28 106 95 15 1
+	frame	data/chars/cross/rot02.gif
+	blast	0
+	frame	data/chars/cross/rot03.gif
+	blast	38 28 106 95 15 1
+	frame	data/chars/cross/rot04.gif
+	blast	0
+	sound	data/sounds/whip.wav
+	frame	data/chars/cross/rot05.gif
+	blast	38 28 106 95 15 1
+	frame	data/chars/cross/rot06.gif
+	blast	0
+	frame	data/chars/cross/rot07.gif
+	blast	38 28 106 95 15 1
+	frame	data/chars/cross/rot08.gif
+	blast	0
+	frame	data/chars/cross/rot09.gif
+	blast	38 28 106 95 15 1
+	frame	data/chars/cross/rot10.gif
+	blast	0
+	frame	data/chars/cross/stand01.gif
+
+
+
+
+
+
+anim upper
+	loop	0
+	delay	4
+	offset	89 129
+	blast	38 28 106 95 15 1
+	sound	data/sounds/whip.wav
+	frame	data/chars/cross/rot01.gif
+	blast	0
+	frame	data/chars/cross/rot02.gif
+	blast	38 28 106 95 15 1
+	frame	data/chars/cross/rot03.gif
+	blast	0
+	frame	data/chars/cross/rot04.gif
+	blast	38 28 106 95 15 1
+	sound	data/sounds/whip.wav
+	frame	data/chars/cross/rot05.gif
+	blast	0
+	frame	data/chars/cross/rot06.gif
+	blast	38 28 106 95 15 1
+	frame	data/chars/cross/rot07.gif
+	blast	0
+	frame	data/chars/cross/rot08.gif
+	blast	38 28 106 95 15 1
+	frame	data/chars/cross/rot09.gif
+	blast	0
+	sound	data/sounds/whip.wav
+	frame	data/chars/cross/rot10.gif
+	blast	38 28 106 95 15 1
+	frame	data/chars/cross/stand01.gif
+	blast	0
+	frame	data/chars/cross/rot01.gif
+	blast	38 28 106 95 15 1
+	frame	data/chars/cross/rot02.gif
+	blast	0
+	frame	data/chars/cross/rot03.gif
+	blast	38 28 106 95 15 1
+	frame	data/chars/cross/rot04.gif
+	blast	0
+	sound	data/sounds/whip.wav
+	frame	data/chars/cross/rot05.gif
+	blast	38 28 106 95 15 1
+	frame	data/chars/cross/rot06.gif
+	blast	0
+	frame	data/chars/cross/rot07.gif
+	blast	38 28 106 95 15 1
+	frame	data/chars/cross/rot08.gif
+	blast	0
+	frame	data/chars/cross/rot09.gif
+	blast	38 28 106 95 15 1
+	frame	data/chars/cross/rot10.gif
+	blast	0
+	frame	data/chars/cross/stand01.gif
+
+
+
+
+anim Death
+	loop	0
+	delay	10
+	offset	89 129
+	sound	data/sounds/mozzad1.wav
+	frame	data/chars/cross/death01.gif
+	frame	data/chars/cross/death02.gif
+	frame	data/chars/cross/death01.gif
+	frame	data/chars/cross/death02.gif
+	frame	data/chars/cross/death01.gif
+	sound	data/sounds/expl1.wav
+	delay	8
+	frame	data/chars/cross/death02.gif
+	frame	data/chars/cross/death03.gif
+	sound	data/sounds/mozzaexp.wav
+	frame	data/chars/cross/death04.gif
+	frame	data/chars/cross/death03.gif
+	sound	data/sounds/ghost.wav
+	frame	data/chars/cross/death04.gif
+	frame	data/chars/cross/death05.gif
+	delay	13
+	frame	data/chars/cross/death06.gif
+
+
+
+
+
+

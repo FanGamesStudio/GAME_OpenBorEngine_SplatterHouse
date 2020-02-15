@@ -1,0 +1,12 @@
+name	1up
+health	0
+type	iten
+shadow	0
+
+
+anim idle
+	loop	0
+	delay	1000
+	offset	6 15
+	bbox	0 0 13 16
+	frame	data/chars/misc/1up/1up.gif

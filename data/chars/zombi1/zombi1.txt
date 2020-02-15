@@ -1,0 +1,123 @@
+name	Walker
+health	100
+speed	7
+type	enemy
+shadow	2
+nodieblink    2
+falldie       2
+diesound data/sounds/zdie7.wav
+remap data/chars/zombi1/A1.gif data/chars/zombi1/ALT1.gif
+remap data/chars/zombi1/walk02.gif data/chars/zombi1/ALT2.gif
+remap data/chars/zombi1/walk02.gif data/chars/zombi1/ALT3.gif
+icon	data/chars/zombi1/icon.gif
+icondie    data/chars/zombi1/icond.gif
+
+
+anim idle
+	delay	25
+	loop	1
+	offset	76 82
+	bbox	48 32 32 64
+	frame	data/chars/zombi1/walk04.gif
+
+
+
+anim walk
+	loop	1
+	delay	6
+	offset	76 82
+	bbox	75 48 27 64
+	frame	data/chars/zombi1/walk01.gif
+	frame	data/chars/zombi1/walk02.gif
+	frame	data/chars/zombi1/walk03.gif
+	frame	data/chars/zombi1/walk02.gif
+	frame	data/chars/zombi1/walk01.gif
+	frame	data/chars/zombi1/walk04.gif
+	frame	data/chars/zombi1/walk05.gif
+	frame	data/chars/zombi1/walk04.gif
+
+
+		
+
+anim attack1
+	loop	0
+	delay	7
+	bbox	18 33 60 51
+	offset	76 82
+	frame	data/chars/zombi1/rise02.gif
+	bbox	63 17 24 67
+	sound	data/sounds/flasha.wav
+	frame	data/chars/zombi1/rise03.gif
+	delay	15
+	bbox	73 21 43 63
+	attack	105 26 26 19 5 0 0 0 1 8
+	frame	data/chars/zombi1/hit01.gif
+	delay	8
+	bbox	75 22 25 59
+	attack	0 0 0 0 0
+	frame	data/chars/zombi1/hit02.gif
+	bbox	63 17 24 67
+	frame	data/chars/zombi1/rise03.gif
+
+
+
+	
+anim pain
+	loop	0
+	offset	76 82
+	bbox	51 17 24 64
+	delay	8
+	frame	data/chars/zombi1/pain01.gif
+	bbox	57 19 22 64
+	frame	data/chars/zombi1/pain02.gif
+
+
+
+
+	
+anim fall
+	loop	0
+	offset	76 82
+	delay	15
+	bbox	51 17 24 64
+	attack	51 17 24 64 5 1
+	frame	data/chars/zombi1/pain01.gif
+	delay	10
+	bbox	35 21 54 51
+	attack	0
+	frame	data/chars/zombi1/fall01.gif
+	bbox    0 0 0 0
+	frame	data/chars/zombi1/fall01.gif
+	frame	data/chars/zombi1/fall02.gif
+
+	
+	
+anim rise
+	loop	0
+	offset	76 82
+	delay	7
+	frame	data/chars/zombi1/rise01.gif
+	frame	data/chars/zombi1/rise02.gif
+	frame	data/chars/zombi1/rise03.gif
+
+
+
+anim Death
+	loop 0
+	offset	76 82
+	delay	7
+	frame	data/chars/zombi1/rise01.gif
+	frame	data/chars/zombi1/rise02.gif
+	frame	data/chars/zombi1/rise03.gif
+	delay	13
+	frame	data/chars/zombi1/pain02.gif
+	frame	data/chars/zombi1/death01.gif
+	frame	data/chars/zombi1/death02.gif
+	sound	data/sounds/splat.wav
+	frame	data/chars/zombi1/death03.gif
+	frame	data/chars/zombi1/death04.gif
+	frame	data/chars/zombi1/death05.gif
+
+
+
+	

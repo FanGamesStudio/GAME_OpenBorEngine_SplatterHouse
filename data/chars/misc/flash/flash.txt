@@ -1,0 +1,15 @@
+name	Flash
+type	none
+shadow	0
+# alpha   0
+
+anim idle
+	 loop      0
+	 delay     3 
+	 offset    40 36
+	 frame     data/chars/misc/flash/flash6.gif
+	 frame     data/chars/misc/flash/flash7.gif
+	 frame     data/chars/misc/flash/flash8.gif
+	 frame     data/chars/misc/flash/flash9.gif
+
+

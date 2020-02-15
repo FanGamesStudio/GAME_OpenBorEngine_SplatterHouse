@@ -1,0 +1,85 @@
+name	skel2
+health	60
+speed	24
+type	enemy
+shadow	0
+nodieblink2
+icon	data/chars/skel2/icon.gif
+diesound  data/sounds/8.wav
+cantgrab 1
+
+anim spawn
+	loop	0
+	offset	160 150
+	#bbox	150 100 20 50
+	delay	8
+	frame	data/chars/skel2/a1.gif
+	frame	data/chars/skel2/a2.gif
+	frame	data/chars/skel2/a3.gif
+	frame	data/chars/skel2/p1.gif
+	frame	data/chars/skel2/p2.gif
+	frame	data/chars/skel2/p3.gif
+	frame	data/chars/skel2/p4.gif
+	frame	data/chars/skel2/p5.gif
+	frame	data/chars/skel2/p6.gif
+
+
+anim idle
+	loop	1
+	offset	160 150
+	bbox	150 100 20 50
+	delay	10
+	frame	data/chars/skel2/a1.gif
+	frame	data/chars/skel2/a2.gif
+	frame	data/chars/skel2/a3.gif
+
+
+anim walk
+	loop	1
+	offset	160 150
+	bbox	150 100 20 50
+	delay	4
+	frame	data/chars/skel2/w1.gif
+	frame	data/chars/skel2/w2.gif
+	frame	data/chars/skel2/w3.gif
+
+
+anim attack1
+	range	0 50
+	loop	0
+        delay	8
+        move    20
+	offset	160 150
+	bbox	120 90 40 90
+        attack  150 90 50 20 10 0
+	frame	data/chars/skel2/a4.gif
+	frame	data/chars/skel2/a5.gif
+
+anim pain
+	loop	0
+	offset	160 150
+	bbox	150 100 20 50
+	delay	12
+	frame	data/chars/skel2/p1.gif
+	frame	data/chars/skel2/p2.gif
+	frame	data/chars/skel2/p3.gif
+
+anim fall
+	loop	0
+	delay	8
+	offset	160 150
+	frame	data/chars/skel2/p4.gif
+	frame	data/chars/skel2/p5.gif
+	frame	data/chars/skel2/p6.gif
+        offset	160 140
+        frame	data/chars/skel2/p7.gif
+
+anim rise
+	loop	0
+	delay	15
+	offset	160 150
+	frame	data/chars/skel2/a1.gif
+	frame	data/chars/skel2/a2.gif
+	frame	data/chars/skel2/a3.gif
+
+

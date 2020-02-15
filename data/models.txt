@@ -1,0 +1,135 @@
+nodropen     0
+nocost       2
+versusdamage 0
+Colourselect 1
+nochipdeath 1
+ajspecial    1
+blockratio   1
+Lifescore    15000
+nocheats 1
+rush      2
+
+#-------Menu placement
+
+
+
+
+# Required objects. These must always be loaded.
+
+load	Flash		data/chars/misc/flash/flash.txt
+load	Block		data/chars/misc/block/block.txt
+load	blood		data/chars/misc/blood/blood.txt
+load	elec1		data/chars/misc/elec1/elec1.txt
+load	smoke1		data/chars/misc/smoke1/smoke1.txt
+know    objeto          data/chars/boss01/objeto.txt
+
+
+
+
+# Players must also be loaded.
+load	Skull_Rick    	data/chars/rick1/rick1.txt
+load	Biggy_Man     	data/chars/boss01/boss01.txt
+
+
+# Items and other objects can be loaded when needed.
+
+know	empty		data/chars/misc/empty/empty.txt
+know	1up		data/chars/misc/1up/1up.txt
+know	Blue_Orb	data/chars/misc/orb/orb1.txt
+know	Red_Orb		data/chars/misc/orb/orb2.txt
+know	Magik_Book_Blue data/chars/misc/book/bookb.txt
+know	Magik_Book_Green data/chars/misc/book/bookg.txt
+know	Magik_Book_Red  data/chars/misc/book/bookr.txt
+know	Heart		data/chars/misc/heart/heart.txt
+know    Texto           data/chars/Texto/Texto.txt
+
+
+
+
+
+# Obstacles (item containers)
+
+know	Blade_1		data/chars/misc/trap1/trap1.txt
+know	blade_2		data/chars/misc/trap2/trap2.txt
+know	Mummy		data/chars/misc/rickf1/rickf1.txt
+know	skeleton	data/chars/misc/skel1/skel1.txt
+know	Razor		data/chars/misc/razor/razor.txt
+know	Chair		data/chars/misc/Chair/Chair.txt
+know	Stone_Bat	data/chars/misc/bat/bat.txt
+know	spike1		data/chars/misc/spike1.txt
+know	spike1a		data/chars/misc/spike1a.txt
+know	spike2		data/chars/misc/spike2.txt
+know	Crystal		data/chars/misc/Crystal/crystal.txt
+know	stat		data/chars/misc/stat/stat.txt
+know	pile1		data/chars/misc/pile1/pile1.txt
+know	Evil_Hand		data/chars/misc/hand/hand.txt
+know	corpses_hands	data/chars/misc/trap3/trap3.txt
+know	corpses_hands_a	data/chars/misc/trap3/trap3a.txt
+know	corpses_hands_b	data/chars/misc/trap3/trap3b.txt
+know	charco1		data/chars/misc/charco1/charco1.txt
+know	charco2		data/chars/misc/charco1/charco2.txt
+know	worm_1		data/chars/worm1/worm1.txt
+know	Body_Eater	data/chars/worm2/worm2.txt
+know	Corpse_Eater	data/chars/worm3/worm3.txt
+know	Skull_Ghost	data/chars/skullg/skullg.txt
+know	Log		data/chars/misc/log/log.txt
+know	Unreal  	data/chars/misc/jen/jen.txt
+know	Evil_Spirit  	data/chars/misc/ghost/ghost.txt
+know	Hell_Fire  	data/chars/misc/fire1/fire1.txt
+know	Hell_Fire_2 	data/chars/misc/fire2/fire2.txt
+know	Spectre  	data/chars/misc/rickf2/rickf2.txt
+know	Column   	data/chars/misc/col/col.txt
+know	Storm   	data/chars/misc/storm/storm.txt
+know	rain		data/chars/misc/rain/rain.txt
+know	rel3		data/bgs/st6/rel3.txt
+know	sign		data/bgs/st6/sign.txt
+know	ghostxx		data/bgs/st6/ghostxx.txt
+
+
+
+# Enemies
+
+know    mozza           data/chars/mozza/mozza.txt
+know	Mutant_Jennifer	data/chars/boss02/boss02.txt
+know	Bellyache    	data/chars/boss03/boss03.txt
+know	Fly    	        data/chars/boss04/boss04.txt
+know	Hell_Guardian   data/chars/boss06/boss06.txt
+know	Hellraiser      data/chars/boss05/boss05.txt
+know	Boreworm        data/chars/boss07/boss07.txt
+know	Embrio_Creature  data/chars/boss08/boss08.txt
+know	Evil_One        data/chars/boss09/boss09.txt
+know	The_Mask        data/chars/boss10/boss10.txt
+know    skel2           data/chars/skel2/skel2.txt
+know    fog             data/chars/fog/fog.txt
+know	Hell_Teddy      data/chars/boss11/boss11.txt
+know	Crystal_Boss      data/chars/crystalb/crystalb.txt
+know	Walker          data/chars/zombi1/zombi1.txt
+know	Large-headed_Demon  data/chars/head1/head1.txt
+know	Rotten_Zombie   data/chars/zombi4/zombi4.txt
+know	Screaming_Mimi  data/chars/zombi6/zombi6.txt	
+know	Ghoul           data/chars/zombi7/zombi7.txt
+know	Born_Dead       data/chars/zombi8/zombi8.txt
+know	Dead_Ripper     data/chars/zombi9/zombi9.txt
+know	Dead_Man_Fat    data/chars/zombi10/zombi10.txt
+know	Headache        data/chars/zombi11/zombi11.txt
+know	Undress         data/chars/zombi12/zombi12.txt
+know	Hell_Hound      data/chars/zombi13/zombi13.txt
+know	Phantom         data/chars/zombi14/zombi14.txt
+know	Master_of_the_Deads    data/chars/master/master.txt
+know	Embryo          data/chars/ball/ball.txt
+know	Fire_Demon      data/chars/fired/fired.txt
+know	New_Born_Dead   data/chars/baby/baby.txt
+know	spider          data/chars/spider/spider.txt
+know	Hound_Zombi     data/chars/dog/dog.txt
+know	Hanging_Corpse  data/chars/hang/hang.txt
+know	Maiden_Specter  data/chars/maiden/maiden.txt
+know	Unholy_Cross    data/chars/cross/cross.txt
+know	Great_Horror    data/chars/great/great.txt
+know	Soul_Guardian   data/chars/soul/soul.txt
+know	Wall_Face       data/chars/face/face.txt
+know	Slime_Monster       data/chars/slime/slime.txt
+know	st21f		data/bgs/st21/st21f.txt
+know	rel1		data/bgs/st21/rel1.txt
+know	rel2		data/bgs/st21/rel2.txt
+
+

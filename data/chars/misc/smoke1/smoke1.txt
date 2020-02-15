@@ -1,0 +1,24 @@
+name	smoke1
+type	none
+shadow	0
+
+
+anim idle
+	 loop      0
+	 delay     5 
+	 offset    19 47
+	 sound     data/sounds/burn3.wav
+	 frame     data/chars/misc/smoke1/1.gif
+	 frame     data/chars/misc/smoke1/2.gif
+	 frame     data/chars/misc/smoke1/3.gif
+	 frame     data/chars/misc/smoke1/4.gif
+	 frame     data/chars/misc/smoke1/5.gif
+	 frame     data/chars/misc/smoke1/6.gif
+	 frame     data/chars/misc/smoke1/7.gif
+	 frame     data/chars/misc/smoke1/8.gif
+	 frame     data/chars/misc/smoke1/9.gif
+	 frame     data/chars/misc/smoke1/10.gif
+	 frame     data/chars/misc/smoke1/11.gif
+	 frame     data/chars/misc/smoke1/12.gif
+	 frame     data/chars/misc/smoke1/13.gif
+

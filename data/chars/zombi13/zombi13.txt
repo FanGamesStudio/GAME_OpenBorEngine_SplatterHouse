@@ -1,0 +1,121 @@
+name	Hell_Hound
+health	100
+speed	6
+type	enemy
+shadow	3
+diesound data/sounds/zdie4.wav
+icon	data/chars/zombi13/icon.gif
+icondie    data/chars/zombi13/icond.gif
+nodieblink    2
+falldie       2
+aggression 3
+remap data/chars/zombi13/walk01.gif data/chars/zombi13/ALT1.gif
+
+
+anim idle
+	delay	15
+	loop	1
+	offset	118 106
+	bbox	89 54 56 52
+	frame	data/chars/zombi13/walk01.gif
+
+
+
+
+anim walk
+	loop	1
+	delay	12
+	offset	118 106
+	bbox	89 54 56 52
+	frame	data/chars/zombi13/walk01.gif
+	frame	data/chars/zombi13/walk02.gif
+	frame	data/chars/zombi13/walk01.gif
+	frame	data/chars/zombi13/walk03.gif
+
+		
+
+anim attack1
+	loop	0
+	delay	6
+	offset	118 106
+	bbox	89 54 56 52
+	sound	data/sounds/z13at.wav
+	frame	data/chars/zombi13/hit01.gif
+	attack	114 40 32 34 9 1
+	frame	data/chars/zombi13/hit02.gif
+	delay	10
+	attack	117 54 44 20 9 1
+	frame	data/chars/zombi13/hit03.gif
+
+
+
+anim attack2
+	loop	0
+	delay	6
+	offset	118 106
+	bbox	89 54 56 52
+	frame	data/chars/zombi13/hit01.gif
+	delay	8
+	attack	129 63 32 22 9 0
+	sound	data/sounds/splat1.wav
+	frame	data/chars/zombi13/hit04.gif
+	attack	143 72 43 35 9 0
+	frame	data/chars/zombi13/hit05.gif
+	attack	162 75 30 32 9 0
+	sound	data/sounds/splat2.wav
+	frame	data/chars/zombi13/hit06.gif
+
+
+
+
+
+
+
+	
+anim pain
+	loop	0
+	offset	118 106
+	bbox	89 54 56 52
+	delay	10
+	frame	data/chars/zombi13/pain01.gif
+	frame	data/chars/zombi13/pain02.gif
+
+
+
+
+	
+anim fall
+	loop	0
+	delay	15
+	offset	118 106
+	bbox	89 54 56 52
+	attack	89 54 56 52 5 1
+	frame	data/chars/zombi13/pain01.gif
+	delay	20
+	bbox	0
+	attack	0
+	frame	data/chars/zombi13/fall01.gif
+	delay	20
+	frame	data/chars/zombi13/fall02.gif
+
+	
+	
+anim rise
+	loop	0
+	offset	118 106
+	delay	6
+	frame	data/chars/zombi13/rise01.gif
+	frame	data/chars/zombi13/pain01.gif
+	frame	data/chars/zombi13/pain02.gif
+
+
+
+anim Death
+	loop 0
+	delay	13
+	offset	118 106
+	sound	data/sounds/splat.wav
+	frame	data/chars/zombi13/death01.gif
+	frame	data/chars/zombi13/death02.gif
+	frame	data/chars/zombi13/death03.gif
+

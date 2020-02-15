@@ -1,0 +1,12 @@
+name	charco2
+type	none
+shadow	0
+alpha   0
+
+anim idle
+	 loop      0
+	 delay     1
+	 offset    55 0
+	 frame     data/chars/misc/charco1/charco2.gif
+
+

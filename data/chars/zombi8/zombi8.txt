@@ -1,0 +1,122 @@
+name	Born_Dead
+health	100
+speed	7
+type	enemy
+shadow	3
+diesound data/sounds/zdie8.wav
+icon	data/chars/zombi8/icon.gif
+icondie    data/chars/zombi8/icond.gif
+remap data/chars/zombi8/fall01.gif data/chars/zombi8/ALT1.gif
+remap data/chars/zombi8/fall01.gif data/chars/zombi8/ALT2.gif
+remap data/chars/zombi8/fall01.gif data/chars/zombi8/ALT3.gif
+nodieblink    2
+falldie       2
+aggression 5
+
+anim idle
+	delay	15
+	loop	1
+	offset	60 93
+	bbox	45 34 30 57
+	frame	data/chars/zombi8/walk01.gif
+
+
+
+
+anim walk
+	loop	1
+	delay	10
+	offset	60 93
+	bbox	45 34 30 57
+	frame	data/chars/zombi8/walk01.gif
+	frame	data/chars/zombi8/walk02.gif
+	frame	data/chars/zombi8/walk03.gif
+	frame	data/chars/zombi8/walk02.gif
+
+		
+
+anim attack1
+	loop	0
+	delay	15
+	bbox	54 93 29 60
+	offset	60 93
+        move    5
+	frame	data/chars/zombi8/hit01.gif
+	delay	20
+	attack	63 28 36 20 6 0 0 0 1 8
+        move    8
+	sound	data/sounds/punch.wav
+	frame	data/chars/zombi8/hit02.gif
+        move    3
+	attack	0
+	delay	6
+	frame	data/chars/zombi8/hit03.gif
+
+
+
+anim grabbed
+	loop	0
+	delay	50
+	offset	60 93
+	bbox	45 34 30 57
+	frame	data/chars/zombi8/walk01.gif
+
+
+
+	
+anim pain
+	loop	0
+	offset	60 93
+	bbox	47 91 35 47
+	delay	12
+	frame	data/chars/zombi8/hit01.gif
+	bbox	41 21 40 77
+	frame	data/chars/zombi8/crouch.gif
+
+
+
+	
+anim fall
+	loop	0
+	offset	60 93
+	delay	10
+	bbox	30 39 60 50
+	attack	30 39 60 50 5 1
+	frame	data/chars/zombi8/fall01.gif
+	bbox	0
+	attack	0
+	frame	data/chars/zombi8/fall01.gif
+	delay	30
+	frame	data/chars/zombi8/fall02.gif
+
+
+	
+	
+anim rise
+	loop	0
+	offset	60 93
+	delay	12
+	frame	data/chars/zombi8/crouch.gif
+	frame	data/chars/zombi8/hit01.gif
+
+
+	
+
+
+anim Death
+	loop 0
+	offset	60 93
+	delay	12
+	frame	data/chars/zombi8/crouch.gif
+	frame	data/chars/zombi8/hit01.gif
+	delay	10
+	sound	data/sounds/splat.wav
+	offset	52 97
+	move	-8
+	frame	data/chars/zombi8/death01.gif
+	move	0
+	frame	data/chars/zombi8/death02.gif
+	frame	data/chars/zombi8/death03.gif
+	frame	data/chars/zombi8/death04.gif
+
+

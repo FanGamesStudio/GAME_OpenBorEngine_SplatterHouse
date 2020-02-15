@@ -1,0 +1,265 @@
+name	Biggy_Man
+health	210
+mp      100
+speed	10
+type	player
+shadow	4
+icon	data/chars/boss01/icon.gif
+icondie    data/chars/boss01/icond.gif
+diesound data/sounds/b1die.wav
+jumpheight 3
+
+com  d f s    freespecial2
+
+
+
+
+load	objeto
+
+
+
+anim	attack1
+	loop	0
+	delay	8
+	offset	117 187
+	bbox	99 87 47 98
+	hitflash	blood
+	hitfx	data/sounds/cut3.wav
+	sound	data/sounds/saw.wav
+	frame	data/chars/boss01/hit01.gif
+	delay	5
+	frame	data/chars/boss01/hit02.gif
+	attack	129 88 77 77 10 0
+	frame	data/chars/boss01/hit03.gif
+	frame	data/chars/boss01/hit04.gif
+	delay	7
+	attack	129 49 37 96 10 0
+	frame	data/chars/boss01/hit05.gif
+	delay	5
+	attack	0
+	frame	data/chars/boss01/hit04.gif
+	attack	129 88 77 77 10 0
+	frame	data/chars/boss01/hit03.gif
+	frame	data/chars/boss01/hit02.gif
+	attack	0 0 0 0 0 0
+	delay	8
+	frame	data/chars/boss01/hit01.gif
+		
+anim	attack2
+	loop	0
+	delay	6
+	offset	117 187
+	bbox	103 93 46 88
+	hitflash	blood
+	hitfx	data/sounds/cut3.wav
+	sound	data/sounds/saw2.wav
+	frame	data/chars/boss01/pain02.gif
+	delay	6
+	bbox	98 120 54 63
+	frame	data/chars/boss01/crouch.gif
+	delay	8
+	attack	154 145 52 30 10 0
+	frame	data/chars/boss01/chit01.gif
+	delay	6
+	frame	data/chars/boss01/crouch.gif
+	delay	11
+	attack	147 127 52 30 10 0
+	frame	data/chars/boss01/chit02.gif
+	delay	6
+	frame	data/chars/boss01/crouch.gif
+	delay	4
+	bbox	103 93 46 88
+	frame	data/chars/boss01/pain02.gif
+		
+anim	attack3
+	loop	0
+	delay	8
+	offset	117 187
+	bbox	99 87 47 98
+	hitflash	blood
+	hitfx	data/sounds/cut3.wav
+	sound	data/sounds/saw.wav
+	frame	data/chars/boss01/hit01.gif
+	delay	5
+	frame	data/chars/boss01/hit02.gif
+	attack	129 88 77 77 10 0
+	frame	data/chars/boss01/hit03.gif
+	frame	data/chars/boss01/hit04.gif
+	delay	7
+	attack	129 49 37 96 10 0
+	frame	data/chars/boss01/hit05.gif
+	delay	5
+	attack	0
+	frame	data/chars/boss01/hit04.gif
+	attack	129 88 77 77 10 0
+	frame	data/chars/boss01/hit03.gif
+	frame	data/chars/boss01/hit02.gif
+	attack	0 0 0 0 0 0
+	delay	8
+	frame	data/chars/boss01/hit01.gif
+	frame	data/chars/boss01/hit07.gif
+	frame	data/chars/boss01/hit08.gif
+	attack	129 88 77 77 60 1
+	frame	data/chars/boss01/hit08.gif
+	frame	data/chars/boss01/hit08.gif
+		
+anim	fall
+	loop	0
+	delay	10
+	offset	117 187
+	attack	107 106 51 75 15 1
+	frame	data/chars/boss01/pain02.gif
+	attack	60 102 85 82 15 1
+	frame	data/chars/boss01/fall01.gif
+	attack	0
+	frame	data/chars/boss01/fall02.gif
+		
+anim	get
+	loop	0
+	delay	5
+	offset	127 183
+	frame	data/chars/boss01/crouch.gif
+	delay	25
+	frame	data/chars/boss01/crouch.gif
+	delay	5
+	frame	data/chars/boss01/crouch.gif
+		
+anim	idle
+	loop	1
+	offset	117 187
+	bbox	100 88 43 96
+	delay	12
+	frame	data/chars/boss01/walk03.gif
+		
+anim	jump
+	loop	0
+	delay	8
+	offset	122 184
+	bbox	106 103 41 85
+	frame	data/chars/boss01/jump01.gif
+	delay	17
+	frame	data/chars/boss01/jump01.gif
+	delay	17
+	frame	data/chars/boss01/jump01.gif
+	delay	19
+	frame	data/chars/boss01/jump01.gif
+	delay	6
+	frame	data/chars/boss01/jump01.gif
+	delay	4
+	frame	data/chars/boss01/jump01.gif
+		
+anim	jumpattack
+	loop	0
+	offset	117 187
+	delay	8
+	bbox	105 86 42 95
+	hitflash	blood
+	hitfx	data/sounds/cut3.wav
+	hitfx	data/sounds/saw2.wav
+	frame	data/chars/boss01/jump01.gif
+	delay	6
+	bbox	103 93 46 88
+	frame	data/chars/boss01/crouch.gif
+	delay	1000
+	bbox	100 100 51 87
+	attack	146 127 63 47 20 1 0 0 0 0
+	frame	data/chars/boss01/jhit01.gif
+	delay	8
+	attack	0 0 0 0 0 0
+	bbox	103 93 46 8
+	frame	data/chars/boss01/pain02.gif
+		
+anim	pain
+	loop	0
+	offset	117 187
+	bbox	103 93 46 88
+	delay	15
+	frame	data/chars/boss01/pain01.gif
+	bbox	107 106 51 75
+	frame	data/chars/boss01/pain02.gif
+		
+anim	rise
+	loop	0
+	offset	117 187
+	delay	15
+	frame	data/chars/boss01/crouch.gif
+	delay	10
+	frame	data/chars/boss01/pain02.gif
+	delay	8
+	frame	data/chars/boss01/jump01.gif
+		
+anim	riseattack
+	loop	0
+	offset	117 187
+	delay	8
+	move	8
+	hitflash	blood
+	hitfx	data/sounds/cut3.wav
+	sound	data/sounds/saw.wav
+	frame	data/chars/boss01/crouch.gif
+	delay	15
+	move	4
+	attack	146 127 63 47 20 1
+	frame	data/chars/boss01/jhit01.gif
+	delay	8
+	move	3
+	frame	data/chars/boss01/crouch.gif
+	delay	8
+	move	2
+	attack	0 0 0 0 0 0
+	frame	data/chars/boss01/pain02.gif
+		
+anim	special
+         energycost	20
+	custknife	objeto
+	throwframe	4
+	loop	0
+	delay	7
+	sound	data/sounds/heartd.wav
+	bbox	113 110 24 73
+	offset	117 187
+	frame	data/chars/boss01/jogando1.gif
+	frame	data/chars/boss01/jogando2.gif
+	frame	data/chars/boss01/jogando3.gif
+	frame	data/chars/boss01/jogando4.gif
+	delay	22
+	frame	data/chars/boss01/jogando5.gif
+	frame	data/chars/boss01/jogando6.gif
+	frame	data/chars/boss01/jogando7.gif
+	frame	data/chars/boss01/jogando8.gif
+		
+anim	special2
+         energycost	40
+	mponly	1
+	loop	0
+	delay	5
+	sound	data/sounds/heartd.wav
+	bbox	113 110 24 73
+	hitflash	blood
+	hitfx	data/sounds/cut3.wav
+	offset	117 187
+	frame	data/chars/boss01/special1.gif
+	delay	5
+	frame	data/chars/boss01/special1.gif
+	frame	data/chars/boss01/special1.gif
+	frame	data/chars/boss01/special1.gif
+	delay	15
+	attack	129 88 77 77 80 1
+	frame	data/chars/boss01/special2.gif
+	frame	data/chars/boss01/special2.gif
+	delay	15
+	frame	data/chars/boss01/special2.gif
+	frame	data/chars/boss01/special2.gif
+		
+anim	walk
+	loop	1
+	offset	117 187
+	bbox	100 88 43 96
+	delay	12
+	frame	data/chars/boss01/walk01.gif
+	frame	data/chars/boss01/walk02.gif
+	frame	data/chars/boss01/walk01.gif
+	frame	data/chars/boss01/walk03.gif
+		
+#|edited by openBor Stats v 0.67
+		

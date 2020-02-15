@@ -1,0 +1,32 @@
+name	Razor
+type	trap
+
+
+anim idle
+	loop	1
+	delay	8
+	offset	65 33
+	attack  66 25 36 18 15 1
+        hitflash    blood
+	hitfx   data/sounds/cut3.wav
+	frame	data/chars/misc/razor/razor1.gif
+	attack  31 25 36 18 15 1
+	frame	data/chars/misc/razor/razor2.gif
+	attack  31 25 36 18 15 1
+	frame	data/chars/misc/razor/razor3.gif
+	attack  2 21 59 5 15 1
+	frame	data/chars/misc/razor/razor4.gif
+	attack  7 11 54 13 15 1
+	frame	data/chars/misc/razor/razor5.gif
+	attack  32 2 32 19 15 1
+	frame	data/chars/misc/razor/razor6.gif
+	attack  69 2 32 18 15 1
+	frame	data/chars/misc/razor/razor7.gif
+	attack  69 11 51 12 15 1
+	frame	data/chars/misc/razor/razor8.gif
+	attack  70 21 59 5 15 1
+	frame	data/chars/misc/razor/razor9.gif
+	attack  68 22 46 11 15 1
+	frame	data/chars/misc/razor/razor10.gif
+
+

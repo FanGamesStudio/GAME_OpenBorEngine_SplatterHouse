@@ -1,0 +1,12 @@
+name	st21f
+type	none
+shadow	0
+alpha   0
+
+anim idle
+	 loop      0
+	 delay     1
+	 offset    0 243
+	 frame     data/bgs/st21/st21f.gif
+
+

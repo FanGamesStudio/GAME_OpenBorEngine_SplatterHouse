@@ -1,0 +1,38 @@
+name	Column
+health  50
+type    obstacle
+shadow	0
+diesound  data/sounds/slide1.wav
+nodieblink    3
+noatflash 1
+nolife  1
+flash     block
+
+anim idle
+	loop	1
+	delay	150
+	offset	28 186
+	bbox    4 16 48 172
+	frame	data/chars/misc/col/col01.gif
+	delay	5
+	frame	data/chars/misc/col/col00.gif
+	frame	data/chars/misc/col/col01.gif
+	frame	data/chars/misc/col/col00.gif
+
+
+
+
+	
+anim fall
+	loop	0
+	delay	10
+	offset	28 186
+	frame	data/chars/misc/col/col02.gif
+	frame	data/chars/misc/col/col03.gif
+	frame	data/chars/misc/col/col04.gif
+
+
+
+
+
+	

@@ -1,0 +1,208 @@
+Total Ram: 4257734656 Bytes
+ Free Ram: 1405001728 Bytes
+ Used Ram: 3162112 Bytes
+
+OpenBoR v3.0 Build 3742, Compile Date: Dec  7 2012
+
+Game Selected: ./Paks/My Mod.pak
+
+FileCaching System Init......	Enabled
+Initializing video............
+Reading video settings from 'data/video.txt'.
+Initialized video.............	320x240 (Mode: 0, Depth: 32 Bit)
+
+Loading menu.txt.............	Done!
+Loading fonts................	1 2 3 4 Done!
+Timer init...................	Done!
+Initialize Sound..............	
+sound_load_sample: Failed to load: data/sounds/bike.wav
+
+Loading sprites..............	Done!
+Loading level order..........	Command 'colorselect' not understood in level order!Command 'colorselect' not understood in level order!Done!
+Loading script settings......	Done!
+Loading scripts..............	Done!
+Loading models...............
+
+command rush not understood in data/models.txt, line 10
+Cacheing 'Flash' from data/chars/misc/flash/flash.txt
+Cacheing 'Block' from data/chars/misc/block/block.txt
+Cacheing 'blood' from data/chars/misc/blood/blood.txt
+Cacheing 'elec1' from data/chars/misc/elec1/elec1.txt
+Cacheing 'smoke1' from data/chars/misc/smoke1/smoke1.txt
+Cacheing 'objeto' from data/chars/boss01/objeto.txt
+Cacheing 'Skull_Rick' from data/chars/rick1/rick1.txt
+Cacheing 'Biggy_Man' from data/chars/boss01/boss01.txt
+Cacheing 'empty' from data/chars/misc/empty/empty.txt
+Cacheing '1up' from data/chars/misc/1up/1up.txt
+Cacheing 'Blue_Orb' from data/chars/misc/orb/orb1.txt
+Cacheing 'Red_Orb' from data/chars/misc/orb/orb2.txt
+Cacheing 'Magik_Book_Blue' from data/chars/misc/book/bookb.txt
+Cacheing 'Magik_Book_Green' from data/chars/misc/book/bookg.txt
+Cacheing 'Magik_Book_Red' from data/chars/misc/book/bookr.txt
+Cacheing 'Heart' from data/chars/misc/heart/heart.txt
+Cacheing 'Texto' from data/chars/Texto/Texto.txt
+Cacheing 'Blade_1' from data/chars/misc/trap1/trap1.txt
+Cacheing 'blade_2' from data/chars/misc/trap2/trap2.txt
+Cacheing 'Mummy' from data/chars/misc/rickf1/rickf1.txt
+Cacheing 'skeleton' from data/chars/misc/skel1/skel1.txt
+Cacheing 'Razor' from data/chars/misc/razor/razor.txt
+Cacheing 'Chair' from data/chars/misc/Chair/Chair.txt
+Cacheing 'Stone_Bat' from data/chars/misc/bat/bat.txt
+Cacheing 'spike1' from data/chars/misc/spike1.txt
+Cacheing 'spike1a' from data/chars/misc/spike1a.txt
+Cacheing 'spike2' from data/chars/misc/spike2.txt
+Cacheing 'Crystal' from data/chars/misc/Crystal/crystal.txt
+Cacheing 'stat' from data/chars/misc/stat/stat.txt
+Cacheing 'pile1' from data/chars/misc/pile1/pile1.txt
+Cacheing 'Evil_Hand' from data/chars/misc/hand/hand.txt
+Cacheing 'corpses_hands' from data/chars/misc/trap3/trap3.txt
+Cacheing 'corpses_hands_a' from data/chars/misc/trap3/trap3a.txt
+Cacheing 'corpses_hands_b' from data/chars/misc/trap3/trap3b.txt
+Cacheing 'charco1' from data/chars/misc/charco1/charco1.txt
+Cacheing 'charco2' from data/chars/misc/charco1/charco2.txt
+Cacheing 'worm_1' from data/chars/worm1/worm1.txt
+Cacheing 'Body_Eater' from data/chars/worm2/worm2.txt
+Cacheing 'Corpse_Eater' from data/chars/worm3/worm3.txt
+Cacheing 'Skull_Ghost' from data/chars/skullg/skullg.txt
+Cacheing 'Log' from data/chars/misc/log/log.txt
+Cacheing 'Unreal' from data/chars/misc/jen/jen.txt
+Cacheing 'Evil_Spirit' from data/chars/misc/ghost/ghost.txt
+Cacheing 'Hell_Fire' from data/chars/misc/fire1/fire1.txt
+Cacheing 'Hell_Fire_2' from data/chars/misc/fire2/fire2.txt
+Cacheing 'Spectre' from data/chars/misc/rickf2/rickf2.txt
+Cacheing 'Column' from data/chars/misc/col/col.txt
+Cacheing 'Storm' from data/chars/misc/storm/storm.txt
+Cacheing 'rain' from data/chars/misc/rain/rain.txt
+Cacheing 'rel3' from data/bgs/st6/rel3.txt
+Cacheing 'sign' from data/bgs/st6/sign.txt
+Cacheing 'ghostxx' from data/bgs/st6/ghostxx.txt
+Cacheing 'mozza' from data/chars/mozza/mozza.txt
+Cacheing 'Mutant_Jennifer' from data/chars/boss02/boss02.txt
+Cacheing 'Bellyache' from data/chars/boss03/boss03.txt
+Cacheing 'Fly' from data/chars/boss04/boss04.txt
+Cacheing 'Hell_Guardian' from data/chars/boss06/boss06.txt
+Cacheing 'Hellraiser' from data/chars/boss05/boss05.txt
+Cacheing 'Boreworm' from data/chars/boss07/boss07.txt
+Cacheing 'Embrio_Creature' from data/chars/boss08/boss08.txt
+Cacheing 'Evil_One' from data/chars/boss09/boss09.txt
+Cacheing 'The_Mask' from data/chars/boss10/boss10.txt
+Cacheing 'skel2' from data/chars/skel2/skel2.txt
+Cacheing 'fog' from data/chars/fog/fog.txt
+Cacheing 'Hell_Teddy' from data/chars/boss11/boss11.txt
+Cacheing 'Crystal_Boss' from data/chars/crystalb/crystalb.txt
+Cacheing 'Walker' from data/chars/zombi1/zombi1.txt
+Cacheing 'Large-headed_Demon' from data/chars/head1/head1.txt
+Cacheing 'Rotten_Zombie' from data/chars/zombi4/zombi4.txt
+Cacheing 'Screaming_Mimi' from data/chars/zombi6/zombi6.txt
+Cacheing 'Ghoul' from data/chars/zombi7/zombi7.txt
+Cacheing 'Born_Dead' from data/chars/zombi8/zombi8.txt
+Cacheing 'Dead_Ripper' from data/chars/zombi9/zombi9.txt
+Cacheing 'Dead_Man_Fat' from data/chars/zombi10/zombi10.txt
+Cacheing 'Headache' from data/chars/zombi11/zombi11.txt
+Cacheing 'Undress' from data/chars/zombi12/zombi12.txt
+Cacheing 'Hell_Hound' from data/chars/zombi13/zombi13.txt
+Cacheing 'Phantom' from data/chars/zombi14/zombi14.txt
+Cacheing 'Master_of_the_Deads' from data/chars/master/master.txt
+Cacheing 'Embryo' from data/chars/ball/ball.txt
+Cacheing 'Fire_Demon' from data/chars/fired/fired.txt
+Cacheing 'New_Born_Dead' from data/chars/baby/baby.txt
+Cacheing 'spider' from data/chars/spider/spider.txt
+Cacheing 'Hound_Zombi' from data/chars/dog/dog.txt
+Cacheing 'Hanging_Corpse' from data/chars/hang/hang.txt
+Cacheing 'Maiden_Specter' from data/chars/maiden/maiden.txt
+Cacheing 'Unholy_Cross' from data/chars/cross/cross.txt
+Cacheing 'Great_Horror' from data/chars/great/great.txt
+Cacheing 'Soul_Guardian' from data/chars/soul/soul.txt
+Cacheing 'Wall_Face' from data/chars/face/face.txt
+Cacheing 'Slime_Monster' from data/chars/slime/slime.txt
+Cacheing 'st21f' from data/bgs/st21/st21f.txt
+Cacheing 'rel1' from data/bgs/st21/rel1.txt
+Cacheing 'rel2' from data/bgs/st21/rel2.txt
+
+Loading 'Flash' from data/chars/misc/flash/flash.txt
+Loading 'Block' from data/chars/misc/block/block.txt
+Loading 'blood' from data/chars/misc/blood/blood.txt
+Loading 'elec1' from data/chars/misc/elec1/elec1.txt
+Loading 'smoke1' from data/chars/misc/smoke1/smoke1.txt
+Loading 'Skull_Rick' from data/chars/rick1/rick1.txt
+Loading 'objeto' from data/chars/boss01/objeto.txt
+Loading 'Biggy_Man' from data/chars/boss01/boss01.txt
+
+Loading models...............	Done!
+Object engine init...........	Done!
+Input init...................	Generic   USB  Joystick   - 4 axes, 12 buttons, 1 hat(s)
+Done!
+
+
+Level Loading:   'data/levels/st31.txt'
+Total Ram: 4257734656 Bytes
+ Free Ram: 1363001344 Bytes
+ Used Ram: 31125504 Bytes
+
+Loading 'Rain' from data/chars/misc/rain/rain.txt
+Loading 'zombi4' from data/chars/zombi4/zombi4.txt
+Loading 'Walker' from data/chars/zombi1/zombi1.txt
+Loading 'Slime_Monster' from data/chars/slime/slime.txt
+Loading 'Bellyache' from data/chars/boss03/boss03.txt
+
+Level Loaded:    'data/levels/st31.txt'
+Total Ram: 4257734656 Bytes
+ Free Ram: 1361391616 Bytes
+ Used Ram: 32264192 Bytes
+Total sprites mapped: 260
+
+Level Unloading: 'data/levels/st31.txt'
+Total Ram: 4257734656 Bytes
+ Free Ram: 1164677120 Bytes
+ Used Ram: 32886784 Bytes
+
+Done.
+Total Ram: 4257734656 Bytes
+ Free Ram: 1164677120 Bytes
+ Used Ram: 31920128 Bytes
+
+
+************ Shutting Down ************
+
+OpenBOR v3.0 Build 3742, Compile Date: Dec  7 2012
+Presented by Senile Team.
+This Version is unofficial and based on the Senile source code.
+
+Special thanks to SEGA and SNK.
+
+Total Ram: 4257734656 Bytes
+ Free Ram: 955879424 Bytes
+ Used Ram: 32088064 Bytes
+
+Release level data...........	Done!
+Release graphics data........	Done!
+Release game data............
+
+Unload 'Flash' ............done.
+Unload 'Block' ............done.
+Unload 'blood' ............done.
+Unload 'elec1' ............done.
+Unload 'smoke1' ............done.
+Unload 'Skull_Rick' ............done.
+Unload 'Biggy_Man' ............done.
+Unload 'objeto' ............done.
+Unload 'Rain' ............done.
+Unload 'zombi4' ............done.
+Unload 'Walker' ............done.
+Unload 'Slime_Monster' ............done.
+Unload 'Bellyache' ............done.
+
+Release game data............	Done!
+Release timer................	Done!
+Release input hardware.......	Done!
+Release sound system.........	Done!
+Release FileCaching System...	Done!
+
+**************** Done *****************
+
+OpenBOR v3.0 Build 3742, Compile Date: Dec  7 2012
+Presented by Senile Team.
+This Version is unofficial and based on the Senile source code.
+
+Special thanks to SEGA and SNK.
+

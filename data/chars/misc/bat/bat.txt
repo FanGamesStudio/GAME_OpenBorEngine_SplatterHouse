@@ -1,0 +1,28 @@
+name	Stone_Bat
+health  30
+type    obstacle
+shadow	0
+diesound  data/sounds/slide1.wav
+nodieblink    3
+noatflash 1
+nolife  1
+flash     block
+
+anim idle
+	loop	0
+	delay	5
+	offset	87 97
+	bbox    65 11 46 87
+	frame	data/chars/misc/bat/b1.gif
+
+	
+anim fall
+	loop	0
+	delay	12
+	offset	87 97
+	frame	data/chars/misc/bat/b2.gif
+	frame	data/chars/misc/bat/b3.gif
+	frame	data/chars/misc/bat/b4.gif
+
+
+	

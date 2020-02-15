@@ -1,0 +1,116 @@
+name	Undress
+health	100
+speed	7
+type	enemy
+shadow	4
+diesound data/sounds/zdie7.wav
+icon	data/chars/zombi12/icon.gif
+icondie    data/chars/zombi12/icond.gif
+nodieblink    2
+falldie       2
+aggression 1
+remap data/chars/zombi12/walk01.gif data/chars/zombi12/ALT1.gif
+remap data/chars/zombi12/walk01.gif data/chars/zombi12/ALT2.gif
+
+
+anim idle
+	delay	15
+	loop	1
+	offset	76 98
+	bbox	60 36 38 65
+	frame	data/chars/zombi12/walk01.gif
+
+
+
+
+anim walk
+	loop	1
+	delay	8
+	offset	76 98
+	bbox	60 36 38 65
+	frame	data/chars/zombi12/walk01.gif
+	frame	data/chars/zombi12/walk02.gif
+	frame	data/chars/zombi12/walk03.gif
+	frame	data/chars/zombi12/walk02.gif
+
+		
+
+anim attack1
+	loop	0
+	delay	6
+	bbox	60 31 39 68
+	offset	76 98
+	frame	data/chars/zombi12/hit01.gif
+	delay	10
+	attack	89 36 41 14 10 0
+	frame	data/chars/zombi12/hit02.gif
+	delay	6
+	frame	data/chars/zombi12/hit03.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/zombi12/hit01.gif
+
+
+
+anim grabbed
+	loop	0
+	delay	50
+	offset	76 98
+	bbox	60 36 38 65
+	frame	data/chars/zombi12/walk02.gif
+
+
+
+
+	
+anim pain
+	loop	0
+	offset	76 98
+	bbox	56 26 37 74
+	delay	10
+	frame	data/chars/zombi12/pain01.gif
+	bbox	60 39 46 61
+	frame	data/chars/zombi12/rise02.gif
+
+
+
+
+	
+anim fall
+	loop	0
+	offset	76 98
+	delay	15
+	bbox	56 26 37 74
+	attack	56 26 37 74 10 1
+	frame	data/chars/zombi12/pain01.gif
+	delay	20
+	bbox	0
+	attack	0
+	frame	data/chars/zombi12/fall01.gif
+	delay	20
+	frame	data/chars/zombi12/fall02.gif
+
+	
+	
+anim rise
+	loop	0
+	offset	76 98
+	delay	15
+	frame	data/chars/zombi12/rise01.gif
+	delay	8
+	frame	data/chars/zombi12/rise02.gif
+
+
+
+anim Death
+	loop 0
+	delay	10
+	offset	52 98
+	move	-24
+	sound	data/sounds/splat.wav
+	frame	data/chars/zombi12/death01.gif
+	move	0
+	frame	data/chars/zombi12/death02.gif
+	frame	data/chars/zombi12/death03.gif
+	frame	data/chars/zombi12/death04.gif
+	frame	data/chars/zombi12/death05.gif
+

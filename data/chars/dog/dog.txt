@@ -1,0 +1,140 @@
+name	Hound_Zombi
+health	100
+speed	7
+type	enemy
+subtype       notgrab
+shadow	3
+diesound data/sounds/zdie4.wav
+icon	data/chars/dog/icon.gif
+icondie    data/chars/dog/icond.gif
+nodieblink    3
+falldie       2
+aggression 10
+
+
+
+
+anim idle
+	delay	15
+	loop	1
+	offset	39 51
+	bbox	12 5 56 47
+	frame	data/chars/dog/stand01.gif
+
+
+
+
+anim walk
+	loop	1
+	delay	5
+	offset	39 51
+	bbox	8 5 56 47
+	frame	data/chars/dog/walk01.gif
+	frame	data/chars/dog/walk02.gif
+	frame	data/chars/dog/walk03.gif
+	frame	data/chars/dog/walk04.gif
+	frame	data/chars/dog/walk05.gif
+	frame	data/chars/dog/walk06.gif
+	frame	data/chars/dog/walk07.gif
+	frame	data/chars/dog/walk08.gif
+
+
+
+
+
+anim attack1
+	loop	0
+	delay	10
+	bbox	6 5 56 47
+	offset	39 51
+	frame	data/chars/dog/hit01.gif
+	delay	11
+	bbox	0 6 56 47
+	frame	data/chars/dog/hit02.gif
+	delay	11
+	frame	data/chars/dog/hit03.gif
+	sound	data/sounds/z13at.wav
+	delay	8
+	bbox	12 4 56 47
+	attack	36 17 30 29 15 1
+	frame	data/chars/dog/hit04.gif
+	delay	13
+	bbox	19 4 56 47
+	attack	36 17 39 36 15 1
+	frame	data/chars/dog/hit05.gif
+
+
+
+
+
+	
+anim pain
+	loop	0
+	offset	39 51
+	delay	15
+	frame	data/chars/dog/pain01.gif
+	delay	10
+	frame	data/chars/dog/pain02.gif
+	bbox	11 5 43 47
+	frame	data/chars/dog/pain03.gif
+
+
+
+anim fall
+	loop	0
+	delay	12
+	bbox	19 3 31 58
+	attack	19 3 31 58
+	offset	39 51
+	frame	data/chars/dog/fall01.gif
+	bbox	0
+	attack	0
+	frame	data/chars/dog/fall02.gif
+	frame	data/chars/dog/fall03.gif
+	frame	data/chars/dog/stand01.gif
+
+
+
+anim rise
+	delay	4
+	loop	0
+	offset	39 51
+	sound	data/sounds/z13at.wav
+	move    1
+	frame	data/chars/dog/stand01.gif
+	move    -1
+	frame	data/chars/dog/stand01.gif
+	move    1
+	frame	data/chars/dog/stand01.gif
+	move    -1
+	frame	data/chars/dog/stand01.gif
+	move    1
+	frame	data/chars/dog/stand01.gif
+	move    -1
+	frame	data/chars/dog/stand01.gif
+
+
+
+
+
+
+
+anim Death
+	loop 0
+	offset	39 51
+	delay	9
+	frame	data/chars/dog/death01.gif
+	frame	data/chars/dog/death02.gif
+	frame	data/chars/dog/death01.gif
+	frame	data/chars/dog/death02.gif
+	frame	data/chars/dog/death03.gif
+	sound	data/sounds/splat.wav
+	frame	data/chars/dog/death04.gif
+	delay	10
+	frame	data/chars/dog/death05.gif
+	frame	data/chars/dog/death06.gif
+	frame	data/chars/dog/death07.gif
+
+
+
+	

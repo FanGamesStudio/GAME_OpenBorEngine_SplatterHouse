@@ -1,0 +1,287 @@
+name	Hell_Teddy
+health	500
+speed	8
+type	enemy
+subtype       chase
+shadow	4
+icon	data/chars/boss11/icon.gif
+icondie    data/chars/boss11/icond.gif
+diesound data/sounds/b7die.wav
+nodieblink    3
+falldie       2
+noquake       0
+aggression 10
+
+
+
+
+anim idle
+	loop	1
+	offset	87 142
+	bbox	62 79 56 63
+	delay	60
+	frame	data/chars/boss11/walk01.gif
+	delay	15
+	bbox	64 92 51 49
+	frame	data/chars/boss11/down01.gif
+	frame	data/chars/boss11/down02.gif
+	frame	data/chars/boss11/down01.gif
+	frame	data/chars/boss11/down02.gif
+	delay	8
+	bbox	67 88 50 55
+	frame	data/chars/boss11/rise01.gif
+	bbox	68 78 40 65
+	frame	data/chars/boss11/walk03.gif
+	bbox	68 79 43 63
+	frame	data/chars/boss11/walk02.gif
+
+
+
+
+
+anim walk
+	loop	1
+	offset	87 142
+	bbox	62 79 56 63
+	delay	10
+	frame	data/chars/boss11/walk01.gif
+	bbox	68 79 43 63
+	frame	data/chars/boss11/walk02.gif
+	bbox	68 78 40 65
+	frame	data/chars/boss11/walk03.gif
+	bbox	68 79 43 63
+	frame	data/chars/boss11/walk02.gif
+
+
+
+anim pain
+	loop	0
+	offset	87 142
+	bbox	39 75 63 68
+	delay	8
+	frame	data/chars/boss11/pain01.gif
+	bbox	67 88 50 55
+	frame	data/chars/boss11/rise01.gif
+
+
+
+
+
+anim fall
+	loop	0
+	delay	10
+	offset	87 142
+	bbox	39 75 63 68
+	attack	39 75 63 68 15 1
+	frame	data/chars/boss11/pain01.gif
+	delay	5
+	attack	43 75 66 59 15 1
+	frame	data/chars/boss11/fall01.gif
+	delay	15
+	bbox	0
+	frame	data/chars/boss11/fall01.gif
+	delay	15
+	attack	32 102 67 46 15 1
+	frame	data/chars/boss11/fall02.gif
+
+
+
+
+anim rise
+	loop	0
+	offset	87 142
+	delay	8
+	frame	data/chars/boss11/rise01.gif
+	frame	data/chars/boss11/walk03.gif
+	frame	data/chars/boss11/walk02.gif
+
+
+
+
+anim grabbed
+	loop	0
+	offset	87 142
+	bbox	62 79 56 63
+	delay	50
+	frame	data/chars/boss11/walk03.gif
+
+
+anim attack1
+	loop	0
+	delay	4
+	offset	87 142
+	bbox	65 80 40 61
+        hitflash    flash
+	hitfx   data/sounds/cut3.wav
+	frame	data/chars/boss11/hit01.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss11/hit02.gif
+	frame	data/chars/boss11/hit03.gif
+	sound	data/sounds/blade.wav
+	frame	data/chars/boss11/hit04.gif
+	frame	data/chars/boss11/hit05.gif
+	delay	6
+	bbox	52 80 50 62
+	frame	data/chars/boss11/hit06.gif
+	delay	2
+	bbox	62 86 36 55
+	frame	data/chars/boss11/hit08.gif
+	delay	12
+	attack	88 82 71 32 15 0
+	frame	data/chars/boss11/hit09.gif
+	delay	4
+	bbox	65 80 40 61
+	frame	data/chars/boss11/hit10.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/boss11/hit02.gif
+	frame	data/chars/boss11/hit01.gif
+
+
+
+
+
+
+
+
+anim attack2
+	loop	0
+	delay	6
+	offset	87 142
+	bbox	65 80 40 61
+	frame	data/chars/boss11/hit01.gif
+	frame	data/chars/boss11/hit02.gif
+	frame	data/chars/boss11/hit05.gif
+	bbox	65 80 40 61
+	sound	data/sounds/b11l.wav
+	frame	data/chars/boss11/hit10.gif
+	frame	data/chars/boss11/hit11.gif
+	delay	7
+        move    14
+	bbox	72 72 31 54
+	attack	87 71 27 56 15 1
+	sound	data/sounds/z13at.wav
+	frame	data/chars/boss11/hit12.gif
+	sound	data/sounds/step1.wav
+	frame	data/chars/boss11/hit13.gif
+	frame	data/chars/boss11/hit12.gif
+	sound	data/sounds/step2.wav
+	frame	data/chars/boss11/hit14.gif
+	frame	data/chars/boss11/hit12.gif
+	sound	data/sounds/step1.wav
+	frame	data/chars/boss11/hit13.gif
+	frame	data/chars/boss11/hit12.gif
+	sound	data/sounds/step2.wav
+	frame	data/chars/boss11/hit14.gif
+	frame	data/chars/boss11/hit12.gif
+	sound	data/sounds/step1.wav
+	frame	data/chars/boss11/hit13.gif
+	frame	data/chars/boss11/hit12.gif
+	sound	data/sounds/step2.wav
+	frame	data/chars/boss11/hit14.gif
+	delay	6
+        move    10
+	bbox	65 80 40 61
+	frame	data/chars/boss11/hit11.gif
+	frame	data/chars/boss11/hit10.gif
+	bbox	65 80 40 61
+	attack	0 0 0 0 0 0
+        move    6
+	frame	data/chars/boss11/hit02.gif
+	frame	data/chars/boss11/hit01.gif
+	frame	data/chars/boss11/walk02.gif
+
+
+
+
+anim spawn
+	loop	0
+	offset	87 142
+	delay	15
+	sound	data/sounds/b11l.wav
+	frame	data/chars/boss11/spawn02.gif
+	frame	data/chars/boss11/spawn01.gif
+	frame	data/chars/boss11/spawn02.gif
+	frame	data/chars/boss11/spawn01.gif
+	delay	8
+	frame	data/chars/boss11/hit02.gif
+	frame	data/chars/boss11/hit01.gif
+
+
+
+
+anim Death
+	loop 0
+	offset	87 142
+	delay	12
+	frame	data/chars/boss11/hit01.gif
+	frame	data/chars/boss11/hit02.gif
+	frame	data/chars/boss11/death01.gif
+	delay	13
+	sound	data/sounds/expl1.wav
+	frame	data/chars/boss11/death02.gif
+	frame	data/chars/boss11/death03.gif
+	sound	data/sounds/splat.wav
+	frame	data/chars/boss11/death04.gif
+	frame	data/chars/boss11/death05.gif
+	sound	data/sounds/ghost.wav
+	frame	data/chars/boss11/death06.gif
+	frame	data/chars/boss11/death07.gif
+	frame	data/chars/boss11/death08.gif
+	frame	data/chars/boss11/death09.gif
+	frame	data/chars/boss11/death10.gif
+	frame	data/chars/boss11/death11.gif
+	frame	data/chars/boss11/death12.gif
+	frame	data/chars/boss11/death13.gif
+
+
+anim upper
+	loop	0
+	offset	87 142
+	delay	7
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss11/hit02.gif
+	frame	data/chars/boss11/hit11.gif
+	attack	76 48 53 52 15 1
+	sound	data/sounds/whip.wav
+	frame	data/chars/boss11/upat1.gif
+	attack	80 24 68 67 15 1
+	frame	data/chars/boss11/upat2.gif
+	attack	66 3 66 74 15 1
+	frame	data/chars/boss11/upat3.gif
+	attack	0
+	frame	data/chars/boss11/upat4.gif
+	frame	data/chars/boss11/upat5.gif
+	frame	data/chars/boss11/hit10.gif
+	frame	data/chars/boss11/hit11.gif
+	frame	data/chars/boss11/hit02.gif
+
+
+
+anim riseattack
+	loop	0
+	delay	4
+	offset	87 142
+	hitfx   data/sounds/cut3.wav
+	frame	data/chars/boss11/hit01.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss11/hit02.gif
+	frame	data/chars/boss11/hit03.gif
+	sound	data/sounds/blade.wav
+	frame	data/chars/boss11/hit04.gif
+	frame	data/chars/boss11/hit05.gif
+	delay	6
+	bbox	52 80 50 62
+	frame	data/chars/boss11/hit06.gif
+	delay	2
+	bbox	62 86 36 55
+	frame	data/chars/boss11/hit08.gif
+	delay	12
+	attack	88 82 71 32 15 0
+	frame	data/chars/boss11/hit09.gif
+	delay	4
+	bbox	65 80 40 61
+	frame	data/chars/boss11/hit10.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/boss11/hit02.gif
+	frame	data/chars/boss11/hit01.gif
+

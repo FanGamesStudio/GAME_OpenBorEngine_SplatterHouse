@@ -1,0 +1,29 @@
+name	stat
+health  30
+type    obstacle
+shadow	0
+diesound  data/sounds/slide1.wav
+nodieblink    3
+noatflash 1
+nolife  1
+flash     block
+
+anim idle
+	loop	0
+	delay	5
+	offset	18 84
+	bbox    4 5 32 80
+	frame	data/chars/misc/stat/stat1.gif
+
+	
+anim fall
+	loop	0
+	delay	10
+	offset	18 84
+	frame	data/chars/misc/stat/stat2.gif
+	frame	data/chars/misc/stat/stat3.gif
+	frame	data/chars/misc/stat/stat4.gif
+	frame	data/chars/misc/stat/stat5.gif
+
+
+

@@ -1,0 +1,22 @@
+name	blade_2
+type	trap
+
+
+anim idle
+	loop	1
+	delay	100
+	offset	10 95
+	hitfx   data/sounds/cut3.wav
+	frame	data/chars/misc/trap2/t1.gif
+	delay	5
+	attack  16 25 7 56 15 1
+	frame	data/chars/misc/trap2/t2.gif
+	delay	25
+	attack  8 9 23 88 15 1
+	frame	data/chars/misc/trap2/t3.gif
+	delay	5
+	attack  9 34 21 63 15 1
+	frame	data/chars/misc/trap2/t4.gif
+	delay	8
+	frame	data/chars/misc/trap2/t5.gif
+

@@ -1,0 +1,122 @@
+name	Dead_Man_Fat
+health	130
+speed	7
+type	enemy
+shadow	4
+diesound data/sounds/zdie4.wav
+icon	data/chars/zombi10/icon.gif
+icondie    data/chars/zombi10/icond.gif
+nodieblink    2
+falldie       2
+aggression 1
+remap data/chars/zombi10/walk01.gif data/chars/zombi10/ALT1.gif
+remap data/chars/zombi10/walk01.gif data/chars/zombi10/ALT2.gif
+
+
+
+anim idle
+	delay	15
+	loop	1
+	offset	62 82
+	bbox	41 21 43 65
+	frame	data/chars/zombi10/walk01.gif
+
+
+
+
+anim walk
+	loop	1
+	delay	13
+	offset	62 82
+	bbox	41 21 43 65
+	frame	data/chars/zombi10/walk01.gif
+	frame	data/chars/zombi10/walk02.gif
+	frame	data/chars/zombi10/walk03.gif
+	frame	data/chars/zombi10/walk02.gif
+
+		
+
+anim attack1
+	loop	0
+	delay	8
+	offset	62 82
+	bbox	41 21 43 65
+	attack	57 23 36 37 7 1
+        move    10
+	sound	data/sounds/fatat1.wav
+	frame	data/chars/zombi10/hit01.gif
+	delay	15
+	attack	61 17 46 44 7 1
+        move    8
+	frame	data/chars/zombi10/hit02.gif
+	delay	8
+	attack	57 23 36 37 7 1
+        move    6
+	frame	data/chars/zombi10/hit01.gif
+
+
+
+	
+anim pain
+	loop	0
+	bbox	41 21 43 65
+	offset	62 82
+	delay	12
+	frame	data/chars/zombi10/rise01.gif
+	frame	data/chars/zombi10/pain01.gif
+
+
+
+anim grabbed
+	loop	0
+	delay	50
+	bbox	41 21 43 65
+	offset	62 82
+	frame	data/chars/zombi10/hit01.gif
+
+
+	
+anim fall
+	loop	0
+	bbox	41 21 43 65
+	offset	62 82
+	delay	8
+	attack	41 21 43 65 5 1
+	frame	data/chars/zombi10/pain01.gif
+	delay	8
+	bbox	25 21 65 55
+	attack	25 21 65 55 5 1
+	frame	data/chars/zombi10/fall01.gif
+	delay	12
+	bbox	0
+	attack	0
+	frame	data/chars/zombi10/fall01.gif
+	delay	20
+	frame	data/chars/zombi10/fall02.gif
+
+
+	
+	
+anim rise
+	loop	0
+	offset	62 82
+	delay	13
+	frame	data/chars/zombi10/rise01.gif
+	frame	data/chars/zombi10/pain01.gif
+
+
+
+anim Death
+	loop 0
+	offset	48 82
+	delay	12
+	move	-14
+	sound	data/sounds/z10die.wav
+	sound	data/sounds/splat.wav
+	frame	data/chars/zombi10/death01.gif
+	move	0
+	frame	data/chars/zombi10/death02.gif
+	frame	data/chars/zombi10/death03.gif
+	frame	data/chars/zombi10/death04.gif
+
+	

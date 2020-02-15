@@ -1,0 +1,105 @@
+name	Evil_Spirit
+type	trap
+
+
+anim idle
+	loop	1
+	delay	2
+	offset	50 242
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/ghost/g1.gif
+	frame	data/chars/misc/empty/empty.gif
+	delay	12
+	attack  27 219 45 23 15 1
+	frame	data/chars/misc/ghost/g2.gif
+	delay	10
+	attack  37 202 45 40 15 1
+	frame	data/chars/misc/ghost/g3.gif
+	delay	8
+	attack  27 182 53 61 15 1
+	frame	data/chars/misc/ghost/g4.gif
+	delay	6
+	attack  27 122 53 95 15 1
+	frame	data/chars/misc/ghost/g5.gif
+	attack  27 72 53 95 15 1
+	frame	data/chars/misc/ghost/g6.gif
+	attack  27 2 53 95 15 1
+	frame	data/chars/misc/ghost/g7.gif
+

@@ -1,0 +1,21 @@
+name	Log
+type	trap
+
+
+
+anim idle
+	loop	1
+	delay	8
+	offset	55 61
+        hitflash    smoke1
+	hitfx   data/sounds/burn1.wav
+	move	4
+	attack  23 18 57 57 15 1
+	frame	data/chars/misc/log/01.gif
+	attack  20 18 56 57 15 1
+	frame	data/chars/misc/log/02.gif
+	attack  20 18 56 57 15 1
+	frame	data/chars/misc/log/03.gif
+
+
+

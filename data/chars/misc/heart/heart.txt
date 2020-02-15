@@ -1,0 +1,15 @@
+name	heart
+health	100
+type	item
+nolife  1
+shadow	0
+
+anim idle
+	loop	1
+	offset	8 15
+	bbox	0 0 16 16
+	delay   30
+	frame	data/chars/misc/heart/heart1.gif
+	delay   10
+	frame	data/chars/misc/heart/heart2.gif
+

@@ -1,0 +1,148 @@
+name	Master_of_the_Deads
+health	100
+speed	6
+type	enemy
+shadow	2
+diesound data/sounds/ghost.wav
+icon	data/chars/master/icon.gif
+icondie    data/chars/master/icond.gif
+nodieblink    2
+falldie       2
+aggression 3
+
+
+
+anim idle
+	loop	1
+	offset	71 102
+	delay	6
+	bbox	57 27 27 64
+	frame	data/chars/master/walk01.gif
+	delay	7
+	frame	data/chars/master/stand01.gif
+	delay	8
+	frame	data/chars/master/stand02.gif
+	delay	9
+	frame	data/chars/master/stand03.gif
+	delay	8
+	frame	data/chars/master/stand02.gif
+	delay	7
+	frame	data/chars/master/stand01.gif
+
+
+
+
+
+anim walk
+	loop	1
+	delay	6
+	offset	71 102
+	bbox	57 27 27 64
+	frame	data/chars/master/walk01.gif
+	frame	data/chars/master/walk02.gif
+	frame	data/chars/master/walk03.gif
+
+
+
+
+		
+
+anim attack1
+	loop	0
+	delay	6
+	offset	71 102
+	bbox	85 46 32 68
+	sound	data/sounds/flasha.wav
+	frame	data/chars/master/hit01.gif
+	frame	data/chars/master/hit02.gif
+	sound	data/sounds/ghost.wav
+	frame	data/chars/master/hit03.gif
+	bbox	0
+	attack	69 44 27 29 10 0
+	frame	data/chars/master/hit04.gif
+	attack	82 45 23 25 10 0
+	frame	data/chars/master/hit05.gif
+	attack	102 45 23 25 10 0
+	frame	data/chars/master/hit06.gif
+	attack	120 44 31 27 10 0
+	frame	data/chars/master/hit07.gif
+	sound	data/sounds/water1.wav
+	attack	135 44 31 28 10 0
+	frame	data/chars/master/hit08.gif
+	attack	140 44 31 28 10 0
+	frame	data/chars/master/hit09.gif
+	attack	147 44 31 28 10 0
+	frame	data/chars/master/hit10.gif
+
+
+
+
+anim grabbed
+	loop	0
+	offset	71 102
+	bbox	55 28 31 59
+	delay	50
+	frame	data/chars/master/hit01.gif
+
+
+	
+anim pain
+	loop	0
+	offset	71 102
+	bbox	55 28 31 59
+	delay	5
+	frame	data/chars/master/pain01.gif
+	frame	data/chars/master/pain02.gif
+	frame	data/chars/master/pain01.gif
+	frame	data/chars/master/pain02.gif
+
+
+
+	
+anim fall
+	loop	0
+	offset	71 102
+	delay	15
+	bbox	55 28 31 59
+	attack	55 28 31 59 10 1
+	frame	data/chars/master/pain01.gif
+	delay	15
+	bbox	0
+	attack	0
+	frame	data/chars/master/fall01.gif
+	delay	15
+	frame	data/chars/master/fall02.gif
+
+	
+	
+anim rise
+	loop	0
+	offset	71 102
+	delay	8
+	frame	data/chars/master/rise01.gif
+	frame	data/chars/master/stand03.gif
+	frame	data/chars/master/stand02.gif
+	frame	data/chars/master/stand01.gif
+
+
+
+anim Death
+	loop 0
+	delay	12
+	offset	71 102
+	delay	8
+	frame	data/chars/master/rise01.gif
+	frame	data/chars/master/stand03.gif
+	frame	data/chars/master/stand02.gif
+	frame	data/chars/master/stand01.gif
+	sound	data/sounds/burn1.wav
+	frame	data/chars/master/death01.gif
+	frame	data/chars/master/death02.gif
+	frame	data/chars/master/death03.gif
+	frame	data/chars/master/death04.gif
+	frame	data/chars/master/death05.gif
+	frame	data/chars/master/death06.gif
+	frame	data/chars/master/death07.gif
+	frame	data/chars/master/death08.gif
+
+

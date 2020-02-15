@@ -1,0 +1,152 @@
+name	Fire_Demon
+health	150
+speed	7
+type	enemy
+shadow	3
+diesound data/sounds/zdie3.wav
+icon	data/chars/fired/icon.gif
+icondie    data/chars/fired/icond.gif
+nodieblink    2
+falldie       2
+noquake       0
+
+
+anim idle
+	delay	6
+	loop	1
+	offset	42 134
+	bbox	17 65 54 70
+	frame	data/chars/fired/stand01.gif
+	frame	data/chars/fired/stand02.gif
+	frame	data/chars/fired/stand03.gif
+
+
+
+
+
+anim grabbed
+	delay	6
+	loop	1
+	offset	42 134
+	bbox	17 65 54 70
+	frame	data/chars/fired/stand01.gif
+	frame	data/chars/fired/stand02.gif
+	frame	data/chars/fired/stand03.gif
+
+
+
+
+
+anim walk
+	loop	1
+	delay	12
+	offset	42 134
+	bbox	17 65 46 70
+	frame	data/chars/fired/walk01.gif
+	bbox	17 68 63 63
+	delay	8
+	frame	data/chars/fired/walk02.gif
+	bbox	18 61 62 63
+	frame	data/chars/fired/walk03.gif
+	bbox	22 58 51 64
+	frame	data/chars/fired/walk04.gif
+	bbox	22 66 51 64
+	frame	data/chars/fired/walk05.gif
+
+
+
+
+
+anim attack1
+	loop	0
+	delay	10
+	bbox	5 71 51 64
+	offset	42 134
+	hitfx   data/sounds/burn1.wav
+        hitflash    smoke1
+	sound   data/sounds/burn1.wav
+	frame	data/chars/fired/hit01.gif
+	delay	8
+	bbox	17 71 51 64
+	attack	71 82 32 56 15 1
+	frame	data/chars/fired/hit02.gif
+	frame	data/chars/fired/hit03.gif
+	frame	data/chars/fired/hit04.gif
+	sound   data/sounds/burn1.wav
+	attack	104 82 32 56 15 1
+	frame	data/chars/fired/hit05.gif
+	frame	data/chars/fired/hit06.gif
+	frame	data/chars/fired/hit07.gif
+	sound   data/sounds/burn1.wav
+	attack	137 83 32 55 15 1
+	frame	data/chars/fired/hit08.gif
+	frame	data/chars/fired/hit09.gif
+	frame	data/chars/fired/hit10.gif
+
+
+
+
+
+	
+anim pain
+	loop	0
+	offset	42 134
+	delay	12
+	bbox	11 70 51 65
+	frame	data/chars/fired/pain01.gif
+	bbox	17 65 46 70
+	frame	data/chars/fired/pain02.gif
+
+
+
+anim fall
+	loop	0
+	offset	42 134
+	delay	12
+	bbox	11 70 51 65
+	frame	data/chars/fired/pain01.gif
+	bbox	0
+	frame	data/chars/fired/fall01.gif
+	frame	data/chars/fired/fall02.gif
+	frame	data/chars/fired/fall03.gif
+	frame	data/chars/fired/pain01.gif
+	frame	data/chars/fired/fall01.gif
+	frame	data/chars/fired/fall04.gif
+
+
+
+
+anim rise
+	loop	0
+	offset	42 134
+	delay	12
+	frame	data/chars/fired/pain01.gif
+	frame	data/chars/fired/hit01.gif
+
+
+
+
+
+anim Death
+	loop 0
+	offset	42 134
+	delay	10
+	sound   data/sounds/burn1.wav
+	frame	data/chars/fired/death01.gif
+	frame	data/chars/fired/death02.gif
+	frame	data/chars/fired/death01.gif
+	frame	data/chars/fired/death02.gif
+	frame	data/chars/fired/death03.gif
+	frame	data/chars/fired/death04.gif
+	frame	data/chars/fired/death03.gif
+	frame	data/chars/fired/death04.gif
+	sound   data/sounds/burn1.wav
+	frame	data/chars/fired/death05.gif
+	frame	data/chars/fired/death06.gif
+	frame	data/chars/fired/death05.gif
+	frame	data/chars/fired/death06.gif
+	frame	data/chars/fired/death05.gif
+
+
+
+	

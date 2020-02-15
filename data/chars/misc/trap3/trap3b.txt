@@ -1,0 +1,35 @@
+name	corpses_hands_b
+type	trap
+
+
+anim idle
+	loop	1
+	delay	8
+	offset	48 88
+        hitflash    blood
+	hitfx   data/sounds/cut3.wav
+	frame	data/chars/misc/trap3/1.gif
+	frame	data/chars/misc/trap3/2.gif
+	frame	data/chars/misc/trap3/3.gif
+	frame	data/chars/misc/trap3/4.gif
+	attack  15 63 28 26 15 1
+	frame	data/chars/misc/trap3/5.gif
+	attack  18 42 29 26 15 1
+	frame	data/chars/misc/trap3/6.gif
+	attack  23 24 29 26 15 1
+	frame	data/chars/misc/trap3/7.gif
+	attack  34 15 29 26 15 1
+	frame	data/chars/misc/trap3/8.gif
+	attack  41 22 29 26 1
+	frame	data/chars/misc/trap3/9.gif
+	attack  48 34 29 26 15 1
+	frame	data/chars/misc/trap3/10.gif
+	attack  54 54 29 26 15 1
+	frame	data/chars/misc/trap3/11.gif
+	attack  0
+	frame	data/chars/misc/trap3/12.gif
+	frame	data/chars/misc/trap3/13.gif
+	delay	15
+	frame	data/chars/misc/trap3/14.gif
+
+

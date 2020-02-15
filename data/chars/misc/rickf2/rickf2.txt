@@ -1,0 +1,27 @@
+name	Spectre
+health  50
+type    obstacle
+shadow	0
+diesound  data/sounds/ghost.wav
+noatflash 1
+nolife  1
+flash     block
+
+anim idle
+	loop	0
+	delay	5
+	offset	24 73
+	bbox    13 5 26 69
+	frame	data/chars/misc/rickf2/rf1.gif
+	
+anim fall
+	loop	0
+	delay	8
+	offset	24 73
+	frame	data/chars/misc/rickf2/rf2.gif
+	frame	data/chars/misc/rickf2/rf3.gif
+	frame	data/chars/misc/rickf2/rf4.gif
+	frame	data/chars/misc/rickf2/rf5.gif
+	frame	data/chars/misc/rickf2/rf6.gif
+
+	

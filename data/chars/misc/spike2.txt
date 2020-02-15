@@ -1,0 +1,12 @@
+name	spike2
+type	none
+shadow	0
+alpha   0
+
+anim idle
+	 loop      0
+	 delay     1
+	 offset    0 68
+	 frame     data/chars/misc/spike2.gif
+
+

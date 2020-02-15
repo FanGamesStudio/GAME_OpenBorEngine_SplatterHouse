@@ -1,0 +1,250 @@
+name	Heart_of_Darkness
+health	600
+speed	6
+type	enemy
+shadow	6
+icon	data/chars/heart/icon.gif
+icondie    data/chars/heart/icond.gif
+diesound data/sounds/heartd.wav
+nodieblink    3
+falldie       2
+noquake       0
+aggression 10
+
+
+
+
+anim idle
+	loop	1
+	offset	64 166
+	bbox	32 21 69 156
+	delay	10
+	frame	data/chars/heart/stand01.gif
+	frame	data/chars/heart/stand02.gif
+	frame	data/chars/heart/stand03.gif
+	frame	data/chars/heart/stand02.gif
+	delay	30
+	frame	data/chars/heart/stand01.gif
+
+
+
+
+
+anim walk
+	loop	1
+	offset	64 166
+	bbox	32 21 69 156
+	delay	3
+	sound	data/sounds/heartw.wav
+	frame	data/chars/heart/walk01.gif
+	frame	data/chars/heart/walk02.gif
+	frame	data/chars/heart/walk03.gif
+
+
+
+
+
+anim pain
+	loop	0
+	offset	64 166
+	bbox	32 21 69 156
+	delay	6
+	frame	data/chars/heart/pain01.gif
+	frame	data/chars/heart/stand03.gif
+	frame	data/chars/heart/pain01.gif
+	frame	data/chars/heart/stand03.gif
+	frame	data/chars/heart/pain01.gif
+	frame	data/chars/heart/stand03.gif
+	frame	data/chars/heart/stand02.gif
+
+
+
+
+
+anim grabbed
+	loop	0
+	offset	64 166
+	bbox	32 21 69 156
+	delay	50
+	frame	data/chars/heart/stand02.gif
+
+
+
+
+
+anim fall
+	loop	0
+	delay	5
+	offset	64 166
+	bbox	32 21 69 156
+	attack	55 34 52 101 5 1
+	frame	data/chars/heart/pain01.gif
+	frame	data/chars/heart/stand03.gif
+	attack	0
+	bbox	0
+	frame	data/chars/heart/pain01.gif
+	frame	data/chars/heart/stand03.gif
+	frame	data/chars/heart/pain01.gif
+	frame	data/chars/heart/stand03.gif
+	frame	data/chars/heart/pain01.gif
+	frame	data/chars/heart/stand03.gif
+	frame	data/chars/heart/pain01.gif
+	frame	data/chars/heart/stand03.gif
+	frame	data/chars/heart/pain01.gif
+	frame	data/chars/heart/stand03.gif
+
+
+
+
+
+anim rise
+	loop	0
+	offset	64 166
+	delay	5
+	frame	data/chars/heart/stand02.gif
+
+
+
+
+
+anim attack1
+	loop	0
+	delay	7
+	offset	64 166
+	bbox	32 21 69 156
+	frame	data/chars/heart/stand02.gif
+	frame	data/chars/heart/stand03.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/heart/hit01.gif
+	sound	data/sounds/ghost.wav
+	bbox	0
+	attack	107 103 24 21 15 1
+	frame	data/chars/heart/hit02.gif
+	attack	112 78 58 55 15 1
+	frame	data/chars/heart/hit03.gif
+	attack	137 64 61 57 15 1
+	frame	data/chars/heart/hit04.gif
+	attack	166 69 56 48 15 1
+	frame	data/chars/heart/hit05.gif
+	attack	189 69 61 55 15 1
+	frame	data/chars/heart/hit06.gif
+	attack	211 74 62 58 15 1
+	frame	data/chars/heart/hit07.gif
+	attack	233 90 56 58 15 1
+	frame	data/chars/heart/hit08.gif
+	attack	251 96 55 53 15 1
+	frame	data/chars/heart/hit09.gif
+	attack	0
+	frame	data/chars/heart/hit10.gif
+	frame	data/chars/heart/hit11.gif
+
+
+
+
+
+
+
+anim attack2
+	loop	0
+	delay	4
+	offset	64 166
+        hitflash    elec1
+	frame	data/chars/heart/elec01.gif
+	frame	data/chars/heart/stand01.gif
+	attack	32 21 69 156 10 1
+	sound	data/sounds/elec1.wav
+	frame	data/chars/heart/elec01.gif
+	frame	data/chars/heart/elec02.gif
+	frame	data/chars/heart/elec01.gif
+	frame	data/chars/heart/elec03.gif
+	frame	data/chars/heart/elec01.gif
+	frame	data/chars/heart/elec04.gif
+	frame	data/chars/heart/elec01.gif
+	frame	data/chars/heart/elec02.gif
+	frame	data/chars/heart/elec01.gif
+	frame	data/chars/heart/elec03.gif
+	frame	data/chars/heart/elec01.gif
+	frame	data/chars/heart/elec04.gif
+
+
+
+anim riseattack
+	loop	0
+	delay	4
+	offset	64 166
+        hitflash    elec1
+	frame	data/chars/heart/elec01.gif
+	frame	data/chars/heart/stand01.gif
+	attack	32 21 69 156 10 1
+	sound	data/sounds/elec1.wav
+	frame	data/chars/heart/elec01.gif
+	frame	data/chars/heart/elec02.gif
+	frame	data/chars/heart/elec01.gif
+	frame	data/chars/heart/elec03.gif
+	frame	data/chars/heart/elec01.gif
+	frame	data/chars/heart/elec04.gif
+	frame	data/chars/heart/elec01.gif
+	frame	data/chars/heart/elec02.gif
+	frame	data/chars/heart/elec01.gif
+	frame	data/chars/heart/elec03.gif
+	frame	data/chars/heart/elec01.gif
+	frame	data/chars/heart/elec04.gif
+
+
+
+anim upper
+	loop	0
+	delay	4
+	offset	64 166
+        hitflash    elec1
+	frame	data/chars/heart/elec01.gif
+	frame	data/chars/heart/stand01.gif
+	attack	32 21 69 156 10 1
+	sound	data/sounds/elec1.wav
+	frame	data/chars/heart/elec01.gif
+	frame	data/chars/heart/elec02.gif
+	frame	data/chars/heart/elec01.gif
+	frame	data/chars/heart/elec03.gif
+	frame	data/chars/heart/elec01.gif
+	frame	data/chars/heart/elec04.gif
+	frame	data/chars/heart/elec01.gif
+	frame	data/chars/heart/elec02.gif
+	frame	data/chars/heart/elec01.gif
+	frame	data/chars/heart/elec03.gif
+	frame	data/chars/heart/elec01.gif
+	frame	data/chars/heart/elec04.gif
+
+
+
+
+
+anim Death
+	loop 0
+	delay	8
+	offset	64 166
+	delay	10
+	frame	data/chars/heart/stand02.gif
+	frame	data/chars/heart/stand03.gif
+	frame	data/chars/heart/death01.gif
+	frame	data/chars/heart/stand03.gif
+	frame	data/chars/heart/stand02.gif
+	frame	data/chars/heart/stand03.gif
+	frame	data/chars/heart/death01.gif
+	frame	data/chars/heart/stand03.gif
+	frame	data/chars/heart/death01.gif
+	frame	data/chars/heart/death02.gif
+	sound	data/sounds/expl1.wav
+	frame	data/chars/heart/death03.gif
+	sound	data/sounds/splat.wav
+	frame	data/chars/heart/death04.gif
+	frame	data/chars/heart/death05.gif
+	frame	data/chars/heart/death06.gif
+	frame	data/chars/heart/death07.gif
+	frame	data/chars/heart/death08.gif
+	frame	data/chars/heart/death09.gif
+	delay	30
+	frame	data/chars/heart/death10.gif
+
+
+
+

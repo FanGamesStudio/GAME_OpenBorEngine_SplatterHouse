@@ -1,0 +1,26 @@
+name	skeleton
+health  1
+type    obstacle
+shadow	1
+diesound  data/sounds/slide1.wav
+nodieblink    3
+noatflash 1
+nolife  1
+flash     block
+
+anim idle
+	loop	0
+	delay	5
+	offset	37 66
+	bbox    28 8 26 59
+	frame	data/chars/misc/skel1/sk1.gif
+
+	
+anim fall
+	loop	0
+	delay	15
+	offset	37 66
+	frame	data/chars/misc/skel1/sk2.gif
+	frame	data/chars/misc/skel1/sk3.gif
+	frame	data/chars/misc/skel1/sk4.gif
+	

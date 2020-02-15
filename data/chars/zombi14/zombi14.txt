@@ -1,0 +1,177 @@
+name	Phantom
+health	100
+speed	6
+type	enemy
+shadow	3
+diesound data/sounds/die1.wav
+icon	data/chars/zombi14/icon.gif
+icondie    data/chars/zombi14/icond.gif
+nodieblink    2
+falldie       2
+aggression 2
+
+
+
+anim idle
+	delay	5
+	loop	1
+	offset	100 125
+	bbox	85 49 32 73
+	frame	data/chars/zombi14/stand01.gif
+	delay	6
+	bbox	85 45 32 73
+	frame	data/chars/zombi14/stand02.gif
+	delay	7
+	bbox	85 44 32 73
+	frame	data/chars/zombi14/stand03.gif
+	delay	8
+	bbox	85 43 32 73
+	frame	data/chars/zombi14/stand04.gif
+	delay	7
+	bbox	85 44 32 73
+	frame	data/chars/zombi14/stand03.gif
+	delay	6
+	bbox	85 45 32 73
+	frame	data/chars/zombi14/stand02.gif
+
+
+
+
+
+anim walk
+	loop	1
+	delay	2
+	offset	100 125
+	bbox	85 49 32 73
+	frame	data/chars/zombi14/walk01.gif
+	frame	data/chars/zombi14/walk02.gif
+
+		
+
+anim attack1
+	loop	0
+	delay	6
+	bbox	85 46 32 68
+	offset	100 125
+        hitflash    blood
+	attack	106 63 30 25 13 1
+	sound	data/sounds/flasha.wav
+	frame	data/chars/zombi14/hit01.gif
+	delay	8
+	attack	107 32 53 57 13 1
+	sound	data/sounds/cut2.wav
+	frame	data/chars/zombi14/hit02.gif
+	delay	10
+	attack	107 69 61 58 13 1
+	frame	data/chars/zombi14/hit03.gif
+	delay	8
+	frame	data/chars/zombi14/hit04.gif
+
+
+
+
+
+anim attack2
+	loop	0
+	delay	6
+	bbox	85 49 32 73
+	offset	100 125
+	sound	data/sounds/ghost.wav
+	frame	data/chars/zombi14/hit05.gif
+	frame	data/chars/zombi14/hit06.gif
+	frame	data/chars/zombi14/hit07.gif
+	bbox	0 0 0 0
+	frame	data/chars/zombi14/hit08.gif
+	delay	4
+	attack	100 52 23 20 10 1
+	sound	data/sounds/splat1.wav
+	frame	data/chars/zombi14/hit09.gif
+	attack	105 55 49 22 20 1
+	frame	data/chars/zombi14/hit11.gif
+	delay	15
+	attack	105 47 83 25 10 1
+	frame	data/chars/zombi14/hit12.gif
+	delay	6
+	sound	data/sounds/splat2.wav
+	frame	data/chars/zombi14/hit11.gif
+	attack	105 52 31 19 10 1
+	frame	data/chars/zombi14/hit10.gif
+	attack	0 0 0 0 0 0
+	sound	data/sounds/trans3.wav
+	frame	data/chars/zombi14/hit09.gif
+	frame	data/chars/zombi14/hit08.gif
+	bbox	85 49 32 73
+	frame	data/chars/zombi14/hit07.gif
+	frame	data/chars/zombi14/hit06.gif
+	frame	data/chars/zombi14/hit05.gif
+
+
+
+
+anim grabbed
+	loop	0
+	offset	100 125
+	bbox	83 52 40 61
+	delay	50
+	frame	data/chars/zombi14/pain01.gif
+
+
+	
+anim pain
+	loop	0
+	offset	100 125
+	bbox	83 52 40 61
+	delay	5
+	frame	data/chars/zombi14/pain01.gif
+	frame	data/chars/zombi14/pain02.gif
+	frame	data/chars/zombi14/pain01.gif
+	frame	data/chars/zombi14/pain02.gif
+
+
+
+	
+anim fall
+	loop	0
+	offset	100 125
+	delay	15
+	bbox	83 52 40 61
+	attack	83 52 40 61 10 1
+	frame	data/chars/zombi14/pain01.gif
+	delay	20
+	bbox	0
+	attack	0
+	frame	data/chars/zombi14/fall01.gif
+	delay	15
+	frame	data/chars/zombi14/fall02.gif
+
+	
+	
+anim rise
+	loop	0
+	offset	100 125
+	delay	15
+	frame	data/chars/zombi14/rise01.gif
+
+
+anim Death
+	loop 0
+	delay	12
+	offset	100 125
+	sound	data/sounds/expl1.wav
+	frame	data/chars/zombi14/death00.gif
+	delay	13
+	frame	data/chars/zombi14/death01.gif
+	delay	8
+	frame	data/chars/zombi14/death02.gif
+	frame	data/chars/zombi14/death03.gif
+	delay	12
+	frame	data/chars/zombi14/death04.gif
+	frame	data/chars/zombi14/death05.gif
+	sound	data/sounds/splat1.wav
+	frame	data/chars/zombi14/death06.gif
+	frame	data/chars/zombi14/death07.gif
+	sound	data/sounds/splat.wav
+	frame	data/chars/zombi14/death08.gif
+
+
+

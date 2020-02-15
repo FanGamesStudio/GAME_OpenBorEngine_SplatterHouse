@@ -1,0 +1,278 @@
+name	Wall_Face
+health	500
+speed	5
+type	enemy
+subtype       chase
+shadow	6
+nodieblink    3
+falldie       2
+noquake       0
+aggression 10
+cantgrab      1
+nopain       1
+icon	data/chars/face/icon.gif
+icondie    data/chars/face/icond.gif
+diesound data/sounds/b6die.wav
+
+
+
+
+anim walk
+	delay	6
+	loop	1
+	offset	148 159
+	bbox	133 2 106 140
+	frame	data/chars/face/walk01.gif
+	frame	data/chars/face/walk02.gif
+	frame	data/chars/face/walk03.gif
+	frame	data/chars/face/walk04.gif
+	frame	data/chars/face/walk05.gif
+	frame	data/chars/face/walk06.gif
+	frame	data/chars/face/walk07.gif
+
+
+
+
+
+
+anim idle
+	loop	1
+	delay	6
+	offset	148 159
+	bbox	133 2 106 140
+	frame	data/chars/face/walk01.gif
+	delay	7
+	frame	data/chars/face/stand01.gif
+	delay	8
+	frame	data/chars/face/stand02.gif
+	delay	9
+	frame	data/chars/face/stand03.gif
+	delay	8
+	frame	data/chars/face/stand02.gif
+	delay	7
+	frame	data/chars/face/stand01.gif
+
+
+
+
+
+anim attack1
+	loop	0
+	delay	6
+	offset	148 159
+	bbox	133 2 106 140
+	frame	data/chars/face/hit01.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/face/hit02.gif
+	bbox	0 0 0 0
+	blast	204 108 28 26 20 1
+	bbox	0
+	frame	data/chars/face/hit03.gif
+	blast	220 109 78 24 20 1
+	sound	data/sounds/whip.wav
+	frame	data/chars/face/hit04.gif
+	blast	255 109 107 23 20 1
+	frame	data/chars/face/hit05.gif
+	blast	293 112 124 17 20 1
+	sound	data/sounds/mozzaexp.wav
+	frame	data/chars/face/hit06.gif
+	blast	331 119 86 3 20 1
+	frame	data/chars/face/hit07.gif
+
+
+
+
+anim attack2
+	loop	0
+	delay	3
+	offset	148 159
+	blast	133 2 106 140 20 1
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+	move    12
+	blast	133 2 106 140 20 1
+	frame	data/chars/face/hit01.gif
+	frame	data/chars/face/hit01.gif
+	frame	data/chars/face/hit01.gif
+	frame	data/chars/face/hit01.gif
+	move    10
+	frame	data/chars/face/hit01.gif
+	move    8
+	frame	data/chars/face/stand01.gif
+	delay	3
+	move    0
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+
+
+
+anim riseattack
+	loop	0
+	delay	3
+	offset	148 159
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+	move    12
+	blast	133 2 106 140 20 1
+	frame	data/chars/face/hit01.gif
+	frame	data/chars/face/hit01.gif
+	frame	data/chars/face/hit01.gif
+	frame	data/chars/face/hit01.gif
+	move    10
+	frame	data/chars/face/hit01.gif
+	move    8
+	frame	data/chars/face/stand01.gif
+	delay	4
+	move    0
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+
+
+
+anim upper
+	loop	0
+	delay	3
+	offset	148 159
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+	move    12
+	blast	133 2 106 140 20 1
+	frame	data/chars/face/hit01.gif
+	frame	data/chars/face/hit01.gif
+	frame	data/chars/face/hit01.gif
+	frame	data/chars/face/hit01.gif
+	move    10
+	frame	data/chars/face/hit01.gif
+	move    8
+	frame	data/chars/face/stand01.gif
+	delay	4
+	move    0
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+
+
+
+
+
+	
+anim pain
+	loop	0
+	offset	148 159
+	bbox	133 2 106 140
+	delay	4
+	sound	data/sounds/facepain.wav
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+	frame	data/chars/face/pain03.gif
+
+
+
+
+
+
+anim fall
+	loop	0
+	offset	148 159
+	bbox	133 2 106 140
+	attack	133 2 106 140 10 1
+	delay	4
+	sound	data/sounds/facepain.wav
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+	attack	0
+	frame	data/chars/face/pain01.gif
+	bbox	0
+	frame	data/chars/face/pain02.gif
+	frame	data/chars/face/pain03.gif
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+	frame	data/chars/face/pain03.gif
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+	frame	data/chars/face/pain03.gif
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+	frame	data/chars/face/pain01.gif
+	frame	data/chars/face/pain02.gif
+	frame	data/chars/face/pain03.gif
+
+
+
+anim rise
+	delay	5
+	loop	0
+	offset	148 159
+	frame	data/chars/face/stand03.gif
+	frame	data/chars/face/stand02.gif
+	frame	data/chars/face/stand01.gif
+
+
+
+
+
+anim Death
+	loop 0
+	offset	148 159
+	delay	10
+	sound	data/sounds/splat1.wav
+	frame	data/chars/face/death01.gif
+	frame	data/chars/face/walk01.gif
+	frame	data/chars/face/death01.gif
+	frame	data/chars/face/walk01.gif
+	sound	data/sounds/splat2.wav
+	frame	data/chars/face/death01.gif
+	frame	data/chars/face/walk01.gif
+	sound	data/sounds/expl1.wav
+	frame	data/chars/face/death01.gif
+	frame	data/chars/face/death02.gif
+	sound	data/sounds/splat.wav
+	frame	data/chars/face/death03.gif
+	delay	15
+	frame	data/chars/face/death04.gif
+	frame	data/chars/face/death05.gif
+	frame	data/chars/face/death06.gif
+	frame	data/chars/face/death07.gif
+
+
+
+
+
+
+
+
+
+
+
+
+
+

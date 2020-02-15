@@ -1,0 +1,325 @@
+name	Hell_Chaos
+health	1500
+speed	7
+type	enemy
+shadow	0
+diesound data/sounds/b6die.wav
+icon	data/chars/mozza/icon.gif
+icondie    data/chars/mozza/icond.gif
+aggression 10
+nodieblink    2
+falldie       2
+noquake       0
+
+
+anim idle
+	delay	80
+	loop	1
+	offset	39 237
+	bbox	8 150 59 88
+	frame	data/chars/mozza/stand01.gif
+	sound	data/sounds/z13at.wav
+	delay	6
+	frame	data/chars/mozza/stand02.gif
+	frame	data/chars/mozza/stand03.gif
+	frame	data/chars/mozza/stand02.gif
+
+
+
+
+anim walk
+	loop	1
+	delay	9
+	offset	39 237
+	bbox	8 160 59 81
+	sound	data/sounds/mozzaw.wav
+	frame	data/chars/mozza/walk01.gif
+	bbox	6 161 61 80
+	frame	data/chars/mozza/walk02.gif
+	bbox	7 162 60 79
+	frame	data/chars/mozza/walk03.gif
+
+
+
+
+
+anim attack1
+	loop	0
+	delay	5
+	bbox	8 150 59 88
+	offset	39 237
+	sound	data/sounds/slide1.wav
+	frame	data/chars/mozza/stand01.gif
+	bbox	8 148 59 90
+	frame	data/chars/mozza/stand02.gif
+	bbox	8 142 59 96
+	frame	data/chars/mozza/stand03.gif
+	frame	data/chars/mozza/hit01.gif
+	bbox	0 0 0 0 0 0
+	frame	data/chars/mozza/hit02.gif
+	frame	data/chars/mozza/hit03.gif
+	blast	108 132 63 57 30 1
+	sound	data/sounds/whip.wav
+	frame	data/chars/mozza/hit04.gif
+	delay	8
+	blast	114 171 89 49 30 1
+	frame	data/chars/mozza/hit05.gif
+	delay	6
+	blast	136 186 61 38 30 1
+	frame	data/chars/mozza/hit06.gif
+	blast	114 201 58 38 30 1
+	frame	data/chars/mozza/hit07.gif
+	delay	5
+	blast	0 0 0 0 0 0
+	sound	data/sounds/slide1.wav
+	frame	data/chars/mozza/hit02.gif
+	bbox	8 142 59 96
+	frame	data/chars/mozza/hit01.gif
+	bbox	8 148 59 90
+	frame	data/chars/mozza/stand02.gif
+
+
+
+
+anim attack2
+	delay	4
+	loop	0
+	offset	39 237
+	bbox	8 150 59 88
+	frame	data/chars/mozza/stand01.gif
+	sound	data/sounds/z13at.wav
+	frame	data/chars/mozza/stand02.gif
+	frame	data/chars/mozza/stand03.gif
+	offset	106 169
+	bbox	0
+	blast	33 128 148 43 20 1
+	sound	data/sounds/whip.wav
+	frame	data/chars/mozza/at01.gif
+	blast	28 108 156 61 20 1
+	frame	data/chars/mozza/at02.gif
+	blast	29 85 156 85 20 1
+	frame	data/chars/mozza/at03.gif
+	delay	25
+	blast	26 54 164 117 20 1
+	frame	data/chars/mozza/at04.gif
+	blast	0
+	delay	5
+	frame	data/chars/mozza/at03.gif
+	frame	data/chars/mozza/at02.gif
+	frame	data/chars/mozza/at01.gif
+	offset	39 237
+	frame	data/chars/mozza/stand03.gif
+	frame	data/chars/mozza/stand02.gif
+
+
+
+
+anim riseattack
+	delay	6
+	loop	0
+	offset	39 237
+	bbox	8 150 59 88
+	frame	data/chars/mozza/stand01.gif
+	sound	data/sounds/z13at.wav
+	frame	data/chars/mozza/stand02.gif
+	frame	data/chars/mozza/stand03.gif
+	offset	106 169
+	bbox	0
+	blast	33 128 148 43 20 1
+	sound	data/sounds/whip.wav
+	frame	data/chars/mozza/at01.gif
+	blast	28 108 156 61 20 1
+	frame	data/chars/mozza/at02.gif
+	blast	29 85 156 85 20 1
+	frame	data/chars/mozza/at03.gif
+	delay	25
+	blast	26 54 164 117 20 1
+	frame	data/chars/mozza/at04.gif
+	blast	0
+	delay	6
+	frame	data/chars/mozza/at03.gif
+	frame	data/chars/mozza/at02.gif
+	frame	data/chars/mozza/at01.gif
+	offset	39 237
+	frame	data/chars/mozza/stand03.gif
+	frame	data/chars/mozza/stand02.gif
+
+
+
+
+anim upper
+	delay	6
+	loop	0
+	offset	39 237
+	bbox	8 150 59 88
+	frame	data/chars/mozza/stand01.gif
+	sound	data/sounds/z13at.wav
+	frame	data/chars/mozza/stand02.gif
+	frame	data/chars/mozza/stand03.gif
+	offset	106 169
+	bbox	0
+	blast	33 128 148 43 20 1
+	sound	data/sounds/whip.wav
+	frame	data/chars/mozza/at01.gif
+	blast	28 108 156 61 20 1
+	frame	data/chars/mozza/at02.gif
+	blast	29 85 156 85 20 1
+	frame	data/chars/mozza/at03.gif
+	delay	25
+	blast	26 54 164 117 20 1
+	frame	data/chars/mozza/at04.gif
+	blast	0
+	delay	6
+	frame	data/chars/mozza/at03.gif
+	frame	data/chars/mozza/at02.gif
+	frame	data/chars/mozza/at01.gif
+	offset	39 237
+	frame	data/chars/mozza/stand03.gif
+	frame	data/chars/mozza/stand02.gif
+
+
+
+
+
+
+anim fall
+	loop	0
+	offset	39 237
+	bbox	8 150 59 88
+	attack	8 150 59 88 10 1
+	delay	5
+	frame	data/chars/mozza/pain01.gif
+	frame	data/chars/mozza/stand01.gif
+	bbox	0
+	attack	0
+	frame	data/chars/mozza/pain01.gif
+	frame	data/chars/mozza/stand01.gif
+	frame	data/chars/mozza/pain01.gif
+	frame	data/chars/mozza/stand01.gif
+	frame	data/chars/mozza/pain01.gif
+	frame	data/chars/mozza/stand01.gif
+
+
+
+
+anim rise
+	delay	10
+	loop	0
+	offset	39 237
+	sound	data/sounds/fatat1.wav
+	frame	data/chars/mozza/stand01.gif
+	frame	data/chars/mozza/stand02.gif
+	frame	data/chars/mozza/stand03.gif
+	frame	data/chars/mozza/stand02.gif
+
+
+
+	
+anim pain
+	loop	0
+	offset	39 237
+	bbox	8 150 59 88
+	delay	5
+	sound	data/sounds/mozzap.wav
+	frame	data/chars/mozza/pain01.gif
+	frame	data/chars/mozza/stand01.gif
+	frame	data/chars/mozza/pain01.gif
+	frame	data/chars/mozza/stand01.gif
+	bbox	0
+	frame	data/chars/mozza/pain01.gif
+	frame	data/chars/mozza/stand01.gif
+	frame	data/chars/mozza/pain01.gif
+
+
+
+anim Death
+	loop 0
+	offset	39 237
+	delay	8
+	frame	data/chars/mozza/stand01.gif
+	frame	data/chars/mozza/stand02.gif
+	frame	data/chars/mozza/stand03.gif
+	frame	data/chars/mozza/stand02.gif
+	frame	data/chars/mozza/stand01.gif
+	frame	data/chars/mozza/stand02.gif
+	frame	data/chars/mozza/stand03.gif
+	frame	data/chars/mozza/stand02.gif
+	frame	data/chars/mozza/stand01.gif
+	frame	data/chars/mozza/stand02.gif
+	frame	data/chars/mozza/stand03.gif
+	delay	8
+	sound	data/sounds/mozzad1.wav
+	frame	data/chars/mozza/death01.gif
+	frame	data/chars/mozza/death02.gif
+	frame	data/chars/mozza/death03.gif
+	frame	data/chars/mozza/death04.gif
+	delay	5
+	frame	data/chars/mozza/death05.gif
+	frame	data/chars/mozza/death04.gif
+	frame	data/chars/mozza/death05.gif
+	frame	data/chars/mozza/death04.gif
+	frame	data/chars/mozza/death05.gif
+	frame	data/chars/mozza/death04.gif
+	frame	data/chars/mozza/death05.gif
+	frame	data/chars/mozza/death04.gif
+	frame	data/chars/mozza/death05.gif
+	frame	data/chars/mozza/death06.gif
+	frame	data/chars/mozza/death07.gif
+	delay	3
+	frame	data/chars/mozza/death08.gif
+	frame	data/chars/mozza/death11.gif
+	frame	data/chars/mozza/death08.gif
+	frame	data/chars/mozza/death11.gif
+	frame	data/chars/mozza/death08.gif
+	frame	data/chars/mozza/death11.gif
+	frame	data/chars/mozza/death08.gif
+	frame	data/chars/mozza/death11.gif
+	frame	data/chars/mozza/death09.gif
+	frame	data/chars/mozza/death11.gif
+	frame	data/chars/mozza/death09.gif
+	frame	data/chars/mozza/death11.gif
+	frame	data/chars/mozza/death09.gif
+	frame	data/chars/mozza/death11.gif
+	frame	data/chars/mozza/death09.gif
+	frame	data/chars/mozza/death10.gif
+	frame	data/chars/mozza/death11.gif
+	frame	data/chars/mozza/death10.gif
+	frame	data/chars/mozza/death11.gif
+	frame	data/chars/mozza/death10.gif
+	frame	data/chars/mozza/death11.gif
+	frame	data/chars/mozza/death10.gif
+	frame	data/chars/mozza/death11.gif
+	frame	data/chars/mozza/death08.gif
+	frame	data/chars/mozza/death11.gif
+	frame	data/chars/mozza/death08.gif
+	frame	data/chars/mozza/death11.gif
+	frame	data/chars/mozza/death08.gif
+	frame	data/chars/mozza/death11.gif
+	frame	data/chars/mozza/death08.gif
+	frame	data/chars/mozza/death11.gif
+	frame	data/chars/mozza/death09.gif
+	frame	data/chars/mozza/death11.gif
+	frame	data/chars/mozza/death09.gif
+	frame	data/chars/mozza/death11.gif
+	frame	data/chars/mozza/death09.gif
+	frame	data/chars/mozza/death11.gif
+	frame	data/chars/mozza/death09.gif
+	frame	data/chars/mozza/death10.gif
+	frame	data/chars/mozza/death11.gif
+	sound	data/sounds/mozzaexp.wav
+	frame	data/chars/mozza/death10.gif
+	sound	data/sounds/ghost.wav
+	frame	data/chars/mozza/death11.gif
+	frame	data/chars/mozza/death10.gif
+	frame	data/chars/mozza/death11.gif
+	frame	data/chars/mozza/death10.gif
+	frame	data/chars/mozza/death11.gif
+
+
+
+
+
+
+
+
+

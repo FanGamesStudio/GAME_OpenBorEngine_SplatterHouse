@@ -1,0 +1,113 @@
+name	Large-headed_Demon
+health	100
+speed	7
+type	enemy
+shadow	3
+nodieblink    3
+falldie       2
+icon	data/chars/head1/icon.gif
+icondie    data/chars/boss01/icond.gif
+diesound data/sounds/zdie3.wav
+aggression 1
+
+
+
+anim idle
+	delay	25
+	loop	1
+	offset	67 95
+	bbox	57 29 29 67
+	frame	data/chars/head1/walk01.gif
+	delay	10
+	frame	data/chars/head1/stand01.gif
+	frame	data/chars/head1/stand02.gif
+	frame	data/chars/head1/stand01.gif
+
+anim walk
+	loop	1
+	delay	10
+	offset	67 95
+	bbox	57 29 29 67
+	frame	data/chars/head1/walk01.gif
+	frame	data/chars/head1/walk02.gif
+	frame	data/chars/head1/walk04.gif
+	frame	data/chars/head1/walk01.gif
+	frame	data/chars/head1/walk03.gif
+
+		
+
+anim attack1
+	loop	0
+	delay	15
+	bbox	47 33 33 63
+	offset	67 95
+        hitflash    blood
+	hitfx   data/sounds/cut3.wav
+	frame	data/chars/head1/hit01.gif
+	delay	20
+	bbox	54 36 37 60
+	attack	73 42 44 18 8 0 0 0 1 8
+	sound	data/sounds/punch.wav
+	frame	data/chars/head1/hit02.gif
+	delay	12
+	bbox	57 29 29 67
+	attack	0 0 0 0 0
+	frame	data/chars/head1/walk04.gif
+
+	
+anim pain
+	loop	0
+	offset	67 95
+	bbox	43 25 34 71
+	delay	7
+	frame	data/chars/head1/pain01.gif
+	delay	7
+	bbox	56 35 34 61
+	frame	data/chars/head1/pain02.gif
+	delay	7
+	bbox	57 29 29 67
+	frame	data/chars/head1/walk03.gif
+	
+anim fall
+	loop	0
+	offset	67 95
+	delay	20
+	bbox	41 29 52 63
+	attack	41 29 52 63 10 1
+	frame	data/chars/head1/fall01.gif
+	delay	25
+	bbox    0 0 0 0
+	attack	0
+	frame	data/chars/head1/fall02.gif
+	delay	15
+	frame	data/chars/head1/fall03.gif
+
+	
+	
+anim rise
+	loop	0
+	offset	67 95
+	delay	9
+	frame	data/chars/head1/rise01.gif
+	frame	data/chars/head1/rise02.gif
+
+	
+
+
+
+anim Death
+	loop 0
+	delay	13
+	offset	67 95
+	frame	data/chars/head1/fall03.gif
+	sound	data/sounds/splat.wav
+	frame	data/chars/head1/death01.gif
+	frame	data/chars/head1/death02.gif
+	frame	data/chars/head1/death03.gif
+
+
+
+
+
+
+

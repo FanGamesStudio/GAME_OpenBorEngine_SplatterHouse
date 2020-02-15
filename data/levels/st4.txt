@@ -1,0 +1,902 @@
+music		Data/music/st4.bor
+bossmusic	data/music/st4boss.bor
+background	data/bgs/st4/back.gif
+panel		data/bgs/st4/st4.gif
+frontpanel	data/bgs/st4/front.gif
+order           a
+settime         0
+notime          1
+direction       left
+bgspeed         2 0
+spawn1  80 60 300  
+spawn2  40 70 300
+
+
+
+wall    0 244 -200 -200 50 10 150 500
+
+
+
+
+spawn   Evil_Spirit
+flip    1
+coords  -640 170
+at      0
+
+
+spawn   Evil_Spirit
+flip    1
+coords  -660 190
+at      10
+
+
+
+spawn   Evil_Spirit
+flip    1
+coords  -680 210
+at      15
+
+
+spawn   Evil_Spirit
+flip    1
+coords  -700 230
+at      5
+
+
+spawn   Evil_Spirit
+flip    1
+coords  -730 210
+at      20
+
+
+spawn   Evil_Spirit
+flip    1
+coords  -750 190
+at      25
+
+
+spawn   Evil_Spirit
+flip    1
+coords  -770 170
+at      10
+
+
+
+#-------1
+
+wait
+at      0
+
+
+group   4 4
+at      0
+
+
+spawn	Maiden_Specter
+map      2
+coords	350 180
+at	0
+
+
+spawn	Maiden_Specter
+map      2
+coords	380 210
+at	0
+
+
+spawn	Maiden_Specter
+map      2
+coords	-50 180
+at	0
+
+
+spawn	Maiden_Specter
+map      2
+coords	-80 210
+at	0
+
+
+
+
+
+wait
+at      100
+
+
+group   4 4
+at      100
+
+
+spawn	Master_of_the_Deads
+coords	350 200
+at	100
+
+
+spawn	Master_of_the_Deads
+coords	380 210
+at	100
+
+
+spawn	Master_of_the_Deads
+coords	-50 180
+at	100
+
+
+spawn	Master_of_the_Deads
+coords	-80 210
+at	100
+
+
+
+wait
+at      300
+
+
+
+group   4 4
+at      300
+
+
+
+spawn	Phantom
+map      1
+coords	-30 230
+at	300
+
+spawn	Phantom
+map      1
+coords	-30 180
+at	300
+
+
+
+spawn	Phantom
+map      1
+coords	400 200
+at	300
+
+
+spawn	Phantom
+map      1
+coords	430 220
+at	300
+
+
+spawn	Master_of_the_Deads
+2pspawn   1
+map      1
+coords	350 190
+at	300
+
+
+spawn	Master_of_the_Deads
+2pspawn   1
+map      1
+coords	350 220
+at	300
+
+
+
+#-------2
+
+
+spawn   Mummy
+flip    1
+item    Blue_Orb
+coords  -50 170
+at      400
+
+
+spawn   Mummy
+2pitem    Blue_Orb
+coords  -70 220
+at      400
+
+
+spawn   Stone_Bat
+flip    1
+item    Magik_Book_Blue
+coords  -100 170
+at      400
+
+
+
+
+
+wait
+at      600
+
+
+group   4 4
+at      600
+
+
+spawn	Maiden_Specter
+coords	-30 240
+at	600
+
+spawn	Maiden_Specter
+coords	-30 170
+at	600
+
+
+
+spawn	Maiden_Specter
+coords	350 190
+at	600
+
+
+spawn	Maiden_Specter
+coords	350 210
+at	600
+
+
+
+spawn	Master_of_the_Deads
+map     2
+coords	350 190
+at	600
+
+
+spawn	Master_of_the_Deads
+map     2
+coords	350 210
+at	600
+
+
+
+spawn	Rotten_Zombie
+2pspawn   1
+map     2
+coords	-30 240
+at	600
+
+spawn	Rotten_Zombie
+2pspawn   1
+map     2
+coords	-30 170
+at	600
+
+
+
+
+
+wait
+at      700
+
+
+group   4 4
+at      700
+
+
+
+spawn	Fly
+map     2
+coords	350 170
+at	700
+
+
+spawn	Ghoul
+map     2
+coords	350 190
+at	700
+
+
+spawn	Ghoul
+map     2
+coords	350 210
+at	700
+
+
+spawn	Ghoul
+map     2
+coords	350 230
+at	700
+
+
+spawn	Screaming_Mimi
+2pspawn   1
+coords	-30 240
+at	700
+
+spawn	Screaming_Mimi
+2pspawn   1
+coords	-30 170
+at	700
+
+
+
+
+
+
+wait
+at      850
+
+
+group   4 4
+at      850
+
+
+spawn	Phantom
+coords	350 170
+at	850
+
+
+spawn	Phantom
+coords	350 190
+at	850
+
+
+spawn	Phantom
+coords	350 210
+at	850
+
+
+spawn	Phantom
+coords	350 230
+at	850
+
+
+spawn	Maiden_Specter
+2pspawn   1
+coords	-30 240
+at	850
+
+spawn	Maiden_Specter
+2pspawn   1
+coords	-30 170
+at	850
+
+
+
+wait
+at      950
+
+
+group   2 2
+at      950
+
+
+spawn	Skull_Ghost
+coords	-50 210
+at	950
+
+
+spawn	Skull_Ghost
+coords	-90 230
+at	950
+
+
+spawn	Skull_Ghost
+coords	-50 210
+at	950
+
+
+spawn	Skull_Ghost
+coords	-90 230
+at	950
+
+
+spawn	Skull_Ghost
+coords	-50 180
+at	950
+
+
+spawn	Skull_Ghost
+coords	-90 180
+at	950
+
+
+spawn	Skull_Ghost
+coords	-50 210
+at	950
+
+
+spawn	Skull_Ghost
+coords	-90 210
+at	950
+
+
+spawn	Skull_Ghost
+2pspawn   1
+coords	-30 240
+at	950
+
+spawn	Skull_Ghost
+2pspawn   1
+coords	-30 170
+at	950
+
+
+spawn	Skull_Ghost
+2pspawn   1
+coords	-30 240
+at	950
+
+spawn	Skull_Ghost
+2pspawn   1
+coords	-30 170
+at	950
+
+
+#-------3
+
+
+
+wait
+at      1100
+
+
+group   4 4
+at      1100
+
+
+spawn	Rotten_Zombie
+map     2
+coords	350 170
+at	1100
+
+
+spawn	Rotten_Zombie
+map     2
+coords	370 190
+at	1100
+
+
+
+
+spawn	Phantom
+map     2
+coords	350 170
+at	1100
+
+
+spawn	Phantom
+coords	390 210
+at	1100
+
+
+wait
+at      1150
+
+
+
+
+spawn	Master_of_the_Deads
+coords	-60 170
+at	1150
+
+
+
+spawn	Master_of_the_Deads
+map      3
+coords	430 190
+at	1150
+
+
+
+spawn	Maiden_Specter
+coords	-30 240
+at	1150
+
+spawn	Maiden_Specter
+coords	-60 170
+at	1150
+
+
+
+spawn	Rotten_Zombie
+2pspawn   1
+map      3
+coords	350 170
+at	1150
+
+
+spawn	Rotten_Zombie
+2pspawn   1
+map      3
+coords	350 230
+at	1150
+
+
+
+#-------4
+
+
+
+spawn   Unreal
+item    Red_Orb
+coords  -50 170
+at      1190
+
+
+spawn   Unreal
+2pitem    Red_Orb
+coords  -70 220
+at      1190
+
+
+spawn   Crystal
+item    Magik_Book_Green
+coords  -90 170
+at      1190
+
+
+
+
+
+
+wait
+at      1300
+
+
+group   4 4
+at      1300
+
+
+spawn	Phantom
+map      1
+coords	-60 190 
+at	1300
+
+
+spawn	Phantom
+map      1
+coords	-50 210
+at	1300
+
+
+
+spawn	Master_of_the_Deads
+coords	-20 230
+at	1300
+
+
+spawn	Master_of_the_Deads
+coords	-30 190
+at	1300
+
+
+spawn	Master_of_the_Deads
+2pspawn   1
+coords	400 190
+at	1300
+
+
+
+spawn	Master_of_the_Deads
+2pspawn   1
+coords	370 210
+at	1300
+
+
+
+
+wait
+at      1450
+
+
+spawn	Maiden_Specter
+coords	350 190
+at	1450
+
+
+spawn	Maiden_Specter
+coords	350 210
+at	1450
+
+
+
+spawn	Screaming_Mimi
+coords	350 230
+at	1450
+
+
+spawn	Screaming_Mimi
+coords	-30 190
+at	1450
+
+
+
+spawn	Phantom
+2pspawn   1
+coords	390 210
+at	1450
+
+
+
+spawn	Phantom
+2pspawn   1
+coords	410 210
+at	1450
+
+
+
+#-------5
+
+
+wait
+at      1600
+
+
+group   4 4
+at      1600
+
+spawn   Hell_Guardian
+coords  -20 190
+at      1600
+
+
+spawn   Hell_Guardian
+coords  -40 210
+at      1600
+
+
+spawn   Ghoul
+coords  -60 230
+at      1600
+
+
+spawn   Ghoul
+coords  380 190
+at      1600
+
+
+spawn   Dead_Ripper
+2pspawn   1
+coords  360 210
+at      1600
+
+
+spawn   Dead_Ripper
+2pspawn   1
+coords  340 230
+at      1600
+
+
+
+
+wait
+at      1700
+
+
+group   2 2
+at      1700
+
+
+spawn	Skull_Ghost
+coords	-50 210
+at	1700
+
+
+spawn	Skull_Ghost
+coords	350 230
+at	1700
+
+
+spawn	Skull_Ghost
+coords	-30 210
+at	1700
+
+
+spawn	Skull_Ghost
+coords	340 230
+at	1700
+
+
+spawn	Skull_Ghost
+coords	-30 180
+at	1700
+
+
+spawn	Skull_Ghost
+coords	340 180
+at	1700
+
+
+spawn	Skull_Ghost
+coords	-60 210
+at	1700
+
+
+spawn	Skull_Ghost
+coords	340 210
+at	1700
+
+
+spawn	Skull_Ghost
+2pspawn   1
+coords	-30 240
+at	1700
+
+spawn	Skull_Ghost
+2pspawn   1
+coords	340 170
+at	1700
+
+
+spawn	Skull_Ghost
+2pspawn   1
+coords	-30 240
+at	1700
+
+spawn	Skull_Ghost
+2pspawn   1
+coords	350 170
+at	1700
+
+
+
+
+
+wait
+at      1800
+
+
+group   4 4
+at      1800
+
+
+spawn   Phantom
+map     1
+coords  -20 190
+at      1800
+
+
+spawn   Phantom
+map     1
+coords  -40 210
+at      1800
+
+
+spawn   Born_Dead
+map     2
+coords  -60 230
+at      1800
+
+
+spawn   Born_Dead
+map     2
+coords  380 190
+at      1800
+
+
+spawn   Rotten_Zombie
+map     3
+coords  360 210
+at      1800
+
+
+spawn   Rotten_Zombie
+map     3
+coords  340 230
+at      1800
+
+
+
+
+spawn   Unreal
+item    Red_Orb
+coords  -50 190
+at      1900
+
+
+spawn   Unreal
+2pitem    Red_Orb
+coords  -70 220
+at      1900
+
+
+spawn   Stone_Bat
+item    Magik_Book_Red
+coords  -90 190
+at      1900
+
+
+
+
+
+
+wait
+at      2000
+
+
+group   4 4
+at      2000
+
+
+spawn	Master_of_the_Deads
+coords	350 170
+at	2000
+
+
+spawn	Master_of_the_Deads
+coords	370 190
+at	2000
+
+
+spawn	Master_of_the_Deads
+map     2
+coords	390 210
+at	2000
+
+
+spawn	Master_of_the_Deads
+map     2
+coords	410 210
+at	2000
+
+
+spawn	Maiden_Specter
+2pspawn   1
+coords	350 170
+at	2000
+
+
+spawn	Maiden_Specter
+2pspawn   1
+coords	390 210
+at	2000
+
+
+group   4 4
+at      2200
+
+
+spawn	Soul_Guardian
+boss    1
+coords	-50 190
+at	2200
+
+
+spawn	Maiden_Specter
+coords	350 210
+at	2200
+
+
+
+spawn	Maiden_Specter
+coords	430 190
+at	2200
+
+
+spawn	Maiden_Specter
+coords	350 210
+at	2200
+
+
+spawn	Phantom
+coords	350 210
+at	2200
+
+
+
+spawn	Phantom
+coords	430 190
+at	2200
+
+
+spawn	Master_of_the_Deads
+coords	350 210
+at	2200
+
+
+spawn	Master_of_the_Deads
+coords	350 210
+at	2200
+
+
+
+spawn	Master_of_the_Deads
+2pspawn   1
+coords	-30 240
+at	2200
+
+spawn	Master_of_the_Deads
+2pspawn   1
+coords	-60 170
+at	2200
+
+
+
+

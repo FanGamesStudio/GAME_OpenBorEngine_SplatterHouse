@@ -1,0 +1,16 @@
+name	Magik_Book_Green
+health	0
+score	5000
+nolife  1
+type	item
+shadow	0
+
+
+anim idle
+	loop	1
+	delay	50
+	offset	7 15
+	bbox	0 0 16 16
+	frame	data/chars/misc/book/bookg.gif
+	delay   3
+	frame	data/chars/misc/book/bookw.gif

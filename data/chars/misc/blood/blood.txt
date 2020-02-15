@@ -1,0 +1,22 @@
+name	blood
+type	none
+shadow	0
+
+
+
+anim idle
+	loop	0
+	delay	4
+	offset	32 64
+	frame	data/chars/misc/blood/1.gif
+	frame	data/chars/misc/blood/2.gif
+	frame	data/chars/misc/blood/3.gif
+	frame	data/chars/misc/blood/4.gif
+	frame	data/chars/misc/blood/5.gif
+	frame	data/chars/misc/blood/6.gif
+	frame	data/chars/misc/blood/7.gif
+	frame	data/chars/misc/blood/8.gif
+	frame	data/chars/misc/blood/9.gif
+	frame	data/chars/misc/blood/10.gif
+
+	

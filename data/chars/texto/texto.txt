@@ -1,0 +1,24 @@
+name	Texto
+type    text
+
+
+
+
+
+
+
+anim idle
+	loop	1
+	offset	99 246
+	bbox	39 109 106 138
+	delay	15
+	frame	data/chars/Texto/Texto.gif
+
+
+
+
+
+
+
+
+

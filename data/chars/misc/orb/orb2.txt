@@ -1,0 +1,16 @@
+name	Red_Orb
+health	60
+type	item
+nolife  1
+shadow	0
+
+anim idle
+	loop	1
+	offset	5 11
+	bbox	0 0 12 12
+	delay   50
+	frame	data/chars/misc/orb/orb2.gif
+	delay   3
+	frame	data/chars/misc/orb/orb3.gif
+
+

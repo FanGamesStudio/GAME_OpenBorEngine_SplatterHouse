@@ -1,0 +1,37 @@
+name	Chair
+health  1
+type    obstacle
+shadow	0
+diesound  data/sounds/wood1.wav
+nodieblink    3
+noatflash 1
+nolife  1
+flash     block
+
+
+anim idle
+	loop	0
+	delay	5
+	offset	26 56
+	bbox    12 6 30 51
+	frame	data/chars/misc/chair/ch01.gif
+
+	
+anim fall
+	loop	0
+	delay	5
+	offset	26 56
+	frame	data/chars/misc/chair/ch02.gif
+	frame	data/chars/misc/chair/ch03.gif
+	frame	data/chars/misc/chair/ch04.gif
+	frame	data/chars/misc/chair/ch05.gif
+	frame	data/chars/misc/chair/ch06.gif
+	frame	data/chars/misc/chair/ch07.gif
+	frame	data/chars/misc/chair/ch08.gif
+	frame	data/chars/misc/chair/ch09.gif
+	frame	data/chars/misc/chair/ch10.gif
+
+
+
+
+	

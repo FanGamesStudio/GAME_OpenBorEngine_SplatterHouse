@@ -1,0 +1,297 @@
+name	Boreworm
+health	300
+speed	9
+type	enemy
+shadow	5
+subtype       chase
+icon	data/chars/boss07/icon.gif
+icondie    data/chars/boss07/icond.gif
+diesound data/sounds/b7die.wav
+remap data/chars/boss07/stand01.gif data/chars/boss07/ALT1.gif
+remap data/chars/boss07/stand01.gif data/chars/boss07/ALT2.gif
+nodieblink    2
+falldie       2
+aggression 10
+
+
+anim idle
+	loop	1
+	offset	118 125
+	bbox	95 55 53 70
+	delay	12
+	frame	data/chars/boss07/stand01.gif
+	delay	8
+	frame	data/chars/boss07/stand02.gif
+	frame	data/chars/boss07/stand03.gif
+	delay	6
+	frame	data/chars/boss07/stand02.gif
+
+
+
+anim walk
+	loop	1
+	offset	118 125
+	bbox	95 55 53 70
+	delay	8
+	frame	data/chars/boss07/walk01.gif
+	frame	data/chars/boss07/walk02.gif
+	frame	data/chars/boss07/walk01.gif
+	frame	data/chars/boss07/stand01.gif
+
+
+anim pain
+	loop	0
+	offset	118 125
+	bbox	68 37 50 90
+	delay	10
+	frame	data/chars/boss07/hit02.gif
+	bbox	87 32 30 95
+	frame	data/chars/boss07/hit01.gif
+
+
+
+anim grabbed
+	loop	0
+	offset	118 125
+	bbox	95 55 53 70
+	delay	35
+	frame	data/chars/boss07/stand03.gif
+	delay	4
+	frame	data/chars/boss07/hit02.gif
+	delay	2
+	frame	data/chars/boss07/hit01.gif
+	attack	118 63 33 33 10 1
+	delay	2
+	frame	data/chars/boss07/hit07.gif
+	delay	4
+	frame	data/chars/boss07/hit08.gif
+	delay	4
+	sound	data/sounds/splat.wav
+	frame	data/chars/boss07/hit09.gif
+	delay	6
+	blast	121 42 66 52 10 1
+	frame	data/chars/boss07/hit10.gif
+	delay	4
+	frame	data/chars/boss07/hit11.gif
+	frame	data/chars/boss07/hit12.gif
+	frame	data/chars/boss07/hit13.gif
+	delay	10
+	blast	0 0 0 0 0 0
+	frame	data/chars/boss07/hit24.gif
+	frame	data/chars/boss07/hit25.gif
+
+
+
+anim fall
+	loop	0
+	delay	10
+	offset	118 125
+	attack	68 37 50 90 5 1
+	frame	data/chars/boss07/hit02.gif
+	delay	10
+	attack	85 53 73 56 5 1
+	frame	data/chars/boss07/hit06.gif
+	attack	0
+	frame	data/chars/boss07/hit06.gif
+	delay	25
+	frame	data/chars/boss07/fall01.gif
+
+
+anim rise
+	loop	0
+	offset	118 125
+	delay	10
+	frame	data/chars/boss07/rise01.gif
+	frame	data/chars/boss07/hit25.gif
+
+
+
+
+
+
+anim attack1
+	loop	0
+	delay	4
+	offset	118 125
+	bbox	87 32 30 95
+	frame	data/chars/boss07/hit01.gif
+	delay	8
+	bbox	68 37 50 90
+	frame	data/chars/boss07/hit02.gif
+	delay	15
+	bbox	95 56 66 69
+	attack	116 55 45 34 15 0
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss07/hit03.gif
+	delay	4
+	bbox	95 55 53 70
+	attack	106 58 45 34 15 0
+	frame	data/chars/boss07/stand02.gif
+	delay	6
+	attack	0 0 0 0 0 0
+	frame	data/chars/boss07/stand03.gif
+
+
+
+
+
+anim riseattack
+	loop	0
+	delay	4
+	offset	118 125
+	frame	data/chars/boss07/hit04.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss07/hit05.gif
+	frame	data/chars/boss07/hit06.gif
+	delay	4
+	frame	data/chars/boss07/hit02.gif
+	delay	2
+	frame	data/chars/boss07/hit01.gif
+	attack	118 63 33 33 10 1
+	delay	2
+	frame	data/chars/boss07/hit07.gif
+	delay	4
+	frame	data/chars/boss07/hit08.gif
+	delay	4
+	sound	data/sounds/splat.wav
+	frame	data/chars/boss07/hit09.gif
+	delay	6
+	blast	121 42 66 52 10 1
+	frame	data/chars/boss07/hit10.gif
+	delay	4
+	frame	data/chars/boss07/hit11.gif
+	frame	data/chars/boss07/hit12.gif
+	frame	data/chars/boss07/hit13.gif
+	delay	10
+	blast	0 0 0 0 0 0
+	frame	data/chars/boss07/hit24.gif
+	frame	data/chars/boss07/hit25.gif
+
+
+
+
+anim upper
+	loop	0
+	delay	4
+	offset	118 125
+	frame	data/chars/boss07/hit04.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss07/hit05.gif
+	frame	data/chars/boss07/hit06.gif
+	delay	4
+	frame	data/chars/boss07/hit02.gif
+	delay	2
+	frame	data/chars/boss07/hit01.gif
+	attack	118 63 33 33 10 1
+	delay	2
+	frame	data/chars/boss07/hit07.gif
+	delay	4
+	frame	data/chars/boss07/hit08.gif
+	delay	4
+	sound	data/sounds/splat.wav
+	frame	data/chars/boss07/hit09.gif
+	delay	6
+	blast	121 42 66 52 10 1
+	frame	data/chars/boss07/hit10.gif
+	delay	4
+	frame	data/chars/boss07/hit11.gif
+	frame	data/chars/boss07/hit12.gif
+	frame	data/chars/boss07/hit13.gif
+	delay	10
+	blast	0 0 0 0 0 0
+	frame	data/chars/boss07/hit24.gif
+	frame	data/chars/boss07/hit25.gif
+
+
+
+
+
+anim attack2
+	loop	0
+	delay	6
+	offset	118 125
+	bbox	96 65 55 62
+	attack	118 63 33 33 15 0
+	frame	data/chars/boss07/hit07.gif
+	frame	data/chars/boss07/hit08.gif
+	frame	data/chars/boss07/hit09.gif
+	sound	data/sounds/splat.wav
+	blast	121 42 66 52 20 1
+	frame	data/chars/boss07/hit10.gif
+	frame	data/chars/boss07/hit11.gif
+	frame	data/chars/boss07/hit12.gif
+	frame	data/chars/boss07/hit13.gif
+	sound	data/sounds/b7l.wav
+	blast	0 0 0 0 0 0
+	frame	data/chars/boss07/hit14.gif
+	frame	data/chars/boss07/hit15.gif
+	move    12
+	bbox	0 0 0 0 0 0
+	blast	85 91 88 39 15 1
+	sound	data/sounds/step1.wav
+	frame	data/chars/boss07/hit16.gif
+	frame	data/chars/boss07/hit16b.gif
+	sound	data/sounds/step2.wav
+	frame	data/chars/boss07/hit17.gif
+	frame	data/chars/boss07/hit16b.gif
+	sound	data/sounds/step1.wav
+	frame	data/chars/boss07/hit16.gif
+	frame	data/chars/boss07/hit16b.gif
+	sound	data/sounds/step2.wav
+	frame	data/chars/boss07/hit17.gif
+	frame	data/chars/boss07/hit16b.gif
+	sound	data/sounds/step1.wav
+	frame	data/chars/boss07/hit16.gif
+	frame	data/chars/boss07/hit16b.gif
+	sound	data/sounds/step2.wav
+	frame	data/chars/boss07/hit17.gif
+	frame	data/chars/boss07/hit16b.gif
+	sound	data/sounds/step1.wav
+	frame	data/chars/boss07/hit16.gif
+	frame	data/chars/boss07/hit16b.gif
+	sound	data/sounds/step2.wav
+	frame	data/chars/boss07/hit17.gif
+	move    10
+	blast	0 0 0 0 0 0
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss07/hit18.gif
+	move    8
+	frame	data/chars/boss07/hit19.gif
+	move    6
+	frame	data/chars/boss07/hit20.gif
+	frame	data/chars/boss07/hit21.gif
+	frame	data/chars/boss07/hit22.gif
+	frame	data/chars/boss07/hit23.gif
+	frame	data/chars/boss07/hit24.gif
+	frame	data/chars/boss07/hit25.gif
+
+
+
+
+
+anim Death
+	loop 0
+	offset	118 125
+	delay	8
+	frame	data/chars/boss07/death01.gif
+	frame	data/chars/boss07/death02.gif
+	frame	data/chars/boss07/death03.gif
+	frame	data/chars/boss07/death04.gif
+	delay	10
+	sound	data/sounds/expl1.wav
+	frame	data/chars/boss07/death05.gif
+	frame	data/chars/boss07/death06.gif
+	sound	data/sounds/splat.wav
+	frame	data/chars/boss07/death07.gif
+	delay	9
+	frame	data/chars/boss07/death08.gif
+	frame	data/chars/boss07/death09.gif
+	frame	data/chars/boss07/death10.gif
+	frame	data/chars/boss07/death11.gif
+	frame	data/chars/boss07/death12.gif
+
+
+
+
+
+

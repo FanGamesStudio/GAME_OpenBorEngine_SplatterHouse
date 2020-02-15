@@ -1,0 +1,225 @@
+name	Great_Horror
+health	500
+speed	6
+type	enemy
+subtype       chase
+shadow	6
+nodieblink    3
+falldie       2
+noquake       0
+aggression 10
+cantgrab      1
+nopain       1
+icon	data/chars/great/icon.gif
+icondie    data/chars/great/icond.gif
+diesound data/sounds/b6die.wav
+
+
+
+
+anim idle
+	loop	1
+	offset	119 196
+	bbox	92 32 51 162
+	delay	15
+	frame	data/chars/great/walk01.gif
+
+
+
+
+
+
+
+anim walk
+	loop	1
+	offset	119 196
+	bbox	92 32 51 162
+	delay	10
+	frame	data/chars/great/walk01.gif
+	frame	data/chars/great/walk02.gif
+	frame	data/chars/great/walk03.gif
+	frame	data/chars/great/walk04.gif
+	frame	data/chars/great/walk03.gif
+	frame	data/chars/great/walk02.gif
+
+
+
+
+
+
+anim pain
+	loop	0
+	offset	119 196
+	bbox	92 32 51 162
+	delay	10
+	frame	data/chars/great/pain01.gif
+	frame	data/chars/great/pain02.gif
+
+
+
+
+anim grabbed
+	loop	0
+	offset	119 196
+	bbox	92 32 51 162
+	delay	50
+	frame	data/chars/great/walk02.gif
+
+
+
+anim fall
+	loop	0
+	delay	15
+	offset	119 196
+	bbox	92 32 51 162
+	attack	92 32 51 162 10 1
+	frame	data/chars/great/pain01.gif
+	bbox	0
+	attack	0
+	delay	20
+	frame	data/chars/great/fall01.gif
+	bbox	0
+	frame	data/chars/great/fall02.gif
+
+
+
+
+
+anim rise
+	loop	0
+	delay	10
+	offset	119 196
+	sound	data/sounds/ghost.wav
+	frame	data/chars/great/death05.gif
+	frame	data/chars/great/death03.gif
+	frame	data/chars/great/death01.gif
+
+
+
+
+
+
+
+anim attack1
+	loop	0
+	offset	119 196
+	bbox	92 32 51 162
+	delay	5
+	frame	data/chars/great/hit01.gif
+	sound	data/sounds/flasha.wav
+	delay	8
+	frame	data/chars/great/hit02.gif
+	delay	4
+	frame	data/chars/great/hit03.gif
+	sound	data/sounds/whip.wav
+	frame	data/chars/great/hit04.gif
+	frame	data/chars/great/hit05.gif
+	delay	25
+	blast	155 71 103 83 25 1
+	frame	data/chars/great/hit06.gif
+	blast	0
+	delay	4
+	frame	data/chars/great/hit05.gif
+	frame	data/chars/great/hit04.gif
+	frame	data/chars/great/pain01.gif
+
+
+
+
+anim attack2
+	loop	0
+	offset	119 196
+	bbox	92 32 51 162
+	delay	4
+        hitflash    elec1
+	attack	59 22 92 179 15 1
+	sound	data/sounds/elec1.wav
+	frame	data/chars/great/elec01.gif
+	frame	data/chars/great/elec02.gif
+	frame	data/chars/great/elec03.gif
+	frame	data/chars/great/elec04.gif
+	frame	data/chars/great/elec01.gif
+	frame	data/chars/great/elec02.gif
+	frame	data/chars/great/elec03.gif
+	frame	data/chars/great/elec04.gif
+
+
+
+
+
+anim riseattack
+	loop	0
+	offset	119 196
+	bbox	92 32 51 162
+	delay	4
+	frame	data/chars/great/hit01.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/great/hit02.gif
+	frame	data/chars/great/hit03.gif
+	sound	data/sounds/whip.wav
+	frame	data/chars/great/hit04.gif
+	frame	data/chars/great/hit05.gif
+	delay	15
+	blast	155 71 103 83 25 1
+	frame	data/chars/great/hit06.gif
+	blast	0
+	delay	4
+	frame	data/chars/great/hit05.gif
+	frame	data/chars/great/hit04.gif
+	frame	data/chars/great/pain01.gif
+
+
+
+
+
+
+anim upper
+	loop	0
+	offset	119 196
+	bbox	92 32 51 162
+	delay	4
+        hitflash    elec1
+	attack	59 22 92 179 15 1
+	sound	data/sounds/elec1.wav
+	frame	data/chars/great/elec01.gif
+	frame	data/chars/great/elec02.gif
+	frame	data/chars/great/elec03.gif
+	frame	data/chars/great/elec04.gif
+	frame	data/chars/great/elec01.gif
+	frame	data/chars/great/elec02.gif
+	frame	data/chars/great/elec03.gif
+	frame	data/chars/great/elec04.gif
+
+
+
+
+
+anim Death
+	loop 0
+	delay	8
+	offset	119 196
+	delay	10
+	sound	data/sounds/ghost.wav
+	frame	data/chars/great/death05.gif
+	frame	data/chars/great/death03.gif
+	frame	data/chars/great/death01.gif
+	sound	data/sounds/flasha.wav
+	delay	8
+	frame	data/chars/great/hit01.gif
+	frame	data/chars/great/hit02.gif
+	delay	15
+	frame	data/chars/great/hit03.gif
+	sound	data/sounds/splat.wav
+	delay	10
+	frame	data/chars/great/death01.gif
+	frame	data/chars/great/death02.gif
+	frame	data/chars/great/death03.gif
+	sound	data/sounds/splat.wav
+	frame	data/chars/great/death04.gif
+	frame	data/chars/great/death05.gif
+	frame	data/chars/great/death06.gif
+
+
+
+
+

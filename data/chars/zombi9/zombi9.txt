@@ -1,0 +1,130 @@
+name	Dead_Ripper
+health	100
+speed	7
+type	enemy
+shadow	4
+diesound data/sounds/zdie9.wav
+icon	data/chars/zombi9/icon.gif
+icondie    data/chars/zombi9/icond.gif
+remap data/chars/zombi9/walk01.gif data/chars/zombi9/ALT1.gif
+remap data/chars/zombi9/walk01.gif data/chars/zombi9/ALT2.gif
+nodieblink    2
+falldie       2
+aggression 5
+
+anim idle
+	delay	15
+	loop	1
+	offset	75 95
+	bbox	53 39 54 62
+	frame	data/chars/zombi9/walk01.gif
+
+
+
+
+anim walk
+	loop	1
+	delay	12
+	offset	75 95
+	bbox	53 39 54 62
+	frame	data/chars/zombi9/walk01.gif
+	frame	data/chars/zombi9/walk02.gif
+	frame	data/chars/zombi9/walk03.gif
+	frame	data/chars/zombi9/walk02.gif
+
+
+
+
+		
+
+anim attack1
+	loop	0
+	delay	20
+	bbox	52 45 39 51
+	offset	75 95
+        hitflash    blood
+	sound	data/sounds/punch.wav
+	frame	data/chars/zombi9/hit01.gif
+	delay	15
+	bbox	58 45 41 52
+	attack	86 46 63 22 8 1 0 0 1 8
+	sound	data/sounds/blade.wav
+	frame	data/chars/zombi9/hit02.gif
+	delay	8
+	attack	0 0 0 0 0 0
+	bbox	52 45 39 51
+	frame	data/chars/zombi9/hit01.gif
+
+
+
+
+	
+anim pain
+	loop	0
+	offset	75 95
+	bbox	53 39 54 62
+	delay	15
+	frame	data/chars/zombi9/pain01.gif
+	frame	data/chars/zombi9/hit01.gif
+
+
+
+
+	
+anim fall
+	loop	0
+	offset	75 95
+	delay	8
+	bbox	47 29 32 65
+	attack	47 29 32 65 5 1
+	frame	data/chars/zombi9/pain01.gif
+	delay	8
+	bbox	35 25 49 67
+	attack	35 25 49 67 5 1
+	frame	data/chars/zombi9/fall01.gif
+	delay	10
+	bbox    0
+	attack	0
+	frame	data/chars/zombi9/fall01.gif
+	delay	20
+	frame	data/chars/zombi9/fall02.gif
+
+	
+	
+anim rise
+	loop	0
+	offset	75 95
+	delay	10
+	frame	data/chars/zombi9/rise01.gif
+	frame	data/chars/zombi9/pain01.gif
+	frame	data/chars/zombi9/hit01.gif
+
+
+anim grabbed
+	delay	50
+	loop	0
+	offset	75 95
+	bbox	53 39 54 62
+	frame	data/chars/zombi9/walk02.gif
+
+
+
+anim Death
+	loop 0
+	offset	75 95
+	delay	10
+	move	0
+	frame	data/chars/zombi9/rise01.gif
+	frame	data/chars/zombi9/pain01.gif
+	frame	data/chars/zombi9/hit01.gif
+	delay	12
+	frame	data/chars/zombi9/rise01.gif
+	frame	data/chars/zombi9/fall02.gif
+	sound	data/sounds/splat.wav
+	offset	54 95
+	move	-21
+	frame	data/chars/zombi9/death01.gif
+	move	0
+	frame	data/chars/zombi9/death02.gif
+	frame	data/chars/zombi9/death03.gif
+

@@ -1,0 +1,107 @@
+name	Body_Eater
+type	enemy
+subtype	chase
+speed	7
+health	1
+shadow	1
+nodieblink    2
+falldie       2
+cantgrab      1
+aggression 3
+
+
+
+anim idle
+	loop	1
+	delay	10
+	offset	45 82
+	bbox	12 34 62 49
+	hitfx   data/sounds/cut3.wav
+	frame	data/chars/worm2/walk01.GIF
+	frame	data/chars/worm2/walk02.GIF
+
+
+
+
+anim walk
+	loop	1
+	delay	7
+	offset	45 82
+	bbox	12 34 62 49
+	hitfx   data/sounds/cut3.wav
+	frame	data/chars/worm2/walk01.GIF
+	frame	data/chars/worm2/walk02.GIF
+	frame	data/chars/worm2/walk03.GIF
+
+
+anim attack1
+	loop	0
+	delay	4
+	offset	45 82
+	bbox	12 34 62 49
+        hitflash    blood
+        move    8
+	attack	32 28 29 35 10 1
+	hitfx   data/sounds/cut3.wav
+	sound	data/sounds/wormat.wav
+	frame	data/chars/worm2/hit01.GIF
+        move    10
+	frame	data/chars/worm2/hit01.GIF
+        move    12
+	attack	32 15 29 35 10 1
+	frame	data/chars/worm2/hit02.GIF
+        move    10
+	frame	data/chars/worm2/hit02.GIF
+        move    8
+	attack	44 27 33 33 10 1
+	frame	data/chars/worm2/hit03.GIF
+        move    6
+	frame	data/chars/worm2/hit03.GIF
+        move    6
+	attack	44 27 33 33 10 1
+	frame	data/chars/worm2/hit04.GIF
+	frame	data/chars/worm2/hit04.GIF
+	attack	0
+	delay	10
+	frame	data/chars/worm2/walk02.GIF
+
+
+
+
+
+anim pain
+	loop	1
+	delay	10
+	offset	45 82
+	bbox	30 46 31 36
+	frame	data/chars/worm2/pain01.GIF
+	frame	data/chars/worm2/pain02.GIF
+
+
+
+
+anim fall
+	loop	0
+	delay	10
+	offset	45 82
+	frame	data/chars/worm2/pain01.GIF
+	frame	data/chars/worm2/pain02.GIF
+	frame	data/chars/worm2/pain03.GIF
+	frame	data/chars/worm2/pain04.GIF
+	frame	data/chars/worm2/fall01.GIF
+
+
+
+
+anim Death
+	loop 0
+	delay	10
+	offset	45 82
+	sound	data/sounds/splat.wav
+	frame	data/chars/worm2/death01.GIF
+	frame	data/chars/worm2/death02.GIF
+	frame	data/chars/worm2/death03.GIF
+	frame	data/chars/worm2/death04.GIF
+	frame	data/chars/worm2/death05.GIF
+
+

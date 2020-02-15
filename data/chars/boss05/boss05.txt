@@ -1,0 +1,245 @@
+name	Hellraiser
+health	500
+speed	8
+type	enemy
+shadow	5
+subtype       chase
+nodieblink    2
+falldie       2
+noquake       0
+aggression 10
+icon	data/chars/boss05/icon.gif
+icondie    data/chars/boss05/icond.gif
+diesound data/sounds/b10die.wav
+
+
+anim idle
+	loop	1
+	offset	124 185
+	bbox	79 64 92 122
+	delay	4
+	frame	data/chars/boss05/stand01.gif
+	delay	5
+	frame	data/chars/boss05/stand02.gif
+	delay	6
+	frame	data/chars/boss05/stand03.gif
+	delay	7
+	frame	data/chars/boss05/stand04.gif
+	delay	8
+	frame	data/chars/boss05/stand05.gif
+	delay	9
+	frame	data/chars/boss05/stand06.gif
+	delay	4
+	frame	data/chars/boss05/stand05.gif
+	delay	5
+	frame	data/chars/boss05/stand04.gif
+	delay	6
+	frame	data/chars/boss05/stand03.gif
+	delay	7
+	frame	data/chars/boss05/stand02.gif
+
+
+
+
+anim walk
+	loop	1
+	offset	124 185
+	bbox	79 64 92 122
+	delay	2
+	frame	data/chars/boss05/stand01.gif
+	delay	3
+	frame	data/chars/boss05/stand02.gif
+	delay	4
+	frame	data/chars/boss05/stand03.gif
+	delay	5
+	frame	data/chars/boss05/stand04.gif
+	delay	6
+	frame	data/chars/boss05/stand05.gif
+	delay	7
+	frame	data/chars/boss05/stand06.gif
+	delay	2
+	frame	data/chars/boss05/stand05.gif
+	delay	3
+	frame	data/chars/boss05/stand04.gif
+	delay	4
+	frame	data/chars/boss05/stand03.gif
+	delay	5
+	frame	data/chars/boss05/stand02.gif
+
+
+
+
+
+anim pain
+	loop	0
+	offset	124 185
+	bbox	79 64 92 122
+	delay	7
+	frame	data/chars/boss05/pain01.gif
+	frame	data/chars/boss05/pain02.gif
+	delay	4
+	frame	data/chars/boss05/stand01.gif
+	frame	data/chars/boss05/stand03.gif
+	frame	data/chars/boss05/stand01.gif
+	frame	data/chars/boss05/stand03.gif
+
+
+
+anim fall
+	loop	0
+	offset	124 185
+	delay	10
+	bbox	73 96 101 73
+	attack	73 96 101 73 10 1
+	frame	data/chars/boss05/fall01.gif
+	bbox	0
+	attack	0
+	delay	60
+	frame	data/chars/boss05/fall01.gif
+	delay	20
+	frame	data/chars/boss05/fall02.gif
+
+
+
+
+anim rise
+	loop	0
+	offset	124 185
+	delay	10
+	frame	data/chars/boss05/fall01.gif
+
+
+
+
+
+anim attack1
+	loop	0
+	delay	8
+	offset	124 185
+	bbox	79 64 92 122
+	attack	143 82 48 94 20 1
+	sound	data/sounds/ghost.wav
+	frame	data/chars/boss05/hit01.gif
+	attack	139 74 88 95 15 1
+	sound	data/sounds/splat.wav
+	frame	data/chars/boss05/hit03.gif
+	delay	10
+	attack	138 74 147 98 15 1
+	frame	data/chars/boss05/hit05.gif
+	delay	8
+	frame	data/chars/boss05/hit04.gif
+	delay	6
+	attack	0 0 0 0 0 0
+	frame	data/chars/boss05/hit02.gif
+
+
+
+
+
+anim attack2
+	loop	0
+	delay	10
+	offset	124 185
+	bbox	79 64 92 122
+	sound	data/sounds/splat.wav
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss05/face01.gif
+	attack	206 138 39 38 15 1
+	frame	data/chars/boss05/face02.gif
+	attack	266 154 39 38 15 1
+	frame	data/chars/boss05/face03.gif
+	attack	238 144 39 38 15 1
+	frame	data/chars/boss05/face04.gif
+	attack	224 94 39 38 15 1
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss05/face05.gif
+	attack	287 95 39 38 15 1
+	frame	data/chars/boss05/face06.gif
+	attack	257 97 39 38 15 1
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss05/face07.gif
+	attack	216 47 39 38 15 1
+	frame	data/chars/boss05/face08.gif
+	attack	276 36 39 38 15 1
+	frame	data/chars/boss05/face09.gif
+	attack	246 38 39 38 15 1
+	frame	data/chars/boss05/face10.gif
+	attack	186 54 39 38 15 1
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss05/face11.gif
+	attack	186 3 39 38 15 1
+	frame	data/chars/boss05/face12.gif
+	attack	156 21 39 38 15 1
+	frame	data/chars/boss05/face13.gif
+	attack	127 37 39 38 15 1
+	frame	data/chars/boss05/face14.gif
+
+
+anim riseattack
+	loop	0
+	delay	8
+	offset	124 185
+	bbox	79 64 92 122
+	attack	143 82 48 94 20 1
+	sound	data/sounds/ghost.wav
+	frame	data/chars/boss05/hit01.gif
+	attack	139 74 88 95 15 1
+	sound	data/sounds/splat.wav
+	frame	data/chars/boss05/hit03.gif
+	delay	10
+	attack	138 74 147 98 15 1
+	frame	data/chars/boss05/hit05.gif
+	delay	8
+	frame	data/chars/boss05/hit04.gif
+	delay	6
+	attack	0 0 0 0 0 0
+	frame	data/chars/boss05/hit02.gif
+
+
+
+anim upper
+	loop	0
+	offset	124 185
+	attack	79 64 92 122
+	delay	5
+	hitflash    elec1
+	sound	data/sounds/elec1.wav
+	frame	data/chars/boss05/stand01.gif
+	frame	data/chars/boss05/elect.gif
+	frame	data/chars/boss05/stand01.gif
+	frame	data/chars/boss05/elect.gif
+	frame	data/chars/boss05/stand01.gif
+	frame	data/chars/boss05/elect.gif
+	frame	data/chars/boss05/stand01.gif
+	frame	data/chars/boss05/elect.gif
+	frame	data/chars/boss05/stand01.gif
+	frame	data/chars/boss05/elect.gif
+
+
+
+
+anim Death
+	loop 0
+	offset	124 185
+	delay	12
+	frame	data/chars/boss05/death01.gif
+	frame	data/chars/boss05/death02.gif
+	frame	data/chars/boss05/death03.gif
+	frame	data/chars/boss05/death04.gif
+	delay	14
+	frame	data/chars/boss05/death05.gif
+	delay	16
+	sound	data/sounds/expl1.wav
+	frame	data/chars/boss05/death06.gif
+	delay	12
+	frame	data/chars/boss05/death07.gif
+	sound	data/sounds/splat.wav
+	frame	data/chars/boss05/death08.gif
+	delay	10
+	frame	data/chars/boss05/death09.gif
+	frame	data/chars/boss05/death10.gif
+
+
+
+
+

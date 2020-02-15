@@ -1,0 +1,2 @@
+music	        Data\music\SplaterSonEditado.ogg 0
+animation	data/scenes/ending.gif 0 0

@@ -1,0 +1,2 @@
+music	        Data\scenes\inter03.bor 0
+animation	data/scenes/03.gif 0 0

@@ -1,0 +1,41 @@
+completebg 1
+hiscorebg  1
+maxplayers 2
+noslowfx   0
+colorselect 1
+
+
+
+
+
+
+
+
+set	Nightmare
+noshare  0
+lives	2
+credits 1
+colorselect 1
+nosame	1
+
+
+
+
+scene   data/scenes/01.txt
+z       175 240 160
+file	data/levels/st31.txt //1-STAGE
+next
+file	data/levels/st3.txt  //2-STAGE
+next
+file	data/levels/st7.txt  //3-STAGE
+next
+file	data/levels/st21.txt //4-STAGE
+next
+file    data/levels/st8.txt  //5-STAGE
+next
+z       180 240 160
+file    data/levels/st9.txt  //6-STAGE
+next
+scene   data/scenes/ending.txt
+scene   data/scenes/creditss.txt
+

@@ -1,0 +1,47 @@
+name	Hell_Fire
+type	trap
+
+
+anim idle
+	loop	1
+	delay	8
+	offset	18 66
+	attack  6 52 24 14 20 1
+        hitflash    smoke1
+	hitfx   data/sounds/burn3.wav
+	frame	data/chars/misc/fire1/f1.gif
+	attack  6 4 24 63 20 1
+	frame	data/chars/misc/fire1/f2.gif
+	attack  6 28 24 38 20 1
+	frame	data/chars/misc/fire1/f3.gif
+	attack  6 4 24 63 20 1
+	frame	data/chars/misc/fire1/f2.gif
+	attack  6 28 24 38 20 1
+	frame	data/chars/misc/fire1/f3.gif
+	attack  6 4 24 63 20 1
+	frame	data/chars/misc/fire1/f2.gif
+	attack  3 4 31 63 20 1
+	frame	data/chars/misc/fire1/f4.gif
+	attack  6 52 24 14 20 1
+	delay	5
+	attack  0 0 0 0 0 0
+	frame	data/chars/misc/fire1/f1.gif
+	frame	data/chars/misc/fire1/f5.gif
+	frame	data/chars/misc/fire1/f1.gif
+	frame	data/chars/misc/fire1/f5.gif
+	frame	data/chars/misc/fire1/f1.gif
+	frame	data/chars/misc/fire1/f5.gif
+	frame	data/chars/misc/fire1/f1.gif
+	frame	data/chars/misc/fire1/f5.gif
+	frame	data/chars/misc/fire1/f1.gif
+	frame	data/chars/misc/fire1/f5.gif
+	frame	data/chars/misc/fire1/f1.gif
+	frame	data/chars/misc/fire1/f5.gif
+	frame	data/chars/misc/fire1/f1.gif
+	frame	data/chars/misc/fire1/f5.gif
+	frame	data/chars/misc/fire1/f1.gif
+	frame	data/chars/misc/fire1/f5.gif
+	frame	data/chars/misc/fire1/f1.gif
+	frame	data/chars/misc/fire1/f5.gif
+
+

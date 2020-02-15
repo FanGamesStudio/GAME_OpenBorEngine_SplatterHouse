@@ -1,0 +1,16 @@
+name	elec1
+type	none
+shadow	0
+
+
+anim idle
+	 loop      0
+	 delay     3 
+	 offset    43 46
+	 frame     data/chars/misc/elec1/1.gif
+	 frame     data/chars/misc/elec1/2.gif
+	 frame     data/chars/misc/elec1/3.gif
+	 frame     data/chars/misc/elec1/4.gif
+	 frame     data/chars/misc/elec1/5.gif
+	 frame     data/chars/misc/elec1/6.gif
+	 frame     data/chars/misc/elec1/7.gif

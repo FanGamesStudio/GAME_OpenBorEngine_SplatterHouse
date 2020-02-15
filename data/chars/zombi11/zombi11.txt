@@ -1,0 +1,130 @@
+name	Headache
+health	100
+speed	6
+type	enemy
+shadow	2
+diesound data/sounds/zdie1.wav
+icon	data/chars/zombi11/icon.gif
+icondie    data/chars/zombi11/icond.gif
+remap data/chars/zombi11/walk01.gif data/chars/zombi11/ALT1.gif
+nodieblink    2
+falldie       2
+aggression 1
+
+
+anim idle
+	delay	15
+	loop	1
+	offset	66 80
+	bbox	49 19 37 59
+	frame	data/chars/zombi11/walk01.gif
+
+
+
+
+anim walk
+	loop	1
+	delay	12
+	offset	66 80
+	bbox	49 19 37 59
+	frame	data/chars/zombi11/walk01.gif
+	frame	data/chars/zombi11/walk02.gif
+	frame	data/chars/zombi11/walk03.gif
+	frame	data/chars/zombi11/walk02.gif
+
+		
+
+anim upper
+	loop	0
+	delay	10
+	bbox	49 19 37 59
+	offset	66 80
+	frame	data/chars/zombi11/hit01.gif
+	delay	15
+	attack	76 16 42 29 5 1
+	frame	data/chars/zombi11/hit02.gif
+	delay	10
+	frame	data/chars/zombi11/hit01.gif
+
+
+
+anim grabbed
+	loop	0
+	delay	10
+	bbox	49 19 37 59
+	offset	66 80
+	frame	data/chars/zombi11/walk02.gif
+
+
+
+
+anim attack1
+	loop	0
+	delay	10
+	bbox	49 19 37 59
+	offset	66 80
+	frame	data/chars/zombi11/hit01.gif
+	delay	15
+	attack	78 31 46 24 7 0
+	frame	data/chars/zombi11/hit03.gif
+	delay	10
+	frame	data/chars/zombi11/hit01.gif
+
+
+
+
+
+
+
+	
+anim pain
+	loop	0
+	offset	66 80
+	bbox	35 17 37 60
+	delay	12
+	frame	data/chars/zombi11/pain01.gif
+	bbox	52 24 41 53
+	frame	data/chars/zombi11/pain02.gif
+
+
+
+
+	
+anim fall
+	loop	0
+	offset	66 80
+	delay	15
+	bbox	35 17 37 60
+	attack	35 17 37 60 5 1
+	frame	data/chars/zombi11/pain01.gif
+	delay	20
+	bbox	0
+	attack	0
+	frame	data/chars/zombi11/fall01.gif
+	delay	20
+	frame	data/chars/zombi11/fall02.gif
+
+	
+	
+anim rise
+	loop	0
+	offset	66 80
+	delay	12
+	frame	data/chars/zombi11/rise01.gif
+	delay	12
+	frame	data/chars/zombi11/hit01.gif
+
+
+	
+
+anim Death
+	loop	0
+	offset	38 80
+	delay	11
+	move	-28
+	sound	data/sounds/splat.wav
+	frame	data/chars/zombi11/death01.gif
+	move	0
+	frame	data/chars/zombi11/death02.gif
+	frame	data/chars/zombi11/death03.gif
+	frame	data/chars/zombi11/death04.gif

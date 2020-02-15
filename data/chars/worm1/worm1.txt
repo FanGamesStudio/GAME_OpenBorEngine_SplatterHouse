@@ -1,0 +1,67 @@
+name	worm_1
+type	enemy
+subtype	chase
+speed	7
+health	1
+shadow	1
+nodieblink    2
+falldie       2
+cantgrab      1
+aggression 3
+
+
+
+anim idle
+	loop	1
+	delay	8
+	offset	32 37
+	bbox	11 0 38 47
+	attack	16 28 29 19 10 0
+        hitflash    blood
+	hitfx   data/sounds/cut3.wav
+	frame	data/chars/worm1/1.GIF
+
+
+
+
+anim walk
+	loop	1
+	delay	6
+	offset	32 37
+	bbox	11 0 38 47
+	attack	16 28 29 19 10 0
+        hitflash    blood
+	hitfx   data/sounds/cut3.wav
+	frame	data/chars/worm1/1.GIF
+	frame	data/chars/worm1/2.GIF
+	frame	data/chars/worm1/3.GIF
+
+
+
+anim pain
+	loop	1
+	delay	5
+	offset	30 45
+	frame	data/chars/worm1/2.GIF
+
+
+
+
+
+anim fall
+	loop	0
+	delay	10
+	offset	30 45
+	frame	data/chars/worm1/2.GIF
+
+
+
+
+anim Death
+	loop 0
+	delay	10
+	offset	30 45
+	sound	data/sounds/splat.wav
+	frame	data/chars/worm1/4.GIF
+	frame	data/chars/worm1/5.GIF
+

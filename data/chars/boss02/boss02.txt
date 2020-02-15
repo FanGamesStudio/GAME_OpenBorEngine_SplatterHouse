@@ -1,0 +1,187 @@
+name	Mutant_Jennifer
+health	300
+speed	8
+type	enemy
+shadow	4
+icon	data/chars/boss02/icon.gif
+icondie    data/chars/boss02/icond.gif
+diesound data/sounds/b2die.wav
+nodieblink    3
+falldie       2
+subtype       chase
+aggression 10
+
+
+
+anim idle
+	loop	1
+	offset	108 148
+	bbox	87 54 51 86
+	delay	12
+	frame	data/chars/boss02/stand01.gif
+
+
+
+anim walk
+	loop	1
+	offset	108 148
+	bbox	
+	delay	8
+	bbox	87 54 51 86
+	frame	data/chars/boss02/walk01.gif
+	frame	data/chars/boss02/walk02.gif
+	frame	data/chars/boss02/walk03.gif
+	frame	data/chars/boss02/walk02.gif
+
+
+
+
+
+anim pain
+	loop	0
+	offset	108 148
+	bbox	90 48 44 97
+	delay	8
+	frame	data/chars/boss02/trans08.gif
+	frame	data/chars/boss02/walk01.gif
+	frame	data/chars/boss02/crouch.gif
+
+
+
+
+anim fall
+	loop	0
+	delay	8
+	offset	108 148
+	bbox    76 54 58 81
+	attack	76 54 58 81 15 1
+	frame	data/chars/boss02/trans08.gif
+	delay	15
+	bbox    89 67 66 58
+	attack	89 67 66 58 15 1
+	frame	data/chars/boss02/fall01.gif
+	attack	0
+	bbox    0 0 0 0
+	frame	data/chars/boss02/fall02.gif
+	frame	data/chars/boss02/fall03.gif
+
+
+
+
+
+
+anim rise
+	loop	0
+	offset	108 148
+	delay	10
+	frame	data/chars/boss02/crouch.gif
+	frame	data/chars/boss02/trans08.gif
+
+
+
+
+anim attack2
+	loop	0
+	delay	8
+	offset	108 148
+	bbox	80 81 61 63
+        hitflash    blood
+	frame	data/chars/boss02/crouch.gif
+	sound	data/sounds/blade.wav
+	hitfx   data/sounds/cut3.wav
+	delay	20
+	attack	133 85 93 31 20 1
+	frame	data/chars/boss02/hit02.gif
+	delay	8
+	attack	128 86 56 27 20 1
+	frame	data/chars/boss02/hit01.gif
+	delay	8
+	bbox	80 81 61 63
+	frame	data/chars/boss02/crouch.gif
+
+
+
+
+anim attack1
+	loop	0
+	delay	8
+	offset	108 148
+	bbox	80 81 61 63
+        hitflash    blood
+	frame	data/chars/boss02/crouch.gif
+        move    10
+	delay	4
+	attack	83 71 87 66 20 1
+	sound	data/sounds/flasha.wav
+	hitfx   data/sounds/cut3.wav
+	frame	data/chars/boss02/jump01.gif
+	frame	data/chars/boss02/jump01.gif
+	frame	data/chars/boss02/jump01.gif
+	frame	data/chars/boss02/jump01.gif
+        move    7
+	delay	8
+	frame	data/chars/boss02/jump02.gif
+        move    4
+	attack	0
+	frame	data/chars/boss02/crouch.gif
+
+
+
+
+
+anim Death
+	loop 0
+	offset	108 148
+	delay	8
+	frame	data/chars/boss02/crouch.gif
+	frame	data/chars/boss02/walk01.gif
+	sound	data/sounds/splat.wav
+	frame	data/chars/boss02/death01.gif
+	frame	data/chars/boss02/trans08.gif
+	frame	data/chars/boss02/walk01.gif
+	frame	data/chars/boss02/trans08.gif
+	frame	data/chars/boss02/death01.gif
+	frame	data/chars/boss02/trans08.gif
+	frame	data/chars/boss02/walk01.gif
+	frame	data/chars/boss02/trans08.gif
+	frame	data/chars/boss02/death01.gif
+	frame	data/chars/boss02/death02.gif
+	sound	data/sounds/expl1.wav
+	frame	data/chars/boss02/death03.gif
+	frame	data/chars/boss02/death02.gif
+	frame	data/chars/boss02/death03.gif
+	frame	data/chars/boss02/death04.gif
+	delay	15
+	frame	data/chars/boss02/death05.gif
+	sound	data/sounds/splat.wav
+	delay	10
+	frame	data/chars/boss02/death06.gif
+	frame	data/chars/boss02/death07.gif
+
+
+
+anim riseattack
+	loop	0
+	delay	8
+	offset	108 148
+	bbox	80 81 61 63
+        hitflash    blood
+	frame	data/chars/boss02/crouch.gif
+        move    10
+	delay	4
+	attack	83 71 87 66 20 1
+	sound	data/sounds/flasha.wav
+	hitfx   data/sounds/cut3.wav
+	frame	data/chars/boss02/jump01.gif
+	frame	data/chars/boss02/jump01.gif
+	frame	data/chars/boss02/jump01.gif
+	frame	data/chars/boss02/jump01.gif
+        move    7
+	delay	8
+	frame	data/chars/boss02/jump02.gif
+        move    4
+	attack	0
+	frame	data/chars/boss02/crouch.gif
+
+
+

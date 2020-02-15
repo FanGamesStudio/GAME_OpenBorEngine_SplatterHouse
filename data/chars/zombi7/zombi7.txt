@@ -1,0 +1,150 @@
+name	Ghoul
+health	100
+speed	6
+type	enemy
+shadow	3
+diesound data/sounds/zdie6.wav
+remap data/chars/zombi7/walk01.gif data/chars/zombi7/ALT1.gif
+remap data/chars/zombi7/walk01.gif data/chars/zombi7/ALT2.gif
+icon	data/chars/zombi7/icon.gif
+icondie    data/chars/zombi7/icond.gif
+nodieblink    2
+falldie       2
+aggression 1
+
+
+anim idle
+	delay	25
+	loop	1
+	offset	65 103
+	bbox	53 42 33 55
+	frame	data/chars/zombi7/walk01.gif
+
+
+
+anim walk
+	loop	1
+	delay	12
+	offset	65 103
+	bbox	53 42 33 55
+	frame	data/chars/zombi7/walk01.gif
+	frame	data/chars/zombi7/walk02.gif
+	frame	data/chars/zombi7/walk03.gif
+	frame	data/chars/zombi7/walk02.gif
+
+		
+
+anim attack1
+	loop	0
+	delay	7
+	bbox	53 42 33 55
+	offset	65 103
+        move    10
+	frame	data/chars/zombi7/hit01.gif
+	delay	10
+	bbox	53 42 33 55
+	attack	71 60 25 22 5 0 0 0 1 8
+        move    7
+	frame	data/chars/zombi7/hit02.gif
+
+
+anim attack2
+	loop	0
+	delay	9
+	bbox	53 42 33 55
+	offset	65 103
+	attack	53 48 42 52 5 0 0 0 1 8
+        move    10
+	frame	data/chars/zombi7/hit03.gif
+        move    6
+	delay	6
+	bbox	53 42 33 55
+	attack	53 48 42 52 10 0 0 0 1 8
+	frame	data/chars/zombi7/hit04.gif
+        move    3
+	delay	11
+	attack	0 0 0 0 0 0
+	bbox	53 42 33 55
+	frame	data/chars/zombi7/walk01.gif
+
+
+
+anim grabbed
+	loop	0
+	delay	50
+	offset	65 103
+	bbox	53 42 33 55
+	frame	data/chars/zombi7/walk01.gif
+
+
+
+
+	
+anim pain
+	loop	0
+	offset	65 103
+	bbox	48 40 25 48
+	delay	15
+	frame	data/chars/zombi7/pain02.gif
+	frame	data/chars/zombi7/hit04.gif
+
+
+
+
+	
+anim fall
+	loop	0
+	offset	65 103
+	delay	6
+	bbox	48 40 25 48
+	frame	data/chars/zombi7/pain01.gif
+	bbox	39 40 53 36
+	attack	39 40 53 36 5 1
+	frame	data/chars/zombi7/fall01.gif
+	bbox    0
+	attack	0
+	frame	data/chars/zombi7/fall02.gif
+	frame	data/chars/zombi7/fall03.gif
+	frame	data/chars/zombi7/fall04.gif
+	frame	data/chars/zombi7/pain01.gif
+	frame	data/chars/zombi7/fall01.gif
+	frame	data/chars/zombi7/fall04.gif
+
+
+
+
+	
+	
+anim rise
+	loop	0
+	offset	65 103
+	delay	15
+	frame	data/chars/zombi7/rise01.gif
+	frame	data/chars/zombi7/pain02.gif
+
+
+
+
+
+
+anim Death
+	loop 0
+	offset	65 103
+	delay	15
+	frame	data/chars/zombi7/rise01.gif
+	frame	data/chars/zombi7/pain02.gif
+	delay	12
+	frame	data/chars/zombi7/walk01.gif
+	sound	data/sounds/splat.wav
+	frame	data/chars/zombi7/death01.gif
+	offset	52 103
+	frame	data/chars/zombi7/death02.gif
+	delay	13
+	frame	data/chars/zombi7/death03.gif
+	frame	data/chars/zombi7/death04.gif
+
+
+
+
+
+

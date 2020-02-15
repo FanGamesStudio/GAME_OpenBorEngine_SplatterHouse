@@ -1,0 +1,148 @@
+name	Embryo
+health	100
+speed	7
+type	enemy
+shadow	2
+nodieblink    2
+falldie       2
+diesound data/sounds/zdie3.wav
+icon	data/chars/ball/icon.gif
+icondie    data/chars/ball/icond.gif
+
+
+
+anim idle
+	loop	1
+	offset	78 110
+	bbox	62 54 32 32
+	delay	2
+	frame	data/chars/ball/stand01.gif
+	delay	3
+	bbox	62 53 32 32
+	frame	data/chars/ball/stand02.gif
+	delay	4
+	bbox	62 52 32 32
+	frame	data/chars/ball/stand03.gif
+	delay	5
+	bbox	62 51 32 32
+	frame	data/chars/ball/stand04.gif
+	delay	6
+	bbox	62 50 32 32
+	frame	data/chars/ball/stand05.gif
+	delay	7
+	bbox	62 49 32 32
+	frame	data/chars/ball/stand06.gif
+	delay	2
+	bbox	62 50 32 32
+	frame	data/chars/ball/stand05.gif
+	delay	3
+	bbox	62 51 32 32
+	frame	data/chars/ball/stand04.gif
+	delay	4
+	bbox	62 52 32 32
+	frame	data/chars/ball/stand03.gif
+	delay	5
+	bbox	62 53 32 32
+	frame	data/chars/ball/stand02.gif
+
+
+
+
+anim walk
+	loop	1
+	delay	10
+	offset	78 110
+	bbox	62 54 32 32
+	frame	data/chars/ball/walk01.gif
+	frame	data/chars/ball/walk02.gif
+	frame	data/chars/ball/walk03.gif
+
+
+		
+
+anim attack1
+	loop	0
+	delay	6
+	bbox	62 54 32 32
+	offset	78 110
+	attack	79 54 24 31 8 0 0 0 1 8
+	sound	data/sounds/flasha.wav
+	frame	data/chars/ball/hit01.gif
+	delay	10
+	attack	79 54 55 32 8 0 0 0 1 8
+	frame	data/chars/ball/hit02.gif
+	delay	6
+	attack	79 54 24 31 8 0 0 0 1 8
+	frame	data/chars/ball/hit01.gif
+
+
+
+
+
+
+	
+anim pain
+	loop	0
+	bbox	62 54 32 32
+	offset	78 110
+	delay	8
+	frame	data/chars/ball/pain02.gif
+	delay	6
+	frame	data/chars/ball/walk01.gif
+	frame	data/chars/ball/pain01.gif
+	frame	data/chars/ball/walk01.gif
+	frame	data/chars/ball/pain01.gif
+
+
+
+
+	
+anim fall
+	loop	0
+	bbox	62 51 34 37
+	offset	78 110
+	delay	15
+	attack	62 51 34 37 10 1
+	frame	data/chars/ball/fall01.gif
+	delay	10
+	bbox	0
+	attack	0
+	frame	data/chars/ball/fall01.gif
+	delay	30
+	frame	data/chars/ball/fall02.gif
+
+
+
+		
+anim rise
+	loop	0
+	offset	78 110
+	delay	15
+	frame	data/chars/ball/rise01.gif
+	frame	data/chars/ball/rise02.gif
+
+
+
+
+anim Death
+	loop 0
+	offset	78 110
+	delay	15
+	frame	data/chars/ball/rise01.gif
+	frame	data/chars/ball/rise02.gif
+	delay	10
+	frame	data/chars/ball/pain01.gif
+	frame	data/chars/ball/stand01.gif
+	frame	data/chars/ball/pain01.gif
+	frame	data/chars/ball/stand01.gif
+	frame	data/chars/ball/pain01.gif
+	frame	data/chars/ball/stand01.gif
+	delay	12
+	sound	data/sounds/expl1.wav
+	frame	data/chars/ball/death01.gif
+	frame	data/chars/ball/death02.gif
+	sound	data/sounds/splat.wav
+	frame	data/chars/ball/death03.gif
+	frame	data/chars/ball/death04.gif
+
+	

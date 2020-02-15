@@ -1,0 +1,143 @@
+name	spider
+health	100
+speed	7
+type	enemy
+shadow	3
+nodieblink    3
+falldie       2
+diesound data/sounds/zdie5.wav
+icon	data/chars/spider/icon.gif
+icondie    data/chars/spider/icond.gif
+
+
+anim idle
+	delay	25
+	loop	1
+	offset	70 100
+	bbox	53 45 35 51
+	frame	data/chars/spider/walk02.gif
+
+
+
+anim walk
+	loop	1
+	delay	10
+	offset	70 100
+	bbox	53 45 35 51
+	frame	data/chars/spider/walk02.gif
+	frame	data/chars/spider/walk01.gif
+	frame	data/chars/spider/walk02.gif
+	frame	data/chars/spider/walk03.gif
+
+
+
+		
+
+anim attack1
+	loop	0
+	delay	5
+	bbox	53 45 35 51
+	offset	70 100
+	frame	data/chars/spider/rise05.gif
+	bbox	32 41 68 49
+	attack	52 48 48 36 8 1
+	sound	data/sounds/flasha.wav
+	delay	5
+        move    8
+	frame	data/chars/spider/fall03.gif
+	frame	data/chars/spider/fall03.gif
+	frame	data/chars/spider/fall03.gif
+	frame	data/chars/spider/fall03.gif
+	delay	6
+        move    6
+	frame	data/chars/spider/hit01.gif
+        move    4
+	frame	data/chars/spider/hit02.gif
+        move    2
+	bbox	53 45 35 51
+	frame	data/chars/spider/rise05.gif
+
+
+
+	
+anim pain
+	loop	0
+	offset	70 100
+	bbox	53 35 38 64
+	delay	6
+	frame	data/chars/spider/fall04.gif
+	bbox	53 45 35 51
+	frame	data/chars/spider/rise05.gif
+	frame	data/chars/spider/walk02.gif
+
+
+
+
+anim grabbed
+	loop	0
+	offset	70 100
+	bbox	53 45 35 51
+	delay	50
+	frame	data/chars/spider/fall04.gif
+
+
+	
+anim fall
+	loop	0
+	offset	70 100
+	delay	8
+	bbox	53 35 38 64
+	attack	53 35 38 64 7 1
+	frame	data/chars/spider/fall04.gif
+	bbox	0
+	attack	0
+	frame	data/chars/spider/fall01.gif
+	frame	data/chars/spider/fall02.gif
+	frame	data/chars/spider/fall03.gif
+	frame	data/chars/spider/fall04.gif
+	bbox	0
+	attack	0
+	frame	data/chars/spider/fall01.gif
+	frame	data/chars/spider/fall02.gif
+	frame	data/chars/spider/rise04.gif
+	delay	25
+	frame	data/chars/spider/rise01.gif
+
+
+	
+	
+anim rise
+	loop	0
+	offset	70 100
+	delay	7
+	frame	data/chars/spider/rise02.gif
+	frame	data/chars/spider/rise01.gif
+	frame	data/chars/spider/rise02.gif
+	sound	data/sounds/splat.wav
+	frame	data/chars/spider/rise03.gif
+	frame	data/chars/spider/rise04.gif
+	frame	data/chars/spider/rise05.gif
+
+
+
+anim Death
+	loop 0
+	offset	70 100
+	delay	7
+	frame	data/chars/spider/rise02.gif
+	frame	data/chars/spider/rise01.gif
+	frame	data/chars/spider/rise02.gif
+	sound	data/sounds/splat.wav
+	frame	data/chars/spider/rise03.gif
+	frame	data/chars/spider/death01.gif
+	frame	data/chars/spider/death02.gif
+	frame	data/chars/spider/death03.gif
+	frame	data/chars/spider/death01.gif
+	frame	data/chars/spider/death03.gif
+	frame	data/chars/spider/death04.gif
+	frame	data/chars/spider/death05.gif
+
+
+
+
+	

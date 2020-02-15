@@ -1,0 +1,262 @@
+name	Evil_One
+health	600
+speed	8
+type	enemy
+subtype       chase
+shadow	0
+icon	data/chars/boss09/icon.gif
+icondie    data/chars/boss09/icond.gif
+diesound data/sounds/b9die.wav
+nodieblink    3
+falldie       2
+noquake       0
+aggression 10
+blockodds   1
+
+
+
+anim idle
+	loop	1
+	offset	81 134
+	bbox	62 39 50 96
+	delay	15
+	frame	data/chars/boss09/walk01.gif
+	delay	10
+	frame	data/chars/boss09/stand01.gif
+	delay	15
+	frame	data/chars/boss09/stand02.gif
+	delay	10
+	frame	data/chars/boss09/stand01.gif
+
+
+
+
+
+anim walk
+	loop	1
+	offset	81 134
+	bbox	62 39 50 96
+	delay	10
+	frame	data/chars/boss09/walk01.gif
+	bbox	62 36 50 99
+	frame	data/chars/boss09/walk02.gif
+	bbox	62 39 50 99
+	frame	data/chars/boss09/walk03.gif
+	bbox	62 36 50 99
+	frame	data/chars/boss09/walk02.gif
+
+
+
+anim pain
+	loop	0
+	offset	81 134
+	bbox	55 34 52 101
+	delay	8
+	frame	data/chars/boss09/pain01.gif
+	bbox	69 54 39 82
+	frame	data/chars/boss09/guard.gif
+
+
+anim grabbed
+	loop	0
+	offset	81 134
+	bbox	62 39 50 96
+	delay	50
+	frame	data/chars/boss09/stand02.gif
+
+
+
+anim fall
+	loop	0
+	delay	10
+	offset	81 134
+	bbox	55 34 52 101
+	attack	55 34 52 101 5 1
+	frame	data/chars/boss09/pain01.gif
+	delay	8
+	attack	36 41 88 70 5 1
+	frame	data/chars/boss09/fall01.gif
+	bbox	0
+	frame	data/chars/boss09/fall01.gif
+	delay	25
+	attack	14 99 92 39 5 1
+	frame	data/chars/boss09/fall02.gif
+
+
+anim rise
+	loop	0
+	offset	81 134
+	delay	10
+	frame	data/chars/boss09/rise01.gif
+	frame	data/chars/boss09/rise02.gif
+	frame	data/chars/boss09/rise03.gif
+	frame	data/chars/boss09/rise04.gif
+
+
+anim block
+	loop	0
+	offset	81 134
+	delay	15
+	frame	data/chars/boss09/guard.gif
+
+
+
+
+
+anim attack1
+	loop	0
+	delay	6
+	offset	81 134
+	bbox	62 39 50 96
+        hitflash    elec1
+	frame	data/chars/boss09/hit01.gif
+	frame	data/chars/boss09/hit02.gif
+	sound	data/sounds/elec1.wav
+	frame	data/chars/boss09/hit03.gif
+	frame	data/chars/boss09/hit04.gif
+	delay	2
+	attack	83 46 53 89 5 0
+	frame	data/chars/boss09/hit05.gif
+	delay	2
+	attack	0 0 0 0 0 0
+	frame	data/chars/boss09/hit05.gif
+	delay	2
+	attack	82 40 78 93 5 0
+	frame	data/chars/boss09/hit06.gif
+	delay	2
+	attack	0 0 0 0 0 0
+	frame	data/chars/boss09/hit06.gif
+	delay	2
+	attack	83 46 53 89 5 0
+	frame	data/chars/boss09/hit05.gif
+	delay	2
+	attack	0 0 0 0 0 0
+	frame	data/chars/boss09/hit05.gif
+	delay	2
+	attack	82 40 78 93 5 0
+	frame	data/chars/boss09/hit06.gif
+	delay	2
+	attack	0 0 0 0 0 0
+	frame	data/chars/boss09/hit06.gif
+	delay	2
+	attack	83 46 53 89 5 0
+	frame	data/chars/boss09/hit05.gif
+	delay	2
+	attack	0 0 0 0 0 0
+	frame	data/chars/boss09/hit05.gif
+	delay	2
+	attack	82 40 78 93 5 0
+	frame	data/chars/boss09/hit06.gif
+	delay	2
+	attack	0 0 0 0 0 0
+	frame	data/chars/boss09/hit06.gif
+	delay	8
+	attack	118 45 55 82 10 1
+	frame	data/chars/boss09/hit06.gif
+
+
+
+
+
+
+
+anim attack2
+	loop	0
+	delay	10
+	offset	81 134
+	bbox	53 36 50 96
+	frame	data/chars/boss09/hit08.gif
+	delay	15
+	bbox	59 31 47 104
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss09/hit08b.gif
+	delay	25
+	bbox	59 48 47 88
+	blast	96 56 35 35 20 1
+	frame	data/chars/boss09/hit09.gif
+	delay	8
+	blast	0 0 0 0 0 0
+	frame	data/chars/boss09/guard.gif
+
+
+
+
+anim riseattack
+	loop	0
+	delay	8
+	offset	81 134
+	bbox	62 39 50 96
+	sound	data/sounds/ghost.wav
+	frame	data/chars/boss09/hit10.gif
+	attack	78 50 36 40 20 1
+	frame	data/chars/boss09/hit11.gif
+	delay	12
+	attack	78 39 60 75 20 1
+	frame	data/chars/boss09/hit12.gif
+	delay	10
+	frame	data/chars/boss09/hit13.gif
+	delay	8
+	frame	data/chars/boss09/hit11.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/boss09/hit10.gif
+
+
+
+
+
+
+anim upper
+	loop	0
+	delay	8
+	offset	81 134
+	bbox	62 39 50 96
+	sound	data/sounds/ghost.wav
+	frame	data/chars/boss09/hit10.gif
+	attack	78 50 36 40 20 1
+	frame	data/chars/boss09/hit11.gif
+	delay	12
+	attack	78 39 60 75 20 1
+	frame	data/chars/boss09/hit12.gif
+	delay	10
+	frame	data/chars/boss09/hit13.gif
+	delay	8
+	frame	data/chars/boss09/hit11.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/boss09/hit10.gif
+
+
+
+
+anim Death
+	loop 0
+	delay	8
+	offset	81 134
+	delay	10
+	frame	data/chars/boss09/rise01.gif
+	frame	data/chars/boss09/rise02.gif
+	frame	data/chars/boss09/rise03.gif
+	frame	data/chars/boss09/rise04.gif
+	sound	data/sounds/ghost.wav
+	frame	data/chars/boss09/hit10.gif
+	frame	data/chars/boss09/hit11.gif
+	delay	15
+	sound	data/sounds/splat.wav
+	frame	data/chars/boss09/hit12.gif
+	frame	data/chars/boss09/hit13.gif
+	frame	data/chars/boss09/death01.gif
+	frame	data/chars/boss09/death02.gif
+	frame	data/chars/boss09/death03.gif
+	frame	data/chars/boss09/death04.gif
+	frame	data/chars/boss09/death05.gif
+	delay	25
+	frame	data/chars/boss09/death06.gif
+	delay	15
+	sound	data/sounds/cristal2.wav
+	frame	data/chars/boss09/death07.gif
+	frame	data/chars/boss09/death08.gif
+	frame	data/chars/boss09/death09.gif
+	delay	30
+	frame	data/chars/boss09/death10.gif
+
+
+

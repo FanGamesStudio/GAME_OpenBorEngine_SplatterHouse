@@ -1,0 +1,257 @@
+name	The_Mask
+health	700
+speed	8
+type	enemy
+subtype       chase
+shadow	4
+blockodds   1
+icon	data/chars/boss10/icon.gif
+icondie    data/chars/boss10/icond.gif
+diesound data/sounds/b10die.wav
+nodieblink    3
+falldie       2
+noquake       0
+aggression 10
+
+
+
+
+anim idle
+	loop	1
+	offset	92 108
+	bbox	75 21 45 86
+	delay	15
+	frame	data/chars/boss10/walk01.gif
+
+
+
+
+anim walk
+	loop	1
+	offset	92 108
+	bbox	75 21 45 86
+	delay	8
+	frame	data/chars/boss10/walk01.gif
+	bbox	75 20 45 86
+	frame	data/chars/boss10/walk02.gif
+	bbox	75 21 45 86
+	frame	data/chars/boss10/walk03.gif
+	bbox	75 20 45 86
+	frame	data/chars/boss10/walk02.gif
+
+
+
+anim pain
+	loop	0
+	offset	92 108
+	bbox	64 11 47 91
+	delay	8
+	frame	data/chars/boss10/pain01.gif
+	bbox	75 20 45 86
+	frame	data/chars/boss10/walk02.gif
+
+
+
+
+
+anim fall
+	loop	0
+	delay	10
+	offset	92 108
+	bbox	64 11 47 91
+	attack	64 11 47 91 15 1
+	frame	data/chars/boss10/pain01.gif
+	delay	10
+	attack	45 11 79 75 15 1
+	frame	data/chars/boss10/fall01.gif
+	attack	0
+	bbox	0
+	frame	data/chars/boss10/fall01.gif
+	delay	15
+	frame	data/chars/boss10/fall02.gif
+
+
+anim rise
+	loop	0
+	offset	92 108
+	delay	12
+	frame	data/chars/boss10/rise01.gif
+	delay	10
+	frame	data/chars/boss10/pain01.gif
+
+
+
+
+anim block
+	loop	0
+	offset	92 108
+	delay	4
+        hitflash    block
+	frame	data/chars/boss10/block01.gif
+	frame	data/chars/boss10/block02.gif
+	frame	data/chars/boss10/block03.gif
+	delay	5
+	frame	data/chars/boss10/block04.gif
+
+
+
+
+
+anim attack1
+	loop	0
+	delay	4
+	offset	92 108
+	bbox	75 20 45 86
+        hitflash    blood
+	sound	data/sounds/trans2.wav
+	frame	data/chars/boss10/hit01.gif
+	bbox	74 12 45 95
+	frame	data/chars/boss10/hit02.gif
+	bbox	74 10 48 97
+	frame	data/chars/boss10/hit03.gif
+	bbox	71 6 55 100
+	frame	data/chars/boss10/hit04.gif
+	attack	97 22 46 37 15 1
+	sound	data/sounds/blade.wav
+	frame	data/chars/boss10/hit05.gif
+	delay	20
+	attack	96 23 83 31 15 1
+	frame	data/chars/boss10/hit06.gif
+	delay	4
+	frame	data/chars/boss10/hit05.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/boss10/hit04.gif
+	bbox	74 10 48 97
+	frame	data/chars/boss10/hit03.gif
+	bbox	74 12 45 95
+	frame	data/chars/boss10/hit02.gif
+	bbox	75 20 45 86
+	frame	data/chars/boss10/hit01.gif
+
+
+
+
+
+
+
+anim attack2
+	loop	0
+	delay	5
+	offset	92 108
+	bbox	75 21 45 86
+	frame	data/chars/boss10/hit07.gif
+	frame	data/chars/boss10/walk01.gif
+	frame	data/chars/boss10/hit07.gif
+	frame	data/chars/boss10/walk01.gif
+	delay	7
+	sound	data/sounds/ghost.wav
+	frame	data/chars/boss10/hit08.gif
+	frame	data/chars/boss10/hit09.gif
+	delay	5
+	bbox	0 0 0 0
+	attack	106 27 51 34 18 1
+	frame	data/chars/boss10/hit10.gif
+	attack	111 27 77 34 18 1
+	frame	data/chars/boss10/hit11.gif
+	attack	137 27 77 34 18 1
+	frame	data/chars/boss10/hit12.gif
+	attack	192 12 38 62 18 1
+	frame	data/chars/boss10/hit13.gif
+	attack	213 9 36 66 18 1
+	frame	data/chars/boss10/hit14.gif
+	bbox	75 21 45 86
+	attack	0 0 0 0 0 0
+	frame	data/chars/boss10/walk01.gif
+	frame	data/chars/boss10/hit07.gif
+
+
+
+
+anim riseattack
+	loop	0
+	delay	4
+	offset	92 108
+	bbox	75 20 45 86
+        hitflash    blood
+	sound	data/sounds/trans2.wav
+	frame	data/chars/boss10/hit01.gif
+	bbox	74 12 45 95
+	frame	data/chars/boss10/hit02.gif
+	bbox	74 10 48 97
+	frame	data/chars/boss10/hit03.gif
+	bbox	71 6 55 100
+	frame	data/chars/boss10/hit04.gif
+	attack	97 22 46 37 15 1
+	sound	data/sounds/blade.wav
+	frame	data/chars/boss10/hit05.gif
+	delay	20
+	attack	96 23 83 31 15 1
+	frame	data/chars/boss10/hit06.gif
+	delay	4
+	frame	data/chars/boss10/hit05.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/boss10/hit04.gif
+	bbox	74 10 48 97
+	frame	data/chars/boss10/hit03.gif
+	bbox	74 12 45 95
+	frame	data/chars/boss10/hit02.gif
+	bbox	75 20 45 86
+	frame	data/chars/boss10/hit01.gif
+
+
+
+
+
+anim upper
+	loop	0
+	delay	4
+	offset	92 108
+	attack	60 7 77 97 10 1
+	sound	data/sounds/trans2.wav
+	frame	data/chars/boss10/hit01.gif
+	frame	data/chars/boss10/hit02.gif
+	frame	data/chars/boss10/hit03.gif
+	delay	4
+	frame	data/chars/boss10/hit04.gif
+	frame	data/chars/boss10/hit04b.gif
+	frame	data/chars/boss10/hit04.gif
+	frame	data/chars/boss10/hit04b.gif
+	frame	data/chars/boss10/hit04.gif
+	frame	data/chars/boss10/hit04b.gif
+	frame	data/chars/boss10/hit04.gif
+	frame	data/chars/boss10/hit04b.gif
+	frame	data/chars/boss10/hit04.gif
+	frame	data/chars/boss10/hit04b.gif
+	delay	4
+	frame	data/chars/boss10/hit03.gif
+	frame	data/chars/boss10/hit02.gif
+	frame	data/chars/boss10/hit01.gif
+
+
+
+
+
+
+anim Death
+	loop 0
+	offset	92 108
+	delay	12
+	frame	data/chars/boss10/rise01.gif
+	delay	10
+	frame	data/chars/boss10/pain01.gif
+	sound	data/sounds/splat1.wav
+	frame	data/chars/boss10/hit01.gif
+	frame	data/chars/boss10/hit02.gif
+	sound	data/sounds/splat2.wav
+	frame	data/chars/boss10/hit03.gif
+	frame	data/chars/boss10/hit04.gif
+	sound	data/sounds/splat.wav
+	frame	data/chars/boss10/death01.gif
+	frame	data/chars/boss10/death02.gif
+	frame	data/chars/boss10/death03.gif
+	frame	data/chars/boss10/death04.gif
+	frame	data/chars/boss10/death05.gif
+	frame	data/chars/boss10/death06.gif
+
+
+

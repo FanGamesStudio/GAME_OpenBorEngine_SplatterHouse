@@ -1,0 +1,117 @@
+name	Corpse_Eater
+type	enemy
+subtype	chase
+speed	6
+health	1
+shadow	1
+nodieblink    2
+falldie       2
+cantgrab      1
+aggression 3
+
+
+
+anim idle
+	loop	1
+	delay	10
+	offset	46 94
+	bbox	28 45 42 50
+	hitfx   data/sounds/cut3.wav
+	frame	data/chars/worm3/w2.GIF
+	frame	data/chars/worm3/w3.GIF
+
+
+
+
+anim walk
+	loop	1
+	delay	7
+	offset	46 94
+	bbox	28 45 42 50
+	hitfx   data/sounds/cut3.wav
+	frame	data/chars/worm3/w1.GIF
+	frame	data/chars/worm3/w2.GIF
+	frame	data/chars/worm3/w3.GIF
+
+
+anim attack1
+	loop	0
+	delay	4
+	offset	46 94
+        hitflash    blood
+        move    8
+	bbox	30 54 29 38
+	attack	30 54 29 38 10 1
+	hitfx   data/sounds/cut3.wav
+	sound	data/sounds/wormat.wav
+	frame	data/chars/worm3/hit01.GIF
+        move    9
+	frame	data/chars/worm3/hit01.GIF
+	bbox	29 42 30 39
+        move    10
+	attack	29 42 30 39 10 1
+	frame	data/chars/worm3/hit02.GIF
+        move    10
+	frame	data/chars/worm3/hit02.GIF
+	bbox	15 37 60 20
+        move    8
+	attack	15 37 60 20 10 1
+	frame	data/chars/worm3/hit03.GIF
+	frame	data/chars/worm3/hit03.GIF
+	bbox	30 43 39 37
+        move    6
+	attack	30 43 39 37 10 1
+	frame	data/chars/worm3/hit04.GIF
+	bbox	30 61 39 36
+        move    6
+	attack	30 61 39 36 10 1
+	frame	data/chars/worm3/hit05.GIF
+	frame	data/chars/worm3/hit05.GIF
+	bbox	28 45 42 50
+	attack	0
+	delay	10
+	frame	data/chars/worm3/w1.GIF
+
+
+
+
+
+anim pain
+	loop	1
+	delay	10
+	offset	46 94
+	frame	data/chars/worm3/fall01.GIF
+	frame	data/chars/worm3/fall02.GIF
+
+
+
+
+anim fall
+	loop	0
+	delay	5
+	offset	46 94
+	frame	data/chars/worm3/fall01.GIF
+	frame	data/chars/worm3/fall02.GIF
+	frame	data/chars/worm3/fall01.GIF
+	frame	data/chars/worm3/fall02.GIF
+	frame	data/chars/worm3/fall01.GIF
+	frame	data/chars/worm3/fall02.GIF
+	frame	data/chars/worm3/fall01.GIF
+	frame	data/chars/worm3/fall02.GIF
+	delay	10
+	frame	data/chars/worm3/fall03.GIF
+
+
+
+
+
+anim Death
+	loop 0
+	delay	10
+	offset	46 94
+	sound	data/sounds/splat.wav
+	frame	data/chars/worm3/death01.GIF
+	frame	data/chars/worm3/death02.GIF
+	frame	data/chars/worm3/death03.GIF
+
+

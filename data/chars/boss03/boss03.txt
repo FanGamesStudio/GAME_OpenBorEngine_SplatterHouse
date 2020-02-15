@@ -1,0 +1,372 @@
+name	Bellyache
+health	400
+speed	6
+type	enemy
+subtype       chase
+shadow	6
+icon	data/chars/boss03/icon.gif
+icondie    data/chars/boss03/icond.gif
+remap data/chars/boss03/walk01.gif data/chars/boss03/ALT1.gif
+diesound data/sounds/b3die.wav
+nodieblink    2
+falldie       2
+noquake       0
+aggression 10
+
+
+anim idle
+	loop	1
+	offset	99 134
+	bbox	55 38 91 100
+	delay	12
+	frame	data/chars/boss03/walk01.gif
+
+
+
+anim walk
+	loop	1
+	offset	99 134
+	bbox	55 38 91 100
+	delay	10
+	frame	data/chars/boss03/walk01.gif
+	frame	data/chars/boss03/walk02.gif
+	frame	data/chars/boss03/walk01.gif
+	frame	data/chars/boss03/walk03.gif
+
+
+anim pain
+	loop	0
+	offset	99 134
+	bbox	55 38 91 100
+	delay	6
+	frame	data/chars/boss03/pain01.gif
+	frame	data/chars/boss03/walk01.gif
+	frame	data/chars/boss03/pain01.gif
+	frame	data/chars/boss03/walk01.gif
+	frame	data/chars/boss03/pain01.gif
+	frame	data/chars/boss03/walk01.gif
+	frame	data/chars/boss03/pain01.gif
+	frame	data/chars/boss03/walk01.gif
+
+
+
+anim grabbed
+	loop	0
+	offset	99 134
+	bbox	55 38 91 100
+	delay	50
+	frame	data/chars/boss03/hit02.gif
+
+
+
+
+anim fall
+	loop	0
+	offset	99 134
+	attack	55 38 91 100
+	delay	6
+	frame	data/chars/boss03/pain01.gif
+	frame	data/chars/boss03/walk01.gif
+	frame	data/chars/boss03/pain01.gif
+	frame	data/chars/boss03/walk01.gif
+	attack	0
+	frame	data/chars/boss03/pain01.gif
+	frame	data/chars/boss03/walk01.gif
+	frame	data/chars/boss03/pain01.gif
+	frame	data/chars/boss03/walk01.gif
+	delay	20
+	frame	data/chars/boss03/death01.gif
+	delay	6
+	frame	data/chars/boss03/walk01.gif
+
+
+
+anim rise
+	loop	0
+	offset	99 134
+	delay	25
+	frame	data/chars/boss03/hit04.gif
+
+
+
+anim riseattack
+	loop	0
+	delay	8
+	offset	99 134
+	sound	data/sounds/fatat1.wav
+	frame	data/chars/boss03/hit01.gif
+	delay	8
+	attack	103 44 47 47 15 1
+	frame	data/chars/boss03/hit02.gif
+	delay	15
+	attack	99 37 61 64 15 1
+	frame	data/chars/boss03/hit03.gif
+	delay	10
+	attack	110 43 53 45 15 1
+	frame	data/chars/boss03/hit01.gif
+	attack	0
+	frame	data/chars/boss03/hit01.gif
+	delay	8
+	attack	103 44 47 47 15 1
+	frame	data/chars/boss03/hit02.gif
+	delay	15
+	attack	99 37 61 64 15 1
+	frame	data/chars/boss03/hit03.gif
+	delay	10
+	attack	110 43 53 45 15 1
+	frame	data/chars/boss03/hit01.gif
+
+
+
+
+anim attack2
+	loop	0
+	delay	8
+	offset	99 134
+	bbox	55 38 91 100
+	frame	data/chars/boss03/hit01.gif
+	delay	8
+	attack	103 44 47 47 15 1
+	frame	data/chars/boss03/hit02.gif
+	delay	20
+	attack	99 37 61 64 15 1
+	sound	data/sounds/z13at.wav
+	frame	data/chars/boss03/hit03.gif
+	delay	10
+	attack	110 43 53 45 15 1
+	frame	data/chars/boss03/hit01.gif
+
+
+
+
+
+anim attack1
+	loop	0
+	delay	8
+        move    8
+	offset	99 134
+	bbox	55 38 91 100
+	sound	data/sounds/fatat1.wav
+	frame	data/chars/boss03/hit01.gif
+	attack	103 44 47 47 15 1
+	frame	data/chars/boss03/hit02.gif
+	attack	99 37 61 64 15 1
+	frame	data/chars/boss03/hit03.gif
+	attack	99 37 61 64 15 1
+	frame	data/chars/boss03/hit04.gif
+	attack	0
+	frame	data/chars/boss03/hit01.gif
+	offset	99 134
+	bbox	55 38 91 100
+	frame	data/chars/boss03/hit01.gif
+	attack	103 44 47 47 15 1
+	frame	data/chars/boss03/hit02.gif
+	attack	99 37 61 64 15 1
+	frame	data/chars/boss03/hit03.gif
+	attack	99 37 61 64 15 1
+	frame	data/chars/boss03/hit04.gif
+	attack	0
+	frame	data/chars/boss03/hit01.gif
+
+
+
+
+
+anim Death
+	loop 0
+	offset	99 134
+	delay	12
+	frame	data/chars/boss03/death01.gif
+	delay	10
+	frame	data/chars/boss03/hit01.gif
+	delay	12
+	frame	data/chars/boss03/death01.gif
+	delay	10
+	frame	data/chars/boss03/hit01.gif
+	frame	data/chars/boss03/death01.gif
+	frame	data/chars/boss03/death02.gif
+	frame	data/chars/boss03/death03.gif
+	sound	data/sounds/expl1.wav
+	frame	data/chars/boss03/death04.gif
+	frame	data/chars/boss03/death05.gif
+	delay	12
+	sound	data/sounds/splat.wav
+	frame	data/chars/boss03/death06.gif
+	frame	data/chars/boss03/death07.gif
+	sound	data/sounds/splat2.wav
+	frame	data/chars/boss03/death08.gif
+	sound	data/sounds/splat1.wav
+	frame	data/chars/boss03/death09.gif
+
+
+
+anim upper
+	loop	0
+	delay	8
+	offset	99 134
+	attack	55 38 91 100 10 1
+	sound	data/sounds/z13at.wav
+	frame	data/chars/boss03/hit01.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/boss03/hit03.gif
+	delay	25
+	frame	data/chars/boss03/hit04.gif
+	delay	14
+	frame	data/chars/boss03/hit02.gif
+	delay	2
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	delay	1
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/boss03/hit02.gif
+
+
+

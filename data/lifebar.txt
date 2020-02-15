@@ -1,0 +1,11 @@
+blackbox 47 36 18
+whitebox 47 36 18
+shadowcolor 219 7 5
+color25 219 7 5
+color50 4 4 114
+color100 4 4 114
+color200 4 95 4
+color300 4 4 114
+color400 4 95 4
+color500 4 4 114
+

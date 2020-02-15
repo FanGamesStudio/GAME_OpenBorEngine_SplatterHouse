@@ -1,0 +1,234 @@
+name	Hell_Guardian
+health	200
+speed	8
+type	enemy
+subtype       chase
+shadow	5
+icon	data/chars/boss06/icon.gif
+icondie    data/chars/boss06/icond.gif
+diesound data/sounds/b6die.wav
+remap data/chars/boss06/walk01.gif data/chars/boss06/ALT1.gif
+nodieblink    3
+falldie       2
+aggression 5
+
+
+anim idle
+	loop	1
+	offset	118 144
+	bbox	95 66 49 74
+	delay	6
+	frame	data/chars/boss06/walk01.gif
+	delay	8
+	frame	data/chars/boss06/stand01.gif
+	delay	35
+	frame	data/chars/boss06/stand02.gif
+
+
+
+anim walk
+	loop	1
+	offset	118 144
+	bbox	95 66 49 74
+	delay	12
+	frame	data/chars/boss06/walk02.gif
+	frame	data/chars/boss06/walk03.gif
+	frame	data/chars/boss06/walk02.gif
+	frame	data/chars/boss06/walk01.gif
+
+
+anim pain
+	loop	0
+	offset	118 144
+	bbox	90 59 35 83
+	delay	8
+	frame	data/chars/boss06/pain01.gif
+	frame	data/chars/boss06/stand01.gif
+	frame	data/chars/boss06/hit21.gif
+
+
+
+
+
+anim fall
+	loop	0
+	delay	10
+	offset	118 144
+	attack	90 59 35 83 5 1
+	frame	data/chars/boss06/pain01.gif
+	attack	71 63 74 64 5 1
+	frame	data/chars/boss06/fall01.gif
+	attack	0
+	frame	data/chars/boss06/fall01.gif
+	frame	data/chars/boss06/fall02.gif
+
+
+anim rise
+	loop	0
+	offset	118 144
+	delay	8
+	frame	data/chars/boss06/fall01.gif
+	delay	5
+	frame	data/chars/boss06/hit01.gif
+	delay	5
+	frame	data/chars/boss06/hit02.gif
+	delay	5
+	frame	data/chars/boss06/hit03.gif
+	delay	5
+	frame	data/chars/boss06/hit04.gif
+	delay	6
+	frame	data/chars/boss06/stand02.gif
+
+
+
+anim grabbed
+	loop	0
+	offset	118 144
+	bbox	95 66 49 74
+	delay	50
+	frame	data/chars/boss06/walk02.gif
+
+
+
+anim attack1
+	loop	0
+	delay	4
+	offset	118 144
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss06/hit01.gif
+	frame	data/chars/boss06/hit02.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss06/hit03.gif
+	sound	data/sounds/whip.wav
+	frame	data/chars/boss06/hit04.gif
+	delay	6
+	bbox	97 66 47 71
+	attack	81 43 36 50 15 0
+	frame	data/chars/boss06/hit05.gif
+	delay	12
+	attack	127 80 45 43 15 1
+	frame	data/chars/boss06/hit06.gif
+
+
+
+anim attack2
+	loop	0
+	delay	6
+	sound	data/sounds/splat.wav
+	offset	118 144
+	bbox	95 66 49 74
+        hitflash    blood
+	hitfx   data/sounds/cut3.wav
+	frame	data/chars/boss06/hit07.gif
+	frame	data/chars/boss06/hit08.gif
+	frame	data/chars/boss06/hit09.gif
+	frame	data/chars/boss06/hit10.gif
+	frame	data/chars/boss06/hit11.gif
+	attack	126 69 42 30 15 1
+	delay	4
+	frame	data/chars/boss06/hit14.gif
+	delay	18
+	attack	127 64 68 36 15 1
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss06/hit13.gif
+	delay	6
+	attack	126 69 42 30 15 1
+	sound	data/sounds/splat2.wav
+	frame	data/chars/boss06/hit14.gif
+	attack	0 0 0 0 0 0
+	sound	data/sounds/z13at.wav
+	frame	data/chars/boss06/hit15.gif
+	frame	data/chars/boss06/hit16.gif
+	delay	8
+	frame	data/chars/boss06/hit17.gif
+	bbox	0 0 0 0 0
+	delay	8
+	frame	data/chars/boss06/hit18.gif
+	frame	data/chars/boss06/hit19.gif
+	frame	data/chars/boss06/hit20.gif
+	frame	data/chars/boss06/hit21.gif
+
+
+
+anim riseattack
+	loop 0
+	offset	118 144
+	delay	6
+        hitflash    blood
+	hitfx   data/sounds/cut3.wav
+	frame	data/chars/boss06/death01.gif
+	delay	18
+	attack	127 64 68 36 15 1
+	sound	data/sounds/splat2.wav
+	frame	data/chars/boss06/hit13.gif
+	delay	6
+	attack	126 69 42 30 15 1
+	sound	data/sounds/z13at.wav
+	frame	data/chars/boss06/hit14.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/boss06/hit15.gif
+	frame	data/chars/boss06/hit16.gif
+	delay	7
+	frame	data/chars/boss06/hit17.gif
+	frame	data/chars/boss06/hit18.gif
+	frame	data/chars/boss06/hit19.gif
+	frame	data/chars/boss06/hit20.gif
+	frame	data/chars/boss06/hit21.gif
+
+
+anim upper
+	loop	0
+	offset	118 144
+	delay	8
+	frame	data/chars/boss06/fall01.gif
+	delay	5
+	attack	81 61 79 72 8 1
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss06/hit01.gif
+	frame	data/chars/boss06/hit02.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss06/hit03.gif
+	frame	data/chars/boss06/hit04.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss06/hit01.gif
+	frame	data/chars/boss06/hit02.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss06/hit03.gif
+	frame	data/chars/boss06/hit04.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss06/hit01.gif
+	frame	data/chars/boss06/hit02.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/boss06/hit03.gif
+	frame	data/chars/boss06/hit04.gif
+	delay	8
+	frame	data/chars/boss06/stand02.gif
+
+
+
+anim Death
+	loop 0
+	offset	118 144
+	delay	10
+	frame	data/chars/boss06/death01.gif
+	frame	data/chars/boss06/death02.gif
+	frame	data/chars/boss06/death03.gif
+	frame	data/chars/boss06/death02.gif
+	frame	data/chars/boss06/death04.gif
+	frame	data/chars/boss06/death02.gif
+	frame	data/chars/boss06/death03.gif
+	frame	data/chars/boss06/death02.gif
+	frame	data/chars/boss06/death04.gif
+	frame	data/chars/boss06/death02.gif
+	delay	12
+	sound	data/sounds/splat.wav
+	frame	data/chars/boss06/death05.gif
+	frame	data/chars/boss06/death06.gif
+	frame	data/chars/boss06/death07.gif
+
+
+
+
+
+
+

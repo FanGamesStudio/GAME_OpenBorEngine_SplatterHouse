@@ -1,0 +1,40 @@
+name	Evil_Hand
+type	trap
+
+
+anim idle
+	loop	1
+	delay	10
+	offset	35 131
+        hitflash    blood
+	hitfx   data/sounds/cut3.wav
+	frame	data/chars/misc/hand/h1.gif
+	frame	data/chars/misc/hand/h2.gif
+	frame	data/chars/misc/hand/h1.gif
+	frame	data/chars/misc/hand/h2.gif
+	frame	data/chars/misc/hand/h1.gif
+	frame	data/chars/misc/hand/h2.gif
+	frame	data/chars/misc/hand/h1.gif
+	frame	data/chars/misc/hand/h2.gif
+	delay	4
+	frame	data/chars/misc/hand/h3.gif
+	attack  28 101 25 24 20 1
+	frame	data/chars/misc/hand/h4.gif
+	attack  16 47 39 77 20 1
+	frame	data/chars/misc/hand/h5.gif
+	attack  3 37 64 84 20 1
+	frame	data/chars/misc/hand/h6.gif
+	attack  3 5 64 118 20 1
+	frame	data/chars/misc/hand/h7.gif
+	delay	15
+	attack  13 15 48 110 20 1
+	frame	data/chars/misc/hand/h8.gif
+	delay	8
+	attack  13 47 48 76 20 1
+	frame	data/chars/misc/hand/h9.gif
+	attack  13 71 48 53 20 1
+	frame	data/chars/misc/hand/h10.gif
+	attack  0 0 0 0 0 0
+	frame	data/chars/misc/hand/h4.gif
+	frame	data/chars/misc/hand/h3.gif
+

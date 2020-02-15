@@ -1,0 +1,256 @@
+name	Crystal_Boss
+health	400
+speed	8
+type	enemy
+subtype       chase
+shadow	5
+nodieblink    2
+falldie       2
+noquake       0
+aggression 10
+icon	data/chars/crystalb/icon.gif
+icondie    data/chars/crystalb/icond.gif
+diesound data/sounds/ghost.wav
+
+
+
+
+anim idle
+	loop	1
+	offset	35 101
+	bbox	12 11 48 61
+	delay	6
+	frame	data/chars/crystalb/01.gif
+	frame	data/chars/crystalb/02.gif
+	frame	data/chars/crystalb/03.gif
+	frame	data/chars/crystalb/04.gif
+	frame	data/chars/crystalb/05.gif
+	frame	data/chars/crystalb/06.gif
+	frame	data/chars/crystalb/07.gif
+	frame	data/chars/crystalb/08.gif
+	frame	data/chars/crystalb/09.gif
+	frame	data/chars/crystalb/10.gif
+	frame	data/chars/crystalb/11.gif
+	frame	data/chars/crystalb/12.gif
+	frame	data/chars/crystalb/13.gif
+	frame	data/chars/crystalb/14.gif
+	frame	data/chars/crystalb/15.gif
+	frame	data/chars/crystalb/16.gif
+
+
+
+
+
+
+anim walk
+	loop	1
+	offset	35 101
+	bbox	12 11 48 61
+	delay	4
+	frame	data/chars/crystalb/01.gif
+	frame	data/chars/crystalb/02.gif
+	frame	data/chars/crystalb/03.gif
+	frame	data/chars/crystalb/04.gif
+	frame	data/chars/crystalb/05.gif
+	frame	data/chars/crystalb/06.gif
+	frame	data/chars/crystalb/07.gif
+	frame	data/chars/crystalb/08.gif
+	frame	data/chars/crystalb/09.gif
+	frame	data/chars/crystalb/10.gif
+	frame	data/chars/crystalb/11.gif
+	frame	data/chars/crystalb/12.gif
+	frame	data/chars/crystalb/13.gif
+	frame	data/chars/crystalb/14.gif
+	frame	data/chars/crystalb/15.gif
+	frame	data/chars/crystalb/16.gif
+
+
+
+
+
+anim pain
+	loop	0
+	offset	35 101
+	bbox	12 11 48 61
+	delay	6
+	frame	data/chars/crystalb/pain01.gif
+	frame	data/chars/crystalb/pain02.gif
+	frame	data/chars/crystalb/pain03.gif
+	frame	data/chars/crystalb/pain04.gif
+
+
+
+anim fall
+	loop	0
+	offset	35 101
+	delay	7
+	sound	data/sounds/flasha.wav
+	frame	data/chars/crystalb/fall01.gif
+	frame	data/chars/crystalb/fall02.gif
+	frame	data/chars/crystalb/fall03.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/crystalb/03.gif
+	frame	data/chars/crystalb/fall01.gif
+	frame	data/chars/crystalb/fall02.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/crystalb/fall03.gif
+	frame	data/chars/crystalb/03.gif
+	frame	data/chars/crystalb/fall02.gif
+	delay	20
+	frame	data/chars/crystalb/fall04.gif
+
+
+anim rise
+	loop	0
+	offset	35 101
+	delay	8
+	sound	data/sounds/flasha.wav
+	frame	data/chars/crystalb/rise01.gif
+	frame	data/chars/crystalb/rise02.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/crystalb/rise03.gif
+	frame	data/chars/crystalb/fall01.gif
+
+
+
+
+
+anim attack1
+	loop	0
+	offset	35 101
+	bbox	12 11 48 61
+	delay	6
+        hitflash    elec1
+	frame	data/chars/crystalb/hit01.gif
+	frame	data/chars/crystalb/hit02.gif
+	sound	data/sounds/elec1.wav
+	frame	data/chars/crystalb/hit03.gif
+	attack	36 12 54 94 15 1
+	frame	data/chars/crystalb/hit04.gif
+	attack	36 13 76 92 15 1
+	frame	data/chars/crystalb/hit05.gif
+	attack	36 12 54 94 15 1
+	frame	data/chars/crystalb/hit04.gif
+	attack	36 13 76 92 15 1
+	frame	data/chars/crystalb/hit05.gif
+	attack	36 12 54 94 15 1
+	frame	data/chars/crystalb/hit04.gif
+	attack	36 13 76 92 15 1
+	frame	data/chars/crystalb/hit05.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/crystalb/hit06.gif
+
+
+
+
+
+anim attack2
+	loop	0
+	offset	35 101
+	bbox	12 11 48 61
+	delay	7
+	frame	data/chars/crystalb/hit07.gif
+	sound	data/sounds/ghost.wav
+	attack	59 32 34 33 18 1
+	bbox	0
+	frame	data/chars/crystalb/hit08.gif
+	attack	92 33 34 33 18 1
+	frame	data/chars/crystalb/hit09.gif
+	attack	125 33 34 33 18 1
+	frame	data/chars/crystalb/hit10.gif
+	attack	152 33 34 33 18 1
+	frame	data/chars/crystalb/hit11.gif
+	attack	166 33 34 33 18 1
+	frame	data/chars/crystalb/hit12.gif
+	attack	0
+	frame	data/chars/crystalb/hit13.gif
+
+
+
+anim upper
+	loop	0
+	offset	35 101
+	attack	12 11 48 61 10 1
+	delay	2
+	sound	data/sounds/flasha.wav
+	frame	data/chars/crystalb/01.gif
+	frame	data/chars/crystalb/02.gif
+	frame	data/chars/crystalb/03.gif
+	frame	data/chars/crystalb/04.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/crystalb/05.gif
+	frame	data/chars/crystalb/06.gif
+	frame	data/chars/crystalb/07.gif
+	frame	data/chars/crystalb/08.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/crystalb/09.gif
+	frame	data/chars/crystalb/10.gif
+	frame	data/chars/crystalb/11.gif
+	frame	data/chars/crystalb/12.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/crystalb/13.gif
+	frame	data/chars/crystalb/14.gif
+	frame	data/chars/crystalb/15.gif
+	frame	data/chars/crystalb/16.gif
+
+
+anim riseattack
+	loop	0
+	offset	35 101
+	delay	6
+        hitflash    elec1
+	frame	data/chars/crystalb/hit01.gif
+	frame	data/chars/crystalb/hit02.gif
+	sound	data/sounds/elec1.wav
+	frame	data/chars/crystalb/hit03.gif
+	attack	36 12 54 94 15 1
+	frame	data/chars/crystalb/hit04.gif
+	attack	36 13 76 92 15 1
+	frame	data/chars/crystalb/hit05.gif
+	attack	36 12 54 94 15 1
+	frame	data/chars/crystalb/hit04.gif
+	attack	36 13 76 92 15 1
+	frame	data/chars/crystalb/hit05.gif
+	attack	36 12 54 94 15 1
+	frame	data/chars/crystalb/hit04.gif
+	attack	36 13 76 92 15 1
+	frame	data/chars/crystalb/hit05.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/crystalb/hit06.gif
+
+
+
+
+anim Death
+	loop	0
+	delay	9
+	offset	35 101
+	delay	8
+	sound	data/sounds/flasha.wav
+	frame	data/chars/crystalb/rise01.gif
+	frame	data/chars/crystalb/rise02.gif
+	sound	data/sounds/flasha.wav
+	frame	data/chars/crystalb/rise03.gif
+	frame	data/chars/crystalb/fall01.gif
+	frame	data/chars/crystalb/12.gif
+	offset	105 111
+	frame	data/chars/crystalb/death01.gif
+	offset	35 101
+	frame	data/chars/crystalb/12.gif
+	offset	105 111
+	frame	data/chars/crystalb/death01.gif
+	offset	35 101
+	frame	data/chars/crystalb/12.gif
+	offset	105 111
+	frame	data/chars/crystalb/death01.gif
+	sound	data/sounds/cristal2.wav
+	frame	data/chars/crystalb/death02.gif
+	frame	data/chars/crystalb/death03.gif
+	frame	data/chars/crystalb/death04.gif
+	frame	data/chars/crystalb/death05.gif
+	frame	data/chars/crystalb/death06.gif
+
+
+
+
+

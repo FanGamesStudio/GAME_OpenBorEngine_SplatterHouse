@@ -1,0 +1,26 @@
+name	blade_1
+type	trap
+
+
+
+anim idle
+	loop	1
+	delay	110
+	offset	21 79
+        hitflash    blood
+	frame	data/chars/misc/trap1/trap1.gif
+	hitfx   data/sounds/cut3.wav
+	delay	3
+	attack  7 42 34 33 15 1
+	frame	data/chars/misc/trap1/trap2.gif
+	attack  6 24 35 52 15 1
+	frame	data/chars/misc/trap1/trap3.gif
+	delay	25
+	attack  5 1 38 73 15 1
+	frame	data/chars/misc/trap1/trap4.gif
+	delay	10
+	attack  6 24 35 52 15 1
+	frame	data/chars/misc/trap1/trap3.gif
+	attack  7 42 34 33 15 1
+	frame	data/chars/misc/trap1/trap2.gif
+

@@ -1,0 +1,33 @@
+name	Mummy
+health  30
+type    obstacle
+shadow	0
+diesound  data/sounds/slide.wav
+nodieblink    3
+noatflash 1
+nolife  1
+flash     block
+
+anim idle
+	loop	0
+	delay	5
+	offset	36 64
+	bbox    18 7 38 61
+	frame	data/chars/misc/rickf1/rf1.gif
+
+	
+anim fall
+	loop	0
+	delay	10
+	offset	36 64
+	sound	data/sounds/slide1.wav
+	frame	data/chars/misc/rickf1/rf2.gif
+	frame	data/chars/misc/rickf1/rf3.gif
+	delay	8
+	frame	data/chars/misc/rickf1/rf4.gif
+	frame	data/chars/misc/rickf1/rf5.gif
+	frame	data/chars/misc/rickf1/rf6.gif
+	frame	data/chars/misc/rickf1/rf7.gif
+	frame	data/chars/misc/rickf1/rf8.gif
+
+	

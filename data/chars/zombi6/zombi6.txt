@@ -1,0 +1,136 @@
+name	Screaming_Mimi
+health	100
+speed	6
+type	enemy
+shadow	3
+diesound data/sounds/z6die.wav
+icon	data/chars/zombi6/icon.gif
+icondie    data/chars/zombi6/icond.gif
+remap data/chars/zombi6/walk03.gif data/chars/zombi6/ALT1.gif
+remap data/chars/zombi6/walk03.gif data/chars/zombi6/ALT2.gif
+remap data/chars/zombi6/walk03.gif data/chars/zombi6/ALT3.gif
+nodieblink    2
+falldie       2
+aggression 1
+
+anim idle
+	delay	25
+	loop	1
+	offset	77 130
+	bbox	57 67 41 59
+	frame	data/chars/zombi6/walk01.gif
+
+
+
+anim walk
+	loop	1
+	delay	10
+	offset	77 130
+	bbox	57 67 41 59
+	frame	data/chars/zombi6/walk01.gif
+	frame	data/chars/zombi6/walk02.gif
+	frame	data/chars/zombi6/walk01.gif
+	frame	data/chars/zombi6/walk03.gif
+
+		
+
+anim attack1
+	loop	0
+	delay	10
+	bbox	59 67 43 60
+	offset	77 130
+	frame	data/chars/zombi6/hit01.gif
+	delay	16
+	bbox	59 67 43 60
+	attack	94 69 65 21 6 0 0 0 1 8
+	sound	data/sounds/z6at.wav
+	frame	data/chars/zombi6/hit02.gif
+	delay	10
+	attack	0 0 0 0 0
+	bbox	59 67 43 60
+	frame	data/chars/zombi6/hit01.gif
+
+
+
+anim grabbed
+	loop	0
+	delay	10
+	offset	77 130
+	bbox	57 67 41 59
+	frame	data/chars/zombi6/walk01.gif
+
+
+
+	
+anim pain
+	loop	0
+	offset	77 130
+	bbox	59 57 51 75
+	delay	8
+	frame	data/chars/zombi6/pain01.gif
+	frame	data/chars/zombi6/jump01.gif
+	frame	data/chars/zombi6/pain01.gif
+
+
+
+
+	
+anim fall
+	loop	0
+	offset	77 130
+	delay	10
+	bbox	59 59 48 64
+	frame	data/chars/zombi6/jump01.gif
+	delay	3
+	bbox	58 55 70 72
+	attack	58 55 70 72 10 1
+	frame	data/chars/zombi6/fall01.gif
+	bbox    0
+	attack	0
+	frame	data/chars/zombi6/fall02.gif
+	frame	data/chars/zombi6/fall01.gif
+	frame	data/chars/zombi6/fall02.gif
+	frame	data/chars/zombi6/fall01.gif
+	frame	data/chars/zombi6/fall02.gif
+	frame	data/chars/zombi6/fall01.gif
+	frame	data/chars/zombi6/fall02.gif
+	frame	data/chars/zombi6/fall03.gif
+	delay	15
+	frame	data/chars/zombi6/fall05.gif
+
+
+
+	
+	
+anim rise
+	loop	0
+	offset	77 130
+	delay	10
+	frame	data/chars/zombi6/fall03.gif
+	frame	data/chars/zombi6/crouch.gif
+	frame	data/chars/zombi6/hit01.gif
+
+
+
+
+anim Death
+	loop 0
+	offset	77 130
+	delay	11
+	frame	data/chars/zombi6/fall03.gif
+	frame	data/chars/zombi6/crouch.gif
+	delay	15
+	frame	data/chars/zombi6/hit01.gif
+	delay	11
+	sound	data/sounds/splat.wav
+	frame	data/chars/zombi6/death01.gif
+	move	28
+	offset	105 130
+	frame	data/chars/zombi6/death02.gif
+	move	0
+	frame	data/chars/zombi6/death03.gif
+	frame	data/chars/zombi6/death04.gif
+
+
+
+	

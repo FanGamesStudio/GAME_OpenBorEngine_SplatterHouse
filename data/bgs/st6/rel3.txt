@@ -1,0 +1,31 @@
+name	rel3
+type	none
+shadow	0
+alpha   0
+
+anim idle
+	 loop      1
+	 offset    975 0
+	 delay	   500
+	 frame	   data/chars/misc/empty/empty.gif
+	 delay     4
+	 sound	   data/sounds/trans4.wav
+	 frame     data/bgs/st6/rel3.gif
+	 frame	   data/chars/misc/empty/empty.gif
+	 frame     data/bgs/st6/rel3.gif
+	 frame	   data/chars/misc/empty/empty.gif
+	 delay	   300
+	 frame	   data/chars/misc/empty/empty.gif
+	 delay     4
+	 sound	   data/sounds/trans4.wav
+	 frame     data/bgs/st6/rel3.gif
+	 frame	   data/chars/misc/empty/empty.gif
+	 frame     data/bgs/st6/rel3.gif
+	 delay     100
+	 frame	   data/chars/misc/empty/empty.gif
+	 delay     4
+	 sound	   data/sounds/trans4.wav
+	 frame     data/bgs/st6/rel3.gif
+
+
+

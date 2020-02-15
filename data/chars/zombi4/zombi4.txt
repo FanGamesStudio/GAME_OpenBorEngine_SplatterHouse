@@ -1,0 +1,155 @@
+name	zombi4
+health	100
+speed	7
+type	enemy
+shadow	3
+nodieblink    2
+falldie       1
+aggression 1
+diesound data/sounds/zdie9.wav
+icon	data/chars/zombi4/icon.gif
+icondie    data/chars/zombi4/icond.gif
+remap data/chars/zombi4/walk01.gif data/chars/zombi4/ALT1.gif
+remap data/chars/zombi4/walk01.gif data/chars/zombi4/ALT2.gif
+remap data/chars/zombi4/walk01.gif data/chars/zombi4/ALT3.gif
+
+anim idle
+	delay	25
+	loop	1
+	offset	142 129
+	bbox	129 70 28 57
+	frame	data/chars/zombi4/walk02.gif
+
+
+
+anim walk
+	loop	1
+	delay	12
+	offset	142 129
+	bbox	129 70 28 57
+	frame	data/chars/zombi4/walk01.gif
+	frame	data/chars/zombi4/walk02.gif
+	frame	data/chars/zombi4/walk03.gif
+	frame	data/chars/zombi4/walk02.gif
+
+		
+
+anim attack1
+	loop	0
+	delay	16
+	bbox	120 70 30 58
+	offset	142 129
+        move    10
+	sound	data/sounds/splat.wav
+	frame	data/chars/zombi4/hit01.gif
+        move    8
+	delay	14
+	bbox	112 68 32 62
+	attack	123 56 49 43 7 0 0 0 1 8
+	frame	data/chars/zombi4/hit02.gif
+        move    6
+	delay	4
+	attack	0 0 0 0 0
+	bbox	120 70 30 58
+	frame	data/chars/zombi4/hit01.gif
+        move    4
+	delay	11
+	bbox	132 90 32 36
+	frame	data/chars/zombi4/rise06.gif
+        move    2
+	delay	10
+	bbox	126 74 37 46
+	frame	data/chars/zombi4/hit03.gif
+
+
+
+
+
+	
+anim pain
+	loop	0
+	offset	142 129
+	bbox	108 65 41 60
+	delay	10
+	frame	data/chars/zombi4/pain01x.gif
+	delay	8
+	bbox	126 74 37 46
+	frame	data/chars/zombi4/hit03.gif
+	delay	8
+	bbox	129 70 28 57
+	frame	data/chars/zombi4/walk02.gif
+
+
+
+	
+anim fall
+	loop	0
+	offset	142 129
+	delay	16
+	bbox	119 70 40 49
+	attack	119 70 40 49 5 1
+	frame	data/chars/zombi4/fall01.gif
+	bbox    0 0 0 0
+	delay	12
+	attack  0 0 0 0 0 0
+	frame	data/chars/zombi4/fall02.gif
+	frame	data/chars/zombi4/fall03.gif
+	frame	data/chars/zombi4/down01.gif
+
+
+	
+	
+anim rise
+	loop	0
+	offset	142 129
+	delay	1
+	frame	data/chars/zombi4/down01.gif
+	delay	12
+	frame	data/chars/zombi4/rise01.gif
+	delay	8
+	frame	data/chars/zombi4/down01.gif
+	delay	9
+	sound	data/sounds/splat2.wav
+	frame	data/chars/zombi4/rise01.gif
+	delay	12
+	frame	data/chars/zombi4/rise02.gif
+	delay	12
+	frame	data/chars/zombi4/rise03.gif
+	delay	8
+	frame	data/chars/zombi4/rise04.gif
+	delay	8
+	frame	data/chars/zombi4/rise05.gif
+	sound	data/sounds/splat1.wav
+	delay	8
+	frame	data/chars/zombi4/rise06.gif
+	delay	8
+	frame	data/chars/zombi4/hit03.gif
+
+
+
+
+anim Death
+	loop 0
+	offset	142 129
+	delay	12
+	frame	data/chars/zombi4/pain01.gif
+	frame	data/chars/zombi4/death01.gif
+	delay	15
+	sound	data/sounds/splat.wav
+	frame	data/chars/zombi4/death02.gif
+        move    -17
+	offset	125 129
+	sound	data/sounds/splat1.wav
+	frame	data/chars/zombi4/death03.gif
+        move    0
+	frame	data/chars/zombi4/death04.gif
+        move    -44
+	offset	76 129
+	sound	data/sounds/splat2.wav
+	frame	data/chars/zombi4/death05.gif
+        move    0
+	sound	data/sounds/splat.wav
+	frame	data/chars/zombi4/death06.gif
+	frame	data/chars/zombi4/death07.gif
+
+	

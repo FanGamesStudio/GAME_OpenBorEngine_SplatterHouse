@@ -1,0 +1,17 @@
+name	spike1
+type	trap
+
+
+
+anim idle
+	loop	1
+	delay	1
+	offset	0 20
+        hitflash    blood
+	hitfx   data/sounds/cut3.wav
+	attack  0 0 37 21 15 1
+	frame	data/chars/misc/spike1.gif
+	attack  0
+	frame	data/chars/misc/spike1.gif
+
+

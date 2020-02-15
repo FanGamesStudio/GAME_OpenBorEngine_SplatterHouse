@@ -1,0 +1,783 @@
+music		Data/music/st5.bor
+bossmusic	data/music/st5boss.bor
+background	data/bgs/st5/st5.gif
+panel		data/bgs/st5/st5.gif
+frontpanel	data/bgs/st5/front.gif
+order           a
+settime         0
+notime          1
+direction       left
+spawn1  80 60 300  
+spawn2  40 70 300
+
+
+
+wall    0 244 2550 2590 2900 2900 150 500
+
+wall    0 170 1450 1480 1680 1650 70 500
+
+wall    0 170 670 700 830 810 70 500
+
+wall    0 244 -200 -200 50 10 150 500
+
+
+
+
+spawn   Hell_Fire
+flip    1
+coords  -700 170
+at      0
+
+
+spawn   Hell_Fire
+flip    1
+coords  -690 210
+at      10
+
+
+
+spawn   Evil_Spirit
+flip    1
+coords  -900 200
+at      20
+
+
+spawn   Evil_Spirit
+flip    1
+coords  -1000 220
+at      10
+
+
+spawn   Evil_Spirit
+flip    1
+coords  -1030 170
+at      10
+
+
+
+
+
+#-------1
+
+wait
+at      0
+
+
+group   4 4
+at      0
+
+
+spawn	Walker
+map      1
+coords	350 180
+at	0
+
+
+spawn	Walker
+map      1
+coords	380 210
+at	0
+
+
+spawn	Large-headed_Demon
+coords	-50 180
+at	0
+
+
+spawn	Large-headed_Demon
+coords	-80 210
+at	0
+
+
+
+
+
+wait
+at      130
+
+
+group   4 4
+at      130
+
+
+spawn	Rotten_Zombie
+coords	350 200
+at	130
+
+
+spawn	Rotten_Zombie
+coords	380 210
+at	130
+
+
+spawn	Walker
+map      1
+coords	-50 180
+at	130
+
+
+spawn	Walker
+map      1
+coords	-80 210
+at	130
+
+
+
+wait
+at      300
+
+
+
+group   4 4
+at      300
+
+
+
+spawn	Headache
+map      1
+coords	-30 230
+at	300
+
+spawn	Headache
+map      1
+coords	-30 180
+at	300
+
+
+
+spawn	Headache
+map      1
+coords	400 200
+at	300
+
+
+spawn	Headache
+map      1
+coords	430 220
+at	300
+
+
+spawn	Walker
+2pspawn   1
+map      1
+coords	350 190
+at	300
+
+
+spawn	Walker
+2pspawn   1
+map      1
+coords	350 220
+at	300
+
+
+
+#-------2
+
+
+
+
+spawn   Spectre
+flip    1
+item    Blue_Orb
+coords  -50 170
+at      500
+
+
+spawn   stat
+2pitem    Blue_Orb
+coords  -70 220
+at      500
+
+
+spawn   Spectre
+flip    1
+item    Magik_Book_Blue
+coords  -100 170
+at      500
+
+
+
+
+
+wait
+at      600
+
+
+group   4 4
+at      600
+
+
+spawn	Undress
+coords	-30 240
+at	600
+
+spawn	Undress
+coords	-30 170
+at	600
+
+
+
+spawn	Embryo
+coords	350 190
+at	600
+
+
+spawn	Embryo
+coords	350 210
+at	600
+
+
+
+spawn	Embryo
+coords	350 190
+at	600
+
+
+spawn	Embryo
+coords	350 210
+at	600
+
+
+
+spawn	Rotten_Zombie
+2pspawn   1
+coords	-30 240
+at	600
+
+spawn	Rotten_Zombie
+2pspawn   1
+coords	-30 170
+at	600
+
+
+
+
+
+wait
+at      700
+
+
+group   4 4
+at      700
+
+
+
+spawn	Slime_Monster
+coords	350 170
+at	700
+
+
+spawn	Slime_Monster
+coords	350 190
+at	700
+
+
+spawn	Slime_Monster
+coords	350 210
+at	700
+
+
+spawn	Slime_Monster
+coords	350 230
+at	700
+
+
+spawn	Hell_Guardian
+2pspawn   1
+coords	-30 240
+at	700
+
+spawn	Hell_Guardian
+2pspawn   1
+coords	-30 170
+at	700
+
+
+
+
+
+
+wait
+at      850
+
+
+group   4 4
+at      850
+
+
+spawn	Walker
+map      1
+coords	350 170
+at	850
+
+
+spawn	Walker
+map      1
+coords	350 190
+at	850
+
+
+spawn	Headache
+map      1
+coords	350 210
+at	850
+
+
+spawn	Headache
+map      1
+coords	350 230
+at	850
+
+
+spawn	Dead_Ripper
+2pspawn   1
+coords	-30 240
+at	850
+
+spawn	Dead_Ripper
+2pspawn   1
+coords	-30 170
+at	850
+
+
+
+spawn   Hell_Fire
+flip    1
+coords  -320 150
+at      850
+
+
+spawn   Hell_Fire
+flip    1
+coords  -370 190
+at      850
+
+
+
+spawn   Hell_Fire
+flip    1
+coords  -420 230
+at      850
+
+
+
+#-------3
+
+
+
+wait
+at      1100
+
+
+group   4 4
+at      1100
+
+
+spawn	Boreworm
+coords	350 170
+at	1100
+
+
+spawn	Boreworm
+coords	370 190
+at	1100
+
+
+
+
+spawn	Fly
+map     1
+coords	350 170
+at	1100
+
+
+spawn	Fly
+map     1
+coords	390 210
+at	1100
+
+
+wait
+at      1150
+
+
+
+
+spawn	Hanging_Corpse
+coords	-60 170
+at	1150
+
+
+
+spawn	Hanging_Corpse
+map      3
+coords	430 190
+at	1150
+
+
+
+spawn	Hanging_Corpse
+coords	-30 240
+at	1150
+
+spawn	Hanging_Corpse
+coords	-60 170
+at	1150
+
+
+
+spawn	Rotten_Zombie
+2pspawn   1
+map      3
+coords	350 170
+at	1150
+
+
+spawn	Rotten_Zombie
+2pspawn   1
+map      3
+coords	350 230
+at	1150
+
+
+
+#-------4
+
+
+
+spawn   Unreal
+item    Red_Orb
+coords  -50 170
+at      1190
+
+
+spawn   Unreal
+2pitem    Red_Orb
+coords  -30 220
+at      1190
+
+
+spawn   Spectre
+item    Magik_Book_Green
+coords  -90 170
+at      1190
+
+
+
+
+
+
+spawn   Evil_Spirit
+flip    1
+coords  -320 230
+at      1300
+
+
+spawn   Evil_Spirit
+flip    1
+coords  -370 180
+at      1300
+
+
+
+
+wait
+at      1300
+
+
+group   4 4
+at      1300
+
+
+spawn	Slime_Monster
+map      1
+coords	-60 190 
+at	1300
+
+
+spawn	Slime_Monster
+map      1
+coords	-50 210
+at	1300
+
+
+
+spawn	Slime_Monster
+coords	-20 230
+at	1300
+
+
+spawn	Slime_Monster
+coords	-30 190
+at	1300
+
+
+spawn	Slime_Monster
+2pspawn   1
+coords	400 190
+at	1300
+
+
+
+spawn	Slime_Monster
+2pspawn   1
+coords	370 210
+at	1300
+
+
+
+
+wait
+at      1450
+
+
+spawn	Hell_Hound
+coords	350 190
+at	1450
+
+
+spawn	Hell_Hound
+coords	350 210
+at	1450
+
+
+
+spawn	Hell_Hound
+coords	350 230
+at	1450
+
+
+spawn	Hell_Hound
+coords	-30 190
+at	1450
+
+
+
+spawn	Embryo
+2pspawn   1
+coords	390 210
+at	1450
+
+
+
+spawn	Embryo
+2pspawn   1
+coords	410 210
+at	1450
+
+
+
+#-------5
+
+
+wait
+at      1600
+
+
+group   4 4
+at      1600
+
+spawn   Fly
+map     1
+coords  -20 190
+at      1600
+
+
+spawn   Fly
+map     1
+coords  -40 210
+at      1600
+
+
+spawn   Embryo
+coords  -60 230
+at      1600
+
+
+spawn   Embryo
+coords  380 190
+at      1600
+
+
+spawn   Embryo
+2pspawn   1
+coords  360 210
+at      1600
+
+
+spawn   Embryo
+2pspawn   1
+coords  340 230
+at      1600
+
+
+wait
+at      1800
+
+
+group   4 4
+at      1800
+
+
+spawn   Phantom
+coords  -20 190
+at      1800
+
+
+spawn   Phantom
+coords  -40 210
+at      1800
+
+
+spawn   Slime_Monster
+coords  -60 230
+at      1800
+
+
+spawn   Slime_Monster
+coords  380 190
+at      1800
+
+
+spawn   Slime_Monster
+map     3
+coords  360 210
+at      1800
+
+
+spawn   Slime_Monster
+map     3
+coords  340 230
+at      1800
+
+
+
+
+spawn   Unreal
+item    Red_Orb
+coords  -50 190
+at      1900
+
+
+spawn   Unreal
+2pitem    Red_Orb
+coords  -70 220
+at      1900
+
+
+spawn   Spectre
+item    Magik_Book_Red
+coords  -90 190
+at      1900
+
+
+
+
+
+
+wait
+at      2000
+
+
+group   4 4
+at      2000
+
+
+spawn	Screaming_Mimi
+map     3
+coords	350 170
+at	2000
+
+
+spawn	Screaming_Mimi
+map     3
+coords	370 190
+at	2000
+
+
+spawn	Screaming_Mimi
+map     3
+coords	390 210
+at	2000
+
+
+spawn	Screaming_Mimi
+map     3
+coords	410 210
+at	2000
+
+
+spawn	Undress
+2pspawn   1
+coords	350 170
+at	2000
+
+
+spawn	Undress
+2pspawn   1
+coords	390 210
+at	2000
+
+
+group   4 4
+at      2200
+
+
+spawn	Crystal_Boss
+boss    1
+coords	-50 190
+at	2200
+
+
+spawn	Hell_Hound
+coords	350 210
+at	2200
+
+
+
+spawn	Hell_Hound
+coords	430 190
+at	2200
+
+
+spawn	Hell_Hound
+map     1
+coords	350 210
+at	2200
+
+
+spawn	Headache
+map     1
+coords	350 210
+at	2200
+
+
+
+spawn	Dead_Man_Fat
+map     2
+coords	350 210
+at	2200
+
+
+spawn	Dead_Man_Fat
+map     2
+coords	350 210
+at	2200
+
+
+
+
+spawn	Rotten_Zombie
+2pspawn   1
+coords	400 220
+at	2200
+
+spawn	Rotten_Zombie
+2pspawn   1
+coords	400 190
+at	2200
+
+
+
+

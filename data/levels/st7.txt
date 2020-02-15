@@ -1,0 +1,3748 @@
+music		Data/music/st6.bor
+bossmusic	data/music/st6boss.bor
+background	data/bgs/st7/back.gif
+panel		data/bgs/st7/st7.gif
+order           a
+settime         0
+notime          1
+direction       right
+spawn1  80 60 300  
+spawn2  40 70 300
+
+
+
+
+
+
+
+
+spawn   ghostxx
+flip    1
+coords  300 243
+at      0
+
+
+
+
+spawn   rel3
+flip    1
+coords  -184 0
+at      0
+
+
+spawn   rain
+flip    1
+coords  -480 244
+at      0
+
+
+spawn   rain
+flip    1
+coords  -800 244
+at      0
+
+
+
+
+
+spawn   rain
+flip    1
+coords  -480 100
+at      0
+
+
+spawn   rain
+flip    1
+coords  -800 100
+at      0
+
+
+
+
+
+
+spawn   Hell_Fire_2
+flip    1
+coords  -400 180
+at      0
+
+
+spawn   Hell_Fire_2
+flip    1
+coords  -400 230
+at      0
+
+
+
+spawn   Hell_Fire_2
+flip    1
+coords  -500 180
+at      30
+
+
+spawn   Hell_Fire_2
+flip    1
+coords  -500 230
+at      30
+
+
+spawn   Hell_Fire_2
+flip    1
+coords  -600 160
+at      10
+
+
+spawn   Hell_Fire_2
+flip    1
+coords  -600 210
+at      10
+
+
+
+spawn   Hell_Fire_2
+flip    1
+coords  -700 160
+at      40
+
+
+spawn   Hell_Fire_2
+flip    1
+coords  -700 210
+at      40
+
+
+
+spawn   Evil_Spirit
+flip    1
+coords  -940 200
+at      0
+
+
+spawn   Evil_Spirit
+flip    1
+coords  -990 170
+at      10
+
+
+spawn   Evil_Spirit
+flip    1
+coords  -990 230
+at      20
+
+
+
+
+
+#-------1
+
+wait
+at      50
+
+
+group   3 3
+at      50
+
+
+spawn	Born_Dead
+map      2
+coords	-20 190
+at	50
+
+
+spawn	Born_Dead
+map      2
+coords	-30 210
+at	50
+
+
+spawn	Walker
+coords	-50 170
+at	50
+
+
+spawn	Walker
+coords	-80 230
+at	50
+
+
+spawn	Born_Dead
+map      2
+coords	-30 210
+at	50
+
+
+spawn	Walker
+coords	-50 170
+at	50
+
+
+spawn	Walker
+coords	-80 230
+at	50
+
+
+spawn	Born_Dead
+map      2
+coords	-30 210
+at	50
+
+
+spawn	Walker
+coords	-50 170
+at	50
+
+
+spawn	Walker
+coords	-80 230
+at	50
+
+
+spawn	zombi4
+coords	-80 230
+at	50
+
+###############################################################
+
+
+
+
+wait
+at      130
+
+
+group   7 7
+at      130
+
+
+spawn	Born_dead
+coords	350 200
+at	130
+
+
+spawn	zombi4
+coords	380 210
+at	130
+
+
+spawn	walker
+coords	-50 180
+at	130
+
+
+spawn	ghoul
+coords	-80 210
+at	130
+
+spawn	Born_dead
+coords	350 200
+at	130
+
+
+spawn	zombi4
+coords	380 210
+at	130
+
+
+spawn	walker
+coords	-50 180
+at	130
+
+
+spawn	ghoul
+coords	-80 210
+at	130
+
+spawn	Born_dead
+coords	350 200
+at	130
+
+
+spawn	zombi4
+coords	380 210
+at	130
+
+
+spawn	walker
+coords	-50 180
+at	130
+
+
+spawn	ghoul
+coords	-80 210
+at	130
+spawn	Born_dead
+coords	350 200
+at	130
+
+
+spawn	zombi4
+coords	380 210
+at	130
+
+
+spawn	walker
+coords	-50 180
+at	130
+
+
+spawn	ghoul
+coords	-80 210
+at	130
+spawn	Born_dead
+coords	350 200
+at	130
+
+
+spawn	zombi4
+coords	380 210
+at	130
+
+
+spawn	walker
+coords	-50 180
+at	130
+
+
+spawn	ghoul
+coords	-80 210
+at	130
+spawn	Born_dead
+coords	350 200
+at	130
+
+
+spawn	zombi4
+coords	380 210
+at	130
+
+
+spawn	walker
+coords	-50 180
+at	130
+
+
+spawn	ghoul
+coords	-80 210
+at	130
+
+spawn	Born_dead
+coords	350 200
+at	130
+
+
+spawn	zombi4
+coords	380 210
+at	130
+
+
+spawn	walker
+coords	-50 180
+at	130
+
+
+spawn	ghoul
+coords	-80 210
+at	130
+
+spawn	Born_dead
+coords	350 200
+at	130
+
+
+spawn	zombi4
+coords	380 210
+at	130
+
+
+spawn	walker
+coords	-50 180
+at	130
+
+
+spawn	ghoul
+item    Magik_Book_Blue
+coords	-80 210
+at	130
+
+###############################################################
+
+
+
+wait
+at      300
+
+
+
+group   10 10
+at      300
+
+spawn	Born_dead
+coords	350 200
+at	130
+
+
+spawn	zombi4
+coords	380 210
+at	130
+
+
+spawn	walker
+coords	-50 180
+at	130
+
+
+spawn	ghoul
+coords	-80 210
+at	130
+spawn	Born_dead
+coords	350 200
+at	130
+
+
+spawn	zombi4
+coords	380 210
+at	130
+
+
+spawn	walker
+coords	-50 180
+at	130
+
+
+spawn	ghoul
+coords	-80 210
+at	130
+spawn	Born_dead
+coords	350 200
+at	130
+
+
+spawn	zombi4
+coords	380 210
+at	130
+
+
+spawn	walker
+coords	-50 180
+at	130
+
+
+spawn	ghoul
+coords	-80 210
+at	130
+
+
+
+
+spawn	Slime_Monster
+coords	-30 230
+at	300
+
+spawn	ghoul
+coords	-30 180
+at	300
+
+
+
+spawn	Hound_Zombi
+coords	400 200
+at	300
+
+
+spawn	Hound_Zombi
+coords	430 220
+at	300
+
+
+spawn	Hanging_Corpse
+2pspawn   1
+coords	350 190
+at	300
+
+
+spawn	Hanging_Corpse
+2pspawn   1
+coords	350 220
+at	300
+
+spawn	Born_dead
+coords	350 200
+at	130
+
+
+spawn	zombi4
+coords	380 210
+at	130
+
+
+spawn	walker
+coords	-50 180
+at	130
+
+
+spawn	ghoul
+coords	-80 210
+at	130
+spawn	Born_dead
+coords	350 200
+at	130
+
+
+spawn	zombi4
+coords	380 210
+at	130
+
+
+spawn	walker
+coords	-50 180
+at	130
+
+
+spawn	ghoul
+coords	-80 210
+at	130
+spawn	Born_dead
+coords	350 200
+at	130
+
+
+spawn	zombi4
+coords	380 210
+at	130
+
+
+spawn	walker
+coords	-50 180
+at	130
+
+
+spawn	ghoul
+coords	-80 210
+at	130
+
+
+
+
+spawn	Slime_Monster
+coords	-30 230
+at	300
+
+spawn	ghoul
+coords	-30 180
+at	300
+
+
+
+spawn	Hound_Zombi
+coords	400 200
+at	300
+
+
+spawn	Hound_Zombi
+coords	430 220
+at	300
+
+
+spawn	Hanging_Corpse
+2pspawn   1
+coords	350 190
+at	300
+
+
+spawn	Hanging_Corpse
+2pspawn   1
+coords	350 220
+at	300
+
+spawn	Born_dead
+coords	350 200
+at	130
+
+
+spawn	zombi4
+coords	380 210
+at	130
+
+
+spawn	walker
+coords	-50 180
+at	130
+
+
+spawn	ghoul
+coords	-80 210
+at	130
+spawn	Born_dead
+coords	350 200
+at	130
+
+
+spawn	zombi4
+item    Magik_Book_Blue
+coords	380 210
+at	130
+
+
+spawn	walker
+coords	-50 180
+at	130
+
+
+spawn	ghoul
+coords	-80 210
+at	130
+spawn	Born_dead
+coords	350 200
+at	130
+
+
+spawn	zombi4
+coords	380 210
+at	130
+
+
+spawn	walker
+coords	-50 180
+at	130
+
+
+spawn	ghoul
+coords	-80 210
+at	130
+
+
+
+
+spawn	Slime_Monster
+coords	-30 230
+at	300
+
+spawn	ghoul
+coords	-30 180
+at	300
+
+
+
+spawn	Hound_Zombi
+coords	400 200
+at	300
+
+
+spawn	Hound_Zombi
+item    Magik_Book_Blue
+coords	430 220
+at	300
+
+
+spawn	Hanging_Corpse
+2pspawn   1
+coords	350 190
+at	300
+
+
+spawn	Hanging_Corpse
+2pspawn   1
+coords	350 220
+at	300
+
+################################################################
+
+
+
+
+
+wait
+at      600
+
+
+group   4 4
+at      600
+
+spawn   Spectre
+flip    1
+item    Blue_Orb
+coords  -50 170
+at      600
+
+
+spawn   stat
+2pitem    Blue_Orb
+coords  -70 220
+at      600
+
+
+spawn   Mummy
+flip    1
+item    Magik_Book_Blue
+coords  -90 170
+at      600
+
+
+spawn	zombi4
+coords	-30 240
+at	600
+
+spawn	zombi4
+coords	-30 170
+at	600
+
+
+
+spawn	Slime_Monster
+coords	350 190
+at	600
+
+
+spawn	Slime_Monster
+coords	350 210
+at	600
+
+
+
+spawn	Ghoul
+coords	350 190
+at	600
+
+
+spawn	Ghoul
+coords	350 210
+at	600
+
+
+
+spawn	walker
+2pspawn   1
+coords	-30 240
+at	600
+
+spawn	walker
+2pspawn   1
+coords	-30 170
+at	600
+
+
+
+spawn   Column
+flip    1
+coords  -440 235
+at      600
+
+
+spawn   Column
+flip    1
+coords  -450 225
+at      600
+
+
+spawn	zombi4
+coords	-30 240
+at	600
+
+spawn	zombi4
+coords	-30 170
+at	600
+
+
+
+spawn	Slime_Monster
+coords	350 190
+at	600
+
+
+spawn	Slime_Monster
+coords	350 210
+at	600
+
+
+
+spawn	Ghoul
+coords	350 190
+at	600
+
+
+spawn	Ghoul
+coords	350 210
+at	600
+
+
+
+spawn	walker
+2pspawn   1
+coords	-30 240
+at	600
+
+spawn	walker
+2pspawn   1
+coords	-30 170
+at	600
+
+
+
+spawn   Column
+flip    1
+coords  -440 235
+at      600
+
+
+spawn   Column
+flip    1
+coords  -450 225
+at      600
+
+
+
+spawn	walker
+2pspawn   1
+coords	-30 240
+at	600
+
+spawn	walker
+2pspawn   1
+coords	-30 170
+at	600
+
+########################################################################
+
+
+wait
+at      700
+
+
+group   12 12
+at      700
+
+
+
+spawn	Slime_Monster
+coords	350 170
+at	700
+
+
+spawn	Slime_Monster
+coords	350 190
+at	700
+
+
+spawn	Hell_Hound
+coords	350 210
+at	700
+
+
+spawn	Hell_Hound
+coords	350 230
+at	700
+
+
+spawn	zombi4
+2pspawn   1
+coords	-30 240
+at	700
+
+spawn	Slime_Monster
+2pspawn   1
+coords	-30 170
+at	700
+
+spawn	Slime_Monster
+coords	350 170
+at	700
+
+
+spawn	Slime_Monster
+coords	350 190
+at	700
+
+
+spawn	Hell_Hound
+coords	350 210
+at	700
+
+
+spawn	Hell_Hound
+coords	350 230
+at	700
+
+
+spawn	zombi4
+2pspawn   1
+coords	-30 240
+at	700
+
+spawn	Slime_Monster
+2pspawn   1
+coords	-30 170
+at	700
+
+spawn	Slime_Monster
+coords	350 170
+at	700
+
+
+spawn	Slime_Monster
+coords	350 190
+at	700
+
+
+spawn	Hell_Hound
+coords	350 210
+at	700
+
+
+spawn	Hell_Hound
+coords	350 230
+at	700
+
+
+spawn	zombi4
+2pspawn   1
+coords	-30 240
+at	700
+
+spawn	Slime_Monster
+2pspawn   1
+coords	-30 170
+at	700
+
+spawn	Slime_Monster
+coords	350 170
+at	700
+
+
+spawn	Slime_Monster
+coords	350 190
+at	700
+
+
+spawn	Hell_Hound
+coords	350 210
+at	700
+
+
+spawn	Hell_Hound
+coords	350 230
+at	700
+
+
+spawn	zombi4
+2pspawn   1
+coords	-30 240
+at	700
+
+spawn	Slime_Monster
+2pspawn   1
+coords	-30 170
+at	700
+
+spawn	Slime_Monster
+coords	350 170
+at	700
+
+
+spawn	Slime_Monster
+coords	350 190
+at	700
+
+
+spawn	Hell_Hound
+coords	350 210
+at	700
+
+
+spawn	Hell_Hound
+coords	350 230
+at	700
+
+
+spawn	zombi4
+2pspawn   1
+coords	-30 240
+at	700
+
+spawn	Slime_Monster
+2pspawn   1
+coords	-30 170
+at	700
+
+spawn	Slime_Monster
+coords	350 170
+at	700
+
+
+spawn	Slime_Monster
+coords	350 190
+at	700
+
+
+spawn	Hell_Hound
+coords	350 210
+at	700
+
+
+spawn	Hell_Hound
+coords	350 230
+at	700
+
+
+spawn	zombi4
+2pspawn   1
+coords	-30 240
+at	700
+
+spawn	Slime_Monster
+2pspawn   1
+coords	-30 170
+at	700
+
+spawn	Slime_Monster
+coords	350 170
+at	700
+
+
+spawn	Slime_Monster
+coords	350 190
+at	700
+
+
+spawn	Hell_Hound
+coords	350 210
+at	700
+
+
+spawn	Hell_Hound
+coords	350 230
+at	700
+
+
+spawn	zombi4
+2pspawn   1
+coords	-30 240
+at	700
+
+spawn	Slime_Monster
+2pspawn   1
+coords	-30 170
+at	700
+
+spawn	Slime_Monster
+coords	350 170
+at	700
+
+
+spawn	Slime_Monster
+coords	350 190
+at	700
+
+
+spawn	Hell_Hound
+coords	350 210
+at	700
+
+
+spawn	Hell_Hound
+coords	350 230
+at	700
+
+
+spawn	zombi4
+2pspawn   1
+coords	-30 240
+at	700
+
+spawn	Slime_Monster
+2pspawn   1
+coords	-30 170
+at	700
+
+spawn	Slime_Monster
+coords	350 170
+at	700
+
+
+spawn	Slime_Monster
+coords	350 190
+at	700
+
+
+spawn	Hell_Hound
+coords	350 210
+at	700
+
+
+spawn	Hell_Hound
+coords	350 230
+at	700
+
+
+spawn	zombi4
+2pspawn   1
+coords	-30 240
+at	700
+
+spawn	Slime_Monster
+2pspawn   1
+coords	-30 170
+at	700
+
+spawn	Slime_Monster
+coords	350 170
+at	700
+
+
+spawn	Slime_Monster
+coords	350 190
+at	700
+
+
+spawn	Hell_Hound
+coords	350 210
+at	700
+
+
+spawn	Hell_Hound
+coords	350 230
+at	700
+
+
+spawn	zombi4
+2pspawn   1
+coords	-30 240
+at	700
+
+spawn	Slime_Monster
+2pspawn   1
+coords	-30 170
+at	700
+
+spawn	Slime_Monster
+coords	350 170
+at	700
+
+
+spawn	Slime_Monster
+coords	350 190
+at	700
+
+
+spawn	Hell_Hound
+coords	350 210
+at	700
+
+
+spawn	Hell_Hound
+coords	350 230
+at	700
+
+
+spawn	zombi4
+2pspawn   1
+coords	-30 240
+at	700
+
+spawn	Slime_Monster
+2pspawn   1
+coords	-30 170
+at	700
+
+spawn	Slime_Monster
+coords	350 170
+at	700
+
+
+spawn	Slime_Monster
+coords	350 190
+at	700
+
+
+spawn	Hell_Hound
+coords	350 210
+at	700
+
+
+spawn	Hell_Hound
+coords	350 230
+at	700
+
+
+spawn	zombi4
+2pspawn   1
+coords	-30 240
+at	700
+
+spawn	Slime_Monster
+2pspawn   1
+coords	-30 170
+at	700
+
+spawn	Slime_Monster
+coords	350 170
+at	700
+
+
+spawn	Slime_Monster
+coords	350 190
+at	700
+
+
+spawn	Hell_Hound
+coords	350 210
+at	700
+
+
+spawn	Hell_Hound
+coords	350 230
+at	700
+
+
+spawn	zombi4
+2pspawn   1
+coords	-30 240
+at	700
+
+spawn	Slime_Monster
+2pspawn   1
+coords	-30 170
+at	700
+
+spawn	Slime_Monster
+coords	350 170
+at	700
+
+
+spawn	Slime_Monster
+coords	350 190
+at	700
+
+
+spawn	Hell_Hound
+coords	350 210
+at	700
+
+
+spawn	Hell_Hound
+coords	350 230
+at	700
+
+
+spawn	zombi4
+2pspawn   1
+coords	-30 240
+at	700
+
+spawn	Slime_Monster
+2pspawn   1
+coords	-30 170
+at	700
+
+spawn	Slime_Monster
+coords	350 170
+at	700
+
+
+spawn	Slime_Monster
+coords	350 190
+at	700
+
+
+spawn	Hell_Hound
+coords	350 210
+at	700
+
+
+spawn	Hell_Hound
+coords	350 230
+at	700
+
+
+spawn	zombi4
+2pspawn   1
+coords	-30 240
+at	700
+
+spawn	Slime_Monster
+2pspawn   1
+coords	-30 170
+at	700
+
+spawn	Slime_Monster
+coords	350 170
+at	700
+
+
+spawn	Slime_Monster
+coords	350 190
+at	700
+
+
+spawn	Hell_Hound
+coords	350 210
+at	700
+
+
+spawn	Hell_Hound
+coords	350 230
+at	700
+
+
+spawn	zombi4
+2pspawn   1
+coords	-30 240
+at	700
+
+spawn	Slime_Monster
+2pspawn   1
+coords	-30 170
+at	700
+
+
+
+
+
+spawn   rain
+flip    1
+coords  -320 100
+at      700
+
+
+
+spawn   rain
+flip    1
+coords  -320 244
+at      700
+
+
+############################################################################
+
+
+wait
+at      850
+
+
+group   4 4
+at      850
+
+
+spawn	Slime_Monster
+map      1
+coords	350 170
+at	850
+
+
+spawn	zombi4
+map      1
+coords	350 190
+at	850
+
+
+spawn	ghoul
+coords	350 210
+at	850
+
+
+spawn	walker
+coords	350 230
+at	850
+
+
+spawn	Hell_Hound
+2pspawn   1
+coords	-30 240
+at	850
+
+spawn	Hell_Hound
+2pspawn   1
+coords	-30 170
+at	850
+
+spawn	Slime_Monster
+map      1
+coords	350 170
+at	850
+
+
+spawn	zombi4
+map      1
+coords	350 190
+at	850
+
+
+spawn	ghoul
+coords	350 210
+at	850
+
+
+spawn	walker
+coords	350 230
+at	850
+
+
+spawn	Hell_Hound
+2pspawn   1
+coords	-30 240
+at	850
+
+spawn	Hell_Hound
+2pspawn   1
+coords	-30 170
+at	850
+
+spawn	Slime_Monster
+map      1
+coords	350 170
+at	850
+
+
+spawn	zombi4
+map      1
+coords	350 190
+at	850
+
+
+spawn	ghoul
+coords	350 210
+at	850
+
+
+spawn	walker
+coords	350 230
+at	850
+
+
+spawn	Hell_Hound
+2pspawn   1
+coords	-30 240
+at	850
+
+spawn	Hell_Hound
+2pspawn   1
+coords	-30 170
+at	850
+
+#############################################################################
+
+#-------3
+
+
+
+wait
+at      1100
+
+
+group   6 6
+at      1100
+
+
+
+
+
+
+
+
+
+
+spawn	Ghoul
+map     1
+coords	350 170
+at	1100
+
+
+spawn	Ghoul
+map     1
+coords	390 210
+at	1100
+
+
+
+spawn	zombi4
+coords	350 170
+at	1100
+
+
+
+spawn	Hell_Hound
+coords	430 190
+at	1100
+
+
+
+spawn	Hell_Hound
+coords	350 240
+at	1100
+
+spawn	ghoul
+coords	350 170
+at	1100
+
+
+
+spawn	walker
+2pspawn   1
+coords	350 170
+at	1100
+
+
+spawn	walker
+2pspawn   1
+coords	350 230
+at	1100
+
+spawn	Ghoul
+map     1
+coords	350 170
+at	1100
+
+
+spawn	Ghoul
+map     1
+coords	390 210
+at	1100
+
+
+
+spawn	zombi4
+coords	350 170
+at	1100
+
+
+
+spawn	Hell_Hound
+coords	430 190
+at	1100
+
+
+
+spawn	Hell_Hound
+coords	350 240
+at	1100
+
+spawn	ghoul
+coords	350 170
+at	1100
+
+
+
+spawn	walker
+2pspawn   1
+coords	350 170
+at	1100
+
+
+spawn	walker
+2pspawn   1
+coords	350 230
+at	1100
+spawn	Ghoul
+map     1
+coords	350 170
+at	1100
+
+
+spawn	Ghoul
+map     1
+coords	390 210
+at	1100
+
+
+
+spawn	zombi4
+coords	350 170
+at	1100
+
+
+
+spawn	Hell_Hound
+coords	430 190
+at	1100
+
+
+
+spawn	Hell_Hound
+coords	350 240
+at	1100
+
+spawn	ghoul
+coords	350 170
+at	1100
+
+
+
+spawn	walker
+2pspawn   1
+coords	350 170
+at	1100
+
+
+spawn	walker
+2pspawn   1
+coords	350 230
+at	1100
+
+spawn	Ghoul
+map     1
+coords	350 170
+at	1100
+
+
+spawn	Ghoul
+map     1
+coords	390 210
+at	1100
+
+
+
+spawn	zombi4
+coords	350 170
+at	1100
+
+
+
+spawn	Hell_Hound
+item    Red_Orb
+coords	430 190
+at	1100
+
+
+
+spawn	Hell_Hound
+coords	350 240
+at	1100
+
+spawn	ghoul
+coords	350 170
+at	1100
+
+
+
+spawn	walker
+2pspawn   1
+coords	350 170
+at	1100
+
+
+spawn	walker
+2pspawn   1
+coords	350 230
+at	1100
+spawn	Ghoul
+map     1
+coords	350 170
+at	1100
+
+
+spawn	Ghoul
+item    Red_Orb
+map     1
+coords	390 210
+at	1100
+
+
+
+spawn	zombi4
+coords	350 170
+at	1100
+
+
+
+spawn	Hell_Hound
+coords	430 190
+at	1100
+
+
+
+spawn	Hell_Hound
+coords	350 240
+at	1100
+
+spawn	ghoul
+coords	350 170
+at	1100
+
+spawn	Screaming_Mimi
+map      2
+coords	-60 190 
+at	1100
+
+
+spawn	Screaming_Mimi
+map      2
+coords	-50 210
+at	1100
+
+spawn	Screaming_Mimi
+map      2
+coords	-60 190 
+at	1100
+
+
+spawn	Screaming_Mimi
+map      2
+coords	-50 210
+at	1100
+
+spawn	Screaming_Mimi
+map      2
+coords	-60 190 
+at	1100
+
+
+spawn	Screaming_Mimi
+map      2
+coords	-50 210
+at	1100
+
+
+
+spawn	walker
+2pspawn   1
+coords	350 170
+at	1100
+
+
+spawn	walker
+item    Red_Orb
+2pspawn   1
+coords	350 230
+at	1100
+
+
+
+
+spawn   Unreal
+item    Red_Orb
+coords  -50 170
+at      1100
+
+
+spawn   stat
+2pitem    Red_Orb
+coords  -70 220
+at      1100
+
+
+spawn   Spectre
+item    Magik_Book_Green
+coords  -90 170
+at      1100
+
+#################################################################
+
+
+
+
+
+wait
+at      1550
+
+
+group   10 10
+at      1550
+
+
+spawn	Screaming_Mimi
+map      2
+coords	-60 190 
+at	1550
+
+
+spawn	Screaming_Mimi
+map      2
+coords	-50 210
+at	1550
+
+
+
+spawn	Bellyache
+map      1
+coords	-20 230
+at	1550
+
+
+spawn	Bellyache
+map      1
+coords	-30 190
+at	1550
+
+
+spawn	zombi4
+2pspawn   1
+coords	400 190
+at	1550
+
+
+
+spawn	zombi4
+2pspawn   1
+coords	370 210
+at	1550
+
+
+
+spawn   ghoul
+flip    1
+coords  -400 150
+at      1550
+
+spawn	Screaming_Mimi
+map      2
+coords	-60 190 
+at	1550
+
+
+spawn	Screaming_Mimi
+map      2
+coords	-50 210
+at	1550
+
+
+
+spawn	Bellyache
+map      1
+coords	-20 230
+at	1550
+
+
+spawn	Bellyache
+map      1
+coords	-30 190
+at	1550
+
+
+spawn	zombi4
+2pspawn   1
+coords	400 190
+at	1550
+
+
+
+spawn	zombi4
+2pspawn   1
+coords	370 210
+at	1550
+
+
+
+spawn   ghoul
+flip    1
+coords  -400 150
+at      1550
+
+spawn	Screaming_Mimi
+map      2
+coords	-60 190 
+at	1550
+
+
+spawn	Screaming_Mimi
+map      2
+coords	-50 210
+at	1550
+
+
+
+spawn	Bellyache
+map      1
+coords	-20 230
+at	1550
+
+
+spawn	Bellyache
+map      1
+coords	-30 190
+at	1550
+
+
+spawn	zombi4
+2pspawn   1
+coords	400 190
+at	1550
+
+
+
+spawn	zombi4
+2pspawn   1
+coords	370 210
+at	1550
+
+
+
+spawn   ghoul
+flip    1
+coords  -400 150
+at      1550
+
+spawn	Screaming_Mimi
+map      2
+coords	-60 190 
+at	1550
+
+
+spawn	Screaming_Mimi
+map      2
+coords	-50 210
+at	1550
+
+
+
+spawn	Bellyache
+map      1
+coords	-20 230
+at	1550
+
+
+spawn	Bellyache
+map      1
+coords	-30 190
+at	1550
+
+
+spawn	zombi4
+2pspawn   1
+coords	400 190
+at	1550
+
+
+
+spawn	zombi4
+2pspawn   1
+coords	370 210
+at	1550
+
+
+
+spawn   ghoul
+flip    1
+coords  -400 150
+at      1550
+
+spawn	Screaming_Mimi
+map      2
+coords	-60 190 
+at	1550
+
+
+spawn	Screaming_Mimi
+map      2
+coords	-50 210
+at	1550
+
+
+
+spawn	Bellyache
+map      1
+coords	-20 230
+at	1550
+
+
+spawn	Bellyache
+map      1
+coords	-30 190
+at	1550
+
+
+spawn	zombi4
+2pspawn   1
+coords	400 190
+at	1550
+
+
+
+spawn	zombi4
+2pspawn   1
+coords	370 210
+at	1550
+
+
+
+spawn   ghoul
+flip    1
+coords  -400 150
+at      1550
+
+###################################################################
+
+group 7 7
+at 1650
+
+wait
+at      1650
+
+
+spawn	walker
+coords	350 190
+at	1650
+
+
+spawn	walker
+coords	350 210
+at	1650
+
+
+
+spawn	Slime_Monster
+coords	350 230
+at	1650
+
+
+spawn	Slime_Monster
+coords	-30 190
+at	1650
+
+
+
+spawn	zombi4
+2pspawn   1
+coords	390 210
+at	1650
+
+
+
+spawn	ghoul
+2pspawn   1
+coords	410 210
+at	1650
+
+spawn	walker
+coords	350 190
+at	1650
+
+
+spawn	walker
+coords	350 210
+at	1650
+
+
+
+spawn	Slime_Monster
+coords	350 230
+at	1650
+
+
+spawn	Slime_Monster
+coords	-30 190
+at	1650
+
+
+
+spawn	zombi4
+2pspawn   1
+coords	390 210
+at	1650
+
+
+
+spawn	ghoul
+2pspawn   1
+coords	410 210
+at	1650
+
+
+spawn	walker
+coords	350 190
+at	1650
+
+
+spawn	walker
+coords	350 210
+at	1650
+
+
+
+spawn	Slime_Monster
+coords	350 230
+at	1650
+
+
+spawn	Slime_Monster
+coords	-30 190
+at	1650
+
+
+
+spawn	zombi4
+2pspawn   1
+coords	390 210
+at	1650
+
+
+
+spawn	ghoul
+2pspawn   1
+coords	410 210
+at	1650
+
+
+spawn	walker
+coords	350 190
+at	1650
+
+
+spawn	walker
+coords	350 210
+at	1650
+
+
+
+spawn	Slime_Monster
+coords	350 230
+at	1650
+
+
+spawn	Slime_Monster
+coords	-30 190
+at	1650
+
+
+
+spawn	zombi4
+2pspawn   1
+coords	390 210
+at	1650
+
+
+
+spawn	ghoul
+2pspawn   1
+coords	410 210
+at	1650
+
+
+spawn	walker
+coords	350 190
+at	1650
+
+
+spawn	walker
+coords	350 210
+at	1650
+
+
+
+spawn	Slime_Monster
+coords	350 230
+at	1650
+
+
+spawn	Slime_Monster
+coords	-30 190
+at	1650
+
+
+
+spawn	zombi4
+2pspawn   1
+coords	390 210
+at	1650
+
+
+
+spawn	ghoul
+2pspawn   1
+coords	410 210
+at	1650
+
+
+spawn	walker
+coords	350 190
+at	1650
+
+
+spawn	walker
+coords	350 210
+at	1650
+
+
+
+spawn	Slime_Monster
+coords	350 230
+at	1650
+
+
+spawn	Slime_Monster
+coords	-30 190
+at	1650
+
+
+
+spawn	zombi4
+2pspawn   1
+coords	390 210
+at	1650
+
+
+
+spawn	ghoul
+2pspawn   1
+coords	410 210
+at	1650
+
+##############################################################################
+
+
+
+
+wait
+at      1700
+
+
+group   4 4
+at      1700
+
+spawn   zombi4
+coords  -20 190
+at      1700
+
+
+spawn   Hell_Hound
+coords  -40 210
+at      1700
+
+
+spawn   ghoul
+coords  -60 230
+at      1700
+
+
+spawn   walker
+coords  380 190
+at      1700
+
+
+spawn   Born_Dead
+2pspawn   1
+coords  360 210
+at      1700
+
+
+spawn   zombi4
+2pspawn   1
+coords  340 230
+at      1700
+
+spawn   zombi4
+coords  -20 190
+at      1700
+
+
+spawn   Hell_Hound
+coords  -40 210
+at      1700
+
+
+spawn   ghoul
+coords  -60 230
+at      1700
+
+
+spawn   walker
+coords  380 190
+at      1700
+
+
+spawn   Born_Dead
+2pspawn   1
+coords  360 210
+at      1700
+
+
+spawn   zombi4
+2pspawn   1
+coords  340 230
+at      1700
+
+spawn   zombi4
+coords  -20 190
+at      1700
+
+
+spawn   Hell_Hound
+coords  -40 210
+at      1700
+
+
+spawn   ghoul
+coords  -60 230
+at      1700
+
+
+spawn   walker
+coords  380 190
+at      1700
+
+
+spawn   Born_Dead
+2pspawn   1
+coords  360 210
+at      1700
+
+
+spawn   zombi4
+2pspawn   1
+coords  340 230
+at      1700
+
+spawn   zombi4
+coords  -20 190
+at      1700
+
+
+spawn   Hell_Hound
+coords  -40 210
+at      1700
+
+
+spawn   ghoul
+coords  -60 230
+at      1700
+
+
+spawn   walker
+coords  380 190
+at      1700
+
+
+spawn   Born_Dead
+2pspawn   1
+coords  360 210
+at      1700
+
+
+spawn   zombi4
+2pspawn   1
+coords  340 230
+at      1700
+
+###############################################
+
+
+wait
+at      1800
+
+
+group   6 6
+at      1800
+
+
+spawn   Walker
+coords  -20 190
+at      1800
+
+
+spawn   Walker
+coords  -40 210
+at      1800
+
+
+spawn   Hanging_Corpse
+coords  -60 230
+at      1800
+
+
+spawn   Hanging_Corpse
+coords  380 190
+at      1800
+
+
+spawn   Slime_Monster
+map     3
+coords  360 210
+at      1800
+
+
+spawn   Slime_Monster
+map     3
+coords  340 230
+at      1800
+
+spawn   Walker
+coords  -20 190
+at      1800
+
+
+spawn   Walker
+coords  -40 210
+at      1800
+
+
+spawn   Hanging_Corpse
+coords  -60 230
+at      1800
+
+
+spawn   Hanging_Corpse
+coords  380 190
+at      1800
+
+
+spawn   Slime_Monster
+map     3
+coords  360 210
+at      1800
+
+
+spawn   Slime_Monster
+map     3
+coords  340 230
+at      1800
+
+spawn   Walker
+coords  -20 190
+at      1800
+
+
+spawn   Walker
+coords  -40 210
+at      1800
+
+
+spawn   Hanging_Corpse
+coords  -60 230
+at      1800
+
+
+spawn   Hanging_Corpse
+coords  380 190
+at      1800
+
+
+spawn   Slime_Monster
+map     3
+coords  360 210
+at      1800
+
+
+spawn   Slime_Monster
+map     3
+coords  340 230
+at      1800
+
+spawn   Walker
+coords  -20 190
+at      1800
+
+
+spawn   Walker
+coords  -40 210
+at      1800
+
+
+spawn   Hanging_Corpse
+item    Red_Orb
+coords  -60 230
+at      1800
+
+
+spawn   Hanging_Corpse
+item    Red_Orb
+coords  380 190
+at      1800
+
+
+spawn   Slime_Monster
+map     3
+coords  360 210
+at      1800
+
+
+spawn   Slime_Monster
+map     3
+coords  340 230
+at      1800
+
+spawn   Walker
+coords  -20 190
+at      1800
+
+
+spawn   Walker
+coords  -40 210
+at      1800
+
+
+spawn   Hanging_Corpse
+coords  -60 230
+at      1800
+
+
+spawn   Hanging_Corpse
+coords  380 190
+at      1800
+
+
+spawn   Slime_Monster
+map     3
+coords  360 210
+at      1800
+
+
+spawn   Slime_Monster
+item    Red_Orb
+map     3
+coords  340 230
+at      1800
+
+
+
+
+spawn   Unreal
+item    Red_Orb
+coords  -50 190
+at      1800
+
+
+spawn   Unreal
+2pitem    Red_Orb
+coords  -70 220
+at      1800
+
+spawn   Storm
+flip    1
+coords  -300 244
+at      1800
+
+
+############################################################
+
+
+
+
+
+
+wait
+at      2000
+
+
+group   4 4
+at      2000
+
+
+spawn	Boreworm
+map     2
+coords	350 170
+at	2000
+
+
+spawn	Screaming_Mimi
+map     3
+coords	370 190
+at	2000
+
+
+spawn	ghoul
+coords	390 210
+at	2000
+
+
+spawn	ghoul
+map     1
+coords	410 210
+at	2000
+
+spawn	Boreworm
+map     2
+coords	350 170
+at	2000
+
+
+spawn	Screaming_Mimi
+map     3
+coords	370 190
+at	2000
+
+
+spawn	ghoul
+coords	390 210
+at	2000
+
+
+spawn	ghoul
+map     1
+coords	410 210
+at	2000
+
+spawn	Boreworm
+map     2
+coords	350 170
+at	2000
+
+
+spawn	Screaming_Mimi
+map     3
+coords	370 190
+at	2000
+
+
+spawn	ghoul
+coords	390 210
+at	2000
+
+
+spawn	ghoul
+map     1
+coords	410 210
+at	2000
+
+spawn	Boreworm
+map     2
+coords	350 170
+at	2000
+
+
+spawn	Screaming_Mimi
+map     3
+coords	370 190
+at	2000
+
+
+spawn	ghoul
+coords	390 210
+at	2000
+
+
+spawn	ghoul
+map     1
+coords	410 210
+at	2000
+
+########################################################################
+
+wait 
+at 2200
+
+group   15 15
+at      2200
+
+
+
+
+
+spawn	ghoul
+coords	350 210
+at	2200
+
+
+
+spawn	walker
+coords	430 190
+at	2200
+
+
+spawn	Hell_Hound
+map     1
+coords	350 210
+at	2200
+
+
+spawn	zombi4
+map     1
+coords	350 210
+at	2200
+
+
+
+
+spawn	zombi4
+coords	350 210
+at	2200
+
+
+
+spawn	Slime_Monster
+coords	430 190
+at	2200
+
+spawn	ghoul
+coords	350 210
+at	2200
+
+
+
+spawn	walker
+coords	430 190
+at	2200
+
+
+spawn	Hell_Hound
+map     1
+coords	350 210
+at	2200
+
+
+spawn	zombi4
+map     1
+coords	350 210
+at	2200
+
+
+
+
+spawn	zombi4
+coords	350 210
+at	2200
+
+
+
+spawn	Slime_Monster
+coords	430 190
+at	2200
+
+spawn	ghoul
+coords	350 210
+at	2200
+
+
+
+spawn	walker
+coords	430 190
+at	2200
+
+
+spawn	Hell_Hound
+map     1
+coords	350 210
+at	2200
+
+
+spawn	zombi4
+map     1
+coords	350 210
+at	2200
+
+
+
+
+spawn	zombi4
+coords	350 210
+at	2200
+
+
+
+spawn	Slime_Monster
+coords	430 190
+at	2200
+
+spawn	ghoul
+coords	350 210
+at	2200
+
+
+
+spawn	walker
+coords	430 190
+at	2200
+
+
+spawn	Hell_Hound
+map     1
+coords	350 210
+at	2200
+
+
+spawn	zombi4
+map     1
+coords	350 210
+at	2200
+
+
+
+
+spawn	zombi4
+coords	350 210
+at	2200
+
+
+
+spawn	Slime_Monster
+coords	430 190
+at	2200
+
+spawn	ghoul
+coords	350 210
+at	2200
+
+
+
+spawn	walker
+coords	430 190
+at	2200
+
+
+spawn	Hell_Hound
+map     1
+coords	350 210
+at	2200
+
+
+spawn	zombi4
+map     1
+coords	350 210
+at	2200
+
+
+
+
+spawn	zombi4
+coords	350 210
+at	2200
+
+
+
+spawn	Slime_Monster
+coords	430 190
+at	2200
+
+spawn	ghoul
+coords	350 210
+at	2200
+
+
+
+spawn	walker
+coords	430 190
+at	2200
+
+
+spawn	Hell_Hound
+map     1
+coords	350 210
+at	2200
+
+
+spawn	zombi4
+map     1
+coords	350 210
+at	2200
+
+
+
+
+spawn	zombi4
+coords	350 210
+at	2200
+
+
+
+spawn	Slime_Monster
+coords	430 190
+at	2200
+
+spawn	ghoul
+coords	350 210
+at	2200
+
+
+
+spawn	walker
+coords	430 190
+at	2200
+
+
+spawn	Hell_Hound
+map     1
+coords	350 210
+at	2200
+
+
+spawn	zombi4
+map     1
+coords	350 210
+at	2200
+
+
+
+
+spawn	zombi4
+coords	350 210
+at	2200
+
+
+
+spawn	Slime_Monster
+coords	430 190
+at	2200
+
+spawn	ghoul
+coords	350 210
+at	2200
+
+
+
+spawn	walker
+coords	430 190
+at	2200
+
+
+spawn	Hell_Hound
+map     1
+coords	350 210
+at	2200
+
+
+spawn	zombi4
+map     1
+coords	350 210
+at	2200
+
+
+
+
+spawn	zombi4
+coords	350 210
+at	2200
+
+
+
+spawn	Slime_Monster
+coords	430 190
+at	2200
+
+spawn	ghoul
+coords	350 210
+at	2200
+
+
+
+spawn	walker
+coords	430 190
+at	2200
+
+
+spawn	Hell_Hound
+map     1
+coords	350 210
+at	2200
+
+
+spawn	zombi4
+map     1
+coords	350 210
+at	2200
+
+
+
+
+spawn	zombi4
+coords	350 210
+at	2200
+
+
+
+spawn	Slime_Monster
+coords	430 190
+at	2200
+
+spawn	ghoul
+coords	350 210
+at	2200
+
+
+
+spawn	walker
+coords	430 190
+at	2200
+
+
+spawn	Hell_Hound
+map     1
+coords	350 210
+at	2200
+
+
+spawn	zombi4
+map     1
+coords	350 210
+at	2200
+
+
+
+
+spawn	zombi4
+coords	350 210
+at	2200
+
+
+
+spawn	Slime_Monster
+coords	430 190
+at	2200
+
+spawn	ghoul
+coords	350 210
+at	2200
+
+
+
+spawn	walker
+coords	430 190
+at	2200
+
+
+spawn	Hell_Hound
+map     1
+coords	350 210
+at	2200
+
+
+spawn	zombi4
+map     1
+coords	350 210
+at	2200
+
+
+
+
+spawn	zombi4
+coords	350 210
+at	2200
+
+
+
+spawn	Slime_Monster
+coords	430 190
+at	2200
+
+spawn	ghoul
+coords	350 210
+at	2200
+
+
+
+spawn	walker
+coords	430 190
+at	2200
+
+
+spawn	Hell_Hound
+map     1
+coords	350 210
+at	2200
+
+
+spawn	zombi4
+map     1
+coords	350 210
+at	2200
+
+
+
+
+spawn	zombi4
+coords	350 210
+at	2200
+
+
+
+spawn	Slime_Monster
+coords	430 190
+at	2200
+
+spawn	ghoul
+coords	350 210
+at	2200
+
+
+
+spawn	walker
+coords	430 190
+at	2200
+
+
+spawn	Hell_Hound
+map     1
+coords	350 210
+at	2200
+
+
+spawn	zombi4
+map     1
+coords	350 210
+at	2200
+
+
+
+
+spawn	zombi4
+coords	350 210
+at	2200
+
+
+
+spawn	Slime_Monster
+coords	430 190
+at	2200
+
+spawn	ghoul
+coords	350 210
+at	2200
+
+
+
+spawn	walker
+coords	430 190
+at	2200
+
+
+spawn	Hell_Hound
+map     1
+coords	350 210
+at	2200
+
+
+spawn	zombi4
+map     1
+coords	350 210
+at	2200
+
+
+
+
+spawn	zombi4
+coords	350 210
+at	2200
+
+
+
+spawn	Slime_Monster
+coords	430 190
+at	2200
+
+
+#################################################
+
+wait 
+at 2500
+
+group   4 4
+at      2500
+
+spawn	zombi4
+coords	350 210
+at	2500
+
+
+
+spawn	Slime_Monster
+coords	430 190
+at	2500
+
+spawn	zombi4
+coords	350 210
+at	2500
+
+
+
+spawn	Slime_Monster
+coords	430 190
+at	2500
+
+spawn	zombi4
+coords	350 210
+at	2500
+
+
+
+spawn	Slime_Monster
+coords	430 190
+at	2500
+
+spawn	zombi4
+coords	350 210
+at	2500
+
+
+
+spawn	Slime_Monster
+coords	430 190
+at	2500
+
+######################################################################
+
+
+wait 
+at 2800
+
+group   3 3
+at      2800
+
+
+spawn	Slime_Monster
+coords	430 190
+at	2800
+
+spawn	zombi4
+coords	350 210
+at	2800
+
+
+
+spawn	Slime_Monster
+coords	430 190
+at	2800
+
+spawn	ghoul
+coords	350 210
+at	2800
+
+spawn	walker
+coords	350 210
+at	2800
+
+spawn	zombi4
+coords	350 210
+at	2800
+
+
+
+spawn	Slime_Monster
+coords	430 190
+at	2800
+
+spawn	ghoul
+coords	350 210
+at	2800
+
+spawn	walker
+coords	350 210
+at	2800
+
+###############################################################################
+
+wait 
+at 3400
+
+group   17 17
+at      3400
+
+
+spawn	Boreworm
+map     2
+coords	350 170
+at	3400
+
+
+spawn	Screaming_Mimi
+map     3
+coords	370 190
+at	3400
+
+spawn	walker
+coords	350 210
+at	3400
+
+spawn	walker
+coords	350 210
+at	3400
+
+spawn	zombi4
+coords	350 210
+at	3400
+
+
+spawn	zombi4
+coords	350 210
+at	3400
+
+spawn	zombi4
+coords	350 210
+at	3400
+
+spawn	zombi4
+coords	350 210
+at	3400
+
+spawn	ghoul
+coords	350 210
+at	3400
+
+spawn	ghoul
+coords	350 210
+at	3400
+
+spawn	ghoul
+coords	350 210
+at	3400
+
+spawn	walker
+coords	350 210
+at	3400
+
+spawn	Slime_Monster
+coords	350 210
+at	3400
+
+spawn	Slime_Monster
+coords	350 210
+at	3400
+
+spawn	Slime_Monster
+coords	350 210
+at	3400
+
+spawn	Slime_Monster
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Boreworm
+map     2
+coords	350 170
+at	3400
+
+
+spawn	Screaming_Mimi
+map     3
+coords	370 190
+at	3400
+
+spawn	walker
+coords	350 210
+at	3400
+
+spawn	walker
+coords	350 210
+at	3400
+
+spawn	zombi4
+coords	350 210
+at	3400
+
+
+spawn	zombi4
+coords	350 210
+at	3400
+
+spawn	zombi4
+coords	350 210
+at	3400
+
+spawn	zombi4
+coords	350 210
+at	3400
+
+spawn	ghoul
+coords	350 210
+at	3400
+
+spawn	ghoul
+coords	350 210
+at	3400
+
+spawn	ghoul
+coords	350 210
+at	3400
+
+spawn	walker
+coords	350 210
+at	3400
+
+spawn	Slime_Monster
+coords	350 210
+at	3400
+
+spawn	Slime_Monster
+coords	350 210
+at	3400
+
+spawn	Slime_Monster
+coords	350 210
+at	3400
+
+spawn	Slime_Monster
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Boreworm
+map     2
+coords	350 170
+at	3400
+
+
+spawn	Screaming_Mimi
+map     3
+coords	370 190
+at	3400
+
+spawn	walker
+coords	350 210
+at	3400
+
+spawn	walker
+coords	350 210
+at	3400
+
+spawn	zombi4
+coords	350 210
+at	3400
+
+
+spawn	zombi4
+coords	350 210
+at	3400
+
+spawn	zombi4
+coords	350 210
+at	3400
+
+spawn	zombi4
+coords	350 210
+at	3400
+
+spawn	ghoul
+coords	350 210
+at	3400
+
+spawn	ghoul
+coords	350 210
+at	3400
+
+spawn	ghoul
+coords	350 210
+at	3400
+
+spawn	walker
+coords	350 210
+at	3400
+
+spawn	Slime_Monster
+coords	350 210
+at	3400
+
+spawn	Slime_Monster
+coords	350 210
+at	3400
+
+spawn	Slime_Monster
+coords	350 210
+at	3400
+
+spawn	Slime_Monster
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Boreworm
+map     2
+coords	350 170
+at	3400
+
+
+spawn	Screaming_Mimi
+map     3
+coords	370 190
+at	3400
+
+spawn	walker
+coords	350 210
+at	3400
+
+spawn	walker
+coords	350 210
+at	3400
+
+spawn	zombi4
+coords	350 210
+at	3400
+
+
+spawn	zombi4
+coords	350 210
+at	3400
+
+spawn	zombi4
+coords	350 210
+at	3400
+
+spawn	zombi4
+coords	350 210
+at	3400
+
+spawn	ghoul
+coords	350 210
+at	3400
+
+spawn	ghoul
+coords	350 210
+at	3400
+
+spawn	ghoul
+coords	350 210
+at	3400
+
+spawn	walker
+coords	350 210
+at	3400
+
+spawn	Slime_Monster
+coords	350 210
+at	3400
+
+spawn	Slime_Monster
+coords	350 210
+at	3400
+
+spawn	Slime_Monster
+coords	350 210
+at	3400
+
+spawn	Slime_Monster
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Boreworm
+map     2
+coords	350 170
+at	3400
+
+
+spawn	Screaming_Mimi
+map     3
+coords	370 190
+at	3400
+
+spawn	walker
+coords	350 210
+at	3400
+
+spawn	walker
+coords	350 210
+at	3400
+
+spawn	zombi4
+coords	350 210
+at	3400
+
+
+spawn	zombi4
+coords	350 210
+at	3400
+
+spawn	zombi4
+coords	350 210
+at	3400
+
+spawn	zombi4
+coords	350 210
+at	3400
+
+spawn	ghoul
+coords	350 210
+at	3400
+
+spawn	ghoul
+coords	350 210
+at	3400
+
+spawn	ghoul
+coords	350 210
+at	3400
+
+spawn	walker
+coords	350 210
+at	3400
+
+spawn	Slime_Monster
+coords	350 210
+at	3400
+
+spawn	Slime_Monster
+coords	350 210
+at	3400
+
+spawn	Slime_Monster
+coords	350 210
+at	3400
+
+spawn	Slime_Monster
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Boreworm
+map     2
+coords	350 170
+at	3400
+
+
+spawn	Screaming_Mimi
+map     3
+coords	370 190
+at	3400
+
+spawn	walker
+coords	350 210
+at	3400
+
+spawn	walker
+coords	350 210
+at	3400
+
+spawn	zombi4
+coords	350 210
+at	3400
+
+
+spawn	zombi4
+coords	350 210
+at	3400
+
+spawn	zombi4
+coords	350 210
+at	3400
+
+spawn	zombi4
+coords	350 210
+at	3400
+
+spawn	ghoul
+coords	350 210
+at	3400
+
+spawn	ghoul
+coords	350 210
+at	3400
+
+spawn	ghoul
+coords	350 210
+at	3400
+
+spawn	walker
+coords	350 210
+at	3400
+
+spawn	Slime_Monster
+coords	350 210
+at	3400
+
+spawn	Slime_Monster
+coords	350 210
+at	3400
+
+spawn	Slime_Monster
+coords	350 210
+at	3400
+
+spawn	Slime_Monster
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+spawn	Hell_Hound
+coords	350 210
+at	3400
+
+
+
+
+
+
+

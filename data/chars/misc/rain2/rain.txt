@@ -1,0 +1,26 @@
+name	Rain
+health	0
+type	item
+shadow	0
+
+anim idle
+	loop	1
+	delay	3
+	offset	0 170
+	frame	data/chars/misc/Rain/r1.gif
+	frame	data/chars/misc/Rain/r2.gif
+	frame	data/chars/misc/Rain/r3.gif
+	frame	data/chars/misc/Rain/r4.gif
+	frame	data/chars/misc/Rain/r5.gif
+	frame	data/chars/misc/Rain/r6.gif
+	frame	data/chars/misc/Rain/r7.gif
+	frame	data/chars/misc/Rain/r8.gif
+	frame	data/chars/misc/Rain/r9.gif
+	frame	data/chars/misc/Rain/r10.gif
+	frame	data/chars/misc/Rain/r11.gif
+	frame	data/chars/misc/Rain/r12.gif
+	frame	data/chars/misc/Rain/r13.gif
+	frame	data/chars/misc/Rain/r14.gif
+	frame	data/chars/misc/Rain/r15.gif
+
+	

@@ -1,0 +1,673 @@
+music		Data/music/SegundaFase.ogg
+bossmusic	data/music/st1boss.bor
+background	data/bgs/st31/back.gif
+panel		data/bgs/st31/st31.gif
+frontpanel	data/bgs/st31/front.gif
+order           a
+settime         0
+notime          1
+direction       right
+spawn1  80 10 300  
+spawn2  40 90 300
+
+
+
+
+
+
+
+
+spawn   rain
+flip    1
+coords  0 244
+at      0
+
+
+spawn   rain
+flip    1
+coords  40 100
+at      0
+
+
+spawn   rain
+flip    1
+coords  320 244
+at      0
+
+
+spawn   rain
+flip    1
+coords  360 100
+at      0
+
+
+spawn   rain
+flip    1
+coords  640 244
+at      0
+
+
+spawn   rain
+flip    1
+coords  660 100
+at      0
+
+
+spawn   rain
+flip    1
+coords  960 244
+at      0
+
+
+spawn   rain
+flip    1
+coords  1000 100
+at      0
+
+
+spawn   rain
+flip    1
+coords  1280 244
+at      0
+
+
+spawn   rain
+flip    1
+coords  1320 100
+at      0
+
+
+spawn   rain
+flip    1
+coords  1600 244
+at      0
+
+
+spawn   rain
+flip    1
+coords  1640 100
+at      0
+
+
+spawn   rain
+flip    1
+coords  1920 244
+at      0
+
+
+spawn   rain
+flip    1
+coords  1960 100
+at      0
+
+
+spawn   rain
+flip    1
+coords  2240 244
+at      0
+
+
+spawn   rain
+flip    1
+coords  2280 100
+at      0
+
+
+spawn   rain
+flip    1
+coords  2560 244
+at      0
+
+
+spawn   rain
+flip    1
+coords  2600 100
+at      0
+
+
+wait
+at 70
+
+
+group 2 2
+at 55
+
+spawn	zombi4
+coords	250 160
+at	55
+
+spawn	zombi4
+coords	250 160
+at	55
+
+
+spawn	walker
+coords	380 210
+at	55
+
+spawn	zombi4
+coords	380 210
+at	55
+
+
+spawn	walker
+coords	380 210
+at	55
+
+wait 
+at 70
+
+########################################
+wait
+at 185
+
+group 3 3
+at 180
+
+spawn	zombi4
+coords	350 230
+at	155
+
+
+spawn	walker
+coords	350 230
+at	155
+
+spawn	zombi4
+coords	380 210
+at	155
+
+
+spawn	walker
+coords	-60 210
+at	155
+
+spawn	zombi4
+coords	-60 210
+at	155
+
+
+spawn	walker
+coords	380 210
+at	155
+
+spawn	zombi4
+coords	380 210
+at	155
+
+###############################################
+wait 
+at 255
+
+group 4 4
+at 240
+
+
+spawn	walker
+coords	380 210
+at	240
+
+spawn	zombi4
+coords	380 210
+at	240
+
+
+spawn	walker
+coords	380 210
+at	240
+
+spawn	zombi4
+coords	380 210
+at	240
+
+
+spawn	walker
+coords	380 210
+at	240
+
+spawn	zombi4
+coords	380 210
+at	240
+
+
+spawn	walker
+coords	380 210
+at	240
+
+spawn	zombi4
+coords	380 210
+at	240
+
+
+spawn	walker
+coords	380 210
+at	240
+
+spawn	zombi4
+coords	380 210
+at	240
+
+
+spawn	walker
+coords	380 210
+at	240
+##################################################
+
+wait
+at 600
+
+group 3 3
+at 600
+
+spawn	zombi4
+coords	380 210
+at	580
+
+spawn	zombi4
+coords	380 210
+at	580
+
+spawn	zombi4
+coords	380 210
+at	580
+
+spawn	zombi4
+coords	380 210
+at	580
+
+spawn	zombi4
+coords	380 210
+at	580
+
+spawn	zombi4
+coords	380 210
+at	580
+
+spawn	zombi4
+coords	380 210
+at	580
+
+##############################################
+
+
+
+
+
+wait
+at 800
+
+group 5 5
+at 750
+
+
+spawn	zombi4
+coords	-60 180
+at	 750
+
+
+
+
+spawn	zombi4
+coords	-60 180
+at	 750
+
+spawn	walker
+coords	290 160
+at	750
+
+
+spawn	walker
+coords	290 160
+at	750
+
+spawn	zombi4
+coords	380 210
+at	750
+
+spawn	zombi4
+coords	380 210
+at	750
+
+spawn	zombi4
+coords	-60 180
+at	 750
+
+
+
+
+spawn	zombi4
+coords	-60 180
+at	 750
+
+spawn	walker
+coords	290 160
+at	750
+
+
+spawn	walker
+coords	290 160
+at	750
+
+spawn	zombi4
+coords	380 210
+at	750
+
+spawn	zombi4
+coords	380 210
+at	750
+
+
+#################################################################
+
+wait
+at 1400
+
+group 3 3
+at    1350
+
+spawn	walker
+coords	290 160
+at	1350
+
+spawn	walker
+coords	290 160
+at	1350
+
+spawn	walker
+coords	290 160
+at	1350
+
+spawn	walker
+coords	290 160
+at	1350
+
+spawn	walker
+coords	290 160
+at	1350
+
+#################################################
+
+wait
+at 1600
+
+group 4 4
+at 1550
+
+spawn   Slime_Monster
+coords	290 160
+at	1550
+
+spawn   Slime_Monster
+coords	290 160
+at	1550
+
+spawn   Slime_Monster
+coords	290 160
+at	1550
+
+spawn   Slime_Monster
+coords	290 160
+at	1550
+
+spawn   Slime_Monster
+coords	290 160
+at	1550
+
+spawn   walker
+coords	290 160
+at	1550
+
+spawn   zombi4
+coords	290 160
+at	1550
+
+spawn   Slime_Monster
+coords	290 160
+at	1550
+
+spawn   walker
+coords	290 160
+at	1550
+
+spawn   Slime_Monster
+coords	290 160
+at	1550
+
+##############################################################
+
+wait
+at 2200
+
+group 6 6
+at 2150
+
+spawn   Slime_Monster
+coords	290 160
+at	2150
+
+spawn   Slime_Monster
+coords	290 160
+at	2150
+
+spawn   Slime_Monster
+coords	290 160
+at	2150
+
+spawn   zombi4
+coords	290 160
+at	2150
+
+spawn   walker
+coords	290 160
+at	2150
+
+spawn   zombi4
+coords	290 160
+at	2150
+
+spawn   Slime_Monster
+coords	290 160
+at	2150
+
+spawn   Slime_Monster
+coords	290 160
+at	2150
+
+spawn   Slime_Monster
+coords	290 160
+at	2150
+
+spawn   zombi4
+coords	290 160
+at	2150
+
+spawn   walker
+coords	290 160
+at	2150
+
+spawn   zombi4
+coords	290 160
+at	2150
+
+spawn   Slime_Monster
+coords	290 160
+at	2150
+
+spawn   Slime_Monster
+coords	290 160
+at	2150
+
+spawn   Slime_Monster
+coords	290 160
+at	2150
+
+spawn   zombi4
+coords	290 160
+at	2150
+
+spawn   walker
+coords	290 160
+at	2150
+
+spawn   zombi4
+coords	290 160
+at	2150
+
+spawn   walker
+coords	290 160
+at	2150
+
+spawn   zombi4
+coords	290 160
+at	2150
+
+########################################################
+
+wait
+at 2700
+
+group 3 3
+at 2650
+
+spawn   Slime_Monster
+coords	-60 160
+at	2150
+
+spawn   Slime_Monster
+coords	290 160
+at	2650
+
+spawn   Slime_Monster
+coords	-60 180
+at	2650
+
+spawn   Slime_Monster
+coords	-60 160
+at	2150
+
+spawn   Slime_Monster
+coords	290 160
+at	2650
+
+spawn   Slime_Monster
+coords	-60 180
+at	2650
+
+##################################################################
+
+wait 
+at 3000
+
+group 7 7
+
+spawn   walker
+coords	-60 160
+at	2150
+
+spawn   Slime_Monster
+coords	350 230
+at	2650
+
+spawn   zombi4
+coords	-60 180
+at	2650
+
+spawn   walker
+coords	-60 160
+at	2150
+
+spawn   Slime_Monster
+coords	350 230
+at	2650
+
+spawn   zombi4
+coords	-60 180
+at	2650
+
+spawn   walker
+coords	-60 160
+at	2150
+
+spawn   Slime_Monster
+coords	350 230
+at	2650
+
+spawn   zombi4
+coords	-60 180
+at	2650
+
+spawn   walker
+coords	-60 160
+at	2150
+
+spawn   Slime_Monster
+coords	350 230
+at	2650
+
+spawn   zombi4
+coords	-60 180
+at	2650
+spawn   walker
+coords	-60 160
+at	2150
+
+spawn   Slime_Monster
+coords	350 230
+at	2650
+
+spawn   zombi4
+coords	-60 180
+at	2650
+
+#######################################################################
+
+wait 
+at 3400
+
+
+
+
+spawn	Bellyache
+boss     1
+coords	380 210
+at	3350
+
+spawn   zombi4
+coords	-60 180
+at	3350
+
+spawn   zombi4
+coords	-60 180
+at	3350
+
+spawn   zombi4
+coords	-60 180
+at	3350
+
+
+spawn   Slime_Monster
+coords	350 230
+at	3350
+
+spawn   Slime_Monster
+coords	-60 230
+at	3350
+
+spawn   walker
+coords	380 230
+at	3350
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,382 @@
+name	Soul_Guardian
+health	500
+speed	7
+type	enemy
+subtype       chase
+shadow	0
+nodieblink    2
+falldie       2
+noquake       0
+aggression   10
+cantgrab      1
+nopain       1
+icon	data/chars/soul/icon.gif
+icondie    data/chars/soul/icond.gif
+diesound data/sounds/ghost.wav
+
+
+
+
+
+anim idle
+	loop	1
+	offset	99 246
+	bbox	39 109 106 138
+	delay	15
+	frame	data/chars/soul/walk01.gif
+
+
+
+
+anim walk
+	loop	1
+	offset	99 246
+	bbox	39 109 106 138
+	delay	15
+	frame	data/chars/soul/walk01.gif
+	bbox	31 109 126 138
+	frame	data/chars/soul/walk02.gif
+	bbox	39 109 106 138
+	frame	data/chars/soul/walk01.gif
+	bbox	48 109 89 138
+	frame	data/chars/soul/walk03.gif
+
+
+
+anim pain
+	loop	0
+	offset	99 246
+	delay	4
+	bbox	39 109 106 138
+	sound	data/sounds/mozzap.wav
+	frame	data/chars/soul/pain03.gif
+	frame	data/chars/soul/pain04.gif
+	frame	data/chars/soul/walk01.gif
+	frame	data/chars/soul/pain03.gif
+	frame	data/chars/soul/pain04.gif
+	frame	data/chars/soul/walk01.gif
+
+
+
+
+anim fall
+	loop	0
+	offset	99 246
+	delay	5
+	frame	data/chars/soul/pain03.gif
+	frame	data/chars/soul/pain04.gif
+	frame	data/chars/soul/walk01.gif
+	frame	data/chars/soul/pain03.gif
+	frame	data/chars/soul/pain04.gif
+	frame	data/chars/soul/walk01.gif
+	frame	data/chars/soul/pain03.gif
+	frame	data/chars/soul/pain04.gif
+	frame	data/chars/soul/walk01.gif
+	frame	data/chars/soul/pain03.gif
+	frame	data/chars/soul/pain04.gif
+	frame	data/chars/soul/walk01.gif
+	frame	data/chars/soul/death24.gif
+
+
+
+anim rise
+	loop	0
+	delay	4
+	offset	99 246
+	frame	data/chars/soul/pain07.gif
+	frame	data/chars/soul/pain06.gif
+	frame	data/chars/soul/pain05.gif
+	frame	data/chars/soul/pain02.gif
+	frame	data/chars/soul/pain01.gif
+
+
+
+anim attack1
+	loop	0
+	delay	3
+	offset	99 246
+	bbox	48 109 89 138
+        hitflash    elec1
+	frame	data/chars/soul/pain07.gif
+	frame	data/chars/soul/pain06.gif
+	frame	data/chars/soul/pain05.gif
+	frame	data/chars/soul/pain02.gif
+	frame	data/chars/soul/pain01.gif
+	delay	3
+	bbox	0 0 0 0
+	sound	data/sounds/trans4.wav
+	frame	data/chars/soul/hit01.gif
+	frame	data/chars/soul/hit02.gif
+	attack	165 0 39 249 25 1
+	frame	data/chars/soul/hit03.gif
+	sound	data/sounds/elec1.wav
+	frame	data/chars/soul/hit04.gif
+	frame	data/chars/soul/hit05.gif
+	frame	data/chars/soul/hit06.gif
+	frame	data/chars/soul/hit07.gif
+	frame	data/chars/soul/hit08.gif
+	frame	data/chars/soul/hit09.gif
+	frame	data/chars/soul/hit10.gif
+	frame	data/chars/soul/hit11.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/soul/hit12.gif
+	sound	data/sounds/trans4.wav
+	frame	data/chars/soul/hit13.gif
+	frame	data/chars/soul/hit14.gif
+	attack	227 0 39 249 25 1
+	frame	data/chars/soul/hit15.gif
+	sound	data/sounds/elec1.wav
+	frame	data/chars/soul/hit16.gif
+	frame	data/chars/soul/hit17.gif
+	frame	data/chars/soul/hit18.gif
+	frame	data/chars/soul/hit19.gif
+	frame	data/chars/soul/hit20.gif
+	frame	data/chars/soul/hit21.gif
+	frame	data/chars/soul/hit22.gif
+	frame	data/chars/soul/hit23.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/soul/hit24.gif
+	sound	data/sounds/trans4.wav
+	frame	data/chars/soul/hit25.gif
+	frame	data/chars/soul/hit26.gif
+	attack	292 0 39 249 25 1
+	frame	data/chars/soul/hit27.gif
+	sound	data/sounds/elec1.wav
+	frame	data/chars/soul/hit28.gif
+	frame	data/chars/soul/hit29.gif
+	frame	data/chars/soul/hit30.gif
+	frame	data/chars/soul/hit31.gif
+	frame	data/chars/soul/hit32.gif
+	frame	data/chars/soul/hit33.gif
+	frame	data/chars/soul/hit34.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/soul/hit35.gif
+	frame	data/chars/soul/hit36.gif
+
+
+anim riseattack
+	loop	0
+	delay	3
+	offset	99 246
+	bbox	48 109 89 138
+        hitflash    elec1
+	frame	data/chars/soul/pain07.gif
+	frame	data/chars/soul/pain06.gif
+	frame	data/chars/soul/pain05.gif
+	frame	data/chars/soul/pain02.gif
+	frame	data/chars/soul/pain01.gif
+	delay	3
+	bbox	0 0 0 0
+	sound	data/sounds/trans4.wav
+	frame	data/chars/soul/hit01.gif
+	frame	data/chars/soul/hit02.gif
+	attack	165 0 39 249 25 1
+	frame	data/chars/soul/hit03.gif
+	sound	data/sounds/elec1.wav
+	frame	data/chars/soul/hit04.gif
+	frame	data/chars/soul/hit05.gif
+	frame	data/chars/soul/hit06.gif
+	frame	data/chars/soul/hit07.gif
+	frame	data/chars/soul/hit08.gif
+	frame	data/chars/soul/hit09.gif
+	frame	data/chars/soul/hit10.gif
+	frame	data/chars/soul/hit11.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/soul/hit12.gif
+	sound	data/sounds/trans4.wav
+	frame	data/chars/soul/hit13.gif
+	frame	data/chars/soul/hit14.gif
+	attack	227 0 39 249 25 1
+	frame	data/chars/soul/hit15.gif
+	sound	data/sounds/elec1.wav
+	frame	data/chars/soul/hit16.gif
+	frame	data/chars/soul/hit17.gif
+	frame	data/chars/soul/hit18.gif
+	frame	data/chars/soul/hit19.gif
+	frame	data/chars/soul/hit20.gif
+	frame	data/chars/soul/hit21.gif
+	frame	data/chars/soul/hit22.gif
+	frame	data/chars/soul/hit23.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/soul/hit24.gif
+	sound	data/sounds/trans4.wav
+	frame	data/chars/soul/hit25.gif
+	frame	data/chars/soul/hit26.gif
+	attack	292 0 39 249 25 1
+	frame	data/chars/soul/hit27.gif
+	sound	data/sounds/elec1.wav
+	frame	data/chars/soul/hit28.gif
+	frame	data/chars/soul/hit29.gif
+	frame	data/chars/soul/hit30.gif
+	frame	data/chars/soul/hit31.gif
+	frame	data/chars/soul/hit32.gif
+	frame	data/chars/soul/hit33.gif
+	frame	data/chars/soul/hit34.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/soul/hit35.gif
+	frame	data/chars/soul/hit36.gif
+
+
+anim upper
+	loop	0
+	delay	5
+	offset	99 246
+	bbox	48 109 89 138
+	sound	data/sounds/trans4.wav
+	frame	data/chars/soul/elec01.gif
+	attack	18 0 155 245 20 1
+	sound	data/sounds/elec1.wav
+	frame	data/chars/soul/elec02.gif
+	attack	18 0 155 245 20 1
+	frame	data/chars/soul/elec03.gif
+	attack	0
+	frame	data/chars/soul/elec04.gif
+	attack	18 0 155 245 20 1
+	frame	data/chars/soul/elec03.gif
+	attack	0
+	frame	data/chars/soul/elec04.gif
+	attack	18 0 155 245 20 1
+	frame	data/chars/soul/elec03.gif
+	attack	0
+	frame	data/chars/soul/elec04.gif
+	attack	18 0 155 245 20 1
+	frame	data/chars/soul/elec03.gif
+	attack	0
+	frame	data/chars/soul/elec04.gif
+	attack	18 0 155 245 20 1
+	frame	data/chars/soul/elec03.gif
+	attack	0
+	frame	data/chars/soul/elec04.gif
+	attack	18 0 155 245 20 1
+	frame	data/chars/soul/elec03.gif
+	attack	0
+	frame	data/chars/soul/elec02.gif
+	frame	data/chars/soul/elec01.gif
+
+
+
+anim attack2
+	loop	0
+	delay	5
+	offset	99 246
+	bbox	48 109 89 138
+	sound	data/sounds/trans4.wav
+	frame	data/chars/soul/elec01.gif
+	attack	18 0 155 245 20 1
+	sound	data/sounds/elec1.wav
+	frame	data/chars/soul/elec02.gif
+	attack	18 0 155 245 20 1
+	frame	data/chars/soul/elec03.gif
+	attack	0
+	frame	data/chars/soul/elec04.gif
+	attack	18 0 155 245 20 1
+	frame	data/chars/soul/elec03.gif
+	attack	0
+	frame	data/chars/soul/elec04.gif
+	attack	18 0 155 245 20 1
+	frame	data/chars/soul/elec03.gif
+	attack	0
+	frame	data/chars/soul/elec04.gif
+	attack	18 0 155 245 20 1
+	frame	data/chars/soul/elec03.gif
+	attack	0
+	frame	data/chars/soul/elec04.gif
+	attack	18 0 155 245 20 1
+	frame	data/chars/soul/elec03.gif
+	attack	0
+	frame	data/chars/soul/elec04.gif
+	attack	18 0 155 245 20 1
+	frame	data/chars/soul/elec03.gif
+	attack	0
+	frame	data/chars/soul/elec02.gif
+	frame	data/chars/soul/elec01.gif
+
+
+
+
+anim Death
+	loop 0
+	offset	99 246
+	delay	4
+	sound	data/sounds/ghost.wav
+	frame	data/chars/soul/death01.gif
+	frame	data/chars/soul/death02.gif
+	frame	data/chars/soul/death03.gif
+	frame	data/chars/soul/death04.gif
+	frame	data/chars/soul/death05.gif
+	frame	data/chars/soul/death06.gif
+	frame	data/chars/soul/death07.gif
+	frame	data/chars/soul/death08.gif
+	frame	data/chars/soul/death09.gif
+	frame	data/chars/soul/death10.gif
+	frame	data/chars/soul/death11.gif
+	sound	data/sounds/ghost.wav
+	frame	data/chars/soul/death12.gif
+	frame	data/chars/soul/death13.gif
+	frame	data/chars/soul/death14.gif
+	frame	data/chars/soul/death15.gif
+	frame	data/chars/soul/death16.gif
+	frame	data/chars/soul/death17.gif
+	frame	data/chars/soul/death18.gif
+	frame	data/chars/soul/death19.gif
+	frame	data/chars/soul/death20.gif
+	frame	data/chars/soul/death21.gif
+	sound	data/sounds/ghost.wav
+	frame	data/chars/soul/death01.gif
+	frame	data/chars/soul/death02.gif
+	frame	data/chars/soul/death03.gif
+	frame	data/chars/soul/death04.gif
+	frame	data/chars/soul/death05.gif
+	frame	data/chars/soul/death06.gif
+	frame	data/chars/soul/death07.gif
+	frame	data/chars/soul/death08.gif
+	frame	data/chars/soul/death09.gif
+	frame	data/chars/soul/death10.gif
+	frame	data/chars/soul/death11.gif
+	sound	data/sounds/ghost.wav
+	frame	data/chars/soul/death12.gif
+	frame	data/chars/soul/death13.gif
+	frame	data/chars/soul/death14.gif
+	frame	data/chars/soul/death15.gif
+	frame	data/chars/soul/death16.gif
+	frame	data/chars/soul/death17.gif
+	frame	data/chars/soul/death18.gif
+	frame	data/chars/soul/death19.gif
+	frame	data/chars/soul/death20.gif
+	frame	data/chars/soul/death21.gif
+	sound	data/sounds/ghost.wav
+	frame	data/chars/soul/death01.gif
+	frame	data/chars/soul/death02.gif
+	frame	data/chars/soul/death03.gif
+	frame	data/chars/soul/death04.gif
+	frame	data/chars/soul/death05.gif
+	frame	data/chars/soul/death06.gif
+	frame	data/chars/soul/death07.gif
+	frame	data/chars/soul/death08.gif
+	frame	data/chars/soul/death09.gif
+	frame	data/chars/soul/death10.gif
+	frame	data/chars/soul/death11.gif
+	sound	data/sounds/ghost.wav
+	frame	data/chars/soul/death12.gif
+	frame	data/chars/soul/death13.gif
+	frame	data/chars/soul/death14.gif
+	frame	data/chars/soul/death15.gif
+	frame	data/chars/soul/death16.gif
+	frame	data/chars/soul/death17.gif
+	frame	data/chars/soul/death18.gif
+	frame	data/chars/soul/death19.gif
+	frame	data/chars/soul/death20.gif
+	frame	data/chars/soul/death21.gif
+	delay	8
+	sound	data/sounds/ghost.wav
+	frame	data/chars/soul/death22.gif
+	frame	data/chars/soul/death23.gif
+	frame	data/chars/soul/death24.gif
+	frame	data/chars/soul/death25.gif
+	frame	data/chars/soul/death26.gif
+	frame	data/chars/soul/death27.gif
+
+
+
+
+

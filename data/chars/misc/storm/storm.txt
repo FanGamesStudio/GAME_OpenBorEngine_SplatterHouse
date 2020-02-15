@@ -1,0 +1,19 @@
+name	Storm
+type    none
+shadow	0
+
+
+anim idle
+	loop	1
+	delay	1
+	offset	0 244
+	frame	data/chars/misc/storm/storm1.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/storm/storm2.gif
+	frame	data/chars/misc/empty/empty.gif
+	frame	data/chars/misc/storm/storm3.gif
+	frame	data/chars/misc/empty/empty.gif
+
+
+
+	

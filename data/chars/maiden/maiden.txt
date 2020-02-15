@@ -1,0 +1,230 @@
+name	Maiden_Specter
+health	100
+speed	8
+type	enemy
+shadow	2
+nodieblink    2
+falldie       2
+diesound data/sounds/maidend.wav
+icon	data/chars/maiden/icon.gif
+icondie    data/chars/maiden/icond.gif
+aggression 5
+
+
+
+anim idle
+	delay	15
+	loop	1
+	offset	41 84
+	bbox	25 16 32 67
+	frame	data/chars/maiden/stand01.gif
+	frame	data/chars/maiden/stand02.gif
+
+
+
+anim walk
+	delay	10
+	loop	1
+	offset	41 84
+	bbox	17 25 51 46
+	frame	data/chars/maiden/walk01.gif
+	frame	data/chars/maiden/walk02.gif
+
+
+
+
+		
+
+anim attack1
+	loop	0
+	delay	10
+	offset	41 84
+	bbox	17 25 51 46
+	frame	data/chars/maiden/pain01.gif
+	delay	12
+	frame	data/chars/maiden/walk01.gif
+	bbox	0
+	delay	7
+	attack	64 38 19 20 10 0
+	sound	data/sounds/flasha.wav
+	frame	data/chars/maiden/hit01.gif
+	attack	80 37 19 20 10 0
+	frame	data/chars/maiden/hit02.gif
+	attack	94 37 19 20 10 0
+	sound	data/sounds/flasha.wav
+	frame	data/chars/maiden/hit03.gif
+	attack	108 37 19 20 10 0
+	frame	data/chars/maiden/hit04.gif
+	attack	122 37 19 20 10 0
+	sound	data/sounds/flasha.wav
+	frame	data/chars/maiden/hit05.gif
+	bbox	17 25 51 46
+	frame	data/chars/maiden/pain01.gif
+
+
+
+
+
+	
+anim pain
+	loop	0
+	offset	41 84
+	delay	5
+	bbox	28 16 28 61
+	frame	data/chars/maiden/pain01.gif
+	frame	data/chars/maiden/pain02.gif
+	frame	data/chars/maiden/pain01.gif
+	frame	data/chars/maiden/pain02.gif
+	frame	data/chars/maiden/pain01.gif
+	frame	data/chars/maiden/pain02.gif
+
+
+
+
+	
+anim fall
+	loop	0
+	offset	41 84
+	delay	15
+	bbox	28 16 28 61
+	attack	28 16 28 61 5 1
+	frame	data/chars/maiden/pain01.gif
+	delay	50
+	bbox	0
+	attack	0
+	frame	data/chars/maiden/fall01.gif
+	delay	2
+	frame	data/chars/maiden/fall02.gif
+	frame	data/chars/maiden/fall03.gif
+	frame	data/chars/maiden/fall02.gif
+	frame	data/chars/maiden/fall03.gif
+	frame	data/chars/maiden/fall02.gif
+	frame	data/chars/maiden/fall03.gif
+	frame	data/chars/maiden/fall02.gif
+	frame	data/chars/maiden/fall03.gif
+	frame	data/chars/maiden/fall02.gif
+	frame	data/chars/maiden/fall03.gif
+	frame	data/chars/maiden/fall02.gif
+	frame	data/chars/maiden/fall03.gif
+	frame	data/chars/maiden/fall02.gif
+	frame	data/chars/maiden/fall03.gif
+	frame	data/chars/maiden/fall02.gif
+	frame	data/chars/maiden/fall03.gif
+	frame	data/chars/maiden/fall02.gif
+	frame	data/chars/maiden/fall03.gif
+	frame	data/chars/maiden/fall02.gif
+	frame	data/chars/maiden/fall03.gif
+	frame	data/chars/maiden/fall02.gif
+	frame	data/chars/maiden/fall03.gif
+	frame	data/chars/maiden/fall02.gif
+	frame	data/chars/maiden/fall03.gif
+	frame	data/chars/maiden/fall02.gif
+	frame	data/chars/maiden/fall03.gif
+	frame	data/chars/maiden/fall02.gif
+	frame	data/chars/maiden/fall03.gif
+	frame	data/chars/maiden/fall04.gif
+
+
+	
+	
+anim rise
+	loop	0
+	offset	41 84
+	delay	2
+	frame	data/chars/maiden/rise01.gif
+	frame	data/chars/maiden/stand01.gif
+	frame	data/chars/maiden/rise01.gif
+	frame	data/chars/maiden/stand01.gif
+	frame	data/chars/maiden/rise01.gif
+	frame	data/chars/maiden/stand01.gif
+	frame	data/chars/maiden/rise01.gif
+	frame	data/chars/maiden/stand01.gif
+	frame	data/chars/maiden/rise01.gif
+	frame	data/chars/maiden/stand01.gif
+	frame	data/chars/maiden/rise01.gif
+	frame	data/chars/maiden/stand01.gif
+	frame	data/chars/maiden/rise01.gif
+	frame	data/chars/maiden/stand01.gif
+	frame	data/chars/maiden/rise01.gif
+	frame	data/chars/maiden/stand01.gif
+	frame	data/chars/maiden/rise01.gif
+	frame	data/chars/maiden/stand01.gif
+	frame	data/chars/maiden/rise01.gif
+	frame	data/chars/maiden/stand01.gif
+	frame	data/chars/maiden/rise01.gif
+	frame	data/chars/maiden/stand01.gif
+	frame	data/chars/maiden/rise01.gif
+	frame	data/chars/maiden/stand01.gif
+
+
+
+
+anim Death
+	loop 0
+	offset	41 84
+	delay	3
+	sound	data/sounds/ghost.wav
+	frame	data/chars/maiden/pain01.gif
+	frame	data/chars/maiden/death01.gif
+	frame	data/chars/maiden/death02.gif
+	frame	data/chars/maiden/pain01.gif
+	frame	data/chars/maiden/death01.gif
+	frame	data/chars/maiden/death02.gif
+	frame	data/chars/maiden/pain01.gif
+	frame	data/chars/maiden/death01.gif
+	frame	data/chars/maiden/death02.gif
+	frame	data/chars/maiden/pain01.gif
+	frame	data/chars/maiden/death01.gif
+	frame	data/chars/maiden/death02.gif
+	frame	data/chars/maiden/pain01.gif
+	frame	data/chars/maiden/death01.gif
+	frame	data/chars/maiden/death02.gif
+	frame	data/chars/maiden/pain01.gif
+	frame	data/chars/maiden/death01.gif
+	frame	data/chars/maiden/death02.gif
+
+
+	frame	data/chars/maiden/pain01.gif
+	frame	data/chars/maiden/death03.gif
+	frame	data/chars/maiden/death04.gif
+	frame	data/chars/maiden/pain01.gif
+	frame	data/chars/maiden/death03.gif
+	frame	data/chars/maiden/death04.gif
+	frame	data/chars/maiden/pain01.gif
+	frame	data/chars/maiden/death03.gif
+	frame	data/chars/maiden/death04.gif
+	frame	data/chars/maiden/pain01.gif
+	frame	data/chars/maiden/death03.gif
+	frame	data/chars/maiden/death04.gif
+	frame	data/chars/maiden/pain01.gif
+	frame	data/chars/maiden/death03.gif
+	frame	data/chars/maiden/death04.gif
+	frame	data/chars/maiden/pain01.gif
+	frame	data/chars/maiden/death03.gif
+	frame	data/chars/maiden/death04.gif
+
+
+	frame	data/chars/maiden/pain01.gif
+	frame	data/chars/maiden/death05.gif
+	frame	data/chars/maiden/death06.gif
+	frame	data/chars/maiden/death05.gif
+	frame	data/chars/maiden/death06.gif
+	frame	data/chars/maiden/death05.gif
+	frame	data/chars/maiden/death06.gif
+	frame	data/chars/maiden/death05.gif
+	frame	data/chars/maiden/death06.gif
+	frame	data/chars/maiden/death05.gif
+	frame	data/chars/maiden/death06.gif
+	frame	data/chars/maiden/death05.gif
+	frame	data/chars/maiden/death06.gif
+	frame	data/chars/maiden/death05.gif
+	frame	data/chars/maiden/death06.gif
+	frame	data/chars/maiden/death05.gif
+	frame	data/chars/maiden/death06.gif
+	frame	data/chars/maiden/death05.gif
+	frame	data/chars/maiden/death06.gif
+
+
+
+
+	

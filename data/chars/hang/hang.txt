@@ -1,0 +1,150 @@
+name	Hanging_Corpse
+health	100
+speed	6
+type	enemy
+shadow	2
+nodieblink    3
+falldie       2
+aggression    5
+diesound data/sounds/zdie7.wav
+icon	data/chars/hang/icon.gif
+icondie    data/chars/hang/icond.gif
+
+
+anim idle
+	delay	25
+	loop	1
+	offset	40 279
+	bbox	26 196 22 60
+	frame	data/chars/hang/stand03.gif
+
+
+
+anim walk
+	loop	1
+	delay	6
+	offset	40 279
+	bbox	26 196 22 60
+	frame	data/chars/hang/stand01.gif
+	frame	data/chars/hang/stand02.gif
+	frame	data/chars/hang/stand03.gif
+	frame	data/chars/hang/stand04.gif
+	frame	data/chars/hang/stand05.gif
+	frame	data/chars/hang/stand04.gif
+	frame	data/chars/hang/stand03.gif
+	frame	data/chars/hang/stand02.gif
+
+
+
+
+		
+
+anim attack1
+	loop	0
+	delay	3
+	offset	40 279
+	bbox	26 196 22 60
+	frame	data/chars/hang/hit00.gif
+	frame	data/chars/hang/stand01.gif
+	frame	data/chars/hang/hit00.gif
+	frame	data/chars/hang/stand01.gif
+	frame	data/chars/hang/hit01.gif
+	frame	data/chars/hang/hit03.gif
+	frame	data/chars/hang/hit02.gif
+	frame	data/chars/hang/hit03.gif
+	frame	data/chars/hang/hit02.gif
+	bbox	0
+	delay	6
+	sound	data/sounds/flasha.wav
+	attack	51 218 23 25 10 0
+	frame	data/chars/hang/hit04.gif
+	sound	data/sounds/splat1.wav
+	attack	71 248 23 25 10 0
+	frame	data/chars/hang/hit05.gif
+	attack	67 259 55 28 10 0
+	frame	data/chars/hang/hit06.gif
+	attack	77 276 36 13 10 0
+	frame	data/chars/hang/hit07.gif
+	attack	80 279 29 9 10 0
+	frame	data/chars/hang/hit08.gif
+
+
+
+
+	
+anim pain
+	loop	0
+	delay	8
+	offset	40 279
+	bbox	26 196 22 60
+	frame	data/chars/hang/pain01.gif
+	delay	4
+	frame	data/chars/hang/stand03.gif
+	frame	data/chars/hang/stand04.gif
+	frame	data/chars/hang/stand05.gif
+	frame	data/chars/hang/stand04.gif
+
+
+
+
+	
+anim fall
+	loop	0
+	delay	10
+	offset	40 279
+	bbox	26 196 22 60
+	attack	26 196 22 60 10 1
+	frame	data/chars/hang/stand01.gif
+	bbox	0
+	attack	0
+	frame	data/chars/hang/stand02.gif
+	frame	data/chars/hang/stand03.gif
+	frame	data/chars/hang/stand04.gif
+	delay	10
+	frame	data/chars/hang/stand05.gif
+	frame	data/chars/hang/rise05.gif
+	frame	data/chars/hang/rise03.gif
+	frame	data/chars/hang/rise01.gif
+	frame	data/chars/hang/rise02.gif
+
+
+
+	
+	
+anim rise
+	loop	0
+	offset	40 279
+	delay	7
+	frame	data/chars/hang/rise03.gif
+	frame	data/chars/hang/rise04.gif
+	frame	data/chars/hang/rise05.gif
+	frame	data/chars/hang/rise06.gif
+
+
+
+
+
+
+anim Death
+	loop	0
+	offset	40 279
+	delay	8
+	frame	data/chars/hang/death01.gif
+	frame	data/chars/hang/death02.gif
+	frame	data/chars/hang/death03.gif
+	sound	data/sounds/splat.wav
+	frame	data/chars/hang/death04.gif
+	frame	data/chars/hang/death05.gif
+	frame	data/chars/hang/death06.gif
+	frame	data/chars/hang/death07.gif
+	frame	data/chars/hang/death08.gif
+	frame	data/chars/hang/death09.gif
+	frame	data/chars/hang/death10.gif
+	frame	data/chars/hang/death11.gif
+	frame	data/chars/hang/death12.gif
+
+
+
+
+
+	

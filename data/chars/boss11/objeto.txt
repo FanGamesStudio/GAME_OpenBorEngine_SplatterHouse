@@ -1,0 +1,21 @@
+name	objeto
+health	0
+type	none
+gfxshadow     	1
+speed 12
+candamage enemy obstacle
+knockdowncount 1
+
+anim idle
+	fastattack 1
+	loop	1
+	delay	2
+	offset	10 18
+	attack	21 16 15 8 5000 0 0 0 0 0
+	frame	data/chars/boss11/48.gif
+	frame	data/chars/Ryu/50.gif
+        
+	
+
+
+

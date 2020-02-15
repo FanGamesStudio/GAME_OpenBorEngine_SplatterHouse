@@ -1,0 +1,29 @@
+name	ghostxx
+type	none
+shadow	0
+alpha   0
+
+anim idle
+	 loop      1
+	 offset    485 243
+	 delay	   200
+	 frame	   data/chars/misc/empty/empty.gif
+	 delay	   7
+	 frame     data/bgs/st6/ghostxx.gif
+	 frame	   data/chars/misc/empty/empty.gif
+	 frame     data/bgs/st6/ghostxx.gif
+	 frame	   data/chars/misc/empty/empty.gif
+	 frame     data/bgs/st6/ghostxx.gif
+	 frame	   data/chars/misc/empty/empty.gif
+	 frame     data/bgs/st6/ghostxx.gif
+	 delay	   100
+	 frame	   data/chars/misc/empty/empty.gif
+	 delay	   7
+	 frame     data/bgs/st6/ghostx2.gif
+	 frame	   data/chars/misc/empty/empty.gif
+	 frame     data/bgs/st6/ghostx2.gif
+	 frame	   data/chars/misc/empty/empty.gif
+	 frame     data/bgs/st6/ghostx2.gif
+	 frame	   data/chars/misc/empty/empty.gif
+	 frame     data/bgs/st6/ghostx2.gif
+

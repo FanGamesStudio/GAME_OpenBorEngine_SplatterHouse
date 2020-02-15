@@ -1,0 +1,38 @@
+name	Hell_Fire_2
+type	trap
+
+
+anim idle
+	loop	1
+	delay	5
+	offset	21 40
+        hitflash    smoke1
+	hitfx   data/sounds/burn3.wav
+	frame	data/chars/misc/fire2/01.gif
+	frame	data/chars/misc/fire2/02.gif
+	frame	data/chars/misc/fire2/03.gif
+	frame	data/chars/misc/fire2/01.gif
+	frame	data/chars/misc/fire2/02.gif
+	frame	data/chars/misc/fire2/03.gif
+	frame	data/chars/misc/fire2/01.gif
+	frame	data/chars/misc/fire2/02.gif
+	frame	data/chars/misc/fire2/03.gif
+	frame	data/chars/misc/fire2/01.gif
+	frame	data/chars/misc/fire2/02.gif
+	frame	data/chars/misc/fire2/03.gif
+	frame	data/chars/misc/fire2/01.gif
+	frame	data/chars/misc/fire2/02.gif
+	frame	data/chars/misc/fire2/03.gif
+	delay	4
+	attack  9 10 24 36 15 1
+
+	frame	data/chars/misc/fire2/04.gif
+	frame	data/chars/misc/fire2/05.gif
+	frame	data/chars/misc/fire2/06.gif
+	frame	data/chars/misc/fire2/04.gif
+	frame	data/chars/misc/fire2/05.gif
+	frame	data/chars/misc/fire2/06.gif
+
+
+
+

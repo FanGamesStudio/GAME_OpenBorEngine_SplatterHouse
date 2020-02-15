@@ -1,0 +1,2146 @@
+music		Data/music/Splater1mus2.bor
+bossmusic	data/music/SplaterSonEditado.ogg
+background	data/bgs/st9/back.gif
+panel		data/bgs/st9/st9.gif
+frontpanel	data/bgs/st9/front.gif
+noslow		0
+order		a
+settime		0
+notime		1
+direction	right
+
+
+
+
+
+
+
+
+
+
+
+
+#-------1
+
+
+
+wait
+at      0
+
+fog
+
+group   7 7
+at      0
+
+spawn	fog
+coords	350 230
+at	0
+
+spawn	fog
+coords	350 230
+at	0
+
+spawn	fog
+coords	350 230
+at	0
+
+spawn	skel2
+coords	350 230
+at	0
+
+spawn	skel2
+coords	350 230
+at	0
+
+spawn	fog
+coords	350 230
+at	0
+
+spawn	fog
+coords	350 230
+at	0
+
+spawn	fog
+coords	350 230
+at	0
+
+spawn	skel2
+coords	350 230
+at	0
+
+spawn	skel2
+coords	350 230
+at	0
+
+spawn	fog
+coords	350 230
+at	0
+
+spawn	fog
+coords	350 230
+at	0
+
+spawn	fog
+coords	350 230
+at	0
+
+spawn	skel2
+coords	350 230
+at	0
+
+spawn	skel2
+coords	350 230
+at	0
+
+spawn	Corpse_Eater
+coords	-60 160
+at	0
+
+spawn	Corpse_Eater
+coords	-60 160
+at	0
+
+spawn	Corpse_Eater
+coords	350 230
+at	0
+
+spawn	Corpse_Eater
+coords	350 230
+at	0
+
+spawn	Corpse_Eater
+coords	350 230
+at	0
+
+
+
+
+spawn	Undress
+map      1
+coords	350 210
+at	0
+
+spawn	Undress
+coords	350 210
+at	0
+
+
+
+spawn	Headache
+map      1
+coords	350 210
+at	0
+
+spawn	Headache
+coords	350 210
+at	0
+
+
+
+
+
+spawn	Hanging_Corpse
+map      1
+coords	330 -160
+at	0
+
+spawn	Hanging_Corpse
+map      1
+coords	330 -160
+at	0
+
+spawn	Hanging_Corpse
+map      1
+coords	330 -160
+at	0
+
+spawn	Hanging_Corpse
+map      1
+coords	330 -160
+at	0
+
+spawn	Screaming_Mimi
+map      1
+coords	350 160
+at	0
+
+
+
+spawn	Screaming_Mimi
+map      1
+coords	350 210
+at	0
+
+
+spawn	Screaming_Mimi
+map      1
+coords	350 160
+at	0
+
+
+
+spawn	Screaming_Mimi
+map      2
+coords	350 210
+at	0
+
+
+spawn	Screaming_Mimi
+map      2
+coords	350 160
+at	0
+
+
+
+spawn	Screaming_Mimi
+map      1
+coords	350 210
+at	0
+
+
+
+
+###################################################################
+
+
+
+wait
+at      100
+
+
+group   8 8
+at      100
+
+spawn	Undress
+map      1
+coords	350 210
+at	100
+
+spawn	Undress
+coords	350 210
+at	100
+
+
+
+spawn	Headache
+map      1
+coords	350 210
+at	100
+
+spawn	Headache
+coords	350 210
+at	100
+
+
+
+
+
+
+spawn	Undress
+map      1
+coords	350 210
+at	100
+
+spawn	Undress
+coords	350 210
+at	100
+
+
+
+spawn	Headache
+map      1
+coords	350 210
+at	100
+
+spawn	Headache
+coords	350 210
+at	100
+
+spawn	Undress
+map      1
+coords	350 210
+at	100
+
+spawn	Undress
+coords	350 210
+at	100
+
+
+
+spawn	Headache
+map      1
+coords	350 210
+at	100
+
+spawn	Headache
+coords	350 210
+at	100
+
+spawn	Undress
+map      1
+coords	350 210
+at	100
+
+spawn	Undress
+coords	350 210
+at	100
+
+
+
+spawn	Headache
+map      1
+coords	350 210
+at	100
+
+spawn	Headache
+coords	350 210
+at	100
+
+spawn	Undress
+map      1
+coords	350 210
+at	100
+
+spawn	Undress
+coords	350 210
+at	100
+
+
+
+spawn	Headache
+map      1
+coords	350 210
+at	100
+
+spawn	Headache
+coords	350 210
+at	100
+
+spawn	Undress
+map      1
+coords	350 210
+at	100
+
+spawn	Undress
+coords	350 210
+at	100
+
+
+
+spawn	Headache
+map      1
+coords	350 210
+at	100
+
+spawn	Headache
+coords	350 210
+at	100
+
+ #############################################################################
+
+
+wait
+at 250
+
+group 4 4
+at 250
+
+
+spawn	Screaming_Mimi
+map      2
+coords	-60 160
+at	250
+
+
+
+spawn	Screaming_Mimi
+map      1
+coords	350 210
+at	250
+
+spawn	Screaming_Mimi
+coords	350 210
+at	250
+
+spawn	Screaming_Mimi
+map      3
+coords	-60 160
+at	250
+
+spawn	Headache
+map      1
+coords	350 210
+at	250
+
+spawn	Headache
+coords	350 210
+at	250
+
+spawn	Undress
+coords	350 210
+at	250
+
+spawn	walker
+coords	-60 160
+at	250
+
+spawn	walker
+coords	-60 160
+at	250
+
+spawn	walker
+coords	-60 160
+at	250
+
+spawn	walker
+coords	-60 160
+at	250
+
+spawn	Headache
+coords	350 210
+at	250
+
+spawn	Undress
+coords	350 210
+at	250
+
+spawn	walker
+coords	-60 160
+at	250
+
+spawn	walker
+coords	-60 160
+at	250
+
+spawn	walker
+coords	-60 160
+at	250
+
+spawn	walker
+coords	-60 160
+at	250
+
+#########################################################
+
+wait
+at 500
+
+group 5 5
+at 500
+
+spawn	Corpse_Eater
+coords	-60 160
+at	500
+
+spawn	Corpse_Eater
+coords	-60 160
+at	500
+
+spawn	Corpse_Eater
+coords	-60 160
+at	500
+
+spawn	Corpse_Eater
+coords	350 230
+at	500
+
+spawn	Corpse_Eater
+coords	350 230
+at	500
+
+spawn	Corpse_Eater
+coords	350 230
+at	500
+
+spawn	ghoul
+coords	350 230
+at	500
+
+spawn	walker
+coords	350 230
+at	500
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	zombi4
+coords	-60 160
+at	500
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	zombi4
+coords	-60 160
+at	500
+
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	zombi4
+coords	-60 160
+at	500
+
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	zombi4
+coords	-60 160
+at	500
+
+spawn	Corpse_Eater
+coords	-60 160
+at	500
+
+spawn	Corpse_Eater
+coords	-60 160
+at	500
+
+spawn	Corpse_Eater
+coords	-60 160
+at	500
+
+spawn	Corpse_Eater
+coords	350 230
+at	500
+
+spawn	Corpse_Eater
+coords	350 230
+at	500
+
+spawn	Corpse_Eater
+coords	350 230
+at	500
+
+spawn	ghoul
+coords	350 230
+at	500
+
+spawn	walker
+coords	350 230
+at	500
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	zombi4
+coords	-60 160
+at	500
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	zombi4
+coords	-60 160
+at	500
+
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	zombi4
+coords	-60 160
+at	500
+
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	zombi4
+coords	-60 160
+at	500
+
+spawn	Corpse_Eater
+coords	-60 160
+at	500
+
+spawn	Corpse_Eater
+coords	-60 160
+at	500
+
+spawn	Corpse_Eater
+coords	-60 160
+at	500
+
+spawn	Corpse_Eater
+coords	350 230
+at	500
+
+spawn	Corpse_Eater
+coords	350 230
+at	500
+
+spawn	Corpse_Eater
+coords	350 230
+at	500
+
+spawn	ghoul
+coords	350 230
+at	500
+
+spawn	walker
+coords	350 230
+at	500
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	zombi4
+coords	-60 160
+at	500
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	zombi4
+coords	-60 160
+at	500
+
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	zombi4
+coords	-60 160
+at	500
+
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	walker 
+coords	-60 160
+at	500
+
+spawn	zombi4
+coords	-60 160
+at	500
+
+###########################################################################
+
+
+wait
+at 900
+
+group 6 6
+at 900
+
+spawn	skel2
+coords	350 230
+at	900
+
+spawn	walker 
+coords	-60 160
+at	900
+
+spawn	skel2
+coords	350 230
+at	900
+
+spawn	zombi4
+map 2
+coords	-60 160
+at	900
+
+spawn	zombi4
+coords	350 230
+at	900
+
+spawn	walker 
+coords	-60 160
+at	900
+
+spawn	Hell_Hound
+coords	350 230
+at	900
+
+spawn	Maiden_specter
+coords	-60 160
+at	900
+
+spawn	skel2
+coords	350 230
+at	900
+
+spawn	Maiden_Specter
+coords	-60 160
+at	900
+
+spawn	Maiden_Specter
+coords	-60 160
+at	900
+
+spawn	Maiden_Specter
+coords	-60 160
+at	900
+
+spawn	Maiden_Specter
+coords	350 250
+at	900
+
+spawn	Maiden_Specter
+coords	-60 160
+at	900
+
+spawn	Maiden_Specter
+coords	-60 160
+at	900
+
+spawn	Born_Dead
+coords	350 250
+at	900
+
+spawn	Born_Dead
+coords	350 250
+at	900
+
+spawn	Born_Dead
+coords	320 -140
+at	900
+
+spawn	Born_Dead
+coords	320 -140
+at	900
+
+spawn	Born_Dead
+coords	320 -140
+at	900
+
+
+###################################################################
+
+wait 
+at 1230
+
+group 3 3 
+at 1230
+
+
+
+spawn	Hound_Zombi
+coords	320 -140
+at	1230
+
+spawn	Hound_Zombi
+coords	320 -140
+at	1230
+
+spawn	Hound_Zombi
+coords	320 -140
+at	1230
+
+spawn	Hound_Zombi
+coords	350 230
+at	1230
+
+spawn	Hound_Zombi
+coords	350 230
+at	1230
+
+spawn	Hound_Zombi
+coords	-60 160
+at	1230
+
+spawn	Hound_Zombi
+coords	-60 160
+at	1230
+
+spawn	Hound_Zombi
+coords	-60 160
+at	1230
+
+spawn	Hound_Zombi
+coords	-60 160
+at	1230
+
+spawn	Hound_Zombi
+coords	320 -140
+at	1230
+
+spawn	Hound_Zombi
+coords	320 -140
+at	1230
+
+spawn	Hound_Zombi
+coords	320 -140
+at	1230
+
+spawn	Hound_Zombi
+coords	350 230
+at	1230
+
+spawn	Hound_Zombi
+coords	350 230
+at	1230
+
+spawn	Hound_Zombi
+coords	-60 160
+at	1230
+
+spawn	Hound_Zombi
+coords	-60 160
+at	1230
+
+spawn	Hound_Zombi
+coords	-60 160
+at	1230
+
+spawn	Hound_Zombi
+coords	-60 160
+at	1230
+
+##############################################
+
+wait
+at 1600
+
+group 5 5 
+at 1600
+
+
+
+spawn	Fire_Demon
+coords	-60 160
+at	1600
+
+spawn	Hell_Hound
+coords	330 160
+at	1600
+
+
+spawn	Hell_Hound
+coords	330 160
+at	1600
+
+spawn	ghoul
+coords	350 230
+at	1600
+
+spawn	ghoul
+coords	350 230
+at	1600
+
+spawn	ghoul
+coords	350 230
+at	1600
+
+spawn	ghoul
+coords	350 230
+at	1600
+
+
+spawn	Fire_Demon
+coords	-60 160
+at	1600
+
+spawn	Fire_Demon
+coords	-60 160
+at	1600
+
+spawn	Fire_Demon
+coords	-60 160
+at	1600
+
+spawn	Hell_Hound
+coords	330 160
+at	1600
+
+
+spawn	Hell_Hound
+coords	330 160
+at	1600
+
+spawn	ghoul
+coords	350 230
+at	1600
+
+spawn	ghoul
+coords	350 230
+at	1600
+
+spawn	ghoul
+coords	350 230
+at	1600
+
+spawn	ghoul
+coords	350 230
+at	1600
+
+
+spawn	Fire_Demon
+coords	-60 160
+at	1600
+
+spawn	Fire_Demon
+coords	-60 160
+at	1600
+
+spawn	Fire_Demon
+coords	350 230
+at	1600
+
+
+spawn	Fire_Demon
+coords	330 160
+at	1600
+
+spawn	Fire_Demon
+coords	-60 160
+at	1600
+
+spawn	Hell_Hound
+coords	330 160
+at	1600
+
+
+spawn	Hell_Hound
+coords	330 160
+at	1600
+
+spawn	ghoul
+coords	350 230
+at	1600
+
+spawn	ghoul
+coords	350 230
+at	1600
+
+spawn	ghoul
+coords	350 230
+at	1600
+
+spawn	ghoul
+coords	350 230
+at	1600
+
+spawn	Fire_Demon
+coords	330 160
+at	1600
+
+spawn	Fire_Demon
+coords	330 160
+at	1600
+
+spawn	Fire_Demon
+coords	330 160
+at	1600
+
+spawn	Hell_Hound
+coords	330 160
+at	1600
+
+spawn	Hell_Hound
+coords	330 160
+at	1600
+
+
+spawn	Hell_Hound
+coords	330 160
+at	1600
+
+spawn	ghoul
+coords	350 230
+at	1600
+
+spawn	ghoul
+coords	350 230
+at	1600
+
+spawn	ghoul
+coords	350 230
+at	1600
+
+spawn	ghoul
+coords	350 230
+at	1600
+
+
+############################################
+
+
+wait 
+at 1800
+
+group 4 4
+
+
+
+spawn	Undress
+coords	-60 160
+at	1800
+
+spawn	Undress
+coords	350 230
+at	1800
+
+
+spawn	Undress
+coords	320 -140
+at	1800
+
+
+spawn	Undress
+coords	350 230
+at	1800
+
+
+
+spawn	Undress
+coords	-60 160
+map     1
+at	1800
+
+spawn	Undress
+coords	350 230
+map     2
+at	1800
+
+
+spawn	Undress
+coords	320 -140
+at	1800
+
+
+spawn	Undress
+coords	350 230
+at	1800
+
+spawn	Undress
+coords	-60 160
+at	1800
+
+spawn	Undress
+coords	350 230
+at	1800
+
+
+spawn	Undress
+coords	320 -140
+at	1800
+
+
+spawn	Undress
+coords	350 230
+at	1800
+
+
+
+spawn	Undress
+coords	-60 160
+map     1
+at	1800
+
+spawn	Undress
+coords	350 230
+map     2
+at	1800
+
+
+spawn	Undress
+coords	320 -140
+at	1800
+
+
+spawn	Undress
+coords	350 230
+at	1800
+
+
+spawn	Undress
+coords	-60 160
+at	1800
+
+spawn	Undress
+coords	350 230
+at	1800
+
+
+spawn	Undress
+coords	320 -140
+at	1800
+
+
+spawn	Undress
+coords	350 230
+at	1800
+
+
+
+spawn	Undress
+coords	-60 160
+map     1
+at	1800
+
+spawn	Undress
+coords	350 230
+map     2
+at	1800
+
+
+spawn	Undress
+coords	320 -140
+at	1800
+
+
+spawn	Undress
+coords	350 230
+at	1800
+
+
+spawn	Undress
+coords	-60 160
+at	1800
+
+spawn	Undress
+coords	350 230
+at	1800
+
+
+spawn	Undress
+coords	320 -140
+at	1800
+
+
+spawn	Undress
+coords	350 230
+at	1800
+
+
+
+spawn	Undress
+coords	-60 160
+map     1
+at	1800
+
+spawn	Undress
+coords	350 230
+map     2
+at	1800
+
+
+spawn	Undress
+coords	320 -140
+at	1800
+
+
+spawn	Undress
+coords	350 230
+at	1800
+
+
+spawn	Undress
+coords	-60 160
+at	1800
+
+spawn	Undress
+coords	350 230
+at	1800
+
+
+spawn	Undress
+coords	320 -140
+at	1800
+
+
+spawn	Undress
+coords	350 230
+at	1800
+
+
+
+spawn	Undress
+coords	-60 160
+map     1
+at	1800
+
+spawn	Undress
+coords	350 230
+map     2
+at	1800
+
+
+spawn	Undress
+coords	320 -140
+at	1800
+
+
+spawn	Undress
+coords	350 230
+at	1800
+
+
+spawn	Undress
+coords	-60 160
+at	1800
+
+spawn	Undress
+coords	350 230
+at	1800
+
+
+spawn	Undress
+coords	320 -140
+at	1800
+
+
+spawn	Undress
+coords	350 230
+at	1800
+
+
+
+spawn	Undress
+coords	-60 160
+map     1
+at	1800
+
+spawn	Undress
+coords	350 230
+map     2
+at	1800
+
+
+spawn	Undress
+coords	320 -140
+at	1800
+
+
+spawn	Undress
+coords	350 230
+at	1800
+
+
+spawn	Undress
+coords	-60 160
+at	1800
+
+spawn	Undress
+coords	350 230
+at	1800
+
+
+spawn	Undress
+coords	320 -140
+at	1800
+
+
+spawn	Undress
+coords	350 230
+at	1800
+
+
+
+spawn	Undress
+coords	-60 160
+map     1
+at	1800
+
+spawn	Undress
+coords	350 230
+map     2
+at	1800
+
+
+spawn	Undress
+coords	320 -140
+at	1800
+
+
+spawn	Undress
+coords	350 230
+at	1800
+
+
+#################################################################################
+
+wait
+at 2100
+
+
+
+group 6 6
+at 2100
+
+spawn	Undress
+coords	320 -140
+at	2100
+
+spawn	Undress
+coords	320 -140
+at	2100
+
+
+spawn	Undress
+coords	350 230
+at	2100
+
+
+spawn	zombi4
+map1
+coords	320 -140
+at	2100
+
+
+spawn	Undress
+coords	350 230
+at	2100
+
+spawn	zombi4
+map2
+coords	320 -140
+at	2100
+
+spawn	walker
+coords	320 -140
+at	2100
+
+
+spawn	walker
+coords	350 230
+at	2100
+
+
+spawn	walker
+coords	350 230
+at	2100
+
+spawn	fog
+coords	350 230
+at	2100
+
+spawn	walker
+coords	350 230
+at	2100
+
+spawn	walker
+coords	-60 160
+at	2100
+
+spawn	Slime_Monster
+coords	-60 160
+at	2100
+
+spawn	Phantom
+coords	-60 160
+at	2100
+
+spawn	Phantom
+coords	350 230
+at	2100
+
+spawn	Slime_Monster
+coords	330 140
+at	2100
+
+
+spawn	Slime_Monster
+coords	330 130
+at	2100
+
+spawn	Slime_Monster
+coords	330 120
+at	2100
+
+
+spawn	Undress
+coords	350 230
+at	2100
+
+spawn	Undress
+coords	320 -140
+at	2100
+
+
+spawn	Undress
+coords	350 230
+at	2100
+
+
+spawn	zombi4
+map1
+coords	320 -140
+at	2100
+
+
+spawn	Undress
+coords	350 230
+at	2100
+
+spawn	zombi4
+map2
+coords	320 -140
+at	2100
+
+spawn	walker
+coords	320 -140
+at	2100
+
+
+spawn	walker
+coords	350 230
+at	2100
+
+
+spawn	walker
+coords	350 230
+at	2100
+
+spawn	fog
+coords	350 230
+at	2100
+
+spawn	walker
+coords	350 230
+at	2100
+
+spawn	walker
+coords	-60 160
+at	2100
+
+spawn	Slime_Monster
+coords	-60 160
+at	2100
+
+spawn	Phantom
+coords	-60 160
+at	2100
+
+spawn	Phantom
+coords	350 230
+at	2100
+
+spawn	Slime_Monster
+coords	330 140
+at	2100
+
+
+spawn	Slime_Monster
+coords	330 130
+at	2100
+
+spawn	Slime_Monster
+coords	330 120
+at	2100
+
+
+spawn	zombi4
+map1
+coords	320 -140
+at	2100
+
+
+spawn	Undress
+coords	350 230
+at	2100
+
+spawn	Undress
+coords	320 -140
+at	2100
+
+
+spawn	Undress
+coords	350 230
+at	2100
+
+
+spawn	zombi4
+map1
+coords	320 -140
+at	2100
+
+
+spawn	Undress
+coords	350 230
+at	2100
+
+spawn	zombi4
+map2
+coords	320 -140
+at	2100
+
+spawn	walker
+coords	320 -140
+at	2100
+
+
+spawn	walker
+coords	350 230
+at	2100
+
+
+spawn	walker
+coords	350 230
+at	2100
+
+spawn	fog
+coords	350 230
+at	2100
+
+spawn	walker
+coords	350 230
+at	2100
+
+spawn	walker
+coords	-60 160
+at	2100
+
+spawn	Slime_Monster
+coords	-60 160
+at	2100
+
+spawn	Phantom
+coords	-60 160
+at	2100
+
+spawn	Phantom
+coords	350 230
+at	2100
+
+spawn	Slime_Monster
+coords	330 140
+at	2100
+
+
+spawn	Slime_Monster
+coords	330 130
+at	2100
+
+spawn	Slime_Monster
+coords	330 120
+at	2100
+
+spawn	zombi4
+map2
+coords	320 -140
+at	2100
+
+spawn	walker
+coords	320 -140
+at	2100
+
+spawn	Undress
+coords	320 -140
+at	2100
+
+
+spawn	Undress
+coords	350 230
+at	2100
+
+
+spawn	zombi4
+map1
+coords	320 -140
+at	2100
+
+
+spawn	Undress
+coords	350 230
+at	2100
+
+spawn	zombi4
+map2
+coords	320 -140
+at	2100
+
+spawn	walker
+coords	320 -140
+at	2100
+
+
+spawn	walker
+coords	350 230
+at	2100
+
+
+spawn	walker
+coords	350 230
+at	2100
+
+spawn	fog
+coords	350 230
+at	2100
+
+spawn	walker
+coords	350 230
+at	2100
+
+spawn	walker
+coords	-60 160
+at	2100
+
+spawn	Slime_Monster
+coords	-60 160
+at	2100
+
+spawn	Phantom
+coords	-60 160
+at	2100
+
+spawn	Phantom
+coords	350 230
+at	2100
+
+spawn	Slime_Monster
+coords	330 140
+at	2100
+
+
+spawn	Slime_Monster
+coords	330 130
+at	2100
+
+spawn	Slime_Monster
+coords	330 120
+at	2100
+
+
+spawn	walker
+coords	350 230
+at	2100
+
+
+spawn	walker
+coords	350 230
+at	2100
+
+spawn	fog
+coords	350 230
+at	2100
+
+spawn	walker
+coords	350 230
+at	2100
+
+spawn	walker
+coords	-60 160
+at	2100
+
+spawn	Slime_Monster
+coords	-60 160
+at	2100
+
+spawn	Phantom
+coords	-60 160
+at	2100
+
+spawn	Phantom
+coords	350 230
+at	2100
+
+spawn	Slime_Monster
+coords	330 140
+at	2100
+
+
+spawn	Slime_Monster
+coords	330 130
+at	2100
+
+spawn	Undress
+coords	320 -140
+at	2100
+
+
+spawn	Undress
+coords	350 230
+at	2100
+
+
+spawn	zombi4
+map1
+coords	320 -140
+at	2100
+
+
+spawn	Undress
+coords	350 230
+at	2100
+
+spawn	zombi4
+map2
+coords	320 -140
+at	2100
+
+spawn	walker
+coords	320 -140
+at	2100
+
+
+spawn	walker
+coords	350 230
+at	2100
+
+
+spawn	walker
+coords	350 230
+at	2100
+
+spawn	fog
+coords	350 230
+at	2100
+
+spawn	walker
+coords	350 230
+at	2100
+
+spawn	walker
+coords	-60 160
+at	2100
+
+spawn	Slime_Monster
+coords	-60 160
+at	2100
+
+spawn	Phantom
+coords	-60 160
+at	2100
+
+spawn	Phantom
+coords	350 230
+at	2100
+
+spawn	Slime_Monster
+coords	330 140
+at	2100
+
+
+spawn	Slime_Monster
+coords	330 130
+at	2100
+
+spawn	Slime_Monster
+coords	330 120
+at	2100
+
+spawn	Slime_Monster
+coords	330 120
+at	2100
+
+spawn	Undress
+coords	320 -140
+at	2100
+
+
+spawn	Undress
+coords	350 230
+at	2100
+
+
+spawn	zombi4
+map1
+coords	320 -140
+at	2100
+
+
+spawn	Undress
+coords	350 230
+at	2100
+
+spawn	zombi4
+map2
+coords	320 -140
+at	2100
+
+spawn	walker
+coords	320 -140
+at	2100
+
+
+spawn	walker
+coords	350 230
+at	2100
+
+
+spawn	walker
+coords	350 230
+at	2100
+
+spawn	fog
+coords	350 230
+at	2100
+
+spawn	walker
+coords	350 230
+at	2100
+
+spawn	walker
+coords	-60 160
+at	2100
+
+spawn	Slime_Monster
+coords	-60 160
+at	2100
+
+spawn	Phantom
+coords	-60 160
+at	2100
+
+spawn	Phantom
+coords	350 230
+at	2100
+
+spawn	Undress
+coords	320 -140
+at	2100
+
+
+spawn	Undress
+coords	350 230
+at	2100
+
+
+spawn	zombi4
+map1
+coords	320 -140
+at	2100
+
+
+spawn	Undress
+coords	350 230
+at	2100
+
+spawn	zombi4
+map2
+coords	320 -140
+at	2100
+
+spawn	walker
+coords	320 -140
+at	2100
+
+
+spawn	walker
+coords	350 230
+at	2100
+
+
+spawn	walker
+coords	350 230
+at	2100
+
+spawn	fog
+coords	350 230
+at	2100
+
+spawn	walker
+coords	350 230
+at	2100
+
+spawn	walker
+coords	-60 160
+at	2100
+
+spawn	Slime_Monster
+coords	-60 160
+at	2100
+
+spawn	Phantom
+coords	-60 160
+at	2100
+
+spawn	Phantom
+coords	350 230
+at	2100
+
+spawn	Slime_Monster
+coords	330 140
+at	2100
+
+
+spawn	Slime_Monster
+coords	330 130
+at	2100
+
+spawn	Slime_Monster
+coords	330 120
+at	2100
+
+spawn	Slime_Monster
+coords	330 140
+at	2100
+
+
+spawn	Slime_Monster
+coords	330 130
+at	2100
+
+spawn	Slime_Monster
+coords	330 120
+at	2100
+
+#######################################################################
+
+wait
+at 2400
+
+group 4 4
+at 2400
+
+
+
+spawn	Hell_Chaos
+boss    1
+coords	330 250
+at	2400
+
+
+
+spawn	Bellyache
+map 1
+coords	350 230
+at	2400
+
+spawn	Hell_Hound
+coords	330 120
+at	2400
+
+spawn	Hell_Hound
+coords	-60 160
+at	2400
+
+
+spawn	Bellyache
+map 1
+coords	-60 160
+at	2400
+
+spawn	Bellyache
+coords	350 230
+at	2400
+
+spawn	Hell_Hound
+coords	330 120
+at	2400
+
+spawn	Hell_Hound
+coords	-60 160
+at	2100
+
+
+spawn	Bellyache
+map 1
+coords	-60 160
+at	2400
+
+spawn	Slime_Monster
+coords	330 120
+at	2400
+
+spawn	Bellyache
+map 1
+coords	350 230
+at	2400
+
+spawn	Hell_Hound
+coords	330 120
+at	2400
+
+spawn	Hell_Hound
+coords	-60 160
+at	2400
+
+
+spawn	Bellyache
+map 1
+coords	-60 160
+at	2400
+
+spawn	Bellyache
+coords	350 230
+at	2400
+
+spawn	Hell_Hound
+coords	330 120
+at	2400
+
+spawn	Hell_Hound
+coords	-60 160
+at	2400
+
+
+spawn	Bellyache
+map 1
+coords	-60 160
+at	2400
+
+spawn	Slime_Monster
+coords	330 120
+at	2400
+
+spawn	embryo
+coords  -60 160
+at	2400
+
+
+spawn	Phantom
+coords	330 120
+at	2400
+
+spawn	Bellyache
+map 1
+coords	-60 160
+at	2400
+
+spawn	Phantom
+coords	-60 160
+at	2400
+
+spawn	Hell_Hound
+coords	330 120
+at	2400
+
+spawn	Hell_Hound
+coords	-60 160
+at	2400
+
+spawn	Bellyache
+map 1
+coords	-60 160
+at	2100
+
+spawn	embryo
+coords  -60 160
+at	2400
+
+
+spawn	Phantom
+coords	330 120
+at	2400
+
+spawn	Bellyache
+map 1
+coords	-60 160
+at	2400
+
+spawn	Phantom
+coords	-60 160
+at	2400
+
+spawn	Hell_Hound
+coords	330 120
+at	2400
+
+spawn	Hell_Hound
+coords	-60 160
+at	2400
+
+spawn	Bellyache
+map 1
+coords	-60 160
+at	2400
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

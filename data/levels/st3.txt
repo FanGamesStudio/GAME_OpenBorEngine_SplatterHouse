@@ -1,0 +1,1515 @@
+music		Data/music/st3.bor
+bossmusic	data/music/st3boss.bor
+background	data/bgs/st3/back.gif
+panel		data/bgs/st3/st3.gif
+frontpanel		data/bgs/st3/front.gif
+order           a
+settime         0
+notime          1
+direction       left
+spawn1  80 60 300  
+spawn2  40 70 300
+
+
+
+
+#-------1
+
+wait
+at      100
+
+group   8 8
+at      100
+
+
+spawn	zombi4
+coords	350 180
+at	100
+
+
+spawn	Ghoul
+map      2
+coords	380 210
+at	100
+
+
+spawn	Ghoul
+map      2
+coords	-50 180
+at	100
+
+
+spawn	zombi4
+map      2
+coords	-80 210
+at	100
+
+spawn	Ghoul
+map      2
+coords	-80 210
+at	100
+
+spawn	Ghoul
+map      2
+coords	-80 210
+at	100
+
+spawn	zombi4
+map      2
+coords	350 180
+at	100
+
+
+spawn	zombi4
+coords	380 210
+at	100
+
+
+spawn	Ghoul
+map      2
+coords	-50 180
+at	100
+
+
+spawn	Ghoul
+map      2
+coords	-80 210
+at	100
+
+spawn	Ghoul
+map      2
+coords	-80 210
+at	100
+
+spawn	Ghoul
+map      2
+coords	-80 210
+at	100
+
+spawn	zombi4
+coords	350 180
+at	100
+
+
+spawn	Ghoul
+map      2
+coords	380 210
+at	100
+
+
+spawn	Ghoul
+map      2
+coords	-50 180
+at	100
+
+
+spawn	Ghoul
+map      2
+coords	-80 210
+at	100
+
+spawn	zombi4
+map      2
+coords	-80 210
+at	100
+
+spawn	Ghoul
+map      2
+coords	-80 210
+at	100
+
+##################################################################
+
+wait
+at      300
+
+
+
+group   4 4
+at      300
+
+
+
+spawn	Screaming_Mimi
+map      1
+coords	-30 230
+at	300
+
+spawn	Screaming_Mimi
+map      1
+coords	-30 180
+at	300
+
+
+
+spawn	Screaming_Mimi
+map      1
+coords	400 200
+at	300
+
+
+spawn	Screaming_Mimi
+map      1
+coords	430 220
+at	300
+
+
+spawn	Ghoul
+2pspawn   1
+map      1
+coords	350 190
+at	300
+
+
+spawn	Ghoul
+2pspawn   1
+map      1
+coords	350 220
+at	300
+
+spawn	walker
+map      1
+coords	430 220
+at	300
+
+spawn	zombi4
+coords	430 220
+at	300
+
+spawn	zombi4
+coords	430 220
+at	300
+
+spawn	zombi4
+coords	430 220
+at	300
+
+
+
+#######################################################################
+
+wait
+at      600
+
+
+group   3 3
+at      600
+
+
+
+
+
+
+spawn	zombi4
+map     2
+coords	350 190
+at	600
+
+
+spawn	zombi4
+coords	350 190
+at	600
+
+
+spawn	walker
+map     2
+coords	350 210
+at	600
+
+spawn	zombi4
+map     2
+coords	350 190
+at	600
+
+
+spawn	zombi4
+coords	350 190
+at	600
+
+
+spawn	walker
+map     2
+coords	350 210
+at	600
+
+spawn	zombi4
+map     2
+coords	350 190
+at	600
+
+
+spawn	zombi4
+coords	350 190
+at	600
+
+
+spawn	walker
+map     2
+coords	350 210
+at	600
+
+spawn	zombi4
+coords	350 190
+at	600
+
+
+spawn	walker
+map     2
+coords	350 210
+at	600
+
+
+
+####################################################################
+
+
+wait
+at      850
+
+
+group   10 10
+at      850
+
+
+spawn	Screaming_Mimi
+coords	350 170
+at	850
+
+
+spawn	Screaming_Mimi
+coords	350 190
+at	850
+
+
+spawn	Screaming_Mimi
+coords	350 210
+at	850
+
+
+spawn	Screaming_Mimi
+coords	350 230
+at	850
+
+
+spawn	zombi4
+2pspawn   1
+coords	-30 240
+at	850
+
+spawn	zombi4
+2pspawn   1
+coords	-30 170
+at	850
+
+spawn	walker
+coords	350 190
+at	850
+
+spawn	walker
+coords	350 190
+at	850
+
+spawn	walker
+coords	350 190
+at	850
+
+spawn	Slime_Monster
+coords	350 190
+at	850
+
+spawn	Slime_Monster
+coords	350 190
+at	850
+
+spawn	Slime_Monster
+coords	350 190
+at	850
+
+spawn	Slime_Monster
+coords	350 190
+at	850
+
+spawn	ghoul
+coords	350 190
+at	850
+
+spawn	Screaming_Mimi
+coords	350 170
+at	850
+
+
+spawn	Screaming_Mimi
+coords	350 190
+at	850
+
+
+spawn	Screaming_Mimi
+coords	350 210
+at	850
+
+
+spawn	Screaming_Mimi
+coords	350 230
+at	850
+
+
+spawn	zombi4
+2pspawn   1
+coords	-30 240
+at	850
+
+spawn	zombi4
+2pspawn   1
+coords	-30 170
+at	850
+
+spawn	walker
+coords	350 190
+at	850
+
+spawn	walker
+coords	350 190
+at	850
+
+spawn	walker
+coords	350 190
+at	850
+
+spawn	Slime_Monster
+coords	350 190
+at	850
+
+spawn	Slime_Monster
+coords	350 190
+at	850
+
+spawn	Slime_Monster
+coords	350 190
+at	850
+
+spawn	Slime_Monster
+coords	350 190
+at	850
+
+spawn	ghoul
+coords	350 190
+at	850
+
+#########################################################################
+
+
+
+wait
+at      1100
+
+
+group   5 5
+at      1100
+
+
+spawn	Ghoul
+map     2
+coords	350 170
+at	1100
+
+
+spawn	Ghoul
+map     2
+coords	370 190
+at	1100
+
+
+
+
+spawn	Ghoul
+map     2
+coords	350 170
+at	1100
+
+
+spawn	zombi4
+coords	390 210
+at	1100
+
+spawn	zombi4
+coords	390 210
+at	1100
+
+spawn	zombi4
+coords	390 210
+at	1100
+
+spawn	zombi4
+coords	390 210
+at	1100
+
+spawn	zombi4
+coords	390 210
+at	1100
+
+spawn	zombi4
+coords	390 210
+at	1100
+
+spawn	Ghoul
+map     2
+coords	350 170
+at	1100
+
+
+spawn	zombi4
+coords	390 210
+at	1100
+
+spawn	zombi4
+coords	390 210
+at	1100
+
+spawn	Ghoul
+map     2
+coords	350 170
+at	1100
+
+
+spawn	zombi4
+coords	390 210
+at	1100
+
+spawn	zombi4
+coords	390 210
+at	1100
+
+
+
+
+
+###########################################################################
+
+
+
+spawn   Crystal
+item    Red_Orb
+coords  -50 170
+at      1190
+
+
+spawn   Crystal
+2pitem    Red_Orb
+coords  -70 220
+at      1190
+
+
+spawn   Crystal
+item    Magik_Book_Green
+coords  -90 170
+at      1190
+
+
+
+wait
+at      1230
+
+
+group   11 11
+at      1230
+
+
+
+spawn	Corpse_Eater
+coords	-50 170
+at	1230
+
+
+spawn	Corpse_Eater
+coords	350 190
+at	1230
+
+
+spawn	Corpse_Eater
+coords	-50 210
+at	1230
+
+
+spawn	Corpse_Eater
+coords	350 230
+at	1230
+
+
+spawn	Corpse_Eater
+coords	-50 170
+at	1230
+
+
+spawn	Corpse_Eater
+coords	350 190
+at	1230
+
+
+spawn	Corpse_Eater
+coords	-50 210
+at	1230
+
+
+spawn	Corpse_Eater
+coords	350 230
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	-30 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	-30 170
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 170
+at	1230
+
+spawn	Corpse_Eater
+coords	-50 170
+at	1230
+
+
+spawn	Corpse_Eater
+coords	350 190
+at	1230
+
+
+spawn	Corpse_Eater
+coords	-50 210
+at	1230
+
+
+spawn	Corpse_Eater
+coords	350 230
+at	1230
+
+
+spawn	Corpse_Eater
+coords	-50 170
+at	1230
+
+
+spawn	Corpse_Eater
+coords	350 190
+at	1230
+
+
+spawn	Corpse_Eater
+coords	-50 210
+at	1230
+
+
+spawn	Corpse_Eater
+coords	350 230
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	-30 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	-30 170
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 170
+at	1230
+
+spawn	Corpse_Eater
+coords	-50 170
+at	1230
+
+
+spawn	Corpse_Eater
+coords	350 190
+at	1230
+
+
+spawn	Corpse_Eater
+coords	-50 210
+at	1230
+
+
+spawn	Corpse_Eater
+coords	350 230
+at	1230
+
+
+spawn	Corpse_Eater
+coords	-50 170
+at	1230
+
+
+spawn	Corpse_Eater
+coords	350 190
+at	1230
+
+
+spawn	Corpse_Eater
+coords	-50 210
+at	1230
+
+
+spawn	Corpse_Eater
+coords	350 230
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	-30 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	-30 170
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 170
+at	1230
+
+spawn	Corpse_Eater
+coords	-50 170
+at	1230
+
+
+spawn	Corpse_Eater
+coords	350 190
+at	1230
+
+
+spawn	Corpse_Eater
+coords	-50 210
+at	1230
+
+
+spawn	Corpse_Eater
+coords	350 230
+at	1230
+
+
+spawn	Corpse_Eater
+coords	-50 170
+at	1230
+
+
+spawn	Corpse_Eater
+coords	350 190
+at	1230
+
+
+spawn	Corpse_Eater
+coords	-50 210
+at	1230
+
+
+spawn	Corpse_Eater
+coords	350 230
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	-30 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	-30 170
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 170
+at	1230
+
+spawn	Corpse_Eater
+coords	-50 170
+at	1230
+
+
+spawn	Corpse_Eater
+coords	350 190
+at	1230
+
+
+spawn	Corpse_Eater
+coords	-50 210
+at	1230
+
+
+spawn	Corpse_Eater
+coords	350 230
+at	1230
+
+
+spawn	Corpse_Eater
+coords	-50 170
+at	1230
+
+
+spawn	Corpse_Eater
+coords	350 190
+at	1230
+
+
+spawn	Corpse_Eater
+coords	-50 210
+at	1230
+
+
+spawn	Corpse_Eater
+coords	350 230
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	-30 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	-30 170
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 170
+at	1230
+
+######################################################################
+wait
+at      1300
+
+
+group   3 3
+at      1300
+
+
+spawn	zombi4
+map      1
+coords	-60 190 
+at	1300
+
+
+
+spawn	Ghoul
+coords	-20 230
+at	1300
+
+
+spawn	Ghoul
+coords	-30 190
+at	1300
+
+
+spawn	walker
+2pspawn   1
+coords	400 190
+at	1300
+
+
+
+spawn	walker
+2pspawn   1
+coords	370 210
+at	1300
+
+spawn	Screaming_Mimi
+coords	350 210
+at	850
+
+
+spawn	Screaming_Mimi
+coords	350 230
+at	850
+
+
+spawn	zombi4
+2pspawn   1
+coords	-30 240
+at	850
+
+spawn	zombi4
+2pspawn   1
+coords	-30 170
+at	850
+
+spawn	walker
+coords	350 190
+at	850
+
+spawn	walker
+coords	350 190
+at	850
+
+spawn	walker
+coords	350 190
+at	850
+
+spawn	Slime_Monster
+coords	350 190
+at	850
+
+spawn	Slime_Monster
+coords	350 190
+at	850
+
+spawn	Slime_Monster
+coords	350 190
+at	850
+
+spawn	Slime_Monster
+coords	350 190
+at	850
+
+spawn	ghoul
+coords	350 190
+at	850
+
+######################################################################
+
+
+wait
+at      1450
+
+
+group 5 5
+at 1460
+
+
+
+spawn	Screaming_Mimi
+coords	350 230
+at	1450
+
+
+spawn	Screaming_Mimi
+coords	-30 190
+at	1450
+
+
+
+spawn	zombi4
+2pspawn   1
+coords	390 210
+at	1450
+
+
+
+spawn	zombi4
+2pspawn   1
+coords	410 210
+at	1450
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	-30 170
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 170
+at	1230
+
+spawn	zombi4
+2pspawn   1
+coords	410 210
+at	1450
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	-30 170
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 170
+at	1230
+
+
+
+
+#################################################################
+
+
+wait
+at      1600
+
+
+group   4 4
+at      1600
+
+spawn   walker
+coords  -20 190
+at      1600
+
+
+
+spawn   Screaming_Mimi
+2pspawn   1
+coords  360 210
+at      1600
+
+
+spawn   Screaming_Mimi
+2pspawn   1
+coords  340 230
+at      1600
+
+spawn   walker
+coords  -20 190
+at      1600
+
+
+
+spawn   Screaming_Mimi
+2pspawn   1
+coords  360 210
+at      1600
+
+
+spawn   Screaming_Mimi
+2pspawn   1
+coords  340 230
+at      1600
+
+spawn   walker
+coords  -20 190
+at      1600
+
+
+
+spawn   Screaming_Mimi
+2pspawn   1
+coords  360 210
+at      1600
+
+
+spawn   Screaming_Mimi
+2pspawn   1
+coords  340 230
+at      1600
+
+spawn   walker
+coords  -20 190
+at      1600
+
+
+
+spawn   Screaming_Mimi
+2pspawn   1
+coords  360 210
+at      1600
+
+
+spawn   Screaming_Mimi
+2pspawn   1
+coords  340 230
+at      1600
+
+spawn   walker
+coords  -20 190
+at      1600
+
+
+
+spawn   Screaming_Mimi
+2pspawn   1
+coords  360 210
+at      1600
+
+
+spawn   Screaming_Mimi
+2pspawn   1
+coords  340 230
+at      1600
+
+##########################################################################
+
+
+wait
+at      1800
+
+
+group   4 4
+at      1800
+
+
+spawn   Slime_Monster
+map     1
+coords  -20 190
+at      1800
+
+
+spawn   walker
+map     1
+coords  -40 210
+at      1800
+
+
+spawn   zombi4
+map     2
+coords  -60 230
+at      1800
+
+
+spawn   Slime_Monster
+map     2
+coords  380 190
+at      1800
+
+
+spawn   zombi4
+map     3
+coords  360 210
+at      1800
+
+
+spawn   walker
+map     3
+coords  340 230
+at      1800
+
+
+
+
+spawn   Stone_Bat
+item    Red_Orb
+coords  -50 190
+at      1900
+
+
+spawn   Stone_Bat
+2pitem    Red_Orb
+coords  -70 220
+at      1900
+
+
+spawn   Stone_Bat
+coords  -90 190
+at      1900
+
+
+#######################################################
+
+
+
+wait
+at      2000
+
+
+group   6 6
+at      2000
+
+
+spawn	zombi4
+map     1
+coords	350 170
+at	2000
+
+
+
+spawn	walker
+map     2
+coords	390 210
+at	2000
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	-30 170
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 170
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	-30 170
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 170
+at	1230
+
+
+spawn	zombi4
+2pspawn   1
+coords	390 210
+at	2000
+
+spawn	zombi4
+map     1
+coords	350 170
+at	2000
+
+
+
+spawn	walker
+map     2
+coords	390 210
+at	2000
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	-30 170
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 170
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	-30 170
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 170
+at	1230
+
+
+spawn	zombi4
+2pspawn   1
+coords	390 210
+at	2000
+
+spawn	zombi4
+map     1
+coords	350 170
+at	2000
+
+
+
+spawn	walker
+map     2
+coords	390 210
+at	2000
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	-30 170
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 170
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	-30 170
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 170
+at	1230
+
+
+spawn	zombi4
+2pspawn   1
+coords	390 210
+at	2000
+
+spawn	zombi4
+map     1
+coords	350 170
+at	2000
+
+
+
+spawn	walker
+map     2
+coords	390 210
+at	2000
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	-30 170
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 170
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	-30 170
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 170
+at	1230
+
+
+spawn	zombi4
+2pspawn   1
+coords	390 210
+at	2000
+
+spawn	zombi4
+map     1
+coords	350 170
+at	2000
+
+
+
+spawn	walker
+map     2
+coords	390 210
+at	2000
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	-30 170
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 170
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	-30 170
+at	1230
+
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 170
+at	1230
+
+
+spawn	zombi4
+2pspawn   1
+coords	390 210
+at	2000
+
+############################################################################
+
+wait
+at 2200
+
+
+group   5 5
+at      2200
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 170
+at	1230
+
+
+spawn	zombi4
+2pspawn   1
+coords	390 210
+at	2000
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 170
+at	1230
+
+
+spawn	zombi4
+2pspawn   1
+coords	390 210
+at	2000
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 170
+at	1230
+
+
+spawn	zombi4
+2pspawn   1
+coords	390 210
+at	2000
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 240
+at	1230
+
+spawn	Corpse_Eater
+2pspawn   1
+coords	350 170
+at	1230
+
+
+spawn	zombi4
+2pspawn   1
+coords	390 210
+at	2000
+
+
+spawn	Bellyache
+boss     1
+coords	380 210
+at	2200
+
+spawn	Bellyache
+coords	380 210
+at	2200
+
+spawn	Bellyache
+coords	380 210
+at	2200
+
+
+
+
+
+
+
+
+
+
+
+
